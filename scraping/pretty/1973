@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5676,
+        "title": "Dwelling No 6",
+        "campusID": 2,
+        "latitude": -27.558742,
+        "longitude": 152.335333,
+        "metadata": {
+            "title": "Dwelling No 6",
+            "link": "https://uqmaps.app.uq.edu.au/location/1973",
+            "buildingNum": "8305",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1973_15735f72762f53a4de8b284d30ecaceb_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

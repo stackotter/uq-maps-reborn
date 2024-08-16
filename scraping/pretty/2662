@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756208,
+        "title": "Physiology Lecture Theatres Room 252 (63)",
+        "campusID": 0,
+        "latitude": -27.498979,
+        "longitude": 153.012033,
+        "metadata": {
+            "title": "Physiology Lecture Theatres Room 252 (63)",
+            "moreinformation": "\n\nAmbulant Toilet/toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2662",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2662_6bd2e5bf672f0c2e49b54197b2d264b1_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

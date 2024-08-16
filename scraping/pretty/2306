@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756121,
+        "title": "W.P. Hamon Memorial Centre & Lawes Campus Club Room 121 (8255)",
+        "campusID": 2,
+        "latitude": -27.549924,
+        "longitude": 152.338893,
+        "metadata": {
+            "title": "W.P. Hamon Memorial Centre & Lawes Campus Club Room 121 (8255)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2306",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

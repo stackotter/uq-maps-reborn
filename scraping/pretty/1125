@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755154,
+        "title": "Michie Building Room 641 (9)",
+        "campusID": 0,
+        "latitude": -27.497114,
+        "longitude": 153.011722,
+        "metadata": {
+            "title": "Michie Building Room 641 (9)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1125",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1125_09d3c9af293b5084f55be17682aa7ab6_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1125_4d4bcdfcb8453e884b56cc316020a9f8_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

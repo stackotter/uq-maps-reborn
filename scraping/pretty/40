@@ -1,0 +1,21 @@
+[
+    {
+        "id": 51,
+        "title": "Commonwealth Bank",
+        "campusID": 0,
+        "latitude": -27.497442,
+        "longitude": 153.015196,
+        "metadata": {
+            "title": "Commonwealth Bank",
+            "hours": "Monday to Thu 9:30am - 4pm and Friday 9:30am - 5pm",
+            "phone": "132221",
+            "moreinformation": "Offering financial services and ATMs, the Commonwealth Bank has a branch located in Campbell Place.",
+            "web": "https://www.commbank.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/40",
+            "buildingNum": null,
+            "primaryType": "Banks & ATMs",
+            "otherTypes": []
+        },
+        "typeCode": "bnk"
+    }
+]

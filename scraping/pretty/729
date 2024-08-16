@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1101,
+        "title": "Solar Phone Recharge Station",
+        "campusID": 0,
+        "latitude": -27.497679,
+        "longitude": 153.014755,
+        "metadata": {
+            "title": "Solar Phone Recharge Station",
+            "link": "https://uqmaps.app.uq.edu.au/location/729",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

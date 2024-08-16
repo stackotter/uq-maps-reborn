@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5679,
+        "title": "Dwelling No 9",
+        "campusID": 2,
+        "latitude": -27.55944,
+        "longitude": 152.335799,
+        "metadata": {
+            "title": "Dwelling No 9",
+            "link": "https://uqmaps.app.uq.edu.au/location/1976",
+            "buildingNum": "8310",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1976_2f7296bc3b94215a7b112a675eeaf9ac_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

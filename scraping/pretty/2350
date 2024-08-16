@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756228,
+        "title": "Therapies Building Room 121A (84)",
+        "campusID": 0,
+        "latitude": -27.497251,
+        "longitude": 153.010261,
+        "metadata": {
+            "title": "Therapies Building Room 121A (84)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2350",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2350_17b150aad0256b340345f760f0a6ae0a_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

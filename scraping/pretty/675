@@ -1,0 +1,25 @@
+[
+    {
+        "id": 899,
+        "title": "Rugby Clubhouse",
+        "campusID": 0,
+        "latitude": -27.493143,
+        "longitude": 153.012229,
+        "metadata": {
+            "title": "Rugby Clubhouse",
+            "link": "https://uqmaps.app.uq.edu.au/location/675",
+            "buildingNum": "40",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Sports & Recreation"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_675_3956e3dd8b3f3127c66aa93d0a7959d2_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

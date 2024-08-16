@@ -1,0 +1,20 @@
+[
+    {
+        "id": 60,
+        "title": "Campus Pharmacy",
+        "campusID": 0,
+        "latitude": -27.497229,
+        "longitude": 153.015189,
+        "metadata": {
+            "title": "Campus Pharmacy",
+            "hours": "Monday to Friday 8am - 6pm",
+            "phone": "(07) 3870 1509",
+            "moreinformation": "Stocks a range of products, dispenses prescriptions and also has a Kodak minilab.",
+            "link": "https://uqmaps.app.uq.edu.au/location/49",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 94,
+        "title": "UQ Health Services",
+        "campusID": 0,
+        "latitude": -27.496452,
+        "longitude": 153.015454,
+        "metadata": {
+            "title": "UQ Health Services",
+            "hours": "Monday to Friday 8:30am - 5pm",
+            "web": "http://www.uq.edu.au/healthservice",
+            "email": "healthservice@uq.edu.au",
+            "phone": "(07) 3365 6210",
+            "fax": "(07) 3365 6222",
+            "moreinformation": "The University's Health Service (UQHS) is a fully accredited health care facility that provides comprehensive health services to current students of the University of Queensland. The medical centres provide a wide range of general practice services including contraception advice, counselling, minor surgery, travel advice, and vaccinations. You will need to make an appointment unless it is a medical emergency.",
+            "link": "https://uqmaps.app.uq.edu.au/location/587",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

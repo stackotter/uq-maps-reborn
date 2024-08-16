@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756343,
+        "title": "Main Lecture Theatre Room 103 (8178)",
+        "campusID": 2,
+        "latitude": -27.555398,
+        "longitude": 152.334615,
+        "metadata": {
+            "title": "Main Lecture Theatre Room 103 (8178)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2681",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__c7dba7e22db98f59b50ac2bfe5c006da_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

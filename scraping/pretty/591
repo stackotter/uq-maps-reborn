@@ -1,0 +1,23 @@
+[
+    {
+        "id": 175,
+        "title": "Seddon Centre Block",
+        "campusID": 0,
+        "latitude": -27.496604,
+        "longitude": 153.01069,
+        "metadata": {
+            "title": "Seddon Centre Block",
+            "link": "https://uqmaps.app.uq.edu.au/location/591",
+            "buildingNum": "82B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_591_57b6da827837ca5a0a9d574af89fe7ed_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

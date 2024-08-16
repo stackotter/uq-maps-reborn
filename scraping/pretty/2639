@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756113,
+        "title": "Building 8126 Room 109A (8126)",
+        "campusID": 2,
+        "latitude": -27.555137,
+        "longitude": 152.336318,
+        "metadata": {
+            "title": "Building 8126 Room 109A (8126)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2639",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

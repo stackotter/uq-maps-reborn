@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756345,
+        "title": "Physiology Lecture Theatres Room 360 (63)",
+        "campusID": 0,
+        "latitude": -27.499094,
+        "longitude": 153.012169,
+        "metadata": {
+            "title": "Physiology Lecture Theatres Room 360 (63)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2707",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2707_cc0dd07ff3fa7d0251b081877bb9dcbf_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__90c0bc045e70e2a83b2a2aa67681e78b_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

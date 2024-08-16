@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5318,
+        "title": "Glasshouse No 14",
+        "campusID": 0,
+        "latitude": -27.495466,
+        "longitude": 153.00865,
+        "metadata": {
+            "title": "Glasshouse No 14",
+            "link": "https://uqmaps.app.uq.edu.au/location/1928",
+            "buildingNum": "88N",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1928_cd34504b0fa40c3e9292069a1eed0c2e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

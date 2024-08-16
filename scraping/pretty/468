@@ -1,0 +1,23 @@
+[
+    {
+        "id": 678,
+        "title": "W.P. Hamon Memorial Centre & Lawes Campus Club",
+        "campusID": 2,
+        "latitude": -27.549924,
+        "longitude": 152.338893,
+        "metadata": {
+            "title": "W.P. Hamon Memorial Centre & Lawes Campus Club",
+            "link": "https://uqmaps.app.uq.edu.au/location/468",
+            "buildingNum": "8255",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_468_9094e3499fd3861ebe779e161c4201e3_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

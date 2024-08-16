@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755885,
+        "title": "Union Building Room 441 (21A)",
+        "campusID": 0,
+        "latitude": -27.497181,
+        "longitude": 153.015282,
+        "metadata": {
+            "title": "Union Building Room 441 (21A)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2133",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2133_8eab834d30ea4d89576b7bdd72d11155_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

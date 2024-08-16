@@ -1,0 +1,22 @@
+[
+    {
+        "id": 114,
+        "title": "Information Technology Services",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Information Technology Services",
+            "office": "Levels 3 & 4",
+            "web": "https://www.its.uq.edu.au/",
+            "email": "info@its.uq.edu.au",
+            "phone": "(07) 3365 6000",
+            "moreinformation": "Information Technology Services provides a wide range of IT services to over 36,000 students, 5,500 academic and general staff, and 7,000 users in the wider community. ITS supports the administrative, teaching, learning and research needs of its customers. ITS is the division of The University of Queensland which manages core networks and IT infrastructure for the whole University. Internet access to the National University Network (AARNet), which connects most universities and CSIRO in Queensland is managed by ITS on behalf of the Queensland Regional Network Organisation (QRNO). Many of UQ's largest servers are also operated by ITS.",
+            "link": "https://uqmaps.app.uq.edu.au/location/95",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

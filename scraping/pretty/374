@@ -1,0 +1,17 @@
+[
+    {
+        "id": 582,
+        "title": "Chaplaincy",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Chaplaincy",
+            "link": "https://uqmaps.app.uq.edu.au/location/374",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

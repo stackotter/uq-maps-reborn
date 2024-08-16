@@ -1,0 +1,23 @@
+[
+    {
+        "id": 532,
+        "title": "Animal Health Laboratory",
+        "campusID": 2,
+        "latitude": -27.553291,
+        "longitude": 152.334752,
+        "metadata": {
+            "title": "Animal Health Laboratory",
+            "link": "https://uqmaps.app.uq.edu.au/location/324",
+            "buildingNum": "8103A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_324_0078c5e1229476a38ab30f3677282f54_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

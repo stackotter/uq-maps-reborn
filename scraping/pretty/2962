@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1703750,
+        "title": "UniLodge Units",
+        "campusID": 0,
+        "latitude": -27.49654,
+        "longitude": 153.00835,
+        "metadata": {
+            "title": "UniLodge Units",
+            "link": "https://uqmaps.app.uq.edu.au/location/2962",
+            "buildingNum": "91E",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2962_1c7d7924142f395a3e8e4bc5d1318156_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

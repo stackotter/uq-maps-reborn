@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756112,
+        "title": "Learning Innovation Building Room 335 (17)",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building Room 335 (17)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2386",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2386_ad09d36be9ebe1455e6112e2fa45ed27_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

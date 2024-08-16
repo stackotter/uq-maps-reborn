@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755184,
+        "title": "Hawken Engineering Building Room L210 (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L210 (50)",
+            "moreinformation": "Free access provided the building is open, power points, computer, table/chairs, collaborative study.\nHigh Use collection.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1229",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1229_15ffe3aca4cd14dacec34de0f64d1e21_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1229_2f0a28a2d02e3db297a420a76648b6e7_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

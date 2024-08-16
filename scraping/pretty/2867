@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1042373,
+        "title": "Space Bank Toilets",
+        "campusID": 0,
+        "latitude": -27.495021,
+        "longitude": 153.009006,
+        "metadata": {
+            "title": "Space Bank Toilets",
+            "link": "https://uqmaps.app.uq.edu.au/location/2867",
+            "buildingNum": "99A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2867_f9509da09c135138cddb62babaef60cc_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

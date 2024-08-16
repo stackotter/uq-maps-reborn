@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755337,
+        "title": "Biological Sciences Library Room 216 (94)",
+        "campusID": 0,
+        "latitude": -27.497021,
+        "longitude": 153.011413,
+        "metadata": {
+            "title": "Biological Sciences Library Room 216 (94)",
+            "moreinformation": "Free access provided building is open, power points available, 2x Energy Pods , lounge, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1561",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1561_3633ac359d994c653d269efd2a48dd05_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1561_5a7010d3c5c1d7a43c7bc0ebf1667bd0_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

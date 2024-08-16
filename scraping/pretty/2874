@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756224,
+        "title": "Veterinary Production Animal Service Shed & Amenities Room 113 (8163A)",
+        "campusID": 2,
+        "latitude": -27.551685,
+        "longitude": 152.336789,
+        "metadata": {
+            "title": "Veterinary Production Animal Service Shed & Amenities Room 113 (8163A)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2874",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

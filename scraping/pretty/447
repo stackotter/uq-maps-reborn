@@ -1,0 +1,17 @@
+[
+    {
+        "id": 654,
+        "title": "Lake Galletly",
+        "campusID": 2,
+        "latitude": -27.554166,
+        "longitude": 152.341211,
+        "metadata": {
+            "title": "Lake Galletly",
+            "link": "https://uqmaps.app.uq.edu.au/location/447",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

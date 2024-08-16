@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756114,
+        "title": "Advanced Engineering Building Room 110 (49)",
+        "campusID": 0,
+        "latitude": -27.499497,
+        "longitude": 153.015138,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 110 (49)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2302",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2302_b36d6110aa1d9e2987167de4c31ea85c_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

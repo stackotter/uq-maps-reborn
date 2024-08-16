@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755367,
+        "title": "ModWest Room 133 (11A)",
+        "campusID": 0,
+        "latitude": -27.495949,
+        "longitude": 153.011919,
+        "metadata": {
+            "title": "ModWest Room 133 (11A)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2830",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2830_0be24ea401d0d824f0c6ed06941f9761_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

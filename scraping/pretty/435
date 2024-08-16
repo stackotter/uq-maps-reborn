@@ -1,0 +1,27 @@
+[
+    {
+        "id": 642,
+        "title": "Veterinary Medical Centre",
+        "campusID": 2,
+        "latitude": -27.551237,
+        "longitude": 152.335911,
+        "metadata": {
+            "title": "Veterinary Medical Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/435",
+            "buildingNum": "8156",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_435_c94559df35df6b4b801088119eff5938__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_435_4e69f734d3bf7ba0d690ca53f2ca18e6_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

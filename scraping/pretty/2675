@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755104,
+        "title": "General Purpose North 3 Room 236 (39A)",
+        "campusID": 0,
+        "latitude": -27.494948,
+        "longitude": 153.013651,
+        "metadata": {
+            "title": "General Purpose North 3 Room 236 (39A)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2675",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2675_e9addf99f571d8056079d811eedce8ff_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

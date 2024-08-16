@@ -1,0 +1,19 @@
+[
+    {
+        "id": 427,
+        "title": "Black Wattle",
+        "campusID": 0,
+        "latitude": -27.498158,
+        "longitude": 153.015438,
+        "metadata": {
+            "title": "Black Wattle",
+            "moreinformation": "The Black Wattle and Black Sheoak have many similarities, although they look quite different. Both reduce the surface area of their leaves to reduce moisture loss, and are capable of fixing nitrogen in the soils. Where the Black Sheoak has cladodes, the Black Wattle starts out with leaves but these drop off as the tree grows. The stem or petiole that is left becomes flattened into an approximate but leathery leaf shape. Most wattles grow fast and rapidly colonise disturbed land. Their ability to fix nitrogen in the soil through a symbiotic relationship with bacteria on their roots means that when they die, as they are almost all short lived, the nitrogen is left in the soil to provide soil fertility for slower growing climax tree species.",
+            "web": "http://www.uq.edu.au/sustainability/black-wattle",
+            "link": "https://uqmaps.app.uq.edu.au/location/654",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5733,
+        "title": "Dwelling No 25-Harvey",
+        "campusID": 2,
+        "latitude": -27.55607,
+        "longitude": 152.350191,
+        "metadata": {
+            "title": "Dwelling No 25-Harvey",
+            "link": "https://uqmaps.app.uq.edu.au/location/2030",
+            "buildingNum": "8522",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2030_bf1dbf188259a3a1035afe60a56d32ce_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

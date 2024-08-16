@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756139,
+        "title": "Learning Innovation Building Room 337 (17)",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building Room 337 (17)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2391",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2391_66d480a213d6ef3d1ba59f93a4c8ea3f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

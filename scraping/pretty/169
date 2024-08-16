@@ -1,0 +1,21 @@
+[
+    {
+        "id": 205,
+        "title": "School of Psychology",
+        "campusID": 0,
+        "latitude": -27.495634,
+        "longitude": 153.014896,
+        "metadata": {
+            "title": "School of Psychology",
+            "web": "http://www.psy.uq.edu.au",
+            "email": "reception@psy.uq.edu.au",
+            "phone": "(07) 3365 6230",
+            "office": "Room 312, McElwain Building (24A)",
+            "link": "https://uqmaps.app.uq.edu.au/location/169",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

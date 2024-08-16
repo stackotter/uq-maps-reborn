@@ -1,0 +1,19 @@
+[
+    {
+        "id": 14,
+        "title": "Unicard",
+        "campusID": 0,
+        "latitude": -27.498895,
+        "longitude": 153.013752,
+        "metadata": {
+            "title": "Unicard",
+            "hours": "Monday to Friday 8am - 5pm",
+            "email": "unicard@uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/14",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

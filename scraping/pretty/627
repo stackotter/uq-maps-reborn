@@ -1,0 +1,19 @@
+[
+    {
+        "id": 393,
+        "title": "Solar Research Resource Centre",
+        "campusID": 0,
+        "latitude": -27.49739,
+        "longitude": 153.014883,
+        "metadata": {
+            "title": "Solar Research Resource Centre",
+            "moreinformation": "UQ\u2019s Solar Research Resource Centre (SRRC) was opened in 2011 to provide a location for industry, school and community groups to visit and learn about the UQ Solar Array and renewable energy. The centre is a rich assortment of multimedia displays, interactive LCD screens, photovoltaic samples, information boards and aerial photographs of the rooftop solar installations across campus. Visitors can come to the centre to learn about solar energy at UQ and view live energy data streamed directly from the photovoltaic panels. The UQ solar system was established to not only save on emissions and power costs, but also to enable researchers to compare electricity generation using different variables. Research results will be used to apply to other renewable energy sources.",
+            "web": "http://www.uq.edu.au/sustainability/solar-research-resource-centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/627",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

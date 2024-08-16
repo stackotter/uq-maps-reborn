@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755150,
+        "title": "Duhig North Room N311 (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N311 (12)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, large display screen with laptop connections, whiteboard, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1097",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1097_202a6e111f4c1bcda61aaaa8f52d6a57_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1097_b2066a40b8a430d7373c9f0eb2e1c8ed_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

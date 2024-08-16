@@ -1,0 +1,19 @@
+[
+    {
+        "id": 42527,
+        "title": "Community Garden Water Refill Station",
+        "campusID": 2,
+        "latitude": -27.553191,
+        "longitude": 152.338625,
+        "metadata": {
+            "title": "Community Garden Water Refill Station",
+            "moreinformation": "Enjoy free fresh water refills for your water bottle. Don't junk the environment with expensive one-use disposable water bottles.",
+            "web": "http://www.uq.edu.au/sustainability/water-management",
+            "link": "https://uqmaps.app.uq.edu.au/location/2547",
+            "buildingNum": null,
+            "primaryType": "Water Refill Stations",
+            "otherTypes": []
+        },
+        "typeCode": "wrs"
+    }
+]

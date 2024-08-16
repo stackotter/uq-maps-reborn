@@ -1,0 +1,17 @@
+[
+    {
+        "id": 837,
+        "title": "Block 6",
+        "campusID": 3,
+        "latitude": -27.448838,
+        "longitude": 153.027749,
+        "metadata": {
+            "title": "Block 6",
+            "link": "https://uqmaps.app.uq.edu.au/location/540",
+            "buildingNum": "B6",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

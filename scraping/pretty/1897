@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755375,
+        "title": "Duhig Tower Room D201C (2)",
+        "campusID": 0,
+        "latitude": -27.496566,
+        "longitude": 153.014424,
+        "metadata": {
+            "title": "Duhig Tower Room D201C (2)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1897",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1897_f02b6229b9bc43dc2bd095bdd47a03dd_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 640,
+        "title": "CSIRO Glasshouse",
+        "campusID": 2,
+        "latitude": -27.551427,
+        "longitude": 152.336662,
+        "metadata": {
+            "title": "CSIRO Glasshouse",
+            "link": "https://uqmaps.app.uq.edu.au/location/433",
+            "buildingNum": "8171C",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_433_0b7281e8a64be77387034576b15e1bae_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

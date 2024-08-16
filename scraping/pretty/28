@@ -1,0 +1,23 @@
+[
+    {
+        "id": 34,
+        "title": "Michie Building",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "Michie Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/28",
+            "buildingNum": "9",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_28_552252e2895d624a1ddec9de41b1943b_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

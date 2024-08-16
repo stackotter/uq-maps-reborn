@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5698,
+        "title": "Individual Animal Pens",
+        "campusID": 2,
+        "latitude": -27.556406,
+        "longitude": 152.342457,
+        "metadata": {
+            "title": "Individual Animal Pens",
+            "link": "https://uqmaps.app.uq.edu.au/location/1995",
+            "buildingNum": "8362",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1995_6ed9fc8cf0ce8bf387959710ed3eb8c5_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

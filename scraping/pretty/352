@@ -1,0 +1,17 @@
+[
+    {
+        "id": 560,
+        "title": "Main Postgraduate Offices",
+        "campusID": 2,
+        "latitude": -27.554623,
+        "longitude": 152.334881,
+        "metadata": {
+            "title": "Main Postgraduate Offices",
+            "link": "https://uqmaps.app.uq.edu.au/location/352",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 555,
+        "title": "Plant Industries Building",
+        "campusID": 2,
+        "latitude": -27.554547,
+        "longitude": 152.334259,
+        "metadata": {
+            "title": "Plant Industries Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/347",
+            "buildingNum": "8111",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_347_3c5d392fa9c9203d195529a7e8575b32__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_347_40ba4c79b3d491f0c3c955c691dc75c1_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

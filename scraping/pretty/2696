@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756331,
+        "title": "Forgan Smith Building Room E302 (1)",
+        "campusID": 0,
+        "latitude": -27.496826,
+        "longitude": 153.013312,
+        "metadata": {
+            "title": "Forgan Smith Building Room E302 (1)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2696",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2696_222c60c9660c9ceb4de9ae375b05a59f_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__a3690bbb785ed9b649ef610d9ec6a9c6_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

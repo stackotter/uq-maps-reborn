@@ -1,0 +1,17 @@
+[
+    {
+        "id": 523825,
+        "title": "Community Garden BBQ Pavilion",
+        "campusID": 0,
+        "latitude": -27.494193,
+        "longitude": 153.011088,
+        "metadata": {
+            "title": "Community Garden BBQ Pavilion",
+            "link": "https://uqmaps.app.uq.edu.au/location/2666",
+            "buildingNum": "99B",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755348,
+        "title": "Duhig North Room N204F (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N204F (12)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2739",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2739_e94d9324a9a16cca43bcfbcfe715df6c_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

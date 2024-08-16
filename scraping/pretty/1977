@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5680,
+        "title": "Dwelling No 10",
+        "campusID": 2,
+        "latitude": -27.559516,
+        "longitude": 152.33608,
+        "metadata": {
+            "title": "Dwelling No 10",
+            "link": "https://uqmaps.app.uq.edu.au/location/1977",
+            "buildingNum": "8312",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1977_a261d23cca9e63a7998c0d8c7122b996_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

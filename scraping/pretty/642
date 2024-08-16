@@ -1,0 +1,19 @@
+[
+    {
+        "id": 415,
+        "title": "Little Pied Cormorant",
+        "campusID": 0,
+        "latitude": -27.5005967,
+        "longitude": 153.0160718,
+        "metadata": {
+            "title": "Little Pied Cormorant",
+            "moreinformation": "The Little Pied Cormorant is found in most aquatic environments. It is a small cormorant that grows to around 55-60 centimetres. The Little Pied Cormorant is a benthic and solitary feeder that will dive for up to 20 seconds for prey. It feeds on crustaceans, fish, eels and insect larvae. During the breeding season, a platform nest of sticks lined with leaves is built close to other water birds, where 3-5 pale blue eggs are laid.",
+            "web": "http://www.uq.edu.au/sustainability/little-pied-cormorant",
+            "link": "https://uqmaps.app.uq.edu.au/location/642",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

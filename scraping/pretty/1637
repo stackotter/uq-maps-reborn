@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755397,
+        "title": "Forgan Smith Building Room E110 (1)",
+        "campusID": 0,
+        "latitude": -27.496654,
+        "longitude": 153.014172,
+        "metadata": {
+            "title": "Forgan Smith Building Room E110 (1)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, lounge, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1637",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1637_553981d30590ce3648e100ce99e4acd6_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1637_f1f6361661b19467d3978295e2514393_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1637_8444ccfe3dfe58f5775da886ffaad130_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

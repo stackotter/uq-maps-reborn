@@ -1,0 +1,23 @@
+[
+    {
+        "id": 84,
+        "title": "Abel Smith Lecture Theatre",
+        "campusID": 0,
+        "latitude": -27.496608,
+        "longitude": 153.015123,
+        "metadata": {
+            "title": "Abel Smith Lecture Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/71",
+            "buildingNum": "23",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_71_0709223de6a22becd801b06138a0b31e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

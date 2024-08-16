@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755930,
+        "title": "Building 33 Room 217 (33)",
+        "campusID": 0,
+        "latitude": -27.496738,
+        "longitude": 153.016376,
+        "metadata": {
+            "title": "Building 33 Room 217 (33)",
+            "moreinformation": "\n\nAmbulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2366",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2366_2d1daafbb3bc69381b457c2be6a85c75_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

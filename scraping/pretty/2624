@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755226,
+        "title": "Priestley Building Room 340 (67)",
+        "campusID": 0,
+        "latitude": -27.499041,
+        "longitude": 153.012986,
+        "metadata": {
+            "title": "Priestley Building Room 340 (67)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2624",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2624_c8a8ec10d1b3416267d806de8ffe9a7e_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2624_8afae08831876bb1fa8bed2946fb2f9e_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 3095,
+        "title": "Synthetic Playing Fields",
+        "campusID": 0,
+        "latitude": -27.49659,
+        "longitude": 153.016964,
+        "metadata": {
+            "title": "Synthetic Playing Fields",
+            "link": "https://uqmaps.app.uq.edu.au/location/1901",
+            "buildingNum": "98E",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

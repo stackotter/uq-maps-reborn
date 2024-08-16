@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1756289,
+        "title": "J.D. Story Administration Building Room 103 (61)",
+        "campusID": 0,
+        "latitude": -27.498489,
+        "longitude": 153.011571,
+        "metadata": {
+            "title": "J.D. Story Administration Building Room 103 (61)",
+            "moreinformation": "Door lock. Fridge, comfortable chair and table, power point, sink with hot and cold water, and baby change.\n\nParenting Room And Baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2417",
+            "buildingNum": null,
+            "primaryType": "Parenting & Baby Change Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2417_cf9bb321ee6c46187c561600bf0cc70b_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2417_7673dd7e8887e485936b3180a8ae2ac8_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "ptr"
+    }
+]

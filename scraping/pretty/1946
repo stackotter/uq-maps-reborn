@@ -1,0 +1,17 @@
+[
+    {
+        "id": 5393,
+        "title": "Conifer Knoll",
+        "campusID": 0,
+        "latitude": -27.499569,
+        "longitude": 153.017506,
+        "metadata": {
+            "title": "Conifer Knoll",
+            "link": "https://uqmaps.app.uq.edu.au/location/1946",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

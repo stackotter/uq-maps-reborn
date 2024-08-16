@@ -1,0 +1,19 @@
+[
+    {
+        "id": 431,
+        "title": "Blue Flax-Lily",
+        "campusID": 0,
+        "latitude": -27.500639,
+        "longitude": 153.014832,
+        "metadata": {
+            "title": "Blue Flax-Lily",
+            "moreinformation": "The Blue Flax-lily is a strappy perennial herbaceous plant that grows up to 1 metre high and bears fruit. It is found across the eastern states of Australia, including Tasmania. With its delicate blue and yellow flowers followed by striking purple berries, it is a favourite of gardeners.",
+            "web": "http://www.uq.edu.au/sustainability/blue-flax-lily",
+            "link": "https://uqmaps.app.uq.edu.au/location/630",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

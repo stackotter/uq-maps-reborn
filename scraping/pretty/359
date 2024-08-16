@@ -1,0 +1,23 @@
+[
+    {
+        "id": 567,
+        "title": "Agricultural Mechanisation B",
+        "campusID": 2,
+        "latitude": -27.555841,
+        "longitude": 152.334387,
+        "metadata": {
+            "title": "Agricultural Mechanisation B",
+            "link": "https://uqmaps.app.uq.edu.au/location/359",
+            "buildingNum": "8116",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_359_fdc753b4eea31d40756f95a91d9fee14_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

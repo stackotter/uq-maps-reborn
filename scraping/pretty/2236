@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756015,
+        "title": "Hawken Engineering Building Room T202 (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room T202 (50)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2236",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2236_c8e4aaaa2516a82597ec7ee201869d04_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

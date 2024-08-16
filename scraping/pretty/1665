@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755403,
+        "title": "UQ Multi-Faith Chaplaincy Centre Room 218 (38)",
+        "campusID": 0,
+        "latitude": -27.49609,
+        "longitude": 153.015175,
+        "metadata": {
+            "title": "UQ Multi-Faith Chaplaincy Centre Room 218 (38)",
+            "moreinformation": "Free access provided building is open, no power points available, no equipments, chairs, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1665",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1665_cdd19e2b3468e998c68d7681d5d52835_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1665_172b1a895de9e098d6590aa73a4d8012_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

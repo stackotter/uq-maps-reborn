@@ -1,0 +1,17 @@
+[
+    {
+        "id": 542,
+        "title": "Design & Desktop Publishing",
+        "campusID": 2,
+        "latitude": -27.553122,
+        "longitude": 152.336068,
+        "metadata": {
+            "title": "Design & Desktop Publishing",
+            "link": "https://uqmaps.app.uq.edu.au/location/334",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

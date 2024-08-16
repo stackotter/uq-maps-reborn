@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2833,
+        "title": "UQ VETS Equine Specialist Hospital",
+        "campusID": 2,
+        "latitude": -27.550999,
+        "longitude": 152.336367,
+        "metadata": {
+            "title": "UQ VETS Equine Specialist Hospital",
+            "web": "http://equine-specialist.hospital.uq.edu.au",
+            "email": "uqvets.eq@uq.edu.au",
+            "phone": "(07) 5460 1799",
+            "link": "https://uqmaps.app.uq.edu.au/location/1849",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

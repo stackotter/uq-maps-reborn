@@ -1,0 +1,17 @@
+[
+    {
+        "id": 17,
+        "title": "Centre for Integrated Preclinical Drug Development",
+        "campusID": 0,
+        "latitude": -27.49729,
+        "longitude": 153.014488,
+        "metadata": {
+            "title": "Centre for Integrated Preclinical Drug Development",
+            "link": "https://uqmaps.app.uq.edu.au/location/17",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5738,
+        "title": "Langmuir Storage Shed",
+        "campusID": 2,
+        "latitude": -27.561616,
+        "longitude": 152.344512,
+        "metadata": {
+            "title": "Langmuir Storage Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/2035",
+            "buildingNum": "8554",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2035_d7a76b6b2512994b53de878934936caa_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

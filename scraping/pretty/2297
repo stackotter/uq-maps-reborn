@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756107,
+        "title": "QASP Central Support Room 107 (8360)",
+        "campusID": 2,
+        "latitude": -27.557058,
+        "longitude": 152.34149,
+        "metadata": {
+            "title": "QASP Central Support Room 107 (8360)",
+            "moreinformation": "\n\nMale / Female Access Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2297",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

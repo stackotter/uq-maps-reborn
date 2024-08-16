@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755147,
+        "title": "Bookshop Room 212 (4)",
+        "campusID": 0,
+        "latitude": -27.497895,
+        "longitude": 153.014605,
+        "metadata": {
+            "title": "Bookshop Room 212 (4)",
+            "moreinformation": "For ATSIS students. Free access provided building is open, power points available, computer, lounge/desk, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1085",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1085_130c763e3e09cd0c9ae2eb8ab3e6dff8_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1085_8bddc786940225a884895a9b5d5e74b7_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

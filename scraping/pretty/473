@@ -1,0 +1,23 @@
+[
+    {
+        "id": 683,
+        "title": "Wool Store",
+        "campusID": 2,
+        "latitude": -27.550133,
+        "longitude": 152.340374,
+        "metadata": {
+            "title": "Wool Store",
+            "link": "https://uqmaps.app.uq.edu.au/location/473",
+            "buildingNum": "8231",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_473_d7ba163d8c1772aa2efdb43fe98a5daa_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

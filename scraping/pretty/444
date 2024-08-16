@@ -1,0 +1,23 @@
+[
+    {
+        "id": 651,
+        "title": "Lysimetry Facility",
+        "campusID": 2,
+        "latitude": -27.554204,
+        "longitude": 152.339494,
+        "metadata": {
+            "title": "Lysimetry Facility",
+            "link": "https://uqmaps.app.uq.edu.au/location/444",
+            "buildingNum": "8136",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_444_511051af8a6d21b4a9db6defdcbbd610_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

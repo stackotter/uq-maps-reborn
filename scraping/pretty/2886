@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755298,
+        "title": "Building 69 Room 410 (69)",
+        "campusID": 0,
+        "latitude": -27.498984,
+        "longitude": 153.012621,
+        "metadata": {
+            "title": "Building 69 Room 410 (69)",
+            "moreinformation": "Faculty Medicine area. Free access provided building is open, power points, computers, lounge and table/chairs, individual or group study. Old photo.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2886",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__b0783bd3e0af0d2fd8695a55b2c77e5c_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

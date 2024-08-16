@@ -1,0 +1,23 @@
+[
+    {
+        "id": 3094,
+        "title": "Grounds Shed Playing Field 9",
+        "campusID": 0,
+        "latitude": -27.49573,
+        "longitude": 153.00763,
+        "metadata": {
+            "title": "Grounds Shed Playing Field 9",
+            "link": "https://uqmaps.app.uq.edu.au/location/1900",
+            "buildingNum": "92B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1900_13c46d7c44fce71fea1ae4539cec6ffb_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

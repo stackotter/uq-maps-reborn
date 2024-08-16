@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755866,
+        "title": "Seddon Centre Block Room B307 (82B)",
+        "campusID": 0,
+        "latitude": -27.496604,
+        "longitude": 153.01069,
+        "metadata": {
+            "title": "Seddon Centre Block Room B307 (82B)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2117",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2117_26e26afdaeb160485dadf25734ac8357_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

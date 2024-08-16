@@ -1,0 +1,27 @@
+[
+    {
+        "id": 635,
+        "title": "Veterinary Production Animal Service Building",
+        "campusID": 2,
+        "latitude": -27.551617,
+        "longitude": 152.336748,
+        "metadata": {
+            "title": "Veterinary Production Animal Service Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/428",
+            "buildingNum": "8163",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_428_a9a63d03d9ee1b8552f395cf79e88f37__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_428_d835d577d71cfb846b4951c30ec7c495_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

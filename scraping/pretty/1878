@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755233,
+        "title": "J.K. Murray Library Room 141 (8102)",
+        "campusID": 2,
+        "latitude": -27.553805,
+        "longitude": 152.335889,
+        "metadata": {
+            "title": "J.K. Murray Library Room 141 (8102)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1878",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1878_139aa13d7287eb2ae611c46efeb2e274_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

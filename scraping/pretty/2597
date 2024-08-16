@@ -1,0 +1,23 @@
+[
+    {
+        "id": 220929,
+        "title": "Parenting and Family Support Centre (21 Upland Road) (0515B)",
+        "campusID": 0,
+        "latitude": -27.499778262493,
+        "longitude": 153.01066874072,
+        "metadata": {
+            "title": "Parenting and Family Support Centre (21 Upland Road) (0515B)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2597",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2597_16acdad1054d698f4780c128479ef0b7_manual_small.jpg",
+                    "displayOrder": 0
+                }
+            ]
+        },
+        "typeCode": "ofc"
+    }
+]

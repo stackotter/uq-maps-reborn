@@ -1,0 +1,27 @@
+[
+    {
+        "id": 22021,
+        "title": "WEP Harris Pavilion",
+        "campusID": 0,
+        "latitude": -27.501269,
+        "longitude": 153.010601,
+        "metadata": {
+            "title": "WEP Harris Pavilion",
+            "link": "https://uqmaps.app.uq.edu.au/location/2499",
+            "buildingNum": "70A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2499_90377ee512e87c625e19127f271f816c__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2499_578594adfb858f84188319be3afdcd8e_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

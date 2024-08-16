@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755424,
+        "title": "Forgan Smith Building Room W442 (1)",
+        "campusID": 0,
+        "latitude": -27.496928,
+        "longitude": 153.013072,
+        "metadata": {
+            "title": "Forgan Smith Building Room W442 (1)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1729",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1729_27d7685d8f6c01e0914e7c89da59dfc2_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1729_89021440c7ee1c6c117ce714c8b1e290_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

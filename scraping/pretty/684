@@ -1,0 +1,25 @@
+[
+    {
+        "id": 908,
+        "title": "Pavilion Playing Field 9",
+        "campusID": 0,
+        "latitude": -27.495733,
+        "longitude": 153.006887,
+        "metadata": {
+            "title": "Pavilion Playing Field 9",
+            "link": "https://uqmaps.app.uq.edu.au/location/684",
+            "buildingNum": "92A",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Sports & Recreation"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_684_5dbe5d06094a3218d1d26ce1ba24bffd_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

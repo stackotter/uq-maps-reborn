@@ -1,0 +1,23 @@
+[
+    {
+        "id": 700,
+        "title": "Building 8201",
+        "campusID": 2,
+        "latitude": -27.55097,
+        "longitude": 152.338529,
+        "metadata": {
+            "title": "Building 8201",
+            "link": "https://uqmaps.app.uq.edu.au/location/490",
+            "buildingNum": "8201",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_490_9d85e0dd9af41918ae19262ae6393e92_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

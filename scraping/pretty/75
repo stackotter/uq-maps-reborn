@@ -1,0 +1,32 @@
+[
+    {
+        "id": 88,
+        "title": "UQ Sport Fitness Centre",
+        "campusID": 0,
+        "latitude": -27.495957,
+        "longitude": 153.015604,
+        "metadata": {
+            "title": "UQ Sport Fitness Centre",
+            "web": "https://uqsport.com.au/venues/fitness-centre/",
+            "email": "uqsport@uqsport.com.au",
+            "phone": "(07) 3365 6612",
+            "link": "https://uqmaps.app.uq.edu.au/location/75",
+            "buildingNum": "25",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Sports & Recreation"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_75_cff448c710f3dd772734d3d822a6f5cf__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_75_1355c2519dce3459bdc5562dd392c773_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

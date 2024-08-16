@@ -1,0 +1,17 @@
+[
+    {
+        "id": 8,
+        "title": "Centre for the History of European Discourses",
+        "campusID": 0,
+        "latitude": -27.496928,
+        "longitude": 153.013072,
+        "metadata": {
+            "title": "Centre for the History of European Discourses",
+            "link": "https://uqmaps.app.uq.edu.au/location/8",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

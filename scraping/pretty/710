@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1083,
+        "title": "Run 3 - Campus Victory Lap",
+        "campusID": 0,
+        "latitude": -27.493683,
+        "longitude": 153.01631,
+        "metadata": {
+            "title": "Run 3 - Campus Victory Lap",
+            "runinformation": "Test yourself with a 4.5km lap of the campus. You'll burn 370 calories (M) or 280 calories (F) at 5min/km.\u00a0Power up the hills at full speed to work those glutes!",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/710",
+            "buildingNum": null,
+            "primaryType": "Hard Run",
+            "otherTypes": []
+        },
+        "typeCode": "sp3"
+    }
+]

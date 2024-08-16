@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755175,
+        "title": "Hawken Engineering Building Room L301 (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L301 (50)",
+            "moreinformation": "Free access provided the building is open, power points, table/chairs, individual study\nMostly Book collection.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2614",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2614_119ada1458063caacb5e59e664ff3883_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__3d46ef8855bc8069963229f4b3bd2879_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

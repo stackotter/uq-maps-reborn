@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5667,
+        "title": "Building 8218A",
+        "campusID": 2,
+        "latitude": -27.550628,
+        "longitude": 152.338729,
+        "metadata": {
+            "title": "Building 8218A",
+            "link": "https://uqmaps.app.uq.edu.au/location/1964",
+            "buildingNum": "8218A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1964_b3cfd12940855728f62c8341070815e2_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5736,
+        "title": "Langmuir Machinery Shed",
+        "campusID": 2,
+        "latitude": -27.561,
+        "longitude": 152.343987,
+        "metadata": {
+            "title": "Langmuir Machinery Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/2033",
+            "buildingNum": "8552",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2033_15b2d6e56cdc40fc93ac729cd9e21df8_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

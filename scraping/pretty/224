@@ -1,0 +1,22 @@
+[
+    {
+        "id": 267,
+        "title": "Red Room Bar and Grill",
+        "campusID": 0,
+        "latitude": -27.49743,
+        "longitude": 153.015872,
+        "metadata": {
+            "title": "Red Room Bar and Grill",
+            "web": "http://www.redroombar.com.au",
+            "moreinformation": "For decades UQ St Lucia students have flocked to the Red Room for a feed to accompany their beverage desires. Come down to the Red Room for a drink and grab some hot chips or Nachos. Try the Chicken Parmi or check out the selection of burgers and sandwiches. Chill out on the Red Room deck, let your hair down and watch a hard day's work disappear. More than just a place to have a drink, the Red Room is the entertainment hub on campus where you can see anything from DJ's to trivia, from eating comps to karaoke night.",
+            "phone": "(07) 3377 2288",
+            "location": "UQ Union Complex (downstairs from Main Course)",
+            "hours": "Monday - Friday 11am - 8pm\r\nBar:\r\nMonday - Wednesday 11am - 9pm\r\nThursday & Friday 11am - 10pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/224",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

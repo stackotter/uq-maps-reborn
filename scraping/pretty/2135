@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755887,
+        "title": "Michie Building Room 610 (9)",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "Michie Building Room 610 (9)",
+            "moreinformation": "\n\nPwd Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2135",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2135_b038edd86e2d276f8dd787e945395e70_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

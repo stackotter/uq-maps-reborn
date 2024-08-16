@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756078,
+        "title": "Pavilion Playing Field 9 Room 103 (92A)",
+        "campusID": 0,
+        "latitude": -27.495733,
+        "longitude": 153.006887,
+        "metadata": {
+            "title": "Pavilion Playing Field 9 Room 103 (92A)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2275",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2275_2426b61bebf4d16e34b4ddf9c4175183_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

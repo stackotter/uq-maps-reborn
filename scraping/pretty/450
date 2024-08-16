@@ -1,0 +1,27 @@
+[
+    {
+        "id": 657,
+        "title": "Feed Processing Shed",
+        "campusID": 2,
+        "latitude": -27.555726,
+        "longitude": 152.341404,
+        "metadata": {
+            "title": "Feed Processing Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/450",
+            "buildingNum": "8367",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_450_fec0877ac79c93ead0da97d5d7c988da__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_450_4bd5fb9f2d6e0c77bbe7da8b9456b7c9_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

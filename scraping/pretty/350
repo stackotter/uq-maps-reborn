@@ -1,0 +1,21 @@
+[
+    {
+        "id": 558,
+        "title": "School of Agriculture and Food Sciences",
+        "campusID": 2,
+        "latitude": -27.554623,
+        "longitude": 152.334881,
+        "metadata": {
+            "title": "School of Agriculture and Food Sciences",
+            "web": "http://www.uq.edu.au/agriculture",
+            "email": "agriculture@uq.edu.au",
+            "phone": "(07) 5460 1321",
+            "office": "Natural & Rural Systems Management Building (8117A)",
+            "link": "https://uqmaps.app.uq.edu.au/location/350",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

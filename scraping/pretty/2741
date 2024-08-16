@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755106,
+        "title": "Sir Llew Edwards Building Room 653 (14)",
+        "campusID": 0,
+        "latitude": -27.495634,
+        "longitude": 153.013523,
+        "metadata": {
+            "title": "Sir Llew Edwards Building Room 653 (14)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2741",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2741_5725a7e0b179134bc0a8bc1ad91f1e16_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

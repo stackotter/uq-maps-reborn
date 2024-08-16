@@ -1,0 +1,23 @@
+[
+    {
+        "id": 896,
+        "title": "Eric Freeman Boatshed",
+        "campusID": 0,
+        "latitude": -27.491917,
+        "longitude": 153.012786,
+        "metadata": {
+            "title": "Eric Freeman Boatshed",
+            "link": "https://uqmaps.app.uq.edu.au/location/670",
+            "buildingNum": "30",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_670_f3c3cee983ef599d9406992ff8a4489c_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

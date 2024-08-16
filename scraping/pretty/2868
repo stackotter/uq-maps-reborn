@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1042374,
+        "title": "Veterinary Production Animal Service Shed & Amenities",
+        "campusID": 2,
+        "latitude": -27.551685,
+        "longitude": 152.336789,
+        "metadata": {
+            "title": "Veterinary Production Animal Service Shed & Amenities",
+            "link": "https://uqmaps.app.uq.edu.au/location/2868",
+            "buildingNum": "8163A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2868_fad4d4cfcc3e91abf62f34cd72149353__small.jpg",
+                    "displayOrder": 0
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

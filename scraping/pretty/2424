@@ -1,0 +1,19 @@
+[
+    {
+        "id": 17119,
+        "title": "UQ Intercampus Bus Stop",
+        "campusID": 0,
+        "latitude": -27.498659628768,
+        "longitude": 153.01103505026,
+        "metadata": {
+            "title": "UQ Intercampus Bus Stop",
+            "web": "https://www.pf.uq.edu.au/buses/",
+            "moreinformation": "The University of Queensland provides staff and students two free bus services, the Intercampus bus service and the St Lucia-Long Pocket shuttle. These services are provided for UQ students and staff who are working on campus. It is not a public bus service, however bona fide visitors attending on UQ business may arrange to obtain a permit to travel on these buses.",
+            "link": "https://uqmaps.app.uq.edu.au/location/2424",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    }
+]

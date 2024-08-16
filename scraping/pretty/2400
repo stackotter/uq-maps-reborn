@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756211,
+        "title": "Chemistry Building Room 413D (68)",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Chemistry Building Room 413D (68)",
+            "moreinformation": "\n\nAmbulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2400",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2400_63d2d9dc362e036800ecf3a1570accf5_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 588,
+        "title": "War Memorial Gymnasium & Squash Courts",
+        "campusID": 2,
+        "latitude": -27.557496,
+        "longitude": 152.336276,
+        "metadata": {
+            "title": "War Memorial Gymnasium & Squash Courts",
+            "link": "https://uqmaps.app.uq.edu.au/location/381",
+            "buildingNum": "8144",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Sports & Recreation"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_381_59b8294a91e6e1f9c05d5ca56a0607bb_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

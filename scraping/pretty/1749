@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755428,
+        "title": "Duhig Link Room L107A (12A)",
+        "campusID": 0,
+        "latitude": -27.496419,
+        "longitude": 153.013979,
+        "metadata": {
+            "title": "Duhig Link Room L107A (12A)",
+            "moreinformation": "Free access provided the building is open, power points,  large display screen with laptop connections, whiteboard, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1749",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1749_e75e8cdf6846227e49f78ebb5ba23023_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1749_c32fabec2436b923c79086c2addf8527_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

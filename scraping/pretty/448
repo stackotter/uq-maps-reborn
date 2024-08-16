@@ -1,0 +1,23 @@
+[
+    {
+        "id": 655,
+        "title": "Dairy Goats Bales",
+        "campusID": 2,
+        "latitude": -27.555955,
+        "longitude": 152.340374,
+        "metadata": {
+            "title": "Dairy Goats Bales",
+            "link": "https://uqmaps.app.uq.edu.au/location/448",
+            "buildingNum": "8342",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_448_768f7c5309d133642e7b7cebca4126ab_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

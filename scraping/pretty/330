@@ -1,0 +1,21 @@
+[
+    {
+        "id": 538,
+        "title": "Security Office",
+        "campusID": 2,
+        "latitude": -27.553272,
+        "longitude": 152.335739,
+        "metadata": {
+            "title": "Security Office",
+            "web": "https://campuses.uq.edu.au/information-and-services/security",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333",
+            "link": "https://uqmaps.app.uq.edu.au/location/330",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    }
+]

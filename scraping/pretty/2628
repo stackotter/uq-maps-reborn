@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755230,
+        "title": "Priestley Building Room 142 (67)",
+        "campusID": 0,
+        "latitude": -27.499041,
+        "longitude": 153.012986,
+        "metadata": {
+            "title": "Priestley Building Room 142 (67)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2628",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2628_eefb00830e29117fe2b9eff234ef8b5d_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__cc9cb6f0876a089738ef2248fd270b98_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

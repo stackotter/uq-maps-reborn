@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756032,
+        "title": "Digital Agriculture Building Room 211 (8115)",
+        "campusID": 2,
+        "latitude": -27.555156,
+        "longitude": 152.334495,
+        "metadata": {
+            "title": "Digital Agriculture Building Room 211 (8115)",
+            "moreinformation": "\n\nToilet - All Gender",
+            "link": "https://uqmaps.app.uq.edu.au/location/2645",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

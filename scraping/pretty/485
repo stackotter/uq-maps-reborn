@@ -1,0 +1,23 @@
+[
+    {
+        "id": 695,
+        "title": "Barn Layer Shed",
+        "campusID": 2,
+        "latitude": -27.552036,
+        "longitude": 152.339966,
+        "metadata": {
+            "title": "Barn Layer Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/485",
+            "buildingNum": "8247",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_485_f64eb4e8a67d6fad3635b667a66d5916_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

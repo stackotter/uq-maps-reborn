@@ -1,0 +1,26 @@
+[
+    {
+        "id": 291,
+        "title": "UQ Sport Tennis Centre",
+        "campusID": 0,
+        "latitude": -27.494453,
+        "longitude": 153.015076,
+        "metadata": {
+            "title": "UQ Sport Tennis Centre",
+            "web": "https://uqsport.com.au/venue/tennis-centre",
+            "email": "tennis@uqsport.com.au",
+            "phone": "07 3365 6933",
+            "link": "https://uqmaps.app.uq.edu.au/location/245",
+            "buildingNum": "29",
+            "primaryType": "Sports & Recreation",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_245_7991656c41d3cb6ab7d313f2e66fa418_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "spt"
+    }
+]

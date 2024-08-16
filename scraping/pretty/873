@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1285,
+        "title": "GVEG Carpark",
+        "campusID": 2,
+        "latitude": -27.555497,
+        "longitude": 152.334329,
+        "metadata": {
+            "title": "GVEG Carpark",
+            "email": "parking@pf.uq.edu.au",
+            "web": "https://www.pf.uq.edu.au/parking/",
+            "phone": "(07) 3365 2222",
+            "parkingtype": "Staff permit required",
+            "link": "https://uqmaps.app.uq.edu.au/location/873",
+            "buildingNum": null,
+            "primaryType": "Parking Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "par"
+    }
+]

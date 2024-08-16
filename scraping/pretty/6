@@ -1,0 +1,17 @@
+[
+    {
+        "id": 6,
+        "title": "Confucius Institute",
+        "campusID": 0,
+        "latitude": -27.496928,
+        "longitude": 153.013072,
+        "metadata": {
+            "title": "Confucius Institute",
+            "link": "https://uqmaps.app.uq.edu.au/location/6",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

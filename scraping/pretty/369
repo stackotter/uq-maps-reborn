@@ -1,0 +1,22 @@
+[
+    {
+        "id": 577,
+        "title": "Student Help on Campus",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Student Help on Campus",
+            "web": "https://www.uqu.com.au/student-support",
+            "email": "gatton.union@uq.edu.au",
+            "phone": "(07) 5460 1791",
+            "office": "Room 225",
+            "moreinformation": "Contact: Tricia Williamson. At UQU we understand students are often unable to concentrate on getting the most out of their degree because they are distracted by financial pressures, confusing relationships and administrative processes. Student Help on Campus (SHOC) is here to support you by providing free legal, education, welfare, tax, counselling and employment services.",
+            "link": "https://uqmaps.app.uq.edu.au/location/369",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

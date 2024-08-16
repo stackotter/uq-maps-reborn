@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755174,
+        "title": "Connell Building Room 114 (26)",
+        "campusID": 0,
+        "latitude": -27.495234,
+        "longitude": 153.015604,
+        "metadata": {
+            "title": "Connell Building Room 114 (26)",
+            "moreinformation": "Free access provided building is open, power points available, computer screen, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1205",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1205_afc8541eed5bad3e281154be4a3f6e07_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1205_df4ec9767794cfab0200b70a9dc82c9a_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

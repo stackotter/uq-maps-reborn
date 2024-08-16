@@ -1,0 +1,23 @@
+[
+    {
+        "id": 7956,
+        "title": "Edith Cavell Building (not used by UQ)",
+        "campusID": 3,
+        "latitude": -27.448051,
+        "longitude": 153.025694,
+        "metadata": {
+            "title": "Edith Cavell Building (not used by UQ)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2063",
+            "buildingNum": "913",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2063_475699442a8d16fc28c3997dc3d949be_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

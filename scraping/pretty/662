@@ -1,0 +1,31 @@
+[
+    {
+        "id": 888,
+        "title": "Duhig North",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North",
+            "link": "https://uqmaps.app.uq.edu.au/location/662",
+            "buildingNum": "12",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_662_999d8234a39914e0cc569a6c1379ad77__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_662_f162378a3cfe5d1bcdb65689fe93847e__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_662_8e05f7b12b90f80c9ffdaeab15f1ffe0_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

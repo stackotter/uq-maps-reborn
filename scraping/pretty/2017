@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5720,
+        "title": "Horti Field Machinery Shed 2",
+        "campusID": 2,
+        "latitude": -27.53966,
+        "longitude": 152.333074,
+        "metadata": {
+            "title": "Horti Field Machinery Shed 2",
+            "link": "https://uqmaps.app.uq.edu.au/location/2017",
+            "buildingNum": "8421",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2017_95ee14fce4bb864c4a3ffe8362d5271d_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

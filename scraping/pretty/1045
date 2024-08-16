@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755139,
+        "title": "Therapies Building Room 126A (84)",
+        "campusID": 0,
+        "latitude": -27.497109,
+        "longitude": 153.010332,
+        "metadata": {
+            "title": "Therapies Building Room 126A (84)",
+            "moreinformation": "Free access provided building is open, power points available, AV/whiteboard, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1045",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1045_76edc0413221bdc547c1f4622e574232_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1045_9e6d86f3172a0730c05e9b975ceb2dd2_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1045_165e3b3b167da0aa5397bcfa4b837b8a_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

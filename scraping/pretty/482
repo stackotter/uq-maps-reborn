@@ -1,0 +1,23 @@
+[
+    {
+        "id": 692,
+        "title": "Poultry Controlled Environment Facility",
+        "campusID": 2,
+        "latitude": -27.55097,
+        "longitude": 152.339559,
+        "metadata": {
+            "title": "Poultry Controlled Environment Facility",
+            "link": "https://uqmaps.app.uq.edu.au/location/482",
+            "buildingNum": "8241",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_482_b4b583f35f10a7066e2f279200b078a7_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

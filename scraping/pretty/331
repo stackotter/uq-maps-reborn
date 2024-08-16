@@ -1,0 +1,17 @@
+[
+    {
+        "id": 539,
+        "title": "Commonwealth Bank ATM",
+        "campusID": 2,
+        "latitude": -27.553272,
+        "longitude": 152.335739,
+        "metadata": {
+            "title": "Commonwealth Bank ATM",
+            "link": "https://uqmaps.app.uq.edu.au/location/331",
+            "buildingNum": null,
+            "primaryType": "Banks & ATMs",
+            "otherTypes": []
+        },
+        "typeCode": "bnk"
+    }
+]

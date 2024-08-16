@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756119,
+        "title": "Learning Innovation Building Room 105 (17)",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building Room 105 (17)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2387",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2387_a43151dbb0bde5224542c1857d559a69_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

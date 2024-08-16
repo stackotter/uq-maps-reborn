@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755847,
+        "title": "Morrison Hall Room 239 (8123)",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Morrison Hall Room 239 (8123)",
+            "moreinformation": "\n\nUnisex Toilets",
+            "link": "https://uqmaps.app.uq.edu.au/location/2355",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2355_d206935804c32dd7cf10033f3e25b7fc_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

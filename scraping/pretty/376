@@ -1,0 +1,17 @@
+[
+    {
+        "id": 584,
+        "title": "Bicentennial National Trail Museum",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Bicentennial National Trail Museum",
+            "link": "https://uqmaps.app.uq.edu.au/location/376",
+            "buildingNum": null,
+            "primaryType": "Museums",
+            "otherTypes": []
+        },
+        "typeCode": "mus"
+    }
+]

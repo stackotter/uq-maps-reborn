@@ -1,0 +1,25 @@
+[
+    {
+        "id": 193,
+        "title": "Building 87",
+        "campusID": 0,
+        "latitude": -27.496338,
+        "longitude": 153.009832,
+        "metadata": {
+            "title": "Building 87",
+            "email": "opssse@uq.edu.au",
+            "phone": "(07) 3346 3478",
+            "link": "https://uqmaps.app.uq.edu.au/location/660",
+            "buildingNum": "87",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_660_3dee6643d9bfed0d27d1e14ee699f909_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 56,
+        "title": "STA Travel",
+        "campusID": 0,
+        "latitude": -27.497229,
+        "longitude": 153.015325,
+        "metadata": {
+            "title": "STA Travel",
+            "hours": "Monday to Friday 9am - 5pm",
+            "phone": "(07) 3371 2433",
+            "moreinformation": "Thinking about travelling overseas or just want a quick mini-break, STA Travel in the Union Arcade has travel agents that will meet all your travel requirements.",
+            "web": "https://locations.statravel.com.au/queensland/st-lucia/uqu.html?utm_source=yext&utm_medium=directory&utm_campaign=uqu",
+            "link": "https://uqmaps.app.uq.edu.au/location/45",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

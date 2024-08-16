@@ -1,0 +1,19 @@
+[
+    {
+        "id": 424,
+        "title": "Swamp Mahogany",
+        "campusID": 0,
+        "latitude": -27.49825,
+        "longitude": 153.015609,
+        "metadata": {
+            "title": "Swamp Mahogany",
+            "moreinformation": "The Swamp Mahogany is a big, robust (hence it's scientific name) tree with thick red-brown bark that often peels away from the trunk in long strips. It flowers in autumn and early winter providing food for the Grey-headed Flying Fox. It is also a food source for the threatened Koala. A host of insects thrive on the Swamp Mahogany, eating the leaves, pupating in the thick bark and forming distinctive galls. It grows close to the ocean and is sought after for its resistance to marine borers. The first specimens were collected by John White, the First Fleet surgeon but while the tree is typically Australian, it is now grown in Argentina, China, Mozambique and the USA for its timber, firewood and charcoal production, and for erosion control and shade.",
+            "web": "http://www.uq.edu.au/sustainability/swamp-mahogany",
+            "link": "https://uqmaps.app.uq.edu.au/location/651",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 161,
+        "title": "Campus Kindergarten",
+        "campusID": 0,
+        "latitude": -27.50121,
+        "longitude": 153.012493,
+        "metadata": {
+            "title": "Campus Kindergarten",
+            "web": "https://campuskindergarten.org.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/140",
+            "buildingNum": "73",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_140_1e3eb648863ef47f487e43e75844a227_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

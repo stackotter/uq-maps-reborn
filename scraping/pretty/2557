@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756193,
+        "title": "Sir William MacGregor Building Room 158 (64)",
+        "campusID": 0,
+        "latitude": -27.499346,
+        "longitude": 153.012289,
+        "metadata": {
+            "title": "Sir William MacGregor Building Room 158 (64)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2557",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2557_365b1463ef5186617dedb1ea11aae387_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

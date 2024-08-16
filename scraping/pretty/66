@@ -1,0 +1,20 @@
+[
+    {
+        "id": 77,
+        "title": "Casson IT",
+        "campusID": 0,
+        "latitude": -27.497271,
+        "longitude": 153.015776,
+        "metadata": {
+            "title": "Casson IT",
+            "hours": "Monday - Friday, 9am - 5pm\r\nWeekends, Closed",
+            "moreinformation": "All computer requirements, onsite repairs, workshops",
+            "email": "cassonit@gmail.com",
+            "link": "https://uqmaps.app.uq.edu.au/location/66",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

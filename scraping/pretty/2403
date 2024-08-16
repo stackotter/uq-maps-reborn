@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756220,
+        "title": "Building 33 Room 111 (33)",
+        "campusID": 0,
+        "latitude": -27.496738,
+        "longitude": 153.016376,
+        "metadata": {
+            "title": "Building 33 Room 111 (33)",
+            "moreinformation": "\n\nAmbulant Toilet / Toilet/showers",
+            "link": "https://uqmaps.app.uq.edu.au/location/2403",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2403_a6691189fea22d22c951559c82a4f636_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

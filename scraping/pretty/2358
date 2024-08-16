@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755898,
+        "title": "Bookshop Room 110 (4)",
+        "campusID": 0,
+        "latitude": -27.497905,
+        "longitude": 153.014387,
+        "metadata": {
+            "title": "Bookshop Room 110 (4)",
+            "moreinformation": "\n\nUnisex Toilet Vestibule",
+            "link": "https://uqmaps.app.uq.edu.au/location/2358",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2358_40ed5741e1d35169204eb4abe29a5905_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

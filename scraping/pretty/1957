@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5660,
+        "title": "Dairy Shade Structure 1",
+        "campusID": 2,
+        "latitude": -27.552413,
+        "longitude": 152.329943,
+        "metadata": {
+            "title": "Dairy Shade Structure 1",
+            "link": "https://uqmaps.app.uq.edu.au/location/1957",
+            "buildingNum": "8181A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1957_adce4b966bbd34018fd9a7a919ae6959_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

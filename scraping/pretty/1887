@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1755249,
+        "title": "J.K. Murray Library Room 208 (8102)",
+        "campusID": 2,
+        "latitude": -27.553805,
+        "longitude": 152.335889,
+        "metadata": {
+            "title": "J.K. Murray Library Room 208 (8102)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1887",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": []
+        },
+        "typeCode": "sdy"
+    }
+]

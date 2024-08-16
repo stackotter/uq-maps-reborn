@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755966,
+        "title": "Gordon Greenwood Building Room 205 (32)",
+        "campusID": 0,
+        "latitude": -27.496452,
+        "longitude": 153.015454,
+        "metadata": {
+            "title": "Gordon Greenwood Building Room 205 (32)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2199",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2199_98582e239ecdb2874ff7bca0026d78ff_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

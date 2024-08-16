@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5652,
+        "title": "Pitt BBQ & Shelter",
+        "campusID": 2,
+        "latitude": -27.555915,
+        "longitude": 152.336743,
+        "metadata": {
+            "title": "Pitt BBQ & Shelter",
+            "link": "https://uqmaps.app.uq.edu.au/location/1949",
+            "buildingNum": "8121A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1949_156ca92b6be776f33f8726ae86ecc1d6_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

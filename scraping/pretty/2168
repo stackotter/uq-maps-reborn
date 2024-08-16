@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755923,
+        "title": "Building 31B Room 106 (31B)",
+        "campusID": 0,
+        "latitude": -27.495619,
+        "longitude": 153.015287,
+        "metadata": {
+            "title": "Building 31B Room 106 (31B)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2168",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2168_641ec9ed5454312a96e6932f17f8ddb7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755332,
+        "title": "Prentice Building Room 213 (42)",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Prentice Building Room 213 (42)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2899",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2899_a12797d6b8b0b86cada67158cf798b7d_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

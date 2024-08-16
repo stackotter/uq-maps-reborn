@@ -1,0 +1,17 @@
+[
+    {
+        "id": 546,
+        "title": "Occupational Health & Safety Unit",
+        "campusID": 2,
+        "latitude": -27.553122,
+        "longitude": 152.336068,
+        "metadata": {
+            "title": "Occupational Health & Safety Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/338",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

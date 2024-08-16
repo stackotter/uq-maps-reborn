@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755926,
+        "title": "Building 33 Room 206 (33)",
+        "campusID": 0,
+        "latitude": -27.496738,
+        "longitude": 153.016376,
+        "metadata": {
+            "title": "Building 33 Room 206 (33)",
+            "moreinformation": "\n\nAmbulant Toilet / Toilet/showers",
+            "link": "https://uqmaps.app.uq.edu.au/location/2363",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2363_96001a46c03576e1807bdc81a141bbd7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

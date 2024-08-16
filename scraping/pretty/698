@@ -1,0 +1,19 @@
+[
+    {
+        "id": 923,
+        "title": "Bush Tucker Garden",
+        "campusID": 0,
+        "latitude": -27.498175,
+        "longitude": 153.015765,
+        "metadata": {
+            "title": "Bush Tucker Garden",
+            "moreinformation": "Edible bush plants have been an integral part of the indigenous Australian diet for centuries.  There are more than 5,000 different bush food species in Australia but only 20 of these plants have become part of the developed world\u2019s diet. UQ\u2019s Bush Tucker Garden provides visitors with an opportunity to explore bush foods by experiencing them within the south-east Queensland ecosystem natural to these plants.",
+            "web": "https://sustainability.uq.edu.au/projects/sustainable-food/bush-tucker-garden",
+            "link": "https://uqmaps.app.uq.edu.au/location/698",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

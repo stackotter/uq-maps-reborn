@@ -1,0 +1,27 @@
+[
+    {
+        "id": 182,
+        "title": "Seddon K Block",
+        "campusID": 0,
+        "latitude": -27.496757,
+        "longitude": 153.010755,
+        "metadata": {
+            "title": "Seddon K Block",
+            "link": "https://uqmaps.app.uq.edu.au/location/598",
+            "buildingNum": "82K",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_598_045b3dcafe86069a25b4d06b44bb1382__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_598_cc9b02b21db9b808d0b4764cdf0a656c_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

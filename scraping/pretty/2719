@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756317,
+        "title": "Animal Industries Building Room 132 (8103)",
+        "campusID": 2,
+        "latitude": -27.552956,
+        "longitude": 152.335184,
+        "metadata": {
+            "title": "Animal Industries Building Room 132 (8103)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2719",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__8a4f56cd1a6a7602298dd37e6dd462c0_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

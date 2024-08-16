@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5675,
+        "title": "Dwelling No 5",
+        "campusID": 2,
+        "latitude": -27.558459,
+        "longitude": 152.335265,
+        "metadata": {
+            "title": "Dwelling No 5",
+            "link": "https://uqmaps.app.uq.edu.au/location/1972",
+            "buildingNum": "8304",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1972_b081b004cece6691eaeac59efdcfcaef_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

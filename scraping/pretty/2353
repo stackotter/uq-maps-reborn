@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756236,
+        "title": "Advanced Engineering Building Room 505 (49)",
+        "campusID": 0,
+        "latitude": -27.499497,
+        "longitude": 153.015138,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 505 (49)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2353",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2353_0b054d37791dccfc6672c84431fd793f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

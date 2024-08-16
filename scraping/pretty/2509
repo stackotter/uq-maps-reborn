@@ -1,0 +1,19 @@
+[
+    {
+        "id": 38369,
+        "title": "Electric Vehicle Charging Stations",
+        "campusID": 2,
+        "latitude": -27.55128,
+        "longitude": 152.335152,
+        "metadata": {
+            "title": "Electric Vehicle Charging Stations",
+            "moreinformation": "As part of UQ\u2019s commitment to sustainable transport, The University of Queensland has recently installed electric vehicle (EV) charging stations at the St Lucia and Gatton campuses.\r\n\r\nThe chargers are the first solar-powered fast-charging infrastructure to be built in Queensland, and are available for free use by the public as well as staff and students.",
+            "web": "http://www.uq.edu.au/sustainability/ev",
+            "link": "https://uqmaps.app.uq.edu.au/location/2509",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    }
+]

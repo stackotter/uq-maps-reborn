@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5705,
+        "title": "Dwelling No 26-Mendel",
+        "campusID": 2,
+        "latitude": -27.537792,
+        "longitude": 152.34067,
+        "metadata": {
+            "title": "Dwelling No 26-Mendel",
+            "link": "https://uqmaps.app.uq.edu.au/location/2002",
+            "buildingNum": "8402",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2002_5467623335f3af9eeb4c5604a6673fd7_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

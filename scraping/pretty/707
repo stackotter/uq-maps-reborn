@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1080,
+        "title": "Stretching",
+        "campusID": 0,
+        "latitude": -27.497867,
+        "longitude": 153.013006,
+        "metadata": {
+            "title": "Stretching",
+            "youtube": "7nDqouxAHg8",
+            "exercise": "Cobra Stretch",
+            "moreinformation": "The cobra stretch is the ultimate torso stretcher. This simple stretch is easy to do anytime, anywhere. If you've been sitting for long periods, it helps to stretch out your spine and relieve lower-back pain. And it even tones your butt (bonus!).",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/707",
+            "buildingNum": null,
+            "primaryType": "Stretching",
+            "otherTypes": []
+        },
+        "typeCode": "sp6"
+    },
+    {
+        "id": 1079,
+        "title": "Stretching",
+        "campusID": 0,
+        "latitude": -27.497787,
+        "longitude": 153.013616,
+        "metadata": {
+            "title": "Stretching",
+            "youtube": "p3ilTU56jUE",
+            "exercise": "Calf Stretch",
+            "moreinformation": "It's incredible how tight our poor calves get from normal daily activities. Often we just forget to stretch these smaller leg muscles. All the more reason to park up and try this super-simple calf stretch.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/707",
+            "buildingNum": null,
+            "primaryType": "Stretching",
+            "otherTypes": []
+        },
+        "typeCode": "sp6"
+    },
+    {
+        "id": 1076,
+        "title": "Stretching",
+        "campusID": 0,
+        "latitude": -27.497765,
+        "longitude": 153.012568,
+        "metadata": {
+            "title": "Stretching",
+            "youtube": "c3gY_bqxEA4",
+            "exercise": "Tricep Stretch",
+            "moreinformation": "The tricep stretch targets - yep you guessed it - your triceps. So if your muscles at the back of your upper arms are feeling a bit sore, ease the ache with this effective stretch.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/707",
+            "buildingNum": null,
+            "primaryType": "Stretching",
+            "otherTypes": []
+        },
+        "typeCode": "sp6"
+    },
+    {
+        "id": 1078,
+        "title": "Stretching",
+        "campusID": 0,
+        "latitude": -27.497753,
+        "longitude": 153.013031,
+        "metadata": {
+            "title": "Stretching",
+            "youtube": "ezu-NgHbaEQ",
+            "exercise": "Quad Stretch",
+            "moreinformation": "Your quadriceps are a large muscle group that need extra TLC. We use the upper part of our legs in a lot of activities so we need to keep them supple to prevent injury. Get your quads warmed up with this essential stretch!",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/707",
+            "buildingNum": null,
+            "primaryType": "Stretching",
+            "otherTypes": []
+        },
+        "typeCode": "sp6"
+    },
+    {
+        "id": 1077,
+        "title": "Stretching",
+        "campusID": 0,
+        "latitude": -27.497525,
+        "longitude": 153.013523,
+        "metadata": {
+            "title": "Stretching",
+            "youtube": "VqQoQWq6cU8",
+            "exercise": "Hamstring Stretch",
+            "moreinformation": "Tight hamstrings are a pain, literally! Tight hammies can have a knock-on effect to the health of your back, hips, knees and butt muscles. Stretching your hamstrings is one of the first things you should do after exercise, while they're still warm.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/707",
+            "buildingNum": null,
+            "primaryType": "Stretching",
+            "otherTypes": []
+        },
+        "typeCode": "sp6"
+    }
+]

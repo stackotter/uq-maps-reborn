@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755349,
+        "title": "Goddard Building Room 3184 (8)",
+        "campusID": 0,
+        "latitude": -27.497958,
+        "longitude": 153.012172,
+        "metadata": {
+            "title": "Goddard Building Room 3184 (8)",
+            "moreinformation": "Free access provided building is open, no power points, no equipment, bench, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1581",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1581_5744e140dbb17f3bfb6d145ef11b937a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1581_79f5180f84210058ae6f7e1bf88191fb_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

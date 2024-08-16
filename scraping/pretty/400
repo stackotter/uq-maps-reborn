@@ -1,0 +1,23 @@
+[
+    {
+        "id": 607,
+        "title": "Printery",
+        "campusID": 2,
+        "latitude": -27.553177,
+        "longitude": 152.337499,
+        "metadata": {
+            "title": "Printery",
+            "link": "https://uqmaps.app.uq.edu.au/location/400",
+            "buildingNum": "8131",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_400_cb8b98a73a24bbd296beb9a218d5af87_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

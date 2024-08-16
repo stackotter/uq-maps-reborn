@@ -1,0 +1,19 @@
+[
+    {
+        "id": 392,
+        "title": "Solar Focus Concentrating Dish",
+        "campusID": 0,
+        "latitude": -27.494637,
+        "longitude": 153.011214,
+        "metadata": {
+            "title": "Solar Focus Concentrating Dish",
+            "moreinformation": "UQ\u2019s concentrating photovoltaic (CPV) array is one of only 31 in Australia, the other 30 are located in Alice Springs. Mounted on a motor driven axis, the CPV rotates almost 180 degrees to track the sun across the sky each day to concentrate solar energy and produce an electrical current. The 8.4 kilowatt CPV, part of UQ Solar\u2019s large photovoltaic network, uses different technology to the flat rooftop panels by following the sun and using its 28 parabolic focussing, photovoltaic modules to individually reflect and concentrate the sun\u2019s energy. In general, the CPV array is more efficient than traditional flat panels when the sun is shining, but less efficient on overcast days. A large range of comparative research data can be produced by having two different types of technology operating side by side.",
+            "web": "http://www.uq.edu.au/sustainability/solar-focus-concentrating-dish",
+            "link": "https://uqmaps.app.uq.edu.au/location/626",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

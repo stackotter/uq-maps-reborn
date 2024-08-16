@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755928,
+        "title": "Building 33 Room 215 (33)",
+        "campusID": 0,
+        "latitude": -27.496738,
+        "longitude": 153.016376,
+        "metadata": {
+            "title": "Building 33 Room 215 (33)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2170",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2170_d59102468287d4a37c52739171e1105f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

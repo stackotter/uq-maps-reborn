@@ -1,0 +1,23 @@
+[
+    {
+        "id": 897,
+        "title": "Building 31B",
+        "campusID": 0,
+        "latitude": -27.495619,
+        "longitude": 153.015287,
+        "metadata": {
+            "title": "Building 31B",
+            "link": "https://uqmaps.app.uq.edu.au/location/671",
+            "buildingNum": "31B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_671_26ec6653a7f8261ac729eb811e76dca8_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

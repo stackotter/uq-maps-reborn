@@ -1,0 +1,21 @@
+[
+    {
+        "id": 87,
+        "title": "School of Education",
+        "campusID": 0,
+        "latitude": -27.495995,
+        "longitude": 153.014767,
+        "metadata": {
+            "title": "School of Education",
+            "web": "http://www.education.uq.edu.au",
+            "email": "education@uq.edu.au",
+            "phone": "(07) 3365 6550",
+            "office": "Room 403, Social Sciences Building (24)",
+            "link": "https://uqmaps.app.uq.edu.au/location/74",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

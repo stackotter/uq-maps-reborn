@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1756281,
+        "title": "Michie Building Room 207 (9)",
+        "campusID": 0,
+        "latitude": -27.497186,
+        "longitude": 153.011862,
+        "metadata": {
+            "title": "Michie Building Room 207 (9)",
+            "moreinformation": "No door lock. Fridge, comfortable chair and table, power point, sink with hot and cold water, change table.\n\nParenting Room / Baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2412",
+            "buildingNum": null,
+            "primaryType": "Parenting & Baby Change Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2412_b7f1c58bc5b62e733fc3c81068ce4d6a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2412_653197e1c88ea1919a7702d076e00c41_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "ptr"
+    }
+]

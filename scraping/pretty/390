@@ -1,0 +1,17 @@
+[
+    {
+        "id": 597,
+        "title": "Mac's Pond",
+        "campusID": 2,
+        "latitude": -27.556544,
+        "longitude": 152.338035,
+        "metadata": {
+            "title": "Mac's Pond",
+            "link": "https://uqmaps.app.uq.edu.au/location/390",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

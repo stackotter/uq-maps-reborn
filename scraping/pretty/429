@@ -1,0 +1,23 @@
+[
+    {
+        "id": 636,
+        "title": "CSIRO Building",
+        "campusID": 2,
+        "latitude": -27.551522,
+        "longitude": 152.336361,
+        "metadata": {
+            "title": "CSIRO Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/429",
+            "buildingNum": "8171",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_429_b59f40f1b5ed5ae622138510c3a27c36_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

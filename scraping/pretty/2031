@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5734,
+        "title": "Langmuir House",
+        "campusID": 2,
+        "latitude": -27.561109,
+        "longitude": 152.34355,
+        "metadata": {
+            "title": "Langmuir House",
+            "link": "https://uqmaps.app.uq.edu.au/location/2031",
+            "buildingNum": "8550",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2031_445e8630d8b86677bc3a53e376f14516_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

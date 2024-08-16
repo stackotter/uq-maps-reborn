@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1042375,
+        "title": "Poultry Unit Toilets",
+        "campusID": 2,
+        "latitude": -27.551304,
+        "longitude": 152.33987,
+        "metadata": {
+            "title": "Poultry Unit Toilets",
+            "link": "https://uqmaps.app.uq.edu.au/location/2869",
+            "buildingNum": "8234A",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

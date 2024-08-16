@@ -1,0 +1,27 @@
+[
+    {
+        "id": 164,
+        "title": "Australian Institute for Bioengineering and Nanotechnology",
+        "campusID": 0,
+        "latitude": -27.500745,
+        "longitude": 153.012781,
+        "metadata": {
+            "title": "Australian Institute for Bioengineering and Nanotechnology",
+            "link": "https://uqmaps.app.uq.edu.au/location/143",
+            "buildingNum": "75",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_143_9e6e193b45f6b865ef5b49362c107add__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_143_c08382b29e4367bf86a96b865c1d91fe_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

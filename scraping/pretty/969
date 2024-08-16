@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755119,
+        "title": "Michie Building Room 255 (9)",
+        "campusID": 0,
+        "latitude": -27.497303,
+        "longitude": 153.011837,
+        "metadata": {
+            "title": "Michie Building Room 255 (9)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, desk/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/969",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_969_29df95c34d868480a89a2cb452f9056c_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_969_35528364eb4a9171c275f39eb57faae9_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

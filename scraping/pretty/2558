@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756201,
+        "title": "Hartley Teakle Building Room C420 (83)",
+        "campusID": 0,
+        "latitude": -27.495741,
+        "longitude": 153.010464,
+        "metadata": {
+            "title": "Hartley Teakle Building Room C420 (83)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2558",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2558_98f8be9da3d3a72043a2055f3f9b68e8_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755179,
+        "title": "Hawken Engineering Building Room L204B (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L204B (50)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2584",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2584_94dd5af4ba0bddd781110d19250e2c99_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

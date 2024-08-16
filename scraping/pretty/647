@@ -1,0 +1,19 @@
+[
+    {
+        "id": 420,
+        "title": "Australian Magpie",
+        "campusID": 0,
+        "latitude": -27.498486,
+        "longitude": 153.0163734,
+        "metadata": {
+            "title": "Australian Magpie",
+            "moreinformation": "The Australian Magpie is an intelligent, inquisitive and territorial bird that will swoop humans and other animals during the breeding season in response to what they consider a threat to their young. Australian Magpies live in small groups of up to five individuals. Australia would be very different without their complex and distinctive warbling song. Magpies are great mimics and are able to copy many other bird calls, dog barks and even humans, but it is the singing or carolling of Magpie pairs to advertise or defend their territory that can last up to 70 minutes and achieve volumes approaching 80 decibels that is most distinctive.",
+            "web": "http://www.uq.edu.au/sustainability/australian-magpie",
+            "link": "https://uqmaps.app.uq.edu.au/location/647",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

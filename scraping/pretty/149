@@ -1,0 +1,21 @@
+[
+    {
+        "id": 171,
+        "title": "Genies Cafe",
+        "campusID": 0,
+        "latitude": -27.498165,
+        "longitude": 153.009853,
+        "metadata": {
+            "title": "Genies Cafe",
+            "web": "http://www.genies.com.au",
+            "moreinformation": "Welcome to Genies Caf\u00e9 - visit us and add a different dimension to your campus dining experience. We\u2019re situated in the QBP complex on the University of Queensland\u2019s St. Lucia campus, stroll down the palm lined path from Chancellor Place. Join us for coffee and cake, breakfast or lunch. Our caf\u00e9 restaurant is open from 7am Monday to Friday. Browse through our cafe and functions menu or call us to discuss your catering requirements.",
+            "phone": "(07) 3871 1590 or ext 62220",
+            "hours": "Monday - Friday 7am - 4:30pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/149",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

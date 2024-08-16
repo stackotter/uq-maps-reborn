@@ -1,0 +1,31 @@
+[
+    {
+        "id": 122,
+        "title": "Axon Building",
+        "campusID": 0,
+        "latitude": -27.500127,
+        "longitude": 153.014421,
+        "metadata": {
+            "title": "Axon Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/103",
+            "buildingNum": "47",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_103_226026ec646aedf38f9a4ce65d509d55__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_103_51f12225cba83c71698561753bba041c__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_103_f66c249b8649c3247ed911e4515e9871_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

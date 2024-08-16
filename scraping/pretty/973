@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755120,
+        "title": "Aung San Suu Kyi Conference Centre Room 306 (21C)",
+        "campusID": 0,
+        "latitude": -27.497381,
+        "longitude": 153.016009,
+        "metadata": {
+            "title": "Aung San Suu Kyi Conference Centre Room 306 (21C)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, lounge, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/973",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_973_ade6f1b8dd0cea5d905aec045d210864_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_973_48d386958cfabff08002c0eaa30641af_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 696,
+        "title": "Jack Jones Building",
+        "campusID": 2,
+        "latitude": -27.550856,
+        "longitude": 152.339108,
+        "metadata": {
+            "title": "Jack Jones Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/486",
+            "buildingNum": "8218",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_486_ee6402aec6bb3b4b7f57a1aa6bfeb358_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

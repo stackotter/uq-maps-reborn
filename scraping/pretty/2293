@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756101,
+        "title": "General Purpose South Room 601 (78)",
+        "campusID": 0,
+        "latitude": -27.499973,
+        "longitude": 153.015153,
+        "metadata": {
+            "title": "General Purpose South Room 601 (78)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2293",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2293_1556df3bd6b02f12735f8f5419f085a7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

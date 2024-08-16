@@ -1,0 +1,27 @@
+[
+    {
+        "id": 28,
+        "title": "Parnell Building",
+        "campusID": 0,
+        "latitude": -27.498279,
+        "longitude": 153.013175,
+        "metadata": {
+            "title": "Parnell Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/23",
+            "buildingNum": "7",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_23_d443999b5458441f91960d8ce75bf255__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_23_c8857a751438aa0cf7686a82bbbfbf2c_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 534,
+        "title": "Agricultural Chemical Application & Safety Building",
+        "campusID": 2,
+        "latitude": -27.553862,
+        "longitude": 152.334495,
+        "metadata": {
+            "title": "Agricultural Chemical Application & Safety Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/326",
+            "buildingNum": "8108",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_326_09e75c6df24c715e54502e9e91ea8f7a_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

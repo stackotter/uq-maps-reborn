@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5689,
+        "title": "Dwelling No 19",
+        "campusID": 2,
+        "latitude": -27.559496,
+        "longitude": 152.338774,
+        "metadata": {
+            "title": "Dwelling No 19",
+            "link": "https://uqmaps.app.uq.edu.au/location/1986",
+            "buildingNum": "8323",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1986_02afadfd6e925d0320f963820b517557_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

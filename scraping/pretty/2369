@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755971,
+        "title": "UQ Sport Tennis Centre Room 105 (29)",
+        "campusID": 0,
+        "latitude": -27.494453,
+        "longitude": 153.015076,
+        "metadata": {
+            "title": "UQ Sport Tennis Centre Room 105 (29)",
+            "moreinformation": "\n\nUnisex Ambulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2369",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2369_9f7af39af8dbfabe41d92a7a81ffc6aa_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1755812,
+        "title": "Animal Studies Building Room 120 (8150)",
+        "campusID": 2,
+        "latitude": -27.553672,
+        "longitude": 152.33501,
+        "metadata": {
+            "title": "Animal Studies Building Room 120 (8150)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2354",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

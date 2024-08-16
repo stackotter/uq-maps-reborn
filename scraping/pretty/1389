@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755287,
+        "title": "Zelman Cowen Building Room 353 (51)",
+        "campusID": 0,
+        "latitude": -27.499079,
+        "longitude": 153.01466,
+        "metadata": {
+            "title": "Zelman Cowen Building Room 353 (51)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, table/chair, individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1389",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1389_56776ccf890eba25ae6d04a66b7ac93f_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1389_9cee7738c8d24ffd5e7f12c8cc8e3748_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 86,
+        "title": "Faculty of Health and Behavioural Sciences",
+        "campusID": 0,
+        "latitude": -27.495995,
+        "longitude": 153.014767,
+        "metadata": {
+            "title": "Faculty of Health and Behavioural Sciences",
+            "web": "http://www.habs.uq.edu.au",
+            "email": "habs@uq.edu.au",
+            "phone": "(07) 3365 7487",
+            "office": "Level 4, Social Sciences Building (24)",
+            "link": "https://uqmaps.app.uq.edu.au/location/73",
+            "buildingNum": null,
+            "primaryType": "Faculties",
+            "otherTypes": []
+        },
+        "typeCode": "fac"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 238,
+        "title": "CSIRO Controlled Environment Facility",
+        "campusID": 0,
+        "latitude": -27.497842,
+        "longitude": 153.010197,
+        "metadata": {
+            "title": "CSIRO Controlled Environment Facility",
+            "link": "https://uqmaps.app.uq.edu.au/location/201",
+            "buildingNum": "80A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_201_f6f2a2adb66f227e4409cd1cf0f939ba_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

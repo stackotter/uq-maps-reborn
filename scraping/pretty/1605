@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755364,
+        "title": "Advanced Engineering Building Room 660 (49)",
+        "campusID": 0,
+        "latitude": -27.499409,
+        "longitude": 153.015439,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 660 (49)",
+            "moreinformation": "Free access provided building is open, no power points, no equipment, lounge and bench, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1605",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1605_65301ea67aa71a99b753edd654ce4213_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1605_3e79cb580bbdf8de19b081e5425a5afe_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

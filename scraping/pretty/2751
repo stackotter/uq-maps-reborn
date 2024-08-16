@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755823,
+        "title": "Athletics Field Shelter North Room 102 (40A)",
+        "campusID": 0,
+        "latitude": -27.49275,
+        "longitude": 153.013533,
+        "metadata": {
+            "title": "Athletics Field Shelter North Room 102 (40A)",
+            "moreinformation": "\n\nAmbulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2751",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2751_524f1d956883fa24d47abf73cc152593_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

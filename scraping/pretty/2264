@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756059,
+        "title": "Biological Sciences Library Room 408 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 408 (94)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2264",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2264_e91f1f144b5639044cf6d27494cb8547_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

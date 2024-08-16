@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755877,
+        "title": "Seddon G Block Room C64 (82G)",
+        "campusID": 0,
+        "latitude": -27.49668,
+        "longitude": 153.010411,
+        "metadata": {
+            "title": "Seddon G Block Room C64 (82G)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2124",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2124_2af72d02596a486f04971516586f3d7b_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

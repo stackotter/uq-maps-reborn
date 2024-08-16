@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755339,
+        "title": "Biological Sciences Library Room 219 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 219 (94)",
+            "moreinformation": "Free access provided the building is open, power points, table/chairs, group study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2794",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2794_0cc57a1e219b4e9480f243232db2325b_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__e06b80ac895e468f2268c3ce81b7f82b_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

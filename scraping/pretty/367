@@ -1,0 +1,23 @@
+[
+    {
+        "id": 575,
+        "title": "Shelton Hall of Residence",
+        "campusID": 2,
+        "latitude": -27.556678,
+        "longitude": 152.336597,
+        "metadata": {
+            "title": "Shelton Hall of Residence",
+            "link": "https://uqmaps.app.uq.edu.au/location/367",
+            "buildingNum": "8122",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_367_ea3cb19a64df92560d55fc2176db18dc_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

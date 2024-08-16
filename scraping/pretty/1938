@@ -1,0 +1,22 @@
+[
+    {
+        "id": 5383,
+        "title": "Chatime",
+        "campusID": 0,
+        "latitude": -27.497023,
+        "longitude": 153.015831,
+        "metadata": {
+            "title": "Chatime",
+            "location": "UQ Union Complex (inside Schonell Theatre)",
+            "web": "http://www.uqu.com.au/outlet/27/",
+            "phone": "(07) 3194 9885",
+            "moreinformation": "Traditional Taiwanese tea concept.",
+            "hours": "Monday - Friday 7:30am - 7:30pm\r\nSaturday 8:30am - 5:30pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/1938",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1756296,
+        "title": "Management Studies Building Room 115 (8117)",
+        "campusID": 2,
+        "latitude": -27.555084,
+        "longitude": 152.334858,
+        "metadata": {
+            "title": "Management Studies Building Room 115 (8117)",
+            "moreinformation": "\n\nParenting Room / Baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2414",
+            "buildingNum": null,
+            "primaryType": "Parenting & Baby Change Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "ptr"
+    }
+]

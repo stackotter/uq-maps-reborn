@@ -1,0 +1,23 @@
+[
+    {
+        "id": 656,
+        "title": "Hay Shed",
+        "campusID": 2,
+        "latitude": -27.555745,
+        "longitude": 152.340782,
+        "metadata": {
+            "title": "Hay Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/449",
+            "buildingNum": "8368",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_449_a8748b1f3a2bc0b5623c05ef22a497c6_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

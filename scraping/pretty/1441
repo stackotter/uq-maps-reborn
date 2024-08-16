@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755303,
+        "title": "Duhig North Room N107D (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N107D (12)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, table/chair, individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1441",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1441_520970f2cc043a9ede05c4334ab3db7c_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1441_042199ffde9d53798889e4384a164d03_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

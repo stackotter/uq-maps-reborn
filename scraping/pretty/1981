@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5684,
+        "title": "Dwelling No 13",
+        "campusID": 2,
+        "latitude": -27.559338,
+        "longitude": 152.336888,
+        "metadata": {
+            "title": "Dwelling No 13",
+            "link": "https://uqmaps.app.uq.edu.au/location/1981",
+            "buildingNum": "8318",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1981_07c8cb55ca234188e9d90c5d695a9047_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

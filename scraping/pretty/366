@@ -1,0 +1,23 @@
+[
+    {
+        "id": 574,
+        "title": "Pitt Hall of Residence",
+        "campusID": 2,
+        "latitude": -27.555955,
+        "longitude": 152.336876,
+        "metadata": {
+            "title": "Pitt Hall of Residence",
+            "link": "https://uqmaps.app.uq.edu.au/location/366",
+            "buildingNum": "8121",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_366_e517e4b99ec3a615b03d7c35a3702b0e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

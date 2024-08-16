@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755301,
+        "title": "Duhig North Room N105A (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N105A (12)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, large display screen with laptop connections, whiteboard, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1429",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1429_35cacff81f8c702b3a49e98d5377b53a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1429_8d50d013e57ce3be916e6d753b9163c1_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1429_c0f9c359cc3ea1682cb737674f79daf0_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

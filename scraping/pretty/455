@@ -1,0 +1,23 @@
+[
+    {
+        "id": 662,
+        "title": "QASP Central Support",
+        "campusID": 2,
+        "latitude": -27.557058,
+        "longitude": 152.34149,
+        "metadata": {
+            "title": "QASP Central Support",
+            "link": "https://uqmaps.app.uq.edu.au/location/455",
+            "buildingNum": "8360",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_455_f99b1ba3df4443d25a58f3a5c63edee6_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

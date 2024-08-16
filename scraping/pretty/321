@@ -1,0 +1,23 @@
+[
+    {
+        "id": 528,
+        "title": "Animal Industries Building",
+        "campusID": 2,
+        "latitude": -27.553082,
+        "longitude": 152.335031,
+        "metadata": {
+            "title": "Animal Industries Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/321",
+            "buildingNum": "8103",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_321_48d3359042d0c8c85dd1ce4629b452eb_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

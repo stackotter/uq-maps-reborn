@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755160,
+        "title": "Gordon Greenwood Building Room 315 (32)",
+        "campusID": 0,
+        "latitude": -27.496424,
+        "longitude": 153.015391,
+        "metadata": {
+            "title": "Gordon Greenwood Building Room 315 (32)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, lounge and table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1161",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1161_a4ba81a0dd24b43637e29fee7d65e53b_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1161_8876eb2bd1b2df539fd0ac490e32a2bb_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 7322,
+        "title": "Old City Cat Ferry Terminal",
+        "campusID": 0,
+        "latitude": -27.493711,
+        "longitude": 153.016613,
+        "metadata": {
+            "title": "Old City Cat Ferry Terminal",
+            "link": "https://uqmaps.app.uq.edu.au/location/2049",
+            "buildingNum": "28A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2049_4d358b84152cb8d2af0ead77ad93ed42_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756076,
+        "title": "General Purpose South Room 201 (78)",
+        "campusID": 0,
+        "latitude": -27.499973,
+        "longitude": 153.015153,
+        "metadata": {
+            "title": "General Purpose South Room 201 (78)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2273",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2273_d2ae2a9182c594a3cce42cf9b5d97942_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 7329,
+        "title": "Education Centre",
+        "campusID": 3,
+        "latitude": -27.448333,
+        "longitude": 153.028706,
+        "metadata": {
+            "title": "Education Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2056",
+            "buildingNum": "915",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

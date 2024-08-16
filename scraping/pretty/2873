@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756144,
+        "title": "Poultry Unit Toilets Room 104 (8234A)",
+        "campusID": 2,
+        "latitude": -27.551304,
+        "longitude": 152.33987,
+        "metadata": {
+            "title": "Poultry Unit Toilets Room 104 (8234A)",
+            "moreinformation": "\n\nAmbulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2873",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

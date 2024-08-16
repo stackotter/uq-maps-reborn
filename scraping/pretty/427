@@ -1,0 +1,24 @@
+[
+    {
+        "id": 634,
+        "title": "Nyamul Child Care Centre - Free Range Kids Gatton",
+        "campusID": 2,
+        "latitude": -27.551826,
+        "longitude": 152.336469,
+        "metadata": {
+            "title": "Nyamul Child Care Centre - Free Range Kids Gatton",
+            "web": "https://www.freerangekids.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/427",
+            "buildingNum": "8157",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_427_a6c83464c19a631502a9e840ca1f8729_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 43,
+        "title": "Institute of Continuing & TESOL Education",
+        "campusID": 0,
+        "latitude": -27.495634,
+        "longitude": 153.013523,
+        "metadata": {
+            "title": "Institute of Continuing & TESOL Education",
+            "hours": "Monday to Friday 8.30am - 5pm",
+            "web": "http://www.icte.uq.edu.au",
+            "email": "enquiries@icte.uq.edu.au",
+            "phone": "(07) 3346 6770",
+            "office": "Level 5",
+            "moreinformation": "Established in 1981, The University of Queensland\u2019s Institute of Continuing & TESOL Education (ICTE-UQ) has developed a domestic and international reputation as a centre of excellence for onshore and offshore English language training. ICTE-UQ is committed to providing its students and program participants with exceptional teaching, learning and professional development opportunities through: Experienced and professional training and support staff, High quality state-teaching and learning facilities, Superior support services, and Engagement with communities and industry. The Institute has an active network of more than 100 program partners in over 15 countries, including some of Australia's and the world\u2019s leading universities, government, community and corporate organisations.",
+            "link": "https://uqmaps.app.uq.edu.au/location/576",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

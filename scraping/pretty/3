@@ -1,0 +1,21 @@
+[
+    {
+        "id": 3,
+        "title": "School of Historical and Philosophical Inquiry",
+        "campusID": 0,
+        "latitude": -27.496928,
+        "longitude": 153.013072,
+        "metadata": {
+            "title": "School of Historical and Philosophical Inquiry",
+            "web": "http://www.hapi.uq.edu.au",
+            "email": "hapi@uq.edu.au",
+            "phone": "(07) 3365 2620",
+            "office": "Level 3, Forgan Smith (1)",
+            "link": "https://uqmaps.app.uq.edu.au/location/3",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

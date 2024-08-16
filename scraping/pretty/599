@@ -1,0 +1,23 @@
+[
+    {
+        "id": 183,
+        "title": "Curtis Building",
+        "campusID": 0,
+        "latitude": -27.496874,
+        "longitude": 153.010129,
+        "metadata": {
+            "title": "Curtis Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/599",
+            "buildingNum": "82L",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_599_d151603a3abc7f5082534d2480440798_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5700,
+        "title": "Containment Complex 1",
+        "campusID": 2,
+        "latitude": -27.557862,
+        "longitude": 152.34205,
+        "metadata": {
+            "title": "Containment Complex 1",
+            "link": "https://uqmaps.app.uq.edu.au/location/1997",
+            "buildingNum": "8370",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1997_2e15978eae8d2e161e434e86b5ce06a1_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

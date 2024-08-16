@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755297,
+        "title": "Building 69 Room 408 (69)",
+        "campusID": 0,
+        "latitude": -27.498984,
+        "longitude": 153.012621,
+        "metadata": {
+            "title": "Building 69 Room 408 (69)",
+            "moreinformation": "New informal learning space within faculty of Medicine area.  kitchenette, power and data. Free access provided building is open, power points, no equipment, lounge and table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2885",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__c37e3ffc276f4dd32c096b38abb0ada7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

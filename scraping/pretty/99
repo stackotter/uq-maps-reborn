@@ -1,0 +1,17 @@
+[
+    {
+        "id": 118,
+        "title": "Division of Materials",
+        "campusID": 0,
+        "latitude": -27.499333,
+        "longitude": 153.013533,
+        "metadata": {
+            "title": "Division of Materials",
+            "link": "https://uqmaps.app.uq.edu.au/location/99",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

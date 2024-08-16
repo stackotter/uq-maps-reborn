@@ -1,0 +1,21 @@
+[
+    {
+        "id": 213584,
+        "title": "EAIT Employability (50)",
+        "campusID": 0,
+        "latitude": -27.500005471392,
+        "longitude": 153.01368890808,
+        "metadata": {
+            "title": "EAIT Employability (50)",
+            "moreinformation": "EAIT Employability Hub -   Room C305  Hawken Building (50)",
+            "web": "https://www.eait.uq.edu.au/employability",
+            "email": "employability@eait.uq.edu.au",
+            "phone": "3365 8534",
+            "link": "https://uqmaps.app.uq.edu.au/location/2595",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

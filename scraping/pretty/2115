@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755864,
+        "title": "Michie Building Room 506 (9)",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "Michie Building Room 506 (9)",
+            "moreinformation": "\n\nPwd Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2115",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2115_817bc90051e838b80ec8f610aa718ace_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

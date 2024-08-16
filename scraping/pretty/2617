@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755149,
+        "title": "Duhig North Room N308 (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N308 (12)",
+            "moreinformation": "Free access provided the building is open, power points, computer, table/chairs, individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2617",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2617_9dd5b6f0c3ac5ba06bf0eba32f4c9a03_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2617_c3b313064319456abcb578c0c23d40f8_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__e9656032db2398403da5e31e6eea1bf3_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

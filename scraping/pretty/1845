@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2829,
+        "title": "UQ VETS Small Animal Hospital",
+        "campusID": 2,
+        "latitude": -27.5513046,
+        "longitude": 152.3354354,
+        "metadata": {
+            "title": "UQ VETS Small Animal Hospital",
+            "phone": "(07) 5460 1788",
+            "web": "http://small-animal.hospital.uq.edu.au/",
+            "email": "uqvets.sa@uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/1845",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

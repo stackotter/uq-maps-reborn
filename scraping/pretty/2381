@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756091,
+        "title": "Prentice Building Room 102 (42)",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Prentice Building Room 102 (42)",
+            "moreinformation": "\n\nUnisex Toilets",
+            "link": "https://uqmaps.app.uq.edu.au/location/2381",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2381_901c75b1708d5e3fed995050133f9f21_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

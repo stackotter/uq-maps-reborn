@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5750,
+        "title": "23 Old Laidley Forest Hill Rd Homestead",
+        "campusID": 2,
+        "latitude": -27.600397,
+        "longitude": 152.383949,
+        "metadata": {
+            "title": "23 Old Laidley Forest Hill Rd Homestead",
+            "link": "https://uqmaps.app.uq.edu.au/location/2047",
+            "buildingNum": "8622",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2047_d83cb72b01473200c5b3c42e5a4366a3_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

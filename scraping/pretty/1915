@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5305,
+        "title": "Shelter Playing Field 3",
+        "campusID": 0,
+        "latitude": -27.498877,
+        "longitude": 153.01856,
+        "metadata": {
+            "title": "Shelter Playing Field 3",
+            "link": "https://uqmaps.app.uq.edu.au/location/1915",
+            "buildingNum": "53B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1915_07b250dd3c6f523d1b222259b1bcda02_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1755805,
+        "title": "Clinical Studies Centre Room 142 (8179)",
+        "campusID": 2,
+        "latitude": -27.554243,
+        "longitude": 152.3331,
+        "metadata": {
+            "title": "Clinical Studies Centre Room 142 (8179)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2076",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

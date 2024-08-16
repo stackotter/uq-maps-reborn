@@ -1,0 +1,23 @@
+[
+    {
+        "id": 682,
+        "title": "Shearing Teaching Building",
+        "campusID": 2,
+        "latitude": -27.549715,
+        "longitude": 152.34031,
+        "metadata": {
+            "title": "Shearing Teaching Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/472",
+            "buildingNum": "8230",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_472_424c79d310d612196d46fa195b7f5986_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

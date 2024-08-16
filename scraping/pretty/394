@@ -1,0 +1,27 @@
+[
+    {
+        "id": 601,
+        "title": "Ray Bills Cadet Training Centre",
+        "campusID": 2,
+        "latitude": -27.557438,
+        "longitude": 152.338421,
+        "metadata": {
+            "title": "Ray Bills Cadet Training Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/394",
+            "buildingNum": "8346",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_394_90523fe2867862e215470c66e6de789c__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_394_a7e1fed2ae87b885d0017a10c9c3ddd4_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

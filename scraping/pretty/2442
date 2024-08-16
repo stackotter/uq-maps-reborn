@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755311,
+        "title": "Biological Sciences Library Room 203 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 203 (94)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer  large display screen with laptop connections, whiteboard, 1 x table/6 x chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2442",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2442_44655f18e491854f5ef67e06da0df8b6_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2442_0814e97057f6182a44d11ba7291475a4_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

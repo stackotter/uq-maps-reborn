@@ -1,0 +1,28 @@
+[
+    {
+        "id": 109,
+        "title": "Prentice Building",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Prentice Building",
+            "youtube": "ndvWM5-VFVw",
+            "link": "https://uqmaps.app.uq.edu.au/location/94",
+            "buildingNum": "42",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_94_1a2870b94a618b0d506c46a3ccad83e3__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_94_46c962b38dbe329e87441237e8b65b91_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

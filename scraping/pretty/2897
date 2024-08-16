@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755327,
+        "title": "Prentice Building Room 240 (42)",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Prentice Building Room 240 (42)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2897",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2897_b52d0821008be595aefb3e1275363677_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

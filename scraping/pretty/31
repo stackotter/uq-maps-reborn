@@ -1,0 +1,22 @@
+[
+    {
+        "id": 37,
+        "title": "RD Milns Antiquities Museum",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "RD Milns Antiquities Museum",
+            "moreinformation": "The RD Milns Antiquities Museum is the foremost collection of classical Mediterranean antiquities in Queensland. A highly accessible teaching museum\r\nfor the general public, primary and high school students, and university-level students and researchers, the Museum's collection spans almost 3500 years of history.\r\nAdmission: Free; 9:30am\u20134:30pm weekdays.",
+            "floor": "Michie Building (Building 9), Level 2, St Lucia Campus",
+            "phone": "(07) 3365 3010",
+            "email": "antiquitiesmuseum@uq.edu.au",
+            "web": "https://antiquities-museum.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/31",
+            "buildingNum": null,
+            "primaryType": "Museums",
+            "otherTypes": []
+        },
+        "typeCode": "mus"
+    }
+]

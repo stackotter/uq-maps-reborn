@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5691,
+        "title": "Dwelling No 21",
+        "campusID": 2,
+        "latitude": -27.559346,
+        "longitude": 152.339407,
+        "metadata": {
+            "title": "Dwelling No 21",
+            "link": "https://uqmaps.app.uq.edu.au/location/1988",
+            "buildingNum": "8325",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1988_ea19eea327191bccc2d2158ae64522b9_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

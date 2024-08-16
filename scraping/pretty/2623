@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755196,
+        "title": "Priestley Building Room 148 (67)",
+        "campusID": 0,
+        "latitude": -27.499041,
+        "longitude": 153.012986,
+        "metadata": {
+            "title": "Priestley Building Room 148 (67)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2623",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2623_21b3c5959b37d0ba57e3e8aa95b54715_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2623_1c8e9de588f1a67db2802a4146a67e28_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

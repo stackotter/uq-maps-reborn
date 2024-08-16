@@ -1,0 +1,22 @@
+[
+    {
+        "id": 111,
+        "title": "Property and Facilities",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Property and Facilities",
+            "office": "Level 5",
+            "web": "http://www.pf.uq.edu.au/",
+            "email": "pf@pf.uq.edu.au",
+            "phone": "(07) 3365 2776",
+            "moreinformation": "P&F delivers comprehensive facilities management, using integrated systems and services, to support the University's teaching and research goals, its environment and strategic objectives of Learning, Discovery and Engagement. We achieve this throughout the Division in the core areas of service delivery, risk management, customer service, and resource and systems management.",
+            "link": "https://uqmaps.app.uq.edu.au/location/162",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 314159,
+        "title": "ilab (20)",
+        "campusID": 0,
+        "latitude": -27.497644,
+        "longitude": 153.014694,
+        "metadata": {
+            "title": "ilab (20)",
+            "web": "https://entrepreneurship.uq.edu.au/",
+            "email": "reception@ilabuq.com.au",
+            "moreinformation": "From 24 January 2019, ilab has moved from Building 41 in to the Global Change Institute (20)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2607",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

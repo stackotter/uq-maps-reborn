@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5665,
+        "title": "Stallion Yards Stall 2",
+        "campusID": 2,
+        "latitude": -27.550995,
+        "longitude": 152.338192,
+        "metadata": {
+            "title": "Stallion Yards Stall 2",
+            "link": "https://uqmaps.app.uq.edu.au/location/1962",
+            "buildingNum": "8203",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1962_82613e81b31a63136dc855bdb6c6b24e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

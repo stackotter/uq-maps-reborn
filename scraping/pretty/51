@@ -1,0 +1,21 @@
+[
+    {
+        "id": 62,
+        "title": "Main Course Food Precinct (21B)",
+        "campusID": 0,
+        "latitude": -27.497423,
+        "longitude": 153.015625,
+        "metadata": {
+            "title": "Main Course Food Precinct (21B)",
+            "phone": "(07) 3377 2209",
+            "moreinformation": "Main Course (Union Main Refectory) allows you to choose from a rotating menu, specialties from around the world and even to make your own salad or sandwich. Main Course is a precinct of tastiness, convenience and healthiness, where students and staff can socialise over any meal of the day, either in- or outdoors.",
+            "web": "http://www.uqu.com.au/outlet/10/main-course",
+            "hours": "Monday - Thursday 7:30am - 5pm\r\nFriday 7:30am - 4pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/51",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 570,
+        "title": "Walkway Cafe",
+        "campusID": 2,
+        "latitude": -27.555222653659,
+        "longitude": 152.33589964418,
+        "metadata": {
+            "title": "Walkway Cafe",
+            "moreinformation": "The Walkway Cafe offers a wide variety of snacks, sweet\u2019s and sit down lunches.",
+            "phone": "07 5460 1496",
+            "web": "https://gatton.uq.edu.au/food-and-coffee",
+            "link": "https://uqmaps.app.uq.edu.au/location/362",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

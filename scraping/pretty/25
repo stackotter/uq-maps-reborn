@@ -1,0 +1,17 @@
+[
+    {
+        "id": 30,
+        "title": "Ecology Centre",
+        "campusID": 0,
+        "latitude": -27.497994,
+        "longitude": 153.012171,
+        "metadata": {
+            "title": "Ecology Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/25",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1042370,
+        "title": "Substation No. 15 - Adj. Social Sciences",
+        "campusID": 0,
+        "latitude": -27.49574,
+        "longitude": 153.014351,
+        "metadata": {
+            "title": "Substation No. 15 - Adj. Social Sciences",
+            "link": "https://uqmaps.app.uq.edu.au/location/2864",
+            "buildingNum": "59Q",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2864_02c2a5eb69d0fec96a97e4a2c275953d_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

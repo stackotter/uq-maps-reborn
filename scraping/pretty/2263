@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756270,
+        "title": "General Purpose South Room 501 (78)",
+        "campusID": 0,
+        "latitude": -27.499973,
+        "longitude": 153.015153,
+        "metadata": {
+            "title": "General Purpose South Room 501 (78)",
+            "moreinformation": "\n\nAccess Toilet/shower/baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2263",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Parenting & Baby Change Facilities",
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2263_42aab292207d01e6e3e1c715dcb3668d_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

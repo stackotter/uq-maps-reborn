@@ -1,0 +1,17 @@
+[
+    {
+        "id": 204,
+        "title": "Key Centre for Human Factors and Applied Cognitive Psychology",
+        "campusID": 0,
+        "latitude": -27.495634,
+        "longitude": 153.014896,
+        "metadata": {
+            "title": "Key Centre for Human Factors and Applied Cognitive Psychology",
+            "link": "https://uqmaps.app.uq.edu.au/location/168",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

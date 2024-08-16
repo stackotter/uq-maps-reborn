@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755690,
+        "title": "Building 41 Room 214 (41)",
+        "campusID": 0,
+        "latitude": -27.498717,
+        "longitude": 153.014574,
+        "metadata": {
+            "title": "Building 41 Room 214 (41)",
+            "moreinformation": "\n\nMale/ambulant Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2910",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__d70a2b136383f285df9cb431fe54e030_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

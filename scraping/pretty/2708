@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756346,
+        "title": "Physiology Lecture Theatres Room 358 (63)",
+        "campusID": 0,
+        "latitude": -27.49902,
+        "longitude": 153.012233,
+        "metadata": {
+            "title": "Physiology Lecture Theatres Room 358 (63)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2708",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2708_191a6038de4cbf486e00287597cfca11_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__fdd06d20f46f131e3e786355c69bee05_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

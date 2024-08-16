@@ -1,0 +1,20 @@
+[
+    {
+        "id": 767620,
+        "title": "Ventures GCI Space (20)",
+        "campusID": 0,
+        "latitude": -27.497615590945,
+        "longitude": 153.01472692296,
+        "metadata": {
+            "title": "Ventures GCI Space (20)",
+            "web": "www.ventures.uq.edu.au",
+            "email": "ventures@uq.edu.au",
+            "location": "Ventures GCI Space, ground floor, Global Change Institute Building (20)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2770",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

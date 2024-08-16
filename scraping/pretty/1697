@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755415,
+        "title": "Hawken Engineering Building Room L303E (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L303E (50)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1697",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1697_1f8a0003397ee5de98342efe4d75cea5_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

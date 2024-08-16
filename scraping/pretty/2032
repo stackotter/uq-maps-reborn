@@ -1,0 +1,17 @@
+[
+    {
+        "id": 5735,
+        "title": "Langmuir Double Garage",
+        "campusID": 2,
+        "latitude": -27.560967,
+        "longitude": 152.343601,
+        "metadata": {
+            "title": "Langmuir Double Garage",
+            "link": "https://uqmaps.app.uq.edu.au/location/2032",
+            "buildingNum": "8551",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

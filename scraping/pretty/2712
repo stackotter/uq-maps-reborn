@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756324,
+        "title": "Hawken Engineering Building Room T203 (50)",
+        "campusID": 0,
+        "latitude": -27.500379,
+        "longitude": 153.013362,
+        "metadata": {
+            "title": "Hawken Engineering Building Room T203 (50)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2712",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2712_3f4253ceb86475bd918f767185bdc179_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__7ffb3d72c1df9528d2c37413dd035723_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

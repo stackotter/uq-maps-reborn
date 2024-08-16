@@ -1,0 +1,19 @@
+[
+    {
+        "id": 417,
+        "title": "Rainbow Lorikeet",
+        "campusID": 0,
+        "latitude": -27.498907,
+        "longitude": 153.016956,
+        "metadata": {
+            "title": "Rainbow Lorikeet",
+            "moreinformation": "The Rainbow Lorikeet has a bright red beak, blue head and belly, yellow-green collar, green wings, back and tail, and a red and yellow breast. It has two forward and two backward facing toes, making it easy to hold onto objects. Parrots have different shaped beaks depending on what they eat. Lorikeets focus on nectar and pollen so they have a short beak and their tongue does most of the work.",
+            "web": "http://www.uq.edu.au/sustainability/rainbow-lorikeet",
+            "link": "https://uqmaps.app.uq.edu.au/location/644",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

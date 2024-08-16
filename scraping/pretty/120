@@ -1,0 +1,31 @@
+[
+    {
+        "id": 141,
+        "title": "John Hines Building",
+        "campusID": 0,
+        "latitude": -27.498781,
+        "longitude": 153.012176,
+        "metadata": {
+            "title": "John Hines Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/120",
+            "buildingNum": "62",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_120_9a2cc3133d8f6bed77ee65197890fdc6__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_120_e25286811959d96c109059faf382304d__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_120_0d097ba1d1884f895040975807b878d6_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

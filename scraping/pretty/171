@@ -1,0 +1,27 @@
+[
+    {
+        "id": 207,
+        "title": "Human Movement Studies Building",
+        "campusID": 0,
+        "latitude": -27.495044,
+        "longitude": 153.015647,
+        "metadata": {
+            "title": "Human Movement Studies Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/171",
+            "buildingNum": "26B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_171_fe8ad3a51dd8d9e73492a68b065faa06__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_171_857b38c9e2374ccd9d75ae0f9eb30155_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

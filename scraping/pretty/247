@@ -1,0 +1,17 @@
+[
+    {
+        "id": 293,
+        "title": "The Great Court",
+        "campusID": 0,
+        "latitude": -27.497518,
+        "longitude": 153.013394,
+        "metadata": {
+            "title": "The Great Court",
+            "link": "https://uqmaps.app.uq.edu.au/location/247",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

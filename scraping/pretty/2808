@@ -1,0 +1,66 @@
+[
+    {
+        "id": 804458,
+        "title": "Vending machines with fresh food",
+        "campusID": 0,
+        "latitude": -27.498784464637,
+        "longitude": 153.01193322453,
+        "metadata": {
+            "title": "Vending machines with fresh food",
+            "location": "Physiology Refectory Building - Phizz  (Building 63)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2808",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    },
+    {
+        "id": 804455,
+        "title": "Vending machines with fresh food",
+        "campusID": 0,
+        "latitude": -27.497382828748,
+        "longitude": 153.01549010185,
+        "metadata": {
+            "title": "Vending machines with fresh food",
+            "location": "Union Complex (Building 21A)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2808",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    },
+    {
+        "id": 804457,
+        "title": "Vending machines with fresh food",
+        "campusID": 0,
+        "latitude": -27.496660483118,
+        "longitude": 153.01127172883,
+        "metadata": {
+            "title": "Vending machines with fresh food",
+            "location": "Biological Sciences Library (Building 94)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2808",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    },
+    {
+        "id": 804456,
+        "title": "Vending machines with fresh food",
+        "campusID": 0,
+        "latitude": -27.496425636457,
+        "longitude": 153.01445204662,
+        "metadata": {
+            "title": "Vending machines with fresh food",
+            "location": "Duhig Tower (Building 2)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2808",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

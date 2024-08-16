@@ -1,0 +1,24 @@
+[
+    {
+        "id": 110,
+        "title": "UQconnect",
+        "campusID": 0,
+        "latitude": -27.498893,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "UQconnect",
+            "office": "Level 2 (access via the purple entrance)",
+            "hours": "Monday to Friday 8:30am - 4:30pm",
+            "support": "Monday to Friday 8:00am - 10:00pm, Saturday to Sunday 9am - 5pm",
+            "web": "http://uqconnect.net/",
+            "email": "info@uqconnect.net",
+            "phone": "1300 738 082 (Australia wide)",
+            "moreinformation": "UQconnect provides Internet services for the UQ community, which includes the University itself, as well as private internet services for staff, students, alumni and members of the public, external to the University. The University's Internet service was established in 1992 and we were one of the first Internet Service Providers in Brisbane.",
+            "link": "https://uqmaps.app.uq.edu.au/location/67",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

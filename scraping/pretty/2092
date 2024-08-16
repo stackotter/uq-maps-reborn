@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755837,
+        "title": "Queensland Bioscience Precinct Room 2163 (80)",
+        "campusID": 0,
+        "latitude": -27.498165,
+        "longitude": 153.009853,
+        "metadata": {
+            "title": "Queensland Bioscience Precinct Room 2163 (80)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2092",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2092_822fcec2c3c0cd13bd1bc98879584759_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

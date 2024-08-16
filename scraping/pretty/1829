@@ -1,0 +1,21 @@
+[
+    {
+        "id": 2805,
+        "title": "School of Dentistry",
+        "campusID": 3,
+        "latitude": -27.448703,
+        "longitude": 153.024574,
+        "metadata": {
+            "title": "School of Dentistry",
+            "web": "http://www.dentistry.uq.edu.au",
+            "email": "dentistry@uq.edu.au",
+            "phone": "(07) 3365 8022",
+            "office": "Student Hub, Level 5, UQ Oral Health Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/1829",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

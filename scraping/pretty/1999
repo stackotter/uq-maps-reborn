@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5702,
+        "title": "Quarantine Shed 1",
+        "campusID": 2,
+        "latitude": -27.558231,
+        "longitude": 152.341814,
+        "metadata": {
+            "title": "Quarantine Shed 1",
+            "link": "https://uqmaps.app.uq.edu.au/location/1999",
+            "buildingNum": "8378",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1999_1db721a09080981ea6a43cdbcd0c2dfd_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

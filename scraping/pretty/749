@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1129,
+        "title": "UniSuper",
+        "campusID": 0,
+        "latitude": -27.499051273746,
+        "longitude": 153.01204199469,
+        "metadata": {
+            "title": "UniSuper",
+            "location": "Physiology Lecture Theatres (63)\r\nRooms 355 and 465",
+            "web": "https://www.unisuper.com.au/uq",
+            "phone": "1800 823 842",
+            "link": "https://uqmaps.app.uq.edu.au/location/749",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 465595,
+        "title": "Building 28B",
+        "campusID": 0,
+        "latitude": -27.494574,
+        "longitude": 153.015506,
+        "metadata": {
+            "title": "Building 28B",
+            "link": "https://uqmaps.app.uq.edu.au/location/2636",
+            "buildingNum": "28B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2636_1bb564826c8ccb71d96c306f05c3df93_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

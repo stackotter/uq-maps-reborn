@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756031,
+        "title": "John Mahon Stage II Room 202 (8106)",
+        "campusID": 2,
+        "latitude": -27.552264,
+        "longitude": 152.334452,
+        "metadata": {
+            "title": "John Mahon Stage II Room 202 (8106)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2245",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756006,
+        "title": "Brian Wilson Chancellery Room 456 (61A)",
+        "campusID": 0,
+        "latitude": -27.49858,
+        "longitude": 153.011335,
+        "metadata": {
+            "title": "Brian Wilson Chancellery Room 456 (61A)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2229",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2229_0f4be390a8f1e5a561b43392083b30c2_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

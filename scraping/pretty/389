@@ -1,0 +1,27 @@
+[
+    {
+        "id": 596,
+        "title": "P4 - Pitt Carpark",
+        "campusID": 2,
+        "latitude": -27.55643,
+        "longitude": 152.337542,
+        "metadata": {
+            "title": "P4 - Pitt Carpark",
+            "email": "parking@pf.uq.edu.au",
+            "web": "https://www.pf.uq.edu.au/parking/",
+            "phone": "(07) 3365 2222",
+            "parkingtype": "Staff permit required",
+            "link": "https://uqmaps.app.uq.edu.au/location/389",
+            "buildingNum": "8162C",
+            "primaryType": "Parking Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_389_68404b739d63abaf0b6eb2af1b6ad5f2_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "par"
+    }
+]

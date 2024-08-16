@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756143,
+        "title": "Poultry Unit Toilets Room 103 (8234A)",
+        "campusID": 2,
+        "latitude": -27.551304,
+        "longitude": 152.33987,
+        "metadata": {
+            "title": "Poultry Unit Toilets Room 103 (8234A)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2872",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

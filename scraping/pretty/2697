@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756311,
+        "title": "Goddard Building Room 212 (8)",
+        "campusID": 0,
+        "latitude": -27.498154,
+        "longitude": 153.01276,
+        "metadata": {
+            "title": "Goddard Building Room 212 (8)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2697",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2697_9479a1b26056e697d0a4c443e664e93d_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__7a24227de7c8b568b68d64032360729b_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

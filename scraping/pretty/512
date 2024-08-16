@@ -1,0 +1,18 @@
+[
+    {
+        "id": 809,
+        "title": "Obstetrics & Gynaecology",
+        "campusID": 3,
+        "latitude": -27.447105,
+        "longitude": 153.028226,
+        "metadata": {
+            "title": "Obstetrics & Gynaecology",
+            "office": "Level 6",
+            "link": "https://uqmaps.app.uq.edu.au/location/512",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756095,
+        "title": "Don Nicklin Building Room 218 (74)",
+        "campusID": 0,
+        "latitude": -27.500487,
+        "longitude": 153.013716,
+        "metadata": {
+            "title": "Don Nicklin Building Room 218 (74)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2382",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2382_c84fb0c1b6fec309f5f3d5d9d1918e25_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

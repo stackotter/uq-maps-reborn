@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756254,
+        "title": "General Purpose North 3 Room 204 (39A)",
+        "campusID": 0,
+        "latitude": -27.494948,
+        "longitude": 153.013651,
+        "metadata": {
+            "title": "General Purpose North 3 Room 204 (39A)",
+            "moreinformation": "\n\nAccess Toilet/shower/baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2195",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Parenting & Baby Change Facilities",
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2195_307044941b78035a416813ea55dc5471_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

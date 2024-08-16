@@ -1,0 +1,20 @@
+[
+    {
+        "id": 851,
+        "title": "Centre of National Research on Disability and Rehabilitation Medicine",
+        "campusID": 3,
+        "latitude": -27.448077,
+        "longitude": 153.025753,
+        "metadata": {
+            "title": "Centre of National Research on Disability and Rehabilitation Medicine",
+            "web": "https://recover.edu.au/",
+            "email": "contact@recover.edu.au",
+            "phone": "(07) 3365 5560",
+            "link": "https://uqmaps.app.uq.edu.au/location/553",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

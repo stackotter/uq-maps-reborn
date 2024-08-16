@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755335,
+        "title": "Sir James Foots Building Room 363 (47A)",
+        "campusID": 0,
+        "latitude": -27.500459,
+        "longitude": 153.014522,
+        "metadata": {
+            "title": "Sir James Foots Building Room 363 (47A)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1533",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1533_6ee73569260bc53e4575e626e2f4990d_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1533_da524f2c7fef3212bbd42e9149262ccb_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

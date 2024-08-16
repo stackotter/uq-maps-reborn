@@ -1,0 +1,27 @@
+[
+    {
+        "id": 565,
+        "title": "Main Lecture Theatre",
+        "campusID": 2,
+        "latitude": -27.555441,
+        "longitude": 152.334645,
+        "metadata": {
+            "title": "Main Lecture Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/357",
+            "buildingNum": "8178",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_357_b9aaca5e66420601ff567b3b0ab5d48b__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_357_7cfec97cf909daf801735dc50c3ed31a_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

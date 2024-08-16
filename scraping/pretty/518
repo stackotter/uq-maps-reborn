@@ -1,0 +1,19 @@
+[
+    {
+        "id": 815,
+        "title": "Subway",
+        "campusID": 3,
+        "latitude": -27.447105,
+        "longitude": 153.028226,
+        "metadata": {
+            "title": "Subway",
+            "location": "Level 1 Food Court",
+            "hours": "Monday to Friday 8am - 8pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/518",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

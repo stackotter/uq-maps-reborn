@@ -1,0 +1,20 @@
+[
+    {
+        "id": 222,
+        "title": "Union College",
+        "campusID": 0,
+        "latitude": -27.500399,
+        "longitude": 153.010929,
+        "metadata": {
+            "title": "Union College",
+            "web": "http://www.unioncollegeuq.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/185",
+            "buildingNum": "36J",
+            "primaryType": "Colleges",
+            "otherTypes": [
+                "Buildings"
+            ]
+        },
+        "typeCode": "acc"
+    }
+]

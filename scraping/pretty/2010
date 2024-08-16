@@ -1,0 +1,17 @@
+[
+    {
+        "id": 5713,
+        "title": "Horti Field Lysimetry Greenhouse",
+        "campusID": 2,
+        "latitude": -27.538559,
+        "longitude": 152.33431,
+        "metadata": {
+            "title": "Horti Field Lysimetry Greenhouse",
+            "link": "https://uqmaps.app.uq.edu.au/location/2010",
+            "buildingNum": "8414B",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

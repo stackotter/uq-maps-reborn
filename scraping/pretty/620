@@ -1,0 +1,20 @@
+[
+    {
+        "id": 49,
+        "title": "Student Employability Centre (94)",
+        "campusID": 0,
+        "latitude": -27.496932,
+        "longitude": 153.011418,
+        "metadata": {
+            "title": "Student Employability Centre (94)",
+            "web": "https://employability.uq.edu.au/home",
+            "email": "employability@uq.edu.au",
+            "moreinformation": "The Student Employability Centre promotes and coordinates a number of initiatives which seek to strengthen the range of international, professional and leadership experiences offered to students. Programs include global experiences such as exchange, international internships and study tours, undergraduate research, the UQ Employability Award, volunteering and mentoring, as well as the provision of grants and scholarships to support students to access these experiences.",
+            "link": "https://uqmaps.app.uq.edu.au/location/620",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

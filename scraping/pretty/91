@@ -1,0 +1,21 @@
+[
+    {
+        "id": 106,
+        "title": "School of Business",
+        "campusID": 0,
+        "latitude": -27.494701,
+        "longitude": 153.014188,
+        "metadata": {
+            "title": "School of Business",
+            "web": "http://www.business.uq.edu.au",
+            "email": "info@business.uq.edu.au",
+            "phone": "(07) 3346 8100",
+            "office": "Level 2, Colin Clark Building (39)",
+            "link": "https://uqmaps.app.uq.edu.au/location/91",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

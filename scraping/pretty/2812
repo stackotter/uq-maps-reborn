@@ -1,0 +1,17 @@
+[
+    {
+        "id": 859016,
+        "title": "Services Road Poultry Water Refill Station",
+        "campusID": 2,
+        "latitude": -27.551116148186,
+        "longitude": 152.33986906694,
+        "metadata": {
+            "title": "Services Road Poultry Water Refill Station",
+            "link": "https://uqmaps.app.uq.edu.au/location/2812",
+            "buildingNum": null,
+            "primaryType": "Water Refill Stations",
+            "otherTypes": []
+        },
+        "typeCode": "wrs"
+    }
+]

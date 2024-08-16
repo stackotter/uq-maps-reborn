@@ -1,0 +1,17 @@
+[
+    {
+        "id": 81,
+        "title": "Heath Room",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.015963,
+        "metadata": {
+            "title": "Heath Room",
+            "link": "https://uqmaps.app.uq.edu.au/location/580",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

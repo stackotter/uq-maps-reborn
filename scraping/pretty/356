@@ -1,0 +1,23 @@
+[
+    {
+        "id": 564,
+        "title": "Digital Agriculture Building",
+        "campusID": 2,
+        "latitude": -27.555156,
+        "longitude": 152.334495,
+        "metadata": {
+            "title": "Digital Agriculture Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/356",
+            "buildingNum": "8115",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_356_6e2eef2353d59740925896ff569b05d8_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

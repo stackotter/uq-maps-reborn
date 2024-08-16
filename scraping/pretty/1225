@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755182,
+        "title": "UQ Centre Room 211 (27A)",
+        "campusID": 0,
+        "latitude": -27.496292,
+        "longitude": 153.016346,
+        "metadata": {
+            "title": "UQ Centre Room 211 (27A)",
+            "moreinformation": "Closed during exams and events. Free access provided building is open for teaching, no power points, no equipment, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1225",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1225_31b7d070a2b794f79e1d0bd830f64a41_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1225_61ac50e6e2979d116e9e122e08bf4425_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

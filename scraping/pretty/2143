@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755895,
+        "title": "James and Mary Emelia Mayne Centre Room 216 (11)",
+        "campusID": 0,
+        "latitude": -27.49649,
+        "longitude": 153.012021,
+        "metadata": {
+            "title": "James and Mary Emelia Mayne Centre Room 216 (11)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2143",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2143_dc4740a3dcbbab7f0fadda562761d156_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

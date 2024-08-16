@@ -1,0 +1,17 @@
+[
+    {
+        "id": 188,
+        "title": "Australian Centre for Intellectual Property in Agriculture",
+        "campusID": 0,
+        "latitude": -27.495741,
+        "longitude": 153.010464,
+        "metadata": {
+            "title": "Australian Centre for Intellectual Property in Agriculture",
+            "link": "https://uqmaps.app.uq.edu.au/location/155",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

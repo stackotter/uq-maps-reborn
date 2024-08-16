@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755197,
+        "title": "Priestley Building Room 240 (67)",
+        "campusID": 0,
+        "latitude": -27.499027,
+        "longitude": 153.012984,
+        "metadata": {
+            "title": "Priestley Building Room 240 (67)",
+            "moreinformation": "Free access provided building is open, power points available, lectern, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1245",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1245_bae7298f468ef4ba77c7f3115b5e61ec_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1245_1f254b373129d58d5221045b3d0a057e_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

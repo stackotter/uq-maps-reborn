@@ -1,0 +1,19 @@
+[
+    {
+        "id": 494037,
+        "title": "UQ Sport Multi-use Courts",
+        "campusID": 0,
+        "latitude": -27.492990328993,
+        "longitude": 153.01419048116,
+        "metadata": {
+            "title": "UQ Sport Multi-use Courts",
+            "phone": "3365 6612",
+            "web": "https://uqsport.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/2643",
+            "buildingNum": null,
+            "primaryType": "Sports & Recreation",
+            "otherTypes": []
+        },
+        "typeCode": "spt"
+    }
+]

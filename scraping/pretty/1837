@@ -1,0 +1,22 @@
+[
+    {
+        "id": 2817,
+        "title": "Faculty of Medicine",
+        "campusID": 0,
+        "latitude": -27.498984,
+        "longitude": 153.012621,
+        "metadata": {
+            "title": "Faculty of Medicine",
+            "web": "https://medicine.uq.edu.au/",
+            "email": "med.enquiries@uq.edu.au",
+            "phone": "(07) 3365 5342",
+            "office": "Level 6, Oral Health Centre (883) Herston campus",
+            "moreinformation": "Other locations: Level 5, Building 69, St Lucia campus and Level 2, Mayne Medical Building (881) Herston campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/1837",
+            "buildingNum": null,
+            "primaryType": "Faculties",
+            "otherTypes": []
+        },
+        "typeCode": "fac"
+    }
+]

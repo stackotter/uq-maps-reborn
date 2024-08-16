@@ -1,0 +1,19 @@
+[
+    {
+        "id": 42504,
+        "title": "P10 Playing Field 4 Synthetic Playing Field South Carpark Water Refill Station",
+        "campusID": 0,
+        "latitude": -27.4971159,
+        "longitude": 153.0171892,
+        "metadata": {
+            "title": "P10 Playing Field 4 Synthetic Playing Field South Carpark Water Refill Station",
+            "moreinformation": "Enjoy free fresh water refills for your water bottle. Don't junk the environment with expensive one-use disposable water bottles.",
+            "web": "http://www.uq.edu.au/sustainability/water-management",
+            "link": "https://uqmaps.app.uq.edu.au/location/2524",
+            "buildingNum": null,
+            "primaryType": "Water Refill Stations",
+            "otherTypes": []
+        },
+        "typeCode": "wrs"
+    }
+]

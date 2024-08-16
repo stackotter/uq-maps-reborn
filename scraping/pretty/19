@@ -1,0 +1,23 @@
+[
+    {
+        "id": 21,
+        "title": "The School Locker - Mac1 Service",
+        "campusID": 0,
+        "latitude": -27.497924,
+        "longitude": 153.014516,
+        "metadata": {
+            "title": "The School Locker - Mac1 Service",
+            "web": "https://theschoollocker.com.au/universities/university-of-queensland",
+            "phone": "0434 439 107",
+            "email": "UQStLucia@theschoollocker.com.au",
+            "hours": "Trading Monday to Friday 8:30am to 5:00pm",
+            "moreinformation": "The School Locker is passionate about giving University students every opportunity to unlock their potential.  The School Locker product categories include apparel, footwear, sport, stationery, textbooks and music along with an extensive range of technology including laptops, tablets, robotic devices and more.\r\n\r\nAs one of Australia\u2019s most experienced Apple Authorised Service Providers, our industry certified service team are here to offer you the best advice and support for your Apple products. From providing general service and maintenance for your Apple products, to Apple warranty and out-of-warranty repairs.",
+            "support": "Mac1  -  E: UQStLucia@mac1.com.au\r\nM: 0411 429 100",
+            "link": "https://uqmaps.app.uq.edu.au/location/19",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

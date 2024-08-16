@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756173,
+        "title": "Gehrmann Laboratories Room 220A (60)",
+        "campusID": 0,
+        "latitude": -27.500011,
+        "longitude": 153.012192,
+        "metadata": {
+            "title": "Gehrmann Laboratories Room 220A (60)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2336",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2336_0c73873a80ee0cedab278147faa180e4_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

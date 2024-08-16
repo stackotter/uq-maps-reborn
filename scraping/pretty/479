@@ -1,0 +1,23 @@
+[
+    {
+        "id": 689,
+        "title": "Poultry Unit Main Office",
+        "campusID": 2,
+        "latitude": -27.549981,
+        "longitude": 152.339902,
+        "metadata": {
+            "title": "Poultry Unit Main Office",
+            "link": "https://uqmaps.app.uq.edu.au/location/479",
+            "buildingNum": "8258",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_479_81a3fc4c5a49711b89ab1ffc755529d0_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

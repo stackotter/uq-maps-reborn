@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756189,
+        "title": "STARS Building Room L01-ER-028 (909A)",
+        "campusID": 3,
+        "latitude": -27.449261,
+        "longitude": 153.026296,
+        "metadata": {
+            "title": "STARS Building Room L01-ER-028 (909A)",
+            "moreinformation": "\n\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2890",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

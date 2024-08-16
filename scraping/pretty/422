@@ -1,0 +1,17 @@
+[
+    {
+        "id": 629,
+        "title": "Motel",
+        "campusID": 2,
+        "latitude": -27.552036,
+        "longitude": 152.334688,
+        "metadata": {
+            "title": "Motel",
+            "link": "https://uqmaps.app.uq.edu.au/location/422",
+            "buildingNum": null,
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

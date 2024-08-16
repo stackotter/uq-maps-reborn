@@ -1,0 +1,17 @@
+[
+    {
+        "id": 7330,
+        "title": "Sir Albert Sakzewski Virus Research Centre",
+        "campusID": 3,
+        "latitude": -27.447281,
+        "longitude": 153.025638,
+        "metadata": {
+            "title": "Sir Albert Sakzewski Virus Research Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2057",
+            "buildingNum": "917",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755296,
+        "title": "Don Nicklin Building Room 207 (74)",
+        "campusID": 0,
+        "latitude": -27.500521,
+        "longitude": 153.013546,
+        "metadata": {
+            "title": "Don Nicklin Building Room 207 (74)",
+            "moreinformation": "Free access provided building is open, power points available, AV/whiteboard, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1421",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1421_85e6426adda3b121ae9afc9c99db1167_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1421_e3d95c8375347602e26749cc259a5980_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

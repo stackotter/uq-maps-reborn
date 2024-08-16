@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756162,
+        "title": "Chemistry Building Room 801 (68)",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Chemistry Building Room 801 (68)",
+            "moreinformation": "\n\nUnisex Toilet Vestibule",
+            "link": "https://uqmaps.app.uq.edu.au/location/2397",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2397_5e4b05c523b89176babcf37161a6896d_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

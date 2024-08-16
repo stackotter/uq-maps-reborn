@@ -1,0 +1,17 @@
+[
+    {
+        "id": 227,
+        "title": "Centre for Efficiency and Productivity Analysis",
+        "campusID": 0,
+        "latitude": -27.494948,
+        "longitude": 153.013651,
+        "metadata": {
+            "title": "Centre for Efficiency and Productivity Analysis",
+            "link": "https://uqmaps.app.uq.edu.au/location/190",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

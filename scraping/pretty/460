@@ -1,0 +1,23 @@
+[
+    {
+        "id": 670,
+        "title": "Covered Horse Yard & Arena",
+        "campusID": 2,
+        "latitude": -27.551712,
+        "longitude": 152.337177,
+        "metadata": {
+            "title": "Covered Horse Yard & Arena",
+            "link": "https://uqmaps.app.uq.edu.au/location/460",
+            "buildingNum": "8222",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_460_b830fb15268b915474c83bf6eede6f0a_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

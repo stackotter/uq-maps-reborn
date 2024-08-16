@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756169,
+        "title": "Chemistry Building Room 1101 (68)",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Chemistry Building Room 1101 (68)",
+            "moreinformation": "\n\nUnisex Shower / Toilets",
+            "link": "https://uqmaps.app.uq.edu.au/location/2398",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2398_a483f91873af4ee1f19a0ef51e41b8a7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

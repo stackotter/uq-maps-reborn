@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756227,
+        "title": "Forgan Smith Building Room W424 (1)",
+        "campusID": 0,
+        "latitude": -27.496928,
+        "longitude": 153.013072,
+        "metadata": {
+            "title": "Forgan Smith Building Room W424 (1)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2349",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2349_32059e60203f7f37f06f64948b6b450c_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

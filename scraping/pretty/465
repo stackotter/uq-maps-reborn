@@ -1,0 +1,17 @@
+[
+    {
+        "id": 675,
+        "title": "Main Reservoir",
+        "campusID": 2,
+        "latitude": -27.550019,
+        "longitude": 152.336919,
+        "metadata": {
+            "title": "Main Reservoir",
+            "link": "https://uqmaps.app.uq.edu.au/location/465",
+            "buildingNum": "8272",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

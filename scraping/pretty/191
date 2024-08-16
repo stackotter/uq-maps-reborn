@@ -1,0 +1,17 @@
+[
+    {
+        "id": 228,
+        "title": "Economics and Law Research Unit",
+        "campusID": 0,
+        "latitude": -27.494948,
+        "longitude": 153.013651,
+        "metadata": {
+            "title": "Economics and Law Research Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/191",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

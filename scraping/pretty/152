@@ -1,0 +1,27 @@
+[
+    {
+        "id": 174,
+        "title": "Seddon South Block",
+        "campusID": 0,
+        "latitude": -27.496842,
+        "longitude": 153.010633,
+        "metadata": {
+            "title": "Seddon South Block",
+            "link": "https://uqmaps.app.uq.edu.au/location/152",
+            "buildingNum": "82A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_152_9952da4f0e1f0238bb121dab0d743a0e__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_152_f8283d943979bcf6f0d4f39765644ef5_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

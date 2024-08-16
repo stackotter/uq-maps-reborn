@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1755802,
+        "title": "Main Lecture Theatre Room 106 (8178)",
+        "campusID": 2,
+        "latitude": -27.555441,
+        "longitude": 152.334645,
+        "metadata": {
+            "title": "Main Lecture Theatre Room 106 (8178)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2073",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 5390,
+        "title": "Physics Museum",
+        "campusID": 0,
+        "latitude": -27.498243,
+        "longitude": 153.013087,
+        "metadata": {
+            "title": "Physics Museum",
+            "moreinformation": "Opened in 1988, the Physics Museum displays optical, electrical, acoustical and other scientific equipment plus books, catalogues and instruction manuals. Many date from the University's first year of teaching in 1911. Near-antiques of brass and mahogany sit beside newer but equally obsolete items like electron tubes, spiral slide rules, a computer card punch and sheets of computer magnetic core memory. Free admission, open 12\u20131pm Mondays during teaching weeks. Admission:*Free; open 1\u20132pm Thursdays during teaching weeks.",
+            "floor": "Parnell Building (7), Room G73, Ground Floor, St Lucia Campus",
+            "phone": "(07) 3365 3414",
+            "fax": "(07) 3365 1242",
+            "email": "Heckenberg@physics.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/1943",
+            "buildingNum": null,
+            "primaryType": "Museums",
+            "otherTypes": []
+        },
+        "typeCode": "mus"
+    }
+]

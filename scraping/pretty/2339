@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756177,
+        "title": "Advanced Engineering Building Room 406 (49)",
+        "campusID": 0,
+        "latitude": -27.499497,
+        "longitude": 153.015138,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 406 (49)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2339",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2339_d677938bb0e53623b44fe2c96ece3d43_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1755140,
+        "title": "Therapies Building Room 124 (84)",
+        "campusID": 0,
+        "latitude": -27.497232,
+        "longitude": 153.010293,
+        "metadata": {
+            "title": "Therapies Building Room 124 (84)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, bench, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1049",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1049_7d106d2ed5b2d0f9bcb9c1e66dd2128d_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1049_cf9bc8e2e19d6a63aae21f8416cf2009_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1049_fd152b89ce509af123190fdbe3ecdb04_room_small.jpg",
+                    "displayOrder": 3
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1049_6a2d9415927a9584fc8bbd443b644a98_room_small.jpg",
+                    "displayOrder": 4
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

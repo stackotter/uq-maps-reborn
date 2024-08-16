@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1091,
+        "title": "UQ Sport Tennis Centre Pro Shop",
+        "campusID": 0,
+        "latitude": -27.494446,
+        "longitude": 153.015161,
+        "metadata": {
+            "title": "UQ Sport Tennis Centre Pro Shop",
+            "web": "https://uqsport.com.au/venue/tennis-centre",
+            "email": "tennis@uqsport.com.au",
+            "phone": "07 3365 6933",
+            "link": "https://uqmaps.app.uq.edu.au/location/719",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 5314,
+        "title": "Glasshouse No 10",
+        "campusID": 0,
+        "latitude": -27.495186,
+        "longitude": 153.008966,
+        "metadata": {
+            "title": "Glasshouse No 10",
+            "link": "https://uqmaps.app.uq.edu.au/location/1924",
+            "buildingNum": "88H",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1924_82e9a9dbe0aa30a456795515b9676034__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1924_73b8ba0234588f12e1ce177253c3d702_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

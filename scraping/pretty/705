@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1070,
+        "title": "Brisbane Sports & Spinal Physiotherapy",
+        "campusID": 0,
+        "latitude": -27.497243,
+        "longitude": 153.01606,
+        "metadata": {
+            "title": "Brisbane Sports & Spinal Physiotherapy",
+            "moreinformation": "At BSSP we are pleased to offer an excellent podiatry service to complement your rehabilitation experience.\r\nAs a private practice conveniently situated on the beautiful St Lucia campus of the University of Queensland we offer services to both a large off-campus client and UQ staff/students.\r\nBrisbane Sports and Spinal (formerly UQ Sports & Rehab) is a specialist physiotherapy clinic that incorporates the services of both podiatry and sports psychology.",
+            "hours": "Open 8am-6:30pm Mon-Thurs.  \r\n8am-5:30pm Fri.\r\nWeekend, Closed",
+            "phone": "07 3871 0633",
+            "web": "https://www.brisbanesportsandspinal.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/705",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

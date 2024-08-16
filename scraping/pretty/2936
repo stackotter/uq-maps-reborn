@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755387,
+        "title": "Andrew N. Liveris Building Room 0245 (46)",
+        "campusID": 0,
+        "latitude": -27.499274,
+        "longitude": 153.013533,
+        "metadata": {
+            "title": "Andrew N. Liveris Building Room 0245 (46)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2936",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2936_ec3b771713c0631f0e2aa25f86ef79d6_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

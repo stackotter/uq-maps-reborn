@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1756292,
+        "title": "Queensland Bioscience Precinct Room 2255 (80)",
+        "campusID": 0,
+        "latitude": -27.498327,
+        "longitude": 153.010191,
+        "metadata": {
+            "title": "Queensland Bioscience Precinct Room 2255 (80)",
+            "moreinformation": "Door is locked. Pick up key at reception. Fridge, comfortable chair and table, power point, sink with hot and cold water, change table.\n\nParenting Room / Baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2416",
+            "buildingNum": null,
+            "primaryType": "Parenting & Baby Change Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2416_74fb377860e073872cde4172fc43b50a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2416_e9019d81e8210eca2c4bbc3f249f4833_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "ptr"
+    }
+]

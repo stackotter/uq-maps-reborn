@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755964,
+        "title": "Colin Clark Building Room 662 (39)",
+        "campusID": 0,
+        "latitude": -27.494701,
+        "longitude": 153.014188,
+        "metadata": {
+            "title": "Colin Clark Building Room 662 (39)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2197",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2197_8dce7d093a9b3d19078051d2116648df_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

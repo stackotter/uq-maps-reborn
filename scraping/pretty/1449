@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755305,
+        "title": "Aung San Suu Kyi Conference Centre Room 3192 (21C)",
+        "campusID": 0,
+        "latitude": -27.497381,
+        "longitude": 153.016009,
+        "metadata": {
+            "title": "Aung San Suu Kyi Conference Centre Room 3192 (21C)",
+            "moreinformation": "Free access provided building is open, no power points, no equipment, lounge, individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1449",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1449_9f3c1813ce69ecf1203975ab66b41774_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1449_00ae65c3cbe4275d7c26fb78c5720093_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

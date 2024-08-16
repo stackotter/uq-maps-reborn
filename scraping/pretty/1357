@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755258,
+        "title": "Biological Sciences Library Room 315 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 315 (94)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, large display screen with laptop connections, whiteboard, table/ 6 x chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1357",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1357_c6c5b8df605d7146d0c96a4ece88a097_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1357_6cac9846cc1935ffb075ecbf6986249d_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

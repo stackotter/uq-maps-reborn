@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755963,
+        "title": "Sir James Foots Building Room 466 (47A)",
+        "campusID": 0,
+        "latitude": -27.50044,
+        "longitude": 153.014454,
+        "metadata": {
+            "title": "Sir James Foots Building Room 466 (47A)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2196",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2196_d7d8ddccd55510eccc112c72a7c854b7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

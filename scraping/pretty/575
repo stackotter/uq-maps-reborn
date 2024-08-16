@@ -1,0 +1,22 @@
+[
+    {
+        "id": 168,
+        "title": "UniQuest",
+        "campusID": 0,
+        "latitude": -27.499973,
+        "longitude": 153.015153,
+        "metadata": {
+            "title": "UniQuest",
+            "web": "http://www.uniquest.com.au",
+            "email": "enquiries@uniquest.com.au",
+            "phone": "(07) 3365 4037",
+            "office": "Level 7 - Executive, Techcomi, Consulting & Research",
+            "moreinformation": "UniQuest is one of Australia\u2019s leading research commercialisation companies, specialising in technology transfer and facilitating access for all business sectors to world class university expertise, intellectual property and facilities.",
+            "link": "https://uqmaps.app.uq.edu.au/location/575",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

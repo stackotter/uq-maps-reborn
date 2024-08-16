@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755255,
+        "title": "General Purpose South Room 221 (78)",
+        "campusID": 0,
+        "latitude": -27.499973,
+        "longitude": 153.015153,
+        "metadata": {
+            "title": "General Purpose South Room 221 (78)",
+            "moreinformation": "Free access provided building is open, power points available, no equipments, table/chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1345",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1345_333d5c9e205eb7ac64e805163f0aaca8_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1345_1aabc957cab6743a7bf835ff0441aac3_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

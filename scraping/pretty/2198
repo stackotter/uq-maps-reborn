@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755965,
+        "title": "Connell Building Room 120 (26)",
+        "campusID": 0,
+        "latitude": -27.495234,
+        "longitude": 153.015604,
+        "metadata": {
+            "title": "Connell Building Room 120 (26)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2198",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2198_0a96575c95812b30f9dfd48992ac37f5_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

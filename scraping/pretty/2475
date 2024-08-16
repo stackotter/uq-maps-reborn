@@ -1,0 +1,17 @@
+[
+    {
+        "id": 20990,
+        "title": "Gatton Rugby Clubhouse",
+        "campusID": 2,
+        "latitude": -27.558404,
+        "longitude": 152.335959,
+        "metadata": {
+            "title": "Gatton Rugby Clubhouse",
+            "link": "https://uqmaps.app.uq.edu.au/location/2475",
+            "buildingNum": "8353",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

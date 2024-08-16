@@ -1,0 +1,23 @@
+[
+    {
+        "id": 429977,
+        "title": "Playhouse Parent and Childcare Centre",
+        "campusID": 0,
+        "latitude": -27.49314,
+        "longitude": 153.009681,
+        "metadata": {
+            "title": "Playhouse Parent and Childcare Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2618",
+            "buildingNum": "93E",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2618_268261b9b3b13bf775cf859b556b9e9c_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

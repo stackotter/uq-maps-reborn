@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755878,
+        "title": "Otto Hirschfeld Building Room 606 (81)",
+        "campusID": 0,
+        "latitude": -27.497328,
+        "longitude": 153.010647,
+        "metadata": {
+            "title": "Otto Hirschfeld Building Room 606 (81)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2125",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2125_6f590c4b547c178f01e2ee9cca88e09d_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

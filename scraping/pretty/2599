@@ -1,0 +1,23 @@
+[
+    {
+        "id": 220931,
+        "title": "UQ Psychology Clinic (33 Upland Road) (0518)",
+        "campusID": 0,
+        "latitude": -27.50023327461,
+        "longitude": 153.01011486456,
+        "metadata": {
+            "title": "UQ Psychology Clinic (33 Upland Road) (0518)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2599",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2599_e1534b41e7f2766e76ad64d8596b21b8_manual_small.jpg",
+                    "displayOrder": 0
+                }
+            ]
+        },
+        "typeCode": "ofc"
+    }
+]

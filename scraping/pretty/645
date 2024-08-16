@@ -1,0 +1,19 @@
+[
+    {
+        "id": 418,
+        "title": "Masked Lapwing",
+        "campusID": 0,
+        "latitude": -27.500201,
+        "longitude": 153.016589,
+        "metadata": {
+            "title": "Masked Lapwing",
+            "moreinformation": "The Masked Lapwing is more commonly called a plover. It has a black crown, prominent yellow facial wattles, brown upper parts, white lower parts and yellow wing spurs. Masked Lapwings are common around grasslands, wetlands and urban parks. During the nesting season, they become very aggressive and territorial, and will defend their territory by calling loudly, spreading their wings, swooping and attacking animals on the ground with their spurs.",
+            "web": "http://www.uq.edu.au/sustainability/masked-lapwing",
+            "link": "https://uqmaps.app.uq.edu.au/location/645",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

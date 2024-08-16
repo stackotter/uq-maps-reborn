@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5695,
+        "title": "Abattoirs",
+        "campusID": 2,
+        "latitude": -27.556059,
+        "longitude": 152.34216,
+        "metadata": {
+            "title": "Abattoirs",
+            "link": "https://uqmaps.app.uq.edu.au/location/1992",
+            "buildingNum": "8330",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1992_8af24b93d25d2a844a329cde9162ce52_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

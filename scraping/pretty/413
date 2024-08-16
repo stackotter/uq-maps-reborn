@@ -1,0 +1,27 @@
+[
+    {
+        "id": 620,
+        "title": "Clinical Studies Centre",
+        "campusID": 2,
+        "latitude": -27.554243,
+        "longitude": 152.3331,
+        "metadata": {
+            "title": "Clinical Studies Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/413",
+            "buildingNum": "8179",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_413_68b49204a062496d4e059dce0a463a1b__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_413_e2ca37478988bf9382797224b096ba56_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756135,
+        "title": "Chemistry Building Room 901C (68)",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Chemistry Building Room 901C (68)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2316",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

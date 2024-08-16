@@ -1,0 +1,23 @@
+[
+    {
+        "id": 548,
+        "title": "Thynne Hall of Residence",
+        "campusID": 2,
+        "latitude": -27.554204,
+        "longitude": 152.336791,
+        "metadata": {
+            "title": "Thynne Hall of Residence",
+            "link": "https://uqmaps.app.uq.edu.au/location/340",
+            "buildingNum": "8120",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_340_97cba711bcbd559d20059854f37f1e3d_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

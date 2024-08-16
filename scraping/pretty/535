@@ -1,0 +1,17 @@
+[
+    {
+        "id": 832,
+        "title": "Queensland Health",
+        "campusID": 3,
+        "latitude": -27.448391,
+        "longitude": 153.028723,
+        "metadata": {
+            "title": "Queensland Health",
+            "link": "https://uqmaps.app.uq.edu.au/location/535",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 156,
+        "title": "Australian Equine Genetics Research Centre",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Australian Equine Genetics Research Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/135",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

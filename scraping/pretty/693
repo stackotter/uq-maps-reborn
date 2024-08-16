@@ -1,0 +1,17 @@
+[
+    {
+        "id": 918,
+        "title": "Natural Amphitheatre",
+        "campusID": 0,
+        "latitude": -27.498268,
+        "longitude": 153.01515,
+        "metadata": {
+            "title": "Natural Amphitheatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/693",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 536,
+        "title": "N.W. Briton Administration Building",
+        "campusID": 2,
+        "latitude": -27.553272,
+        "longitude": 152.335739,
+        "metadata": {
+            "title": "N.W. Briton Administration Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/328",
+            "buildingNum": "8101",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_328_06801abf0143c73bbdfe9481e87eee08_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

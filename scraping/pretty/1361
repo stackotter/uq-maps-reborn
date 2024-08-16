@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755259,
+        "title": "Hawken Engineering Building Room C207 (50)",
+        "campusID": 0,
+        "latitude": -27.499903,
+        "longitude": 153.013975,
+        "metadata": {
+            "title": "Hawken Engineering Building Room C207 (50)",
+            "moreinformation": "Free access provided building is open, power points available, AV/whiteboard, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1361",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1361_baa8d598cfa96fb64238fbc3a086b3a8_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1361_f4813786db0d29d22189545b38f0180a_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

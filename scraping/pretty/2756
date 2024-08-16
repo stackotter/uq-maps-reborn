@@ -1,0 +1,20 @@
+[
+    {
+        "id": 619004,
+        "title": "UQ Community Garden",
+        "campusID": 0,
+        "latitude": -27.494210069448,
+        "longitude": 153.01124538525,
+        "metadata": {
+            "title": "UQ Community Garden",
+            "web": "https://sustainability.uq.edu.au/projects/sustainable-food/uq-campus-community-gardens",
+            "link": "https://uqmaps.app.uq.edu.au/location/2756",
+            "buildingNum": null,
+            "primaryType": "Sports & Recreation",
+            "otherTypes": [
+                "Places"
+            ]
+        },
+        "typeCode": "spt"
+    }
+]

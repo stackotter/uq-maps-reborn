@@ -1,0 +1,22 @@
+[
+    {
+        "id": 610,
+        "title": "Warrego Highway Bus Stop",
+        "campusID": 2,
+        "latitude": -27.547926,
+        "longitude": 152.333572,
+        "metadata": {
+            "title": "Warrego Highway Bus Stop",
+            "moreinformation": "Visit Translink for timetables and further information.",
+            "phone": "13 12 30",
+            "web": "https://translink.com.au/",
+            "link": "https://uqmaps.app.uq.edu.au/location/403",
+            "buildingNum": "8517",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Transport"
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

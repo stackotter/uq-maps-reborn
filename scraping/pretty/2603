@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1756237,
+        "title": "Nyamul Preschool Room 105 (8155)",
+        "campusID": 2,
+        "latitude": -27.552017,
+        "longitude": 152.33664,
+        "metadata": {
+            "title": "Nyamul Preschool Room 105 (8155)",
+            "moreinformation": "\n\nToilets/shower/baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2603",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Parenting & Baby Change Facilities",
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

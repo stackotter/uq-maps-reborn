@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5311,
+        "title": "Glasshouse No 7",
+        "campusID": 0,
+        "latitude": -27.495355,
+        "longitude": 153.009869,
+        "metadata": {
+            "title": "Glasshouse No 7",
+            "link": "https://uqmaps.app.uq.edu.au/location/1921",
+            "buildingNum": "88E",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1921_94cc41a4de72bb5feae3e9975c5abcd8_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

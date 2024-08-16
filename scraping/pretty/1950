@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5653,
+        "title": "Community Gardens Toilet Block",
+        "campusID": 2,
+        "latitude": -27.553216,
+        "longitude": 152.338343,
+        "metadata": {
+            "title": "Community Gardens Toilet Block",
+            "link": "https://uqmaps.app.uq.edu.au/location/1950",
+            "buildingNum": "8132",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1950_e2ec1bc4e347bb14b0fe0e9483ecddcc_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

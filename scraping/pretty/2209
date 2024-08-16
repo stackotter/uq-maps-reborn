@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756249,
+        "title": "Human Movement Studies Building Room 413 (26B)",
+        "campusID": 0,
+        "latitude": -27.495044,
+        "longitude": 153.015647,
+        "metadata": {
+            "title": "Human Movement Studies Building Room 413 (26B)",
+            "moreinformation": "\n\nAccess Toilet/shower/baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2209",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Parenting & Baby Change Facilities",
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2209_68fabef69e2bf9078f22b8550550f75e_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

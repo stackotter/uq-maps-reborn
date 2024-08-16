@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1755953,
+        "title": "Warwick Solar Farm Visitor Centre Room 108 (846)",
+        "campusID": 3,
+        "latitude": -28.182947,
+        "longitude": 152.067092,
+        "metadata": {
+            "title": "Warwick Solar Farm Visitor Centre Room 108 (846)",
+            "moreinformation": "\n\nStaff Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2821",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

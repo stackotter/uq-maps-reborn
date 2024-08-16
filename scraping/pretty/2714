@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756318,
+        "title": "Plant Protection Building Room 116 (8107)",
+        "campusID": 2,
+        "latitude": -27.554169,
+        "longitude": 152.33492,
+        "metadata": {
+            "title": "Plant Protection Building Room 116 (8107)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2714",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__854acc21477cd388cd50dec0fab46b6f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

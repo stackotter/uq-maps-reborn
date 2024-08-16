@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755969,
+        "title": "UQ Sport Tennis Clubhouse Room 105 (28)",
+        "campusID": 0,
+        "latitude": -27.494523,
+        "longitude": 153.015309,
+        "metadata": {
+            "title": "UQ Sport Tennis Clubhouse Room 105 (28)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2202",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2202_dc0983deaf09dc26f97e5969d7c60052_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

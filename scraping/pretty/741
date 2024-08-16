@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1109,
+        "title": "Innes Room (Union College)",
+        "campusID": 0,
+        "latitude": -27.5004307,
+        "longitude": 153.0105662,
+        "metadata": {
+            "title": "Innes Room (Union College)",
+            "link": "https://uqmaps.app.uq.edu.au/location/741",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 33,
+        "title": "Terrestrial Ecosystem Research Network",
+        "campusID": 0,
+        "latitude": -27.497994,
+        "longitude": 153.012171,
+        "metadata": {
+            "title": "Terrestrial Ecosystem Research Network",
+            "web": "http://www.tern.org.au/",
+            "phone": "(07) 3346 7021",
+            "fax": "(07) 3365 1423",
+            "moreinformation": "The Terrestrial Ecosystem Research Network (TERN) is an overarching and integrated network designed to serve ecosystem research in Australia. It builds on significant past investments by scientists and governments to understand Australian ecosystems. It does this by focussing on collating, calibrating, validating and standardising existing data sets. TERN is also funding new research infrastructure and collection systems, expanding observation and monitoring programs into unrepresented ecosystems, and building digital infrastructure to store and publish this information in a form that can be searched and accessed freely under licenses that acknowledge the data provider(s) and build collaborative research. While TERN is essentially a network of infrastructure, the inherent collaboration between facilities also creates a network for sharing ideas. Thus, TERN is able to support high-level analysis and synthesis of complex ecosystem data across the science-policy-management continuum, which in turn helps advance ecosystem research. By providing the means to share data sets and develop collaborations as part of our data sharing processes, TERN is the catalyst for a culture shift to more open and collaborative form of ecosystem science in Australia. Our goal is to see more scientists working together, rather than in isolation, and being rewarded for sharing data and knowledge. Together, they will build knowledge more effectively to address key terrestrial ecosystem problems. TERN?s legacy will be a sustainable long-term ecosystem research network for Australia, with shared access to research data for improved understanding and management of our unique ecosystems.",
+            "link": "https://uqmaps.app.uq.edu.au/location/123",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756349,
+        "title": "Mayne Medical School Room 416 (881)",
+        "campusID": 3,
+        "latitude": -27.448358,
+        "longitude": 153.023801,
+        "metadata": {
+            "title": "Mayne Medical School Room 416 (881)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2718",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2718_388f322d7c090581319dc28afe66455d_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__0f6f54acea6c6602f5334a8db6c101aa_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

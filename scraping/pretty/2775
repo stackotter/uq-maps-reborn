@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755161,
+        "title": "Hawken Engineering Building Room L213 (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L213 (50)",
+            "moreinformation": "Free access provided the building is open, power points, computer, table/chairs, individual and collaborative study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2775",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2775_7963282bb4d3782b676c6b9ae45ded13_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__db86988d4613b452fe626892a9bfda65_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

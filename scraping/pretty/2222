@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755996,
+        "title": "David Theile Olympic Pool Room 103 (27)",
+        "campusID": 0,
+        "latitude": -27.495044,
+        "longitude": 153.016398,
+        "metadata": {
+            "title": "David Theile Olympic Pool Room 103 (27)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2222",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2222_c5d258359a9aaad37aa10d974b1dce11_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

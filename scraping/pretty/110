@@ -1,0 +1,21 @@
+[
+    {
+        "id": 130,
+        "title": "School of Architecture",
+        "campusID": 0,
+        "latitude": -27.499079,
+        "longitude": 153.01466,
+        "metadata": {
+            "title": "School of Architecture",
+            "web": "http://www.architecture.uq.edu.au",
+            "email": "architecture@uq.edu.au",
+            "phone": "(07) 3365 3537",
+            "office": "Room 306, Level 3, Zelman Cowen Building (51)",
+            "link": "https://uqmaps.app.uq.edu.au/location/110",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

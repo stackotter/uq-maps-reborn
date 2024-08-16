@@ -1,0 +1,27 @@
+[
+    {
+        "id": 630,
+        "title": "Peter Roberts Continuing Education Centre",
+        "campusID": 2,
+        "latitude": -27.551826,
+        "longitude": 152.334559,
+        "metadata": {
+            "title": "Peter Roberts Continuing Education Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/423",
+            "buildingNum": "8164",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_423_307701700c0eef90c75dd603fdc16676__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_423_64c8df6ac96e15980a7fdc361f318564_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

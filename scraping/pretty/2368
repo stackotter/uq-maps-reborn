@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755950,
+        "title": "Seddon North Block Room 406 (82C)",
+        "campusID": 0,
+        "latitude": -27.496357,
+        "longitude": 153.010733,
+        "metadata": {
+            "title": "Seddon North Block Room 406 (82C)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2368",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2368_1c4388d6d6c000cf94f9a98e33b9bb6b_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

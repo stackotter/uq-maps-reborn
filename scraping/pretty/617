@@ -1,0 +1,20 @@
+[
+    {
+        "id": 356,
+        "title": "K-Chiken",
+        "campusID": 0,
+        "latitude": -27.49737814697,
+        "longitude": 153.01572059276,
+        "metadata": {
+            "title": "K-Chiken",
+            "moreinformation": "Authentic Korean Fried Chicken meals",
+            "hours": "Monday - Friday 10.30am - 2.30pm",
+            "web": "https://www.uqu.com.au/outlet/k-chiken",
+            "link": "https://uqmaps.app.uq.edu.au/location/617",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

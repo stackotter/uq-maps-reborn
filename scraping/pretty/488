@@ -1,0 +1,23 @@
+[
+    {
+        "id": 698,
+        "title": "Farms Workshop",
+        "campusID": 2,
+        "latitude": -27.551884,
+        "longitude": 152.339387,
+        "metadata": {
+            "title": "Farms Workshop",
+            "link": "https://uqmaps.app.uq.edu.au/location/488",
+            "buildingNum": "8245",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_488_9bc75575f59816ab61a7d57f5f3dd6df_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

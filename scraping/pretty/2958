@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755162,
+        "title": "Hawken Engineering Building Room L214 (50)",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Hawken Engineering Building Room L214 (50)",
+            "moreinformation": "High Use & Requested Items. Book returns. Print/Scan/Copy. Individual study. 24/7 access.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2958",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__0abb8dc10f17da8cd31dda79dd1f5735_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

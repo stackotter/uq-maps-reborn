@@ -1,0 +1,21 @@
+[
+    {
+        "id": 91,
+        "title": "P10 UQ Sport Aquatic Centre Carpark",
+        "campusID": 0,
+        "latitude": -27.4953,
+        "longitude": 153.017201,
+        "metadata": {
+            "title": "P10 UQ Sport Aquatic Centre Carpark",
+            "email": "parking@pf.uq.edu.au",
+            "web": "https://www.pf.uq.edu.au/parking/",
+            "phone": "(07) 3365 2222",
+            "parkingtype": "Casual parking",
+            "link": "https://uqmaps.app.uq.edu.au/location/608",
+            "buildingNum": null,
+            "primaryType": "Parking Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "par"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1755902,
+        "title": "Steele Building Room 203 (3)",
+        "campusID": 0,
+        "latitude": -27.49729,
+        "longitude": 153.014488,
+        "metadata": {
+            "title": "Steele Building Room 203 (3)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2149",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2149_668d69bf6ca291360fc0ea291a83d953_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2149_3745986890f2930d4fc03d9fb681276b_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

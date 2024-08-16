@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1755808,
+        "title": "Veterinary Medical Centre Room 1039 (8156)",
+        "campusID": 2,
+        "latitude": -27.551237,
+        "longitude": 152.335911,
+        "metadata": {
+            "title": "Veterinary Medical Centre Room 1039 (8156)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2078",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

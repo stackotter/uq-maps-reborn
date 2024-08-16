@@ -1,0 +1,23 @@
+[
+    {
+        "id": 681,
+        "title": "Old Crowley Vale School",
+        "campusID": 2,
+        "latitude": -27.549277,
+        "longitude": 152.339602,
+        "metadata": {
+            "title": "Old Crowley Vale School",
+            "link": "https://uqmaps.app.uq.edu.au/location/471",
+            "buildingNum": "8158",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_471_fedc49c15cfaa27e12649a830868afc9_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

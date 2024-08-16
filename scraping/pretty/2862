@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1042368,
+        "title": "Substation No. 07 - Main S'Stn Upland Road",
+        "campusID": 0,
+        "latitude": -27.499529,
+        "longitude": 153.011365,
+        "metadata": {
+            "title": "Substation No. 07 - Main S'Stn Upland Road",
+            "link": "https://uqmaps.app.uq.edu.au/location/2862",
+            "buildingNum": "59G",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2862_75e27a4719b223dd97b7d6e482844e58_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

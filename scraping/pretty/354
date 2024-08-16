@@ -1,0 +1,27 @@
+[
+    {
+        "id": 562,
+        "title": "Management Studies Building",
+        "campusID": 2,
+        "latitude": -27.554984,
+        "longitude": 152.334859,
+        "metadata": {
+            "title": "Management Studies Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/354",
+            "buildingNum": "8117",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_354_f41cc9b5c42ba90b1834d19e38da3ddf__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_354_39dab9158aa43978cdbc617896232f61_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

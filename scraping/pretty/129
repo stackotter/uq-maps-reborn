@@ -1,0 +1,23 @@
+[
+    {
+        "id": 150,
+        "title": "Skerman Building",
+        "campusID": 0,
+        "latitude": -27.499073,
+        "longitude": 153.011603,
+        "metadata": {
+            "title": "Skerman Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/129",
+            "buildingNum": "65",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_129_fa2d10865570a557625a4bbf499ad165_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

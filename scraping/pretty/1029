@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755134,
+        "title": "Duhig North Room N201 (12)",
+        "campusID": 0,
+        "latitude": -27.496106,
+        "longitude": 153.013659,
+        "metadata": {
+            "title": "Duhig North Room N201 (12)",
+            "moreinformation": "Free access provided the building is open, power points, table/chairs, group study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1029",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1029_3770d2a15018b42d709811d758968ce0_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1029_9861c375604de86d1323cf7eb5b6d18b_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1029_b5f7070fc91212695ec285a08646eac5_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

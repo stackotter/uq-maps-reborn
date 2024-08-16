@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755932,
+        "title": "Axon Building Room 512 (47)",
+        "campusID": 0,
+        "latitude": -27.500127,
+        "longitude": 153.014421,
+        "metadata": {
+            "title": "Axon Building Room 512 (47)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2172",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2172_5f0bb9040acf5f325ea2c63bb86197f6_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

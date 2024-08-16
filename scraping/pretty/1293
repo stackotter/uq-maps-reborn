@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755219,
+        "title": "John Mahon Stage II Room 204 (8106)",
+        "campusID": 2,
+        "latitude": -27.552264,
+        "longitude": 152.334452,
+        "metadata": {
+            "title": "John Mahon Stage II Room 204 (8106)",
+            "moreinformation": "Free access provided building is open, power points available, no equipments, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1293",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1293_d62290f1e67b3d6dbbbd6f9e154036cb_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

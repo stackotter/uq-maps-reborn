@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1042365,
+        "title": "Lakes Pump Shed",
+        "campusID": 0,
+        "latitude": -27.498604,
+        "longitude": 153.016871,
+        "metadata": {
+            "title": "Lakes Pump Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/2859",
+            "buildingNum": "58B",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2859_c6bc782250c7bc953b20db806489488e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

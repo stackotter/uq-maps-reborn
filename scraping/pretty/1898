@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755384,
+        "title": "Sir James Foots Building Room 740 (47A)",
+        "campusID": 0,
+        "latitude": -27.50044,
+        "longitude": 153.014454,
+        "metadata": {
+            "title": "Sir James Foots Building Room 740 (47A)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1898",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1898_8641db99d453e1417818ca4633b37aae_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

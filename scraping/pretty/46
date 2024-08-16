@@ -1,0 +1,20 @@
+[
+    {
+        "id": 57,
+        "title": "Uni Hair Salon",
+        "campusID": 0,
+        "latitude": -27.497118,
+        "longitude": 153.015325,
+        "metadata": {
+            "title": "Uni Hair Salon",
+            "hours": "Monday - Friday 8am to 6pm and Saturday 9am to 3pm",
+            "phone": "(07) 3371 2603",
+            "moreinformation": "Wanting some new bangs or a quick trim, call for an appointment or just drop in and see the stylists at the Uni Hair Salon located in the Union Arcade. They also speak Spanish, Italian and Cantonese",
+            "link": "https://uqmaps.app.uq.edu.au/location/46",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

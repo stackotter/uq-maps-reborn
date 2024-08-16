@@ -1,0 +1,23 @@
+[
+    {
+        "id": 646,
+        "title": "Plant Propagation House",
+        "campusID": 2,
+        "latitude": -27.554166,
+        "longitude": 152.338572,
+        "metadata": {
+            "title": "Plant Propagation House",
+            "link": "https://uqmaps.app.uq.edu.au/location/439",
+            "buildingNum": "8139",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_439_9f61f5ce424518d5ce3deb6c8f323389_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

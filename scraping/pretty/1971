@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5674,
+        "title": "Dwelling No 4",
+        "campusID": 2,
+        "latitude": -27.558178,
+        "longitude": 152.335213,
+        "metadata": {
+            "title": "Dwelling No 4",
+            "link": "https://uqmaps.app.uq.edu.au/location/1971",
+            "buildingNum": "8303",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1971_132394fa748511d485c103626f2c189c_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 412,
+        "title": "Eastern Water Dragon",
+        "campusID": 0,
+        "latitude": -27.498501,
+        "longitude": 153.015971,
+        "metadata": {
+            "title": "Eastern Water Dragon",
+            "moreinformation": "The Eastern Water Dragon is another urban \u2018survivor\u2019. Males can grow up to 1 metre with two thirds of their length comprised of their tail. Eastern Water Dragons spend most of their day basking in the sun on rocks or branches around creeks, but if disturbed will quickly leap into the water where they can stay submerged for up to an hour. Breeding males display bright red and yellow markings, and communicate through head-bobbing and arm-waving. Fossils from this genus have been recorded in Queensland from around 20 million years ago.",
+            "web": "http://www.uq.edu.au/sustainability/eastern-water-dragon",
+            "link": "https://uqmaps.app.uq.edu.au/location/639",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 602,
+        "title": "Building 8336",
+        "campusID": 2,
+        "latitude": -27.557743,
+        "longitude": 152.339451,
+        "metadata": {
+            "title": "Building 8336",
+            "link": "https://uqmaps.app.uq.edu.au/location/395",
+            "buildingNum": "8336",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

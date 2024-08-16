@@ -1,0 +1,23 @@
+[
+    {
+        "id": 672,
+        "title": "Equine Reproduction Facility",
+        "campusID": 2,
+        "latitude": -27.551484,
+        "longitude": 152.337499,
+        "metadata": {
+            "title": "Equine Reproduction Facility",
+            "link": "https://uqmaps.app.uq.edu.au/location/462",
+            "buildingNum": "8224",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_462_2ead520d436e2e470c3ed7e190e2fa30_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 173,
+        "title": "Otto Hirschfeld Building",
+        "campusID": 0,
+        "latitude": -27.497328,
+        "longitude": 153.010647,
+        "metadata": {
+            "title": "Otto Hirschfeld Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/151",
+            "buildingNum": "81",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_151_ccf11f53de69b1e0c0bd788691372424__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_151_0d4969ec270fb6a879a50287dccb7b3a_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

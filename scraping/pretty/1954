@@ -1,0 +1,17 @@
+[
+    {
+        "id": 5657,
+        "title": "Free Range Kids Nursery Building",
+        "campusID": 2,
+        "latitude": -27.551989,
+        "longitude": 152.336717,
+        "metadata": {
+            "title": "Free Range Kids Nursery Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/1954",
+            "buildingNum": "8155D",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

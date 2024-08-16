@@ -1,0 +1,23 @@
+[
+    {
+        "id": 593,
+        "title": "Tennis Pavilion",
+        "campusID": 2,
+        "latitude": -27.558142,
+        "longitude": 152.337327,
+        "metadata": {
+            "title": "Tennis Pavilion",
+            "link": "https://uqmaps.app.uq.edu.au/location/386",
+            "buildingNum": "8180",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_386_f588a7bae4d937021d873e560e6f74be_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

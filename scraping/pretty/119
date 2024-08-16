@@ -1,0 +1,20 @@
+[
+    {
+        "id": 140,
+        "title": "Post Office",
+        "campusID": 0,
+        "latitude": -27.498568,
+        "longitude": 153.011584,
+        "metadata": {
+            "title": "Post Office",
+            "hours": "Mon - Fri, 9:00am - 5:00pm\r\nWeekend, Closed",
+            "web": "https://auspost.com.au/",
+            "phone": "3336 5719",
+            "link": "https://uqmaps.app.uq.edu.au/location/119",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

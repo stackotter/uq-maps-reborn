@@ -1,0 +1,17 @@
+[
+    {
+        "id": 917,
+        "title": "Geoffrey Rush Drama Studio",
+        "campusID": 0,
+        "latitude": -27.496801,
+        "longitude": 153.01612,
+        "metadata": {
+            "title": "Geoffrey Rush Drama Studio",
+            "link": "https://uqmaps.app.uq.edu.au/location/692",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

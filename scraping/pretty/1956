@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5659,
+        "title": "Dairy Feedpad",
+        "campusID": 2,
+        "latitude": -27.552417,
+        "longitude": 152.330205,
+        "metadata": {
+            "title": "Dairy Feedpad",
+            "link": "https://uqmaps.app.uq.edu.au/location/1956",
+            "buildingNum": "8181",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1956_b1d0c7d9d795136cfdd6a4b50da2e3c6_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

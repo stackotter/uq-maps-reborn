@@ -1,0 +1,23 @@
+[
+    {
+        "id": 616,
+        "title": "Tractor Training Shed",
+        "campusID": 2,
+        "latitude": -27.555745,
+        "longitude": 152.332778,
+        "metadata": {
+            "title": "Tractor Training Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/409",
+            "buildingNum": "8175A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_409_414ab852fe190fefa034fa61b45e234c_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

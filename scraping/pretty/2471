@@ -1,0 +1,59 @@
+[
+    {
+        "id": 20956,
+        "title": "Bicycle Repair Stations",
+        "campusID": 2,
+        "latitude": -27.556642,
+        "longitude": 152.336584,
+        "metadata": {
+            "title": "Bicycle Repair Stations",
+            "location": "Shelton Halls of Residence (8122)",
+            "web": "https://www.pf.uq.edu.au/cycling",
+            "email": "pfassist@pf.uq.edu.au",
+            "phone": "(07) 3365 2222",
+            "link": "https://uqmaps.app.uq.edu.au/location/2471",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 140241,
+        "title": "Bicycle Repair Stations",
+        "campusID": 2,
+        "latitude": -27.553536,
+        "longitude": 152.335588,
+        "metadata": {
+            "title": "Bicycle Repair Stations",
+            "web": "https://www.pf.uq.edu.au/cycling/",
+            "email": "pfassist@pf.uq.edu.au",
+            "phone": "(07) 3365 2222",
+            "moreinformation": "Note: A Bicycle pump is only available at this location",
+            "link": "https://uqmaps.app.uq.edu.au/location/2471",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 20957,
+        "title": "Bicycle Repair Stations",
+        "campusID": 2,
+        "latitude": -27.553397,
+        "longitude": 152.33675,
+        "metadata": {
+            "title": "Bicycle Repair Stations",
+            "location": "Riddell Halls Of Residence (8119)",
+            "web": "https://www.pf.uq.edu.au/cycling",
+            "email": "pfassist@pf.uq.edu.au",
+            "phone": "(07) 3365 2222",
+            "link": "https://uqmaps.app.uq.edu.au/location/2471",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    }
+]

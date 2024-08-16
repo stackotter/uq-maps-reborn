@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755200,
+        "title": "Sir William MacGregor Building Room 140 (64)",
+        "campusID": 0,
+        "latitude": -27.499346,
+        "longitude": 153.012289,
+        "metadata": {
+            "title": "Sir William MacGregor Building Room 140 (64)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2556",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2556_5f12e3c70d0eb0a729df68b9dea61503_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 421,
+        "title": "Australasian Darter",
+        "campusID": 0,
+        "latitude": -27.499212,
+        "longitude": 153.01687,
+        "metadata": {
+            "title": "Australasian Darter",
+            "moreinformation": "The Australasian Darter is distinguished from other waterbirds by its long needle-like bill and snake-like neck. Males have dark grey to glossy black plumage with a white stripe from its bill to the first bend in its neck on each side, and iridescent wings with cream streaks. Females have grey-brown upper parts, pale grey lower parts and white neck stripes. Australasian Darters are found in lakes, rivers and swamps, and are often seen holding their wings out to dry when perched. They are stealth hunters and can be seen drawing fish into the shadows of their wings before impaling them.",
+            "web": "http://www.uq.edu.au/sustainability/australasian-darter",
+            "link": "https://uqmaps.app.uq.edu.au/location/648",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

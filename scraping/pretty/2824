@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755362,
+        "title": "Chemistry Building Room 331 (68)",
+        "campusID": 0,
+        "latitude": -27.499631,
+        "longitude": 153.012965,
+        "metadata": {
+            "title": "Chemistry Building Room 331 (68)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2824",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2824_176a7e9ba6362169a0299ce54ef8d5a1_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

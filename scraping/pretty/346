@@ -1,0 +1,23 @@
+[
+    {
+        "id": 554,
+        "title": "Wilderness Reserves & Wildlife Building",
+        "campusID": 2,
+        "latitude": -27.55409,
+        "longitude": 152.33413,
+        "metadata": {
+            "title": "Wilderness Reserves & Wildlife Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/346",
+            "buildingNum": "8143",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_346_fa21922b63dfb532048cb04939c24de0_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

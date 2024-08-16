@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755224,
+        "title": "Morrison Hall Room 124A (8123)",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Morrison Hall Room 124A (8123)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2764",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2764_102b9e7d00031dd9c0c16b228a1e679f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

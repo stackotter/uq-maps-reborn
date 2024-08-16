@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1072,
+        "title": "Bench Exercises",
+        "campusID": 0,
+        "latitude": -27.498392,
+        "longitude": 153.012644,
+        "metadata": {
+            "title": "Bench Exercises",
+            "youtube": "oMUUkUI0gbY",
+            "exercise": "Tricep Dip",
+            "moreinformation": "Blast your triceps - that's the muscles at the back of your arms - with this simple bench exercise. Buh-bye bingo wings, hellooo arms of steel!",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/706",
+            "buildingNum": null,
+            "primaryType": "Bench Exercises",
+            "otherTypes": []
+        },
+        "typeCode": "sp5"
+    },
+    {
+        "id": 1074,
+        "title": "Bench Exercises",
+        "campusID": 0,
+        "latitude": -27.498109,
+        "longitude": 153.013533,
+        "metadata": {
+            "title": "Bench Exercises",
+            "youtube": "AewC_lPCQtw",
+            "exercise": "Push Up",
+            "moreinformation": "This bench exercise is a great upper-body strength builder. The standard push up (with your arms shoulder width apart) targets your chest and shoulder muscles.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/706",
+            "buildingNum": null,
+            "primaryType": "Bench Exercises",
+            "otherTypes": []
+        },
+        "typeCode": "sp5"
+    },
+    {
+        "id": 1071,
+        "title": "Bench Exercises",
+        "campusID": 0,
+        "latitude": -27.498003,
+        "longitude": 153.017081,
+        "metadata": {
+            "title": "Bench Exercises",
+            "youtube": "pjbBqP4CNt8",
+            "exercise": "Side Plank",
+            "moreinformation": "Who knew benches were good for side planking! Work your core and reach those hard to hit abdominal muscles (obliques and transverse abdominus) with this waistline-tightening bench exercise.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/706",
+            "buildingNum": null,
+            "primaryType": "Bench Exercises",
+            "otherTypes": []
+        },
+        "typeCode": "sp5"
+    },
+    {
+        "id": 1075,
+        "title": "Bench Exercises",
+        "campusID": 0,
+        "latitude": -27.496888,
+        "longitude": 153.01186,
+        "metadata": {
+            "title": "Bench Exercises",
+            "youtube": "fN0pJHVELqc",
+            "exercise": "Step Up",
+            "moreinformation": "Step ups are an intense cardio workout which focuses on strengthening your legs and glutes. Just make sure your shoes are mud-free before starting this bench exercise!",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/706",
+            "buildingNum": null,
+            "primaryType": "Bench Exercises",
+            "otherTypes": []
+        },
+        "typeCode": "sp5"
+    },
+    {
+        "id": 1073,
+        "title": "Bench Exercises",
+        "campusID": 0,
+        "latitude": -27.495374,
+        "longitude": 153.017887,
+        "metadata": {
+            "title": "Bench Exercises",
+            "youtube": "V2yW0UGZJkU",
+            "exercise": "Bulgarian Split Squat",
+            "moreinformation": "Warning - this one burns! The Bulgarian split lunge is an awesome bench exercise for your legs - particularly your quadriceps - and your glutes. Ready to feel the heat?",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/706",
+            "buildingNum": null,
+            "primaryType": "Bench Exercises",
+            "otherTypes": []
+        },
+        "typeCode": "sp5"
+    }
+]

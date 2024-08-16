@@ -1,0 +1,23 @@
+[
+    {
+        "id": 619,
+        "title": "Muslim Prayer Room",
+        "campusID": 2,
+        "latitude": -27.555099,
+        "longitude": 152.333572,
+        "metadata": {
+            "title": "Muslim Prayer Room",
+            "link": "https://uqmaps.app.uq.edu.au/location/412",
+            "buildingNum": "8128",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_412_e38e105243ff696aee23eb91e2e60f76_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

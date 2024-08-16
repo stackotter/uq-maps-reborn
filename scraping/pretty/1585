@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755358,
+        "title": "Advanced Engineering Building Room 320 (49)",
+        "campusID": 0,
+        "latitude": -27.499563,
+        "longitude": 153.014916,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 320 (49)",
+            "moreinformation": "Free access provided building is open, no power points, no equipment, bench, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1585",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1585_1a1c20dcfe2f9a6b90b871fb52863318_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1585_9472eacf29b8ac91a46487b02c660a40_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

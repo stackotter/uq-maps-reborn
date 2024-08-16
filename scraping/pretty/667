@@ -1,0 +1,23 @@
+[
+    {
+        "id": 893,
+        "title": "Student Support Services Building",
+        "campusID": 0,
+        "latitude": -27.497013,
+        "longitude": 153.015558,
+        "metadata": {
+            "title": "Student Support Services Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/667",
+            "buildingNum": "21D",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_667_dcf28d335d7024bdc337821a96bddd9e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

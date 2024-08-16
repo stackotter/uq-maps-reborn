@@ -1,0 +1,21 @@
+[
+    {
+        "id": 59,
+        "title": "Secondhand Texts & Stationery",
+        "campusID": 0,
+        "latitude": -27.496909,
+        "longitude": 153.015239,
+        "metadata": {
+            "title": "Secondhand Texts & Stationery",
+            "web": "https://www.uqusecondhandtexts.com/",
+            "hours": "Monday to Friday 8:30am - 5pm",
+            "phone": "(07) 3377 2243",
+            "moreinformation": "This is your 1 stop online shop for finding what textbooks are available at UQU\u2019s Secondhand Text & Stationery Shop at St Lucia. There\u2019s a huge variety of secondhand textbooks at a fraction of the original RRP saving you loads of money each semester. You can buy or sell books, however, online purchasing is currently not available and all transactions must be made in store. The online search engine is an information tool to help you find what titles are available in store and if you looking to sell, allow you to upload books you have for sale to the online book list.",
+            "link": "https://uqmaps.app.uq.edu.au/location/48",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

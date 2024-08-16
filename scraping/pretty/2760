@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755378,
+        "title": "Sir William MacGregor Building Room 161 (64)",
+        "campusID": 0,
+        "latitude": -27.499346,
+        "longitude": 153.012289,
+        "metadata": {
+            "title": "Sir William MacGregor Building Room 161 (64)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2760",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2760_6f7a5299153fea33ebb670422f99da9a_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

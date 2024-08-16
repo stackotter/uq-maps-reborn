@@ -1,0 +1,21 @@
+[
+    {
+        "id": 270,
+        "title": "Saint Lucy Caffe e Cucina",
+        "campusID": 0,
+        "latitude": -27.494415,
+        "longitude": 153.014853,
+        "metadata": {
+            "title": "Saint Lucy Caffe e Cucina",
+            "web": "https://www.facebook.com/SaintLucyCaffe/",
+            "phone": "(07) 3301 0001",
+            "moreinformation": "Open 7 days a week for breakfast, lunch and dinner.",
+            "hours": "Monday - Sunday 7:30am - 11am\r\nSunday & Monday 12pm - 3pm\r\nTuesday - Saturday 12pm - 9pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/227",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

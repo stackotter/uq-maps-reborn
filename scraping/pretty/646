@@ -1,0 +1,19 @@
+[
+    {
+        "id": 419,
+        "title": "Pied Currawong",
+        "campusID": 0,
+        "latitude": -27.49855,
+        "longitude": 153.0152685,
+        "metadata": {
+            "title": "Pied Currawong",
+            "moreinformation": "The Pied Currawong has a robust bill with a well-defined hook. Its body is black with a prominent white crescent-shaped patch on each wing, white undertail coverts, base of tail and tip. The Pied Currawong prefers open and low open forest, woodland, scrub, agricultural and urban lands. It is an omnivorous and opportunistic feeder, and a vocal bird with a distinctive \u201ccurra-wong\u201d double-call.",
+            "web": "http://www.uq.edu.au/sustainability/pied-currawong",
+            "link": "https://uqmaps.app.uq.edu.au/location/646",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

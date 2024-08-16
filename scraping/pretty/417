@@ -1,0 +1,23 @@
+[
+    {
+        "id": 624,
+        "title": "Electrical Substation",
+        "campusID": 2,
+        "latitude": -27.553101,
+        "longitude": 152.333786,
+        "metadata": {
+            "title": "Electrical Substation",
+            "link": "https://uqmaps.app.uq.edu.au/location/417",
+            "buildingNum": "8167",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_417_577c78fa8f04f7732fc4db2a3a1a1e64_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

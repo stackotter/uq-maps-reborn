@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755286,
+        "title": "UQ Health Sciences Building Room 402 (901)",
+        "campusID": 3,
+        "latitude": -27.448168,
+        "longitude": 153.028052,
+        "metadata": {
+            "title": "UQ Health Sciences Building Room 402 (901)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1912",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1912_dd0b600d91b7a300fdf62db8444a6f50_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

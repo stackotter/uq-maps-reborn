@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755955,
+        "title": "Axon Building Room 108 (47)",
+        "campusID": 0,
+        "latitude": -27.500127,
+        "longitude": 153.014421,
+        "metadata": {
+            "title": "Axon Building Room 108 (47)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2191",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2191_06c8219364b0887b1626de7b2258377f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

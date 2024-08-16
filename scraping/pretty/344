@@ -1,0 +1,23 @@
+[
+    {
+        "id": 552,
+        "title": "Glass House I",
+        "campusID": 2,
+        "latitude": -27.55409,
+        "longitude": 152.334645,
+        "metadata": {
+            "title": "Glass House I",
+            "link": "https://uqmaps.app.uq.edu.au/location/344",
+            "buildingNum": "8109",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_344_59699cd7d3b6a1773c40d95c2644af49_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

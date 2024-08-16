@@ -1,0 +1,28 @@
+[
+    {
+        "id": 910,
+        "title": "Bus Shelter Main Drive",
+        "campusID": 2,
+        "latitude": -27.552262,
+        "longitude": 152.335204,
+        "metadata": {
+            "title": "Bus Shelter Main Drive",
+            "moreinformation": "Visit Translink for timetables and further information.",
+            "phone": "13 12 30",
+            "web": "https://jp.translink.com.au/plan-your-journey/stops/310640",
+            "link": "https://uqmaps.app.uq.edu.au/location/686",
+            "buildingNum": "8142",
+            "primaryType": "Buildings",
+            "otherTypes": [
+                "Transport"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_686_be3d8c1964c723a75b7470da4b958233_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

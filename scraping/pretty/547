@@ -1,0 +1,17 @@
+[
+    {
+        "id": 845,
+        "title": "RCH Foundation Building",
+        "campusID": 3,
+        "latitude": -27.449143,
+        "longitude": 153.026161,
+        "metadata": {
+            "title": "RCH Foundation Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/547",
+            "buildingNum": "C4",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

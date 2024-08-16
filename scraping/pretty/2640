@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1755836,
+        "title": "Building 8126 Room 109 (8126)",
+        "campusID": 2,
+        "latitude": -27.555137,
+        "longitude": 152.336318,
+        "metadata": {
+            "title": "Building 8126 Room 109 (8126)",
+            "moreinformation": "\n\nUnisex Toilet Vestibule",
+            "link": "https://uqmaps.app.uq.edu.au/location/2640",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5717,
+        "title": "Toilet Block",
+        "campusID": 2,
+        "latitude": -27.539565,
+        "longitude": 152.332234,
+        "metadata": {
+            "title": "Toilet Block",
+            "link": "https://uqmaps.app.uq.edu.au/location/2014",
+            "buildingNum": "8418",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2014_93660b7abaa49fd60d99ce58ada51d13_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

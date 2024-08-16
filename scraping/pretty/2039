@@ -1,0 +1,27 @@
+[
+    {
+        "id": 5742,
+        "title": "Darbalara Implement & Machinery Shed-Babcock",
+        "campusID": 2,
+        "latitude": -27.596053,
+        "longitude": 152.389513,
+        "metadata": {
+            "title": "Darbalara Implement & Machinery Shed-Babcock",
+            "link": "https://uqmaps.app.uq.edu.au/location/2039",
+            "buildingNum": "8604",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2039_758fff710053ad0bf9ef850159e4b8f7__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2039_9f5aa99236f78dd47c25d7ddc7aba6f3_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

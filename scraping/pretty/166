@@ -1,0 +1,17 @@
+[
+    {
+        "id": 201,
+        "title": "Steele Hut Space Bank",
+        "campusID": 0,
+        "latitude": -27.494993,
+        "longitude": 153.009159,
+        "metadata": {
+            "title": "Steele Hut Space Bank",
+            "link": "https://uqmaps.app.uq.edu.au/location/166",
+            "buildingNum": "3A",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

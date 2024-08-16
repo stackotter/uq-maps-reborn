@@ -1,0 +1,27 @@
+[
+    {
+        "id": 5312,
+        "title": "Glasshouse No 8A/B",
+        "campusID": 0,
+        "latitude": -27.495241,
+        "longitude": 153.009599,
+        "metadata": {
+            "title": "Glasshouse No 8A/B",
+            "link": "https://uqmaps.app.uq.edu.au/location/1922",
+            "buildingNum": "88F",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1922_ea077e73a89b4d253f9013b8271cfde8__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1922_297d780af4ec23523f3a2b263694617e_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

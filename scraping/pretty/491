@@ -1,0 +1,23 @@
+[
+    {
+        "id": 701,
+        "title": "Vehicle Storage Shed",
+        "campusID": 2,
+        "latitude": -27.551218,
+        "longitude": 152.338443,
+        "metadata": {
+            "title": "Vehicle Storage Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/491",
+            "buildingNum": "8204",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_491_62c75960f704336de75b4e7924cae03a_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

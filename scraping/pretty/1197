@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755172,
+        "title": "Connell Building Room 112 (26)",
+        "campusID": 0,
+        "latitude": -27.495242,
+        "longitude": 153.015407,
+        "metadata": {
+            "title": "Connell Building Room 112 (26)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, table/chairs, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1197",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1197_9c26d2a62630be980ae68f1374593660_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1197_d7c808765d212bc62bbf9b1a603a2887_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

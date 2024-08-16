@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755131,
+        "title": "Aung San Suu Kyi Conference Centre Room 412 (21C)",
+        "campusID": 0,
+        "latitude": -27.497381,
+        "longitude": 153.016009,
+        "metadata": {
+            "title": "Aung San Suu Kyi Conference Centre Room 412 (21C)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1017",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1017_bec2ff6977df2d33c8cede26f1a26782_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1017_41d000b5bdb2d8a937a066e28460a637_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

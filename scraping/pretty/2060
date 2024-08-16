@@ -1,0 +1,17 @@
+[
+    {
+        "id": 7333,
+        "title": "Langmuir Stables",
+        "campusID": 2,
+        "latitude": -27.56166,
+        "longitude": 152.344064,
+        "metadata": {
+            "title": "Langmuir Stables",
+            "link": "https://uqmaps.app.uq.edu.au/location/2060",
+            "buildingNum": "8557",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755957,
+        "title": "Colin Clark Building Room 128 (39)",
+        "campusID": 0,
+        "latitude": -27.494701,
+        "longitude": 153.014188,
+        "metadata": {
+            "title": "Colin Clark Building Room 128 (39)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2193",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2193_635154d7052519d2c48c312c5d15afa7_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

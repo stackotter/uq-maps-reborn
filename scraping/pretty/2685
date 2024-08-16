@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756320,
+        "title": "Seddon Lecture Theatre Block Room 301 (82D)",
+        "campusID": 0,
+        "latitude": -27.496344,
+        "longitude": 153.010397,
+        "metadata": {
+            "title": "Seddon Lecture Theatre Block Room 301 (82D)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2685",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__98b8b301ad40706447dc75aad725350d_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

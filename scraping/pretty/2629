@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755231,
+        "title": "Priestley Building Room 350 (67)",
+        "campusID": 0,
+        "latitude": -27.499041,
+        "longitude": 153.012986,
+        "metadata": {
+            "title": "Priestley Building Room 350 (67)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2629",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2629_8d658b5ad552df03802348f45941bc27_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2629_ae7c0b4d1b4c13ac784aba290367b2b9_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

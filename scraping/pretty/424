@@ -1,0 +1,17 @@
+[
+    {
+        "id": 631,
+        "title": "Continuing Education Centre",
+        "campusID": 2,
+        "latitude": -27.551826,
+        "longitude": 152.334559,
+        "metadata": {
+            "title": "Continuing Education Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/424",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

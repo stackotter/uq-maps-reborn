@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756222,
+        "title": "Solar Research Facility Room 104A (8300)",
+        "campusID": 2,
+        "latitude": -27.560004,
+        "longitude": 152.339475,
+        "metadata": {
+            "title": "Solar Research Facility Room 104A (8300)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2405",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": []
+        },
+        "typeCode": "gnt"
+    }
+]

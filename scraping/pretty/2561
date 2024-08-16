@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756204,
+        "title": "Hartley Teakle Building Room S619 (83)",
+        "campusID": 0,
+        "latitude": -27.495741,
+        "longitude": 153.010464,
+        "metadata": {
+            "title": "Hartley Teakle Building Room S619 (83)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2561",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2561_81a9de317f2c1151cd4d7fc34cf45ba2_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

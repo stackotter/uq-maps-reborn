@@ -1,0 +1,19 @@
+[
+    {
+        "id": 428,
+        "title": "Bunya Pine",
+        "campusID": 0,
+        "latitude": -27.4989533,
+        "longitude": 153.015598,
+        "metadata": {
+            "title": "Bunya Pine",
+            "moreinformation": "The Bunya Pine grows up to 45 metres in height and 1.5 metres in diameter. Bunya Pine trunks are usually free from branches for two thirds of their height with an attractive domed crown. This has made them a favourite for ornamental parks and gardens in the past. They do, however, have one significant drawback \u2013 their cones can grow to the size of a large football, become very heavy and can cause serious injury falling from a great height. Despite its name it is not a \u2018pine\u2019 and some of its closest relatives are found in Chile, Argentina, New Guinea and New Caledonia.",
+            "web": "http://www.uq.edu.au/sustainability/bunya-pine",
+            "link": "https://uqmaps.app.uq.edu.au/location/655",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

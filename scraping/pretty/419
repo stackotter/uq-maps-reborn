@@ -1,0 +1,27 @@
+[
+    {
+        "id": 626,
+        "title": "John Mahon Stage I",
+        "campusID": 2,
+        "latitude": -27.552359,
+        "longitude": 152.334924,
+        "metadata": {
+            "title": "John Mahon Stage I",
+            "link": "https://uqmaps.app.uq.edu.au/location/419",
+            "buildingNum": "8105",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_419_cd66e3bdf6c550162401fd78bd4b512f__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_419_c80f6323d8a3e44c88c2f81755c8848c_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

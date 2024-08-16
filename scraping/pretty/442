@@ -1,0 +1,23 @@
+[
+    {
+        "id": 649,
+        "title": "Building 8141",
+        "campusID": 2,
+        "latitude": -27.553976,
+        "longitude": 152.339065,
+        "metadata": {
+            "title": "Building 8141",
+            "link": "https://uqmaps.app.uq.edu.au/location/442",
+            "buildingNum": "8141",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_442_eb478e7a1fb69425007f475307162183_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

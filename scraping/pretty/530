@@ -1,0 +1,32 @@
+[
+    {
+        "id": 838,
+        "title": "RBWH Clinical School",
+        "campusID": 3,
+        "latitude": -27.448838,
+        "longitude": 153.027749,
+        "metadata": {
+            "title": "RBWH Clinical School",
+            "link": "https://uqmaps.app.uq.edu.au/location/530",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    },
+    {
+        "id": 827,
+        "title": "RBWH Clinical School",
+        "campusID": 3,
+        "latitude": -27.448229,
+        "longitude": 153.028049,
+        "metadata": {
+            "title": "RBWH Clinical School",
+            "link": "https://uqmaps.app.uq.edu.au/location/530",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

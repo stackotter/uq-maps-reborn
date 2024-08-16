@@ -1,0 +1,17 @@
+[
+    {
+        "id": 856,
+        "title": "Mayne Medical Building",
+        "campusID": 3,
+        "latitude": -27.448342,
+        "longitude": 153.023784,
+        "metadata": {
+            "title": "Mayne Medical Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/558",
+            "buildingNum": "881",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

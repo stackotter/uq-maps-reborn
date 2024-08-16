@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755295,
+        "title": "Aung San Suu Kyi Conference Centre Room 228 (21C)",
+        "campusID": 0,
+        "latitude": -27.497396,
+        "longitude": 153.015937,
+        "metadata": {
+            "title": "Aung San Suu Kyi Conference Centre Room 228 (21C)",
+            "moreinformation": "Free access provided building is open, power points available, projector,lounges, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1417",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1417_6fd498f5be33ef0df394fa7243e76936_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1417_3a7f977494497618edad6f3a07871825_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 276,
+        "title": "Mr Beans Coffee",
+        "campusID": 0,
+        "latitude": -27.498508,
+        "longitude": 153.011398,
+        "metadata": {
+            "title": "Mr Beans Coffee",
+            "web": "http://www.uqu.com.au/outlet/26/mr-beans",
+            "link": "https://uqmaps.app.uq.edu.au/location/54",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    },
+    {
+        "id": 65,
+        "title": "Mr Beans Coffee",
+        "campusID": 0,
+        "latitude": -27.497251,
+        "longitude": 153.015561,
+        "metadata": {
+            "title": "Mr Beans Coffee",
+            "web": "http://www.uqu.com.au/outlet/26/mr-beans",
+            "link": "https://uqmaps.app.uq.edu.au/location/54",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

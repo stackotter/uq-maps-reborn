@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755283,
+        "title": "Block 6 Room 624 (910)",
+        "campusID": 3,
+        "latitude": -27.448709,
+        "longitude": 153.027754,
+        "metadata": {
+            "title": "Block 6 Room 624 (910)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1908",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1908_589be431aaf50753f276f85cf51994e2_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

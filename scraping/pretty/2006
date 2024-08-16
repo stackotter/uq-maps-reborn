@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5709,
+        "title": "Rainout Shelters Facility",
+        "campusID": 2,
+        "latitude": -27.53825,
+        "longitude": 152.335864,
+        "metadata": {
+            "title": "Rainout Shelters Facility",
+            "link": "https://uqmaps.app.uq.edu.au/location/2006",
+            "buildingNum": "8408A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2006_b9c3494ed7009da9b7a984222f493e22_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

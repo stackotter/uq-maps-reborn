@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755316,
+        "title": "Biological Sciences Library Room 312 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 312 (94)",
+            "moreinformation": "Bookable access provided the building is open, power points, computer, large display screen with laptop connections, whiteboard, table/ 6 x chairs, group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1477",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1477_893c049ff3d0a8eb1e8c614b60e02180_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1477_dfe0ad70c90a9209fd804727314f6b60_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

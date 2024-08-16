@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756132,
+        "title": "Containment Complex 1 Room 130 (8370)",
+        "campusID": 2,
+        "latitude": -27.557862,
+        "longitude": 152.34205,
+        "metadata": {
+            "title": "Containment Complex 1 Room 130 (8370)",
+            "moreinformation": "\n\nAccess Toilet/cleaner Storage/sink",
+            "link": "https://uqmaps.app.uq.edu.au/location/2314",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

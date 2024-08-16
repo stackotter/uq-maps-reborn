@@ -1,0 +1,23 @@
+[
+    {
+        "id": 699,
+        "title": "Feed & Tack Building-Bates",
+        "campusID": 2,
+        "latitude": -27.552359,
+        "longitude": 152.339644,
+        "metadata": {
+            "title": "Feed & Tack Building-Bates",
+            "link": "https://uqmaps.app.uq.edu.au/location/489",
+            "buildingNum": "8288",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_489_03c0f6377c1be14cfb23761394fafda5_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

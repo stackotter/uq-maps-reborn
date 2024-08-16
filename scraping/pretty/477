@@ -1,0 +1,23 @@
+[
+    {
+        "id": 687,
+        "title": "Free Range Shed 2",
+        "campusID": 2,
+        "latitude": -27.551142,
+        "longitude": 152.340868,
+        "metadata": {
+            "title": "Free Range Shed 2",
+            "link": "https://uqmaps.app.uq.edu.au/location/477",
+            "buildingNum": "8243",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_477_5247cb4e52d21f0d49137efd1a1a717a_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

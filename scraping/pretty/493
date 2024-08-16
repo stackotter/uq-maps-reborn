@@ -1,0 +1,23 @@
+[
+    {
+        "id": 703,
+        "title": "Transport Building",
+        "campusID": 2,
+        "latitude": -27.551522,
+        "longitude": 152.338228,
+        "metadata": {
+            "title": "Transport Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/493",
+            "buildingNum": "8209",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_493_4f43da6bdab3597de726499a8d96df89_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

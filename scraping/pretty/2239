@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756019,
+        "title": "Axon Building Room 409 (47)",
+        "campusID": 0,
+        "latitude": -27.500127,
+        "longitude": 153.014421,
+        "metadata": {
+            "title": "Axon Building Room 409 (47)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2239",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2239_2e2700c253812e6921735eb2a9a7ec1b_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

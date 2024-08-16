@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5678,
+        "title": "Dwelling No 8",
+        "campusID": 2,
+        "latitude": -27.559339,
+        "longitude": 152.33545,
+        "metadata": {
+            "title": "Dwelling No 8",
+            "link": "https://uqmaps.app.uq.edu.au/location/1975",
+            "buildingNum": "8308",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1975_907deeb2ea788c9dd59deb45fd780b8c_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 547,
+        "title": "Riddell Hall of Residence",
+        "campusID": 2,
+        "latitude": -27.553425,
+        "longitude": 152.336705,
+        "metadata": {
+            "title": "Riddell Hall of Residence",
+            "link": "https://uqmaps.app.uq.edu.au/location/339",
+            "buildingNum": "8119",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_339_5d81ed9984d34e169d6893f7d17ccec4_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

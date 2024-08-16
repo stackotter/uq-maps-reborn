@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755156,
+        "title": "Steele Building Room 217 (3)",
+        "campusID": 0,
+        "latitude": -27.497324,
+        "longitude": 153.014605,
+        "metadata": {
+            "title": "Steele Building Room 217 (3)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, bench, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1141",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1141_5198157f1b0a1826d6413a0a44cf4f4a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1141_4d91a336cd4770764958060852fc4be1_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

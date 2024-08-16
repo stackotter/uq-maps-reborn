@@ -1,0 +1,207 @@
+[
+    {
+        "id": 664,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.557083,
+        "longitude": 152.337019,
+        "metadata": {
+            "title": "Help Points",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 663,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.555856667988,
+        "longitude": 152.33638281349,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 665,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.554351,
+        "longitude": 152.333315,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 666,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.554171214436,
+        "longitude": 152.3364050172,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 769998,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.553638,
+        "longitude": 152.335607,
+        "metadata": {
+            "title": "Help Points",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20967,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.553185,
+        "longitude": 152.335495,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20968,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.552548,
+        "longitude": 152.334754,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20969,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.551375,
+        "longitude": 152.335414,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20970,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.550518,
+        "longitude": 152.338709,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20971,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.549859,
+        "longitude": 152.338174,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 20972,
+        "title": "Help Points",
+        "campusID": 2,
+        "latitude": -27.548063,
+        "longitude": 152.333643,
+        "metadata": {
+            "title": "Help Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "link": "https://uqmaps.app.uq.edu.au/location/456",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    }
+]

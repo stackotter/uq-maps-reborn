@@ -1,0 +1,17 @@
+[
+    {
+        "id": 128,
+        "title": "Technology and Innovation Management Centre",
+        "campusID": 0,
+        "latitude": -27.499968,
+        "longitude": 153.013774,
+        "metadata": {
+            "title": "Technology and Innovation Management Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/108",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

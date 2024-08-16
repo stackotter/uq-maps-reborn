@@ -1,0 +1,42 @@
+[
+    {
+        "id": 224,
+        "title": "Faculty of Business, Economics and Law",
+        "campusID": 0,
+        "latitude": -27.494948,
+        "longitude": 153.013651,
+        "metadata": {
+            "title": "Faculty of Business, Economics and Law",
+            "office": "Level 3, General Purpose North 3 (39A)",
+            "web": "http://www.bel.uq.edu.au",
+            "email": "bel@uq.edu.au",
+            "phone": "(07) 3365 7111",
+            "moreinformation": "Other location: BEL Faculty Student Centre Level 2, Colin Clark building (39)",
+            "link": "https://uqmaps.app.uq.edu.au/location/187",
+            "buildingNum": null,
+            "primaryType": "Faculties",
+            "otherTypes": []
+        },
+        "typeCode": "fac"
+    },
+    {
+        "id": 306845,
+        "title": "Faculty of Business, Economics and Law",
+        "campusID": 0,
+        "latitude": -27.494807,
+        "longitude": 153.01427,
+        "metadata": {
+            "title": "Faculty of Business, Economics and Law",
+            "web": "https://bel.uq.edu.au/",
+            "email": "bel@uq.edu.au",
+            "phone": "(07) 3365 7111",
+            "office": "Level 3, General Purpose North 3 (39A)",
+            "moreinformation": "Other location: BEL Faculty Student Centre Level 2, Colin Clark building (39)",
+            "link": "https://uqmaps.app.uq.edu.au/location/187",
+            "buildingNum": null,
+            "primaryType": "Faculties",
+            "otherTypes": []
+        },
+        "typeCode": "fac"
+    }
+]

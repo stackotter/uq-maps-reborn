@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756214,
+        "title": "Advanced Engineering Building Room 605 (49)",
+        "campusID": 0,
+        "latitude": -27.499497,
+        "longitude": 153.015138,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 605 (49)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2343",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2343_f01894e9ca5ef6491759245f20cb8297_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

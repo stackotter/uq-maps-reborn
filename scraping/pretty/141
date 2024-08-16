@@ -1,0 +1,27 @@
+[
+    {
+        "id": 162,
+        "title": "Don Nicklin Building",
+        "campusID": 0,
+        "latitude": -27.500487,
+        "longitude": 153.013716,
+        "metadata": {
+            "title": "Don Nicklin Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/141",
+            "buildingNum": "74",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_141_788ff8d8a25c6adddaf4708d97f49dd0__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_141_5ece51c9b082ba65d2b3e72512e68adf_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 155950,
+        "title": "Emergency Call Points",
+        "campusID": 3,
+        "latitude": -27.448722,
+        "longitude": 153.024647,
+        "metadata": {
+            "title": "Emergency Call Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234 (non emergencies)",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "location": "Oral Health Level 1, Near south lift",
+            "link": "https://uqmaps.app.uq.edu.au/location/2588",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 155953,
+        "title": "Emergency Call Points",
+        "campusID": 3,
+        "latitude": -27.448373,
+        "longitude": 153.023434,
+        "metadata": {
+            "title": "Emergency Call Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234 (non emergencies)",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "location": "Medical school west entry doors near BBQ area",
+            "link": "https://uqmaps.app.uq.edu.au/location/2588",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    },
+    {
+        "id": 155951,
+        "title": "Emergency Call Points",
+        "campusID": 3,
+        "latitude": -27.448365,
+        "longitude": 153.024488,
+        "metadata": {
+            "title": "Emergency Call Points",
+            "web": "https://www.pf.uq.edu.au/emergency-contacts/",
+            "email": "security@pf.uq.edu.au",
+            "phone": "(07) 3365 1234 (non emergencies)",
+            "moreinformation": "FOR EMERGENCIES PHONE (07) 3365 3333.",
+            "location": "Oral Health Level 1 and Level 2, Near north lift",
+            "link": "https://uqmaps.app.uq.edu.au/location/2588",
+            "buildingNum": null,
+            "primaryType": "Emergency Points",
+            "otherTypes": []
+        },
+        "typeCode": "emg"
+    }
+]

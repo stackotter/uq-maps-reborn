@@ -1,0 +1,19 @@
+[
+    {
+        "id": 768809,
+        "title": "Student Life Workshop Room 216 (21C)",
+        "campusID": 0,
+        "latitude": -27.497159081,
+        "longitude": 153.01594095782,
+        "metadata": {
+            "title": "Student Life Workshop Room 216 (21C)",
+            "web": "https://my.uq.edu.au/information-and-services/student-support/workshops",
+            "location": "Room 216 Workshop is located on level 2 (the same level as the Red Room) in the Aung San Suu Kyi Conference Centre (building number 21C)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2805",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

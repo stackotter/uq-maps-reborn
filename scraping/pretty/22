@@ -1,0 +1,21 @@
+[
+    {
+        "id": 25,
+        "title": "School of Mathematics and Physics",
+        "campusID": 0,
+        "latitude": -27.498542,
+        "longitude": 153.01357,
+        "metadata": {
+            "title": "School of Mathematics and Physics",
+            "web": "http://www.smp.uq.edu.au",
+            "phone": "(07) 3346 7681",
+            "email": "enquiries@smp.uq.edu.au",
+            "office": "Level 2, Physics Annexe (6)",
+            "link": "https://uqmaps.app.uq.edu.au/location/22",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

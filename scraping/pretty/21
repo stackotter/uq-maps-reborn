@@ -1,0 +1,31 @@
+[
+    {
+        "id": 24,
+        "title": "Physics Annexe",
+        "campusID": 0,
+        "latitude": -27.498542,
+        "longitude": 153.01357,
+        "metadata": {
+            "title": "Physics Annexe",
+            "link": "https://uqmaps.app.uq.edu.au/location/21",
+            "buildingNum": "6",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_21_030e04d73c094b3966d34e58acd709ee__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_21_072964a8d4bc57de086d64c54d3ff68c__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_21_5151f2ca2e8686a8d1885e97ff562034_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

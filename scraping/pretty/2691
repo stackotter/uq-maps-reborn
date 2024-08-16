@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756333,
+        "title": "Steele Building Room 262 (3)",
+        "campusID": 0,
+        "latitude": -27.497411,
+        "longitude": 153.01467,
+        "metadata": {
+            "title": "Steele Building Room 262 (3)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2691",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2691_3d6c6dc34bdcdfdb5c40e1d57c6e94cb_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__5ae2b308bc76adff8d40f46ea4a95528_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

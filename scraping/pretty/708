@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1081,
+        "title": "Run 1 - Lake Loop",
+        "campusID": 0,
+        "latitude": -27.498861,
+        "longitude": 153.015697,
+        "metadata": {
+            "title": "Run 1 - Lake Loop",
+            "runinformation": "This 1km run around the lake is great for beginners. You\u2019ll burn around 80 calories (M) or 60 calories (F) at 5min/km.\u00a0Add some sprints along the way to burn extra calories.",
+            "web": "http://www.uqsport.com.au/tour",
+            "link": "https://uqmaps.app.uq.edu.au/location/708",
+            "buildingNum": null,
+            "primaryType": "Easy Run",
+            "otherTypes": []
+        },
+        "typeCode": "sp1"
+    }
+]

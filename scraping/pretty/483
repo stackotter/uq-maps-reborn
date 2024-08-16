@@ -1,0 +1,23 @@
+[
+    {
+        "id": 693,
+        "title": "Abattoir - Poultry Unit",
+        "campusID": 2,
+        "latitude": -27.55118,
+        "longitude": 152.339795,
+        "metadata": {
+            "title": "Abattoir - Poultry Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/483",
+            "buildingNum": "8234",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_483_af80dad099cbd9f70f54c4a25d08ebc1_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

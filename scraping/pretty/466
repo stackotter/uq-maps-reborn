@@ -1,0 +1,23 @@
+[
+    {
+        "id": 676,
+        "title": "Pump Station (Main Reservoir)",
+        "campusID": 2,
+        "latitude": -27.550114,
+        "longitude": 152.336683,
+        "metadata": {
+            "title": "Pump Station (Main Reservoir)",
+            "link": "https://uqmaps.app.uq.edu.au/location/466",
+            "buildingNum": "8273",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_466_90a06433b4b8a4f034a9fef353c458e0_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

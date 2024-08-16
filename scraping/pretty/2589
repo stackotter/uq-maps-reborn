@@ -1,0 +1,20 @@
+[
+    {
+        "id": 166390,
+        "title": "Ventures Hawken (formerly UQ Idea Hub) (50)",
+        "campusID": 0,
+        "latitude": -27.500019746282,
+        "longitude": 153.01390214369,
+        "metadata": {
+            "title": "Ventures Hawken (formerly UQ Idea Hub) (50)",
+            "web": "https://www.ventures.uq.edu.au",
+            "email": "ventures@uq.edu.au",
+            "location": "Ventures Hawken (formerly known as the UQ Idea Hub) Room N304 (yellow room) Hawken Engineering Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/2589",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

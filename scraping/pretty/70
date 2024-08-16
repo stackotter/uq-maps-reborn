@@ -1,0 +1,23 @@
+[
+    {
+        "id": 83,
+        "title": "Schonell Theatre",
+        "campusID": 0,
+        "latitude": -27.496905,
+        "longitude": 153.016004,
+        "metadata": {
+            "title": "Schonell Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/70",
+            "buildingNum": "22",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_70_d115673e1eb11365f04e1306f8855b06_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

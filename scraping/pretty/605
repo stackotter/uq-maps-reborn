@@ -1,0 +1,21 @@
+[
+    {
+        "id": 197,
+        "title": "Burger Urge",
+        "campusID": 0,
+        "latitude": -27.496714,
+        "longitude": 153.011258,
+        "metadata": {
+            "title": "Burger Urge",
+            "web": "http://burgerurge.com.au",
+            "phone": "(07) 3870 2258",
+            "moreinformation": "Warning - Burger Urge is Addictive! Founded in 2003, Burger Urge is Brisbane\u2019s original gourmet burger bar. Owned by local lads, we have always strived towards a pretty simple goal and that\u2019s to make Brisbane\u2019s most addictive burgers. We think we do, and it\u2019s no secret why. Our burgers are made with REAL ingredients after all. There are no preservatives or stabilizers in our sauces. All produce is fresh \u2013 We go to the Rocklea Markets 3 times a week. All produce is sourced from local vendors. We use free range eggs and bacon. All meat comes from farms and barns \u2013 not cages! Add to this a menu that has been crafted by 4 of Brisbane\u2019s most insatiably saucy chefs and you have burgers that aren\u2019t just amazing, they\u2019re addictive!",
+            "hours": "Monday - Sunday, 10am \u2013 8pm  (hours may vary during Semester breaks)",
+            "link": "https://uqmaps.app.uq.edu.au/location/605",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

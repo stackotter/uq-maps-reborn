@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1756350,
+        "title": "Mental Health Building Room K21 (906)",
+        "campusID": 3,
+        "latitude": -27.448732,
+        "longitude": 153.027214,
+        "metadata": {
+            "title": "Mental Health Building Room K21 (906)",
+            "moreinformation": "\n\nVideo Conferencing/lectures",
+            "link": "https://uqmaps.app.uq.edu.au/location/2716",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": []
+        },
+        "typeCode": "the"
+    }
+]

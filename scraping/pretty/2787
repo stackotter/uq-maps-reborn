@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755282,
+        "title": "Block 6 Room 623 (910)",
+        "campusID": 3,
+        "latitude": -27.448709,
+        "longitude": 153.027754,
+        "metadata": {
+            "title": "Block 6 Room 623 (910)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2787",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__41a9a14282139fa0fbc9794417017962_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

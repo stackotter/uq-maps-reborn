@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755437,
+        "title": "Advanced Engineering Building Room 502 (49)",
+        "campusID": 0,
+        "latitude": -27.499497,
+        "longitude": 153.015138,
+        "metadata": {
+            "title": "Advanced Engineering Building Room 502 (49)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2953",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__926774db1842024be69ed76379966131_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

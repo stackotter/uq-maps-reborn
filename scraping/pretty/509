@@ -1,0 +1,17 @@
+[
+    {
+        "id": 5387,
+        "title": "Bank of Queensland ATM",
+        "campusID": 0,
+        "latitude": -27.497663,
+        "longitude": 153.015861,
+        "metadata": {
+            "title": "Bank of Queensland ATM",
+            "link": "https://uqmaps.app.uq.edu.au/location/509",
+            "buildingNum": null,
+            "primaryType": "Banks & ATMs",
+            "otherTypes": []
+        },
+        "typeCode": "bnk"
+    }
+]

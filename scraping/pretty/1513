@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755329,
+        "title": "Biological Sciences Library Room 212 (94)",
+        "campusID": 0,
+        "latitude": -27.496868,
+        "longitude": 153.011367,
+        "metadata": {
+            "title": "Biological Sciences Library Room 212 (94)",
+            "moreinformation": "Free access provided building is open, power points available, 27 x computers, 3 x table/27 x chairs ; includes height adjustable desk for accessibility;individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1513",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1513_ad9dc5d8380f5269cbb26821684ea124_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1513_f04acdeaf5fe8a531b09a0e84cbf7701_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

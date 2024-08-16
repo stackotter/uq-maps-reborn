@@ -1,0 +1,23 @@
+[
+    {
+        "id": 96,
+        "title": "Chamberlain Building",
+        "campusID": 0,
+        "latitude": -27.495301,
+        "longitude": 153.014543,
+        "metadata": {
+            "title": "Chamberlain Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/81",
+            "buildingNum": "35",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_81_11e27c5804ff8b62a1183f5bcdc9607e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

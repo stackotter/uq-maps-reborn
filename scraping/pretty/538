@@ -1,0 +1,17 @@
+[
+    {
+        "id": 835,
+        "title": "Clinical Research Groups",
+        "campusID": 3,
+        "latitude": -27.448776,
+        "longitude": 153.028661,
+        "metadata": {
+            "title": "Clinical Research Groups",
+            "link": "https://uqmaps.app.uq.edu.au/location/538",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

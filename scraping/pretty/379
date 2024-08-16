@@ -1,0 +1,17 @@
+[
+    {
+        "id": 586,
+        "title": "Aboriginal & Torres Strait Islander Studies Unit",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Aboriginal & Torres Strait Islander Studies Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/379",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

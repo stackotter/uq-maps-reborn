@@ -1,0 +1,1161 @@
+[
+    {
+        "id": 1841,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.50092750606,
+        "longitude": 153.0130489461,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "80",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693703,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500698,
+        "longitude": 153.013902,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "14",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1837,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500678,
+        "longitude": 153.01373,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "6",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693704,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500382,
+        "longitude": 153.014532,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1781,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500357,
+        "longitude": 153.013544,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "10",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1769,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500293,
+        "longitude": 153.014225,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "18",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1789,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500108,
+        "longitude": 153.012599,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "6",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1765,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.500096,
+        "longitude": 153.01426,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "28",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1773,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.5,
+        "longitude": 153.013147,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "24",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1845,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499981,
+        "longitude": 153.014964,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1825,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499934,
+        "longitude": 153.012894,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "8",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1777,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499886,
+        "longitude": 153.013244,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1885,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499842,
+        "longitude": 153.014564,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1829,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499772,
+        "longitude": 153.012988,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "40",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1817,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.499265,
+        "longitude": 153.012261,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1801,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498965508689,
+        "longitude": 153.01135353373,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1741,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498766100218,
+        "longitude": 153.01355888955,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "4",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1645,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498673516709,
+        "longitude": 153.01303433002,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "8",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1809,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498668,
+        "longitude": 153.012121,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "40",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1805,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498644,
+        "longitude": 153.012129,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "10",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1745,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498591,
+        "longitude": 153.013918,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "4",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1641,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498554282725,
+        "longitude": 153.01305849934,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "4",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1797,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498456,
+        "longitude": 153.011683,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1793,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498439,
+        "longitude": 153.011377,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "6",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1849,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498232,
+        "longitude": 153.00964,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "20",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1785,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.498175,
+        "longitude": 153.018147,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "164",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1649,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497931,
+        "longitude": 153.011969,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "20",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693707,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497815,
+        "longitude": 153.015914,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1657,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497705027184,
+        "longitude": 153.01159624537,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "68",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1853,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497702,
+        "longitude": 153.010646,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "56",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1673,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497317,
+        "longitude": 153.016118,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "22",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693708,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.497297,
+        "longitude": 153.017349,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "100",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1877,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.4971,
+        "longitude": 153.011342,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1653,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.49707,
+        "longitude": 153.011634,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "20",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1857,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496522,
+        "longitude": 153.010885,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "34",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1677,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496498,
+        "longitude": 153.014981,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "8",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1637,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496444,
+        "longitude": 153.014461,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "18",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1869,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496389,
+        "longitude": 153.009731,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "8",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1661,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496324,
+        "longitude": 153.013572,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "24",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693711,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496231,
+        "longitude": 153.011166,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "24",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693709,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496194,
+        "longitude": 153.017429,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "100",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1689,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496193,
+        "longitude": 153.015694,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "64",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1861,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.496139,
+        "longitude": 153.011223,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "24",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1685,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.49611,
+        "longitude": 153.014691,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "10",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1681,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495962,
+        "longitude": 153.014597,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "14",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1713,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495931,
+        "longitude": 153.015347,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "20",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1865,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.49577,
+        "longitude": 153.010394,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "4",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1665,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495604,
+        "longitude": 153.01388990675,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "30",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1721,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495576890671,
+        "longitude": 153.01413503439,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "94",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1669,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495568,
+        "longitude": 153.013873,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1725,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495501,
+        "longitude": 153.014296,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "20",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1717,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495279,
+        "longitude": 153.014956,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "6",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1697,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495058,
+        "longitude": 153.016241,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "14",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1733,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.495011,
+        "longitude": 153.013694,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "14",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1693,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.494953,
+        "longitude": 153.015243,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "8",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1729,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.494569,
+        "longitude": 153.014626,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "38",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 693710,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.49455,
+        "longitude": 153.014263,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "10",
+            "phone": "(07) 3365 2222",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/cycling/parking-facilities",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1701,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.494542,
+        "longitude": 153.015503,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1705,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.494201,
+        "longitude": 153.014781,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "46",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1709,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.493329,
+        "longitude": 153.012103,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "12",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    },
+    {
+        "id": 1881,
+        "title": "Bike Racks",
+        "campusID": 0,
+        "latitude": -27.492394,
+        "longitude": 153.013402,
+        "metadata": {
+            "title": "Bike Racks",
+            "bicyclespaces": "16",
+            "phone": "(07) 3365 2222",
+            "web": "https://www.pf.uq.edu.au/cycling/endoftrip.html",
+            "email": "pf@pf.uq.edu.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/937",
+            "buildingNum": null,
+            "primaryType": "Bicycle Facilities",
+            "otherTypes": []
+        },
+        "typeCode": "bik"
+    }
+]

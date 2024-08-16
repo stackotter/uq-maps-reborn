@@ -1,0 +1,21 @@
+[
+    {
+        "id": 36,
+        "title": "School of Social Science",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "School of Social Science",
+            "web": "http://www.social-science.uq.edu.au",
+            "email": "socialscience@uq.edu.au",
+            "phone": "(07) 3365 3236",
+            "office": "Level 3, Michie (9)",
+            "link": "https://uqmaps.app.uq.edu.au/location/30",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

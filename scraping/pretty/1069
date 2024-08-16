@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755144,
+        "title": "Michie Building Room 835 (9)",
+        "campusID": 0,
+        "latitude": -27.497114,
+        "longitude": 153.011722,
+        "metadata": {
+            "title": "Michie Building Room 835 (9)",
+            "moreinformation": "Free access provided building is open, power points available, no equipment, table/chairs, individual or group study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1069",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1069_9f42f18f6671a913a0b0788d17d7ab27_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1069_7da5f7e9737859fef38160d58ecc780f_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

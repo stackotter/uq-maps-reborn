@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1756291,
+        "title": "Queensland Brain Institute Room 722A (79)",
+        "campusID": 0,
+        "latitude": -27.499487,
+        "longitude": 153.011775,
+        "metadata": {
+            "title": "Queensland Brain Institute Room 722A (79)",
+            "moreinformation": "Door lock. Fridge, comfortable chair and table, power point, sink with hot and cold water, change table.\n\nParenting Room / Baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2410",
+            "buildingNum": null,
+            "primaryType": "Parenting & Baby Change Facilities",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2410_b9fd9572470bfb376f146c403b4d0035_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2410_a33e3711553a6f19c5b220e30c8fe3c3_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "ptr"
+    }
+]

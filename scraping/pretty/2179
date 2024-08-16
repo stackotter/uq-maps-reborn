@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755940,
+        "title": "Joyce Ackroyd Building Room 126 (37)",
+        "campusID": 0,
+        "latitude": -27.49494,
+        "longitude": 153.014703,
+        "metadata": {
+            "title": "Joyce Ackroyd Building Room 126 (37)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2179",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2179_979b442944c04f41d1c1af7c552175b9_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

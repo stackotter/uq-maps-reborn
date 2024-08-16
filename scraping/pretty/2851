@@ -1,0 +1,17 @@
+[
+    {
+        "id": 986688,
+        "title": "Block 7",
+        "campusID": 3,
+        "latitude": -27.449076,
+        "longitude": 153.028509,
+        "metadata": {
+            "title": "Block 7",
+            "link": "https://uqmaps.app.uq.edu.au/location/2851",
+            "buildingNum": "918B",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

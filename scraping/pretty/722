@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1095,
+        "title": "UQ Sport Aquatic Centre",
+        "campusID": 0,
+        "latitude": -27.495044,
+        "longitude": 153.016398,
+        "metadata": {
+            "title": "UQ Sport Aquatic Centre",
+            "web": "https://uqsport.com.au/venue/aquatic-centre",
+            "phone": "07 3365\u00a06047",
+            "email": "aquatics@uqsport.com.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/722",
+            "buildingNum": null,
+            "primaryType": "Sports & Recreation",
+            "otherTypes": []
+        },
+        "typeCode": "spt"
+    }
+]

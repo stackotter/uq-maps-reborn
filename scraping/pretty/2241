@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756024,
+        "title": "John Mahon Stage I Room 109 (8105)",
+        "campusID": 2,
+        "latitude": -27.552359,
+        "longitude": 152.334924,
+        "metadata": {
+            "title": "John Mahon Stage I Room 109 (8105)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2241",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

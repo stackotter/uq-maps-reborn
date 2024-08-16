@@ -1,0 +1,23 @@
+[
+    {
+        "id": 628,
+        "title": "Gatton Campus Motel",
+        "campusID": 2,
+        "latitude": -27.552036,
+        "longitude": 152.334688,
+        "metadata": {
+            "title": "Gatton Campus Motel",
+            "link": "https://uqmaps.app.uq.edu.au/location/421",
+            "buildingNum": "8152",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_421_df6baefac3cb06dbb9261e29101f4015_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

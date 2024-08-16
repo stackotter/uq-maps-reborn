@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755419,
+        "title": "Gordon Greenwood Building Room 319 (32)",
+        "campusID": 0,
+        "latitude": -27.496452,
+        "longitude": 153.015454,
+        "metadata": {
+            "title": "Gordon Greenwood Building Room 319 (32)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2810",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2810_15f10b01316013b4af154c4b5298585f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

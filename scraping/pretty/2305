@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1756117,
+        "title": "Jack Jones Building Room 116 (8218)",
+        "campusID": 2,
+        "latitude": -27.550856,
+        "longitude": 152.339108,
+        "metadata": {
+            "title": "Jack Jones Building Room 116 (8218)",
+            "moreinformation": "\n\nAccess Toilet/shower",
+            "link": "https://uqmaps.app.uq.edu.au/location/2305",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

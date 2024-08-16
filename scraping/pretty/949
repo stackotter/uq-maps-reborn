@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1941,
+        "title": "Cafe Dose",
+        "campusID": 3,
+        "latitude": -27.4482331,
+        "longitude": 153.0243299,
+        "metadata": {
+            "title": "Cafe Dose",
+            "link": "https://uqmaps.app.uq.edu.au/location/949",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

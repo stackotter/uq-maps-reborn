@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755320,
+        "title": "Sir Llew Edwards Building Room 395 (14)",
+        "campusID": 0,
+        "latitude": -27.495654,
+        "longitude": 153.013669,
+        "metadata": {
+            "title": "Sir Llew Edwards Building Room 395 (14)",
+            "moreinformation": "Free access provided building is open, power points available, computer, bench top, individual study.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1489",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1489_95def4b8249a2caec04c82c7027df60a_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1489_315cf7d92d43894c1ba6ea292a155fe3_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

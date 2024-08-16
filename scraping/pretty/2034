@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5737,
+        "title": "Langmuir Logan Homestead",
+        "campusID": 2,
+        "latitude": -27.560976,
+        "longitude": 152.344267,
+        "metadata": {
+            "title": "Langmuir Logan Homestead",
+            "link": "https://uqmaps.app.uq.edu.au/location/2034",
+            "buildingNum": "8553",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2034_5c97e31c4c1bbdf8e46ed737e798ddfb_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

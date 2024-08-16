@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756157,
+        "title": "Physiology Lecture Theatres Room 206 (63)",
+        "campusID": 0,
+        "latitude": -27.498979,
+        "longitude": 153.012033,
+        "metadata": {
+            "title": "Physiology Lecture Theatres Room 206 (63)",
+            "moreinformation": "\n\nToilet & Nappy Change",
+            "link": "https://uqmaps.app.uq.edu.au/location/2657",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2657_2c898ab1450d36610dc5228c3526ecc8_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

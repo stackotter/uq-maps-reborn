@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1755884,
+        "title": "Sir Llew Edwards Building Room 204 (14)",
+        "campusID": 0,
+        "latitude": -27.495634,
+        "longitude": 153.013523,
+        "metadata": {
+            "title": "Sir Llew Edwards Building Room 204 (14)",
+            "moreinformation": "\n\nUnisex Access Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2132",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2132_737d3ca2f7432657695f025f5ee774f3_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

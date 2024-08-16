@@ -1,0 +1,27 @@
+[
+    {
+        "id": 45,
+        "title": "Learning Innovation Building",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/37",
+            "buildingNum": "17",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_37_ba33e437f777623dae55a8eeeca58c5f__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_37_5eb109dc2ff730f743a2cd0da51efb15_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

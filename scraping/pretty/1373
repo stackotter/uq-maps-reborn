@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1755274,
+        "title": "Biological Sciences Library Room 409 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 409 (94)",
+            "moreinformation": "Free access to Postgraduates only, provided the building is open ; power points; seating.\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1373",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1373_d68888918d82d5377151cd00308d8c56_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1373_42ab9db5938d2502902c541ee3cdd072_room_small.jpg",
+                    "displayOrder": 2
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1373_21b14ec6898b59f1054ca1ac760ef036_room_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

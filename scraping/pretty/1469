@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755314,
+        "title": "Biological Sciences Library Room 308 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 308 (94)",
+            "moreinformation": "Free access provided the building is open, power points, 11x computers , table/chairs, height adjustable desk for accessibility;individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1469",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1469_334c92e67b3ec1a698947b8e075f10a8_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1469_2f2e6c01a22334a4f6a5ebc96e42564f_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

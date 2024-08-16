@@ -1,0 +1,21 @@
+[
+    {
+        "id": 530,
+        "title": "School of Veterinary Science",
+        "campusID": 2,
+        "latitude": -27.553044,
+        "longitude": 152.334495,
+        "metadata": {
+            "title": "School of Veterinary Science",
+            "web": "https://www.veterinary-science.uq.edu.au",
+            "email": "vetenquiries@uq.edu.au",
+            "phone": "(07) 5460 1834",
+            "office": "Veterinary Science Building (8114)",
+            "link": "https://uqmaps.app.uq.edu.au/location/323",
+            "buildingNum": null,
+            "primaryType": "Schools",
+            "otherTypes": []
+        },
+        "typeCode": "sch"
+    }
+]

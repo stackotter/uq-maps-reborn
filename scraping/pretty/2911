@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1515923,
+        "title": "Andrew N. Liveris Building",
+        "campusID": 0,
+        "latitude": -27.499274,
+        "longitude": 153.013533,
+        "metadata": {
+            "title": "Andrew N. Liveris Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/2911",
+            "buildingNum": "46",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2911_e8ffd5f3a956abb0aa2621605a23c099__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2911_a2880e3d50daf4c5d96ea33a03a87330_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 836,
+        "title": "Pulse Caf\u00e9",
+        "campusID": 3,
+        "latitude": -27.448776,
+        "longitude": 153.028661,
+        "metadata": {
+            "title": "Pulse Caf\u00e9",
+            "hours": "Monday to Friday 7am - 3pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/539",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 290090,
+        "title": "Car Share",
+        "campusID": 3,
+        "latitude": -27.448488,
+        "longitude": 153.0231,
+        "metadata": {
+            "title": "Car Share",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/car-share",
+            "moreinformation": "Fleet Services have partnered with Australia\u2019s largest car sharing scheme, GoGet, to make vehicles available to staff and students as an adjunct to the pool of vehicles available for hire. GoGet cars are available for bookings in the following location:\r\n\r\nTwo cars are available in the  Animal House Carpark (Wyndham Street)  - Rav4 & Corolla",
+            "link": "https://uqmaps.app.uq.edu.au/location/2502",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 38365,
+        "title": "Car Share",
+        "campusID": 3,
+        "latitude": -27.448301,
+        "longitude": 153.024376,
+        "metadata": {
+            "title": "Car Share",
+            "moreinformation": "Fleet Services have partnered with Australia\u2019s largest car sharing scheme, GoGet, to make vehicles available to staff and students as an adjunct to the pool of vehicles available for hire. GoGet cars are available for bookings in the following location:\r\n\r\nTwo cars are available in the Oral Health Centre carpark - Rav4 & Corolla",
+            "web": "https://campuses.uq.edu.au/information-and-services/parking-transport/car-share",
+            "link": "https://uqmaps.app.uq.edu.au/location/2502",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    }
+]

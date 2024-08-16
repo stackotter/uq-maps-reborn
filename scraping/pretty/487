@@ -1,0 +1,23 @@
+[
+    {
+        "id": 697,
+        "title": "Machinery & Farriery Shed",
+        "campusID": 2,
+        "latitude": -27.551332,
+        "longitude": 152.339215,
+        "metadata": {
+            "title": "Machinery & Farriery Shed",
+            "link": "https://uqmaps.app.uq.edu.au/location/487",
+            "buildingNum": "8205",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_487_af908a19bd7a541304147d9ce29211ac_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

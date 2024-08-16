@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1090,
+        "title": "UQ Sport Fitness Centre Pro Shop",
+        "campusID": 0,
+        "latitude": -27.495796,
+        "longitude": 153.015708,
+        "metadata": {
+            "title": "UQ Sport Fitness Centre Pro Shop",
+            "web": "https://uqsport.com.au/venue/fitness-centre",
+            "email": "uqsport@uqsport.com.au",
+            "phone": "07 3365 6612",
+            "link": "https://uqmaps.app.uq.edu.au/location/718",
+            "buildingNum": null,
+            "primaryType": "Retail & Specialty",
+            "otherTypes": []
+        },
+        "typeCode": "ret"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 422,
+        "title": "Australian Wood Duck",
+        "campusID": 0,
+        "latitude": -27.497822,
+        "longitude": 153.016956,
+        "metadata": {
+            "title": "Australian Wood Duck",
+            "moreinformation": "The Australian Wood Duck or Maned Duck is a land dwelling goose-like duck measuring 44-50 centimetres. The male has a dark brown head and neck with a short dark mane, grey body with mottled brown breast, black lower belly and undertail, and black bill. The female has a white line above and below the eye, mottled grey-brown body with a white lower belly and undertail. Australian Wood Ducks are found all over Australia and prefer lightly timbered areas near water with access to short pasture or herbage as they feed on grasses, clover, other herbs and insects. During the breeding season monogamous pairs nest in tree hollows above or near water.",
+            "web": "http://www.uq.edu.au/sustainability/australian-wood-duck",
+            "link": "https://uqmaps.app.uq.edu.au/location/649",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

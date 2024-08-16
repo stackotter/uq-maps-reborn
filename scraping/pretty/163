@@ -1,0 +1,21 @@
+[
+    {
+        "id": 196,
+        "title": "Darwin's Cafe",
+        "campusID": 0,
+        "latitude": -27.496701,
+        "longitude": 153.011404,
+        "metadata": {
+            "title": "Darwin's Cafe",
+            "web": "http://www.uqu.com.au/outlet/15/darwins",
+            "moreinformation": "Darwins offers casual dining, bistro-style meals and friendly service. Sit down to a gourmet pie, quiche or fresh pastry on the plush couches indoors or sip your latte under the palms outside.",
+            "phone": "(07) 3346 4181",
+            "hours": "Monday - Friday 7am - 5pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/163",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

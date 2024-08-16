@@ -1,0 +1,27 @@
+[
+    {
+        "id": 557,
+        "title": "Natural & Rural Systems Management Building",
+        "campusID": 2,
+        "latitude": -27.554623,
+        "longitude": 152.334881,
+        "metadata": {
+            "title": "Natural & Rural Systems Management Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/349",
+            "buildingNum": "8117A",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_349_eeeeb0bfd0713e338ade4d1c8d482a0a__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_349_d081b49f71e214118b456a856284118c_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

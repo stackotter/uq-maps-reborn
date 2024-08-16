@@ -1,0 +1,17 @@
+[
+    {
+        "id": 604,
+        "title": "Army Reserve Unit",
+        "campusID": 2,
+        "latitude": -27.557077,
+        "longitude": 152.339323,
+        "metadata": {
+            "title": "Army Reserve Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/397",
+            "buildingNum": null,
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

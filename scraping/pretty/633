@@ -1,0 +1,19 @@
+[
+    {
+        "id": 432,
+        "title": "Rough Saw-Sedge",
+        "campusID": 0,
+        "latitude": -27.498298,
+        "longitude": 153.016849,
+        "metadata": {
+            "title": "Rough Saw-Sedge",
+            "moreinformation": "The Rough Saw-sedge is a tussock forming perennial plant that grows up to 1 metre high, 1.5 metres across and has leaves that grow up to 80 centimetres long. As the name implies, the leaves are razor sharp if rubbed downwards. The Rough Saw-sedge produces creamy flowers followed by round shiny red nuts.",
+            "web": "http://www.uq.edu.au/sustainability/rough-saw-sedge",
+            "link": "https://uqmaps.app.uq.edu.au/location/633",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

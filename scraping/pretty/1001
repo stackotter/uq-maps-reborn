@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755125,
+        "title": "Duhig Tower Room D107 (2)",
+        "campusID": 0,
+        "latitude": -27.496566,
+        "longitude": 153.014424,
+        "metadata": {
+            "title": "Duhig Tower Room D107 (2)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1001",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1001_bf78653be05db3f0a20b1a32bbb45853_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1001_b079208918844ab542da4095cc0e2971_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

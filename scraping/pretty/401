@@ -1,0 +1,27 @@
+[
+    {
+        "id": 608,
+        "title": "Merv Young \"White House\"",
+        "campusID": 2,
+        "latitude": -27.552759,
+        "longitude": 152.337284,
+        "metadata": {
+            "title": "Merv Young \"White House\"",
+            "link": "https://uqmaps.app.uq.edu.au/location/401",
+            "buildingNum": "8134",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_401_61ce84cd810989b4c5baa46c7289e1b9__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_401_4f627d62734e45853a32cedf233904f0_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

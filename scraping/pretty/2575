@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1755849,
+        "title": "Margaret Cribb Early Learning Room 132 (93D)",
+        "campusID": 0,
+        "latitude": -27.494066,
+        "longitude": 153.010411,
+        "metadata": {
+            "title": "Margaret Cribb Early Learning Room 132 (93D)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2575",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

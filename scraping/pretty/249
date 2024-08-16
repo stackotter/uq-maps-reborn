@@ -1,0 +1,230 @@
+[
+    {
+        "id": 337,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.501858,
+        "longitude": 153.010046,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop # 9 Emmanuel College",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 333,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.501229,
+        "longitude": 153.01657,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop # 5 Duchesne College",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 332,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.500925,
+        "longitude": 153.017149,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop # 4  The Women's College",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 336,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.499954,
+        "longitude": 153.012493,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop # 7 Molecular Biosciences Plaza",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 335,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.499193,
+        "longitude": 153.013201,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #8  Cooper Road",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 334,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.499041,
+        "longitude": 153.014295,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #6  Staff House Road",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 338,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.498451,
+        "longitude": 153.011055,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #11  Chancellors Place",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 339,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.497708,
+        "longitude": 153.007536,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #14A  Grace College (entrance)",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 17121,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.497042,
+        "longitude": 153.019037,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "location": "Bus Stop # 3  City Cat Ferry Terminal",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 330,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.496661,
+        "longitude": 153.015733,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #2  Schonell Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 328,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.496509,
+        "longitude": 153.013415,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #1 University Drive / Duhig Bldg (Library)",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    },
+    {
+        "id": 327,
+        "title": "UQ Safety Bus Stops",
+        "campusID": 0,
+        "latitude": -27.494815,
+        "longitude": 153.011076,
+        "metadata": {
+            "title": "UQ Safety Bus Stops",
+            "phone": "(07) 3365 1234",
+            "web": "https://www.pf.uq.edu.au/unisafe/bus.html",
+            "moreinformation": "A free Safety Bus service operates after 6pm on the St Lucia campus all year, Monday to Friday (except Christmas-New Year and public holidays).",
+            "location": "Bus Stop #13 Multi-level Carpark 4",
+            "link": "https://uqmaps.app.uq.edu.au/location/249",
+            "buildingNum": null,
+            "primaryType": "Transport",
+            "otherTypes": []
+        },
+        "typeCode": "trn"
+    }
+]

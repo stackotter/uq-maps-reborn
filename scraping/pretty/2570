@@ -1,0 +1,23 @@
+[
+    {
+        "id": 139199,
+        "title": "Neuropsychology Research Clinic (39 Upland Road) (0520)",
+        "campusID": 0,
+        "latitude": -27.500449360099,
+        "longitude": 153.00982288343,
+        "metadata": {
+            "title": "Neuropsychology Research Clinic (39 Upland Road) (0520)",
+            "link": "https://uqmaps.app.uq.edu.au/location/2570",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2570_f3146897c963afb726cb5a7e7a070aa3_manual_small.jpg",
+                    "displayOrder": 0
+                }
+            ]
+        },
+        "typeCode": "ofc"
+    }
+]

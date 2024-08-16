@@ -1,0 +1,19 @@
+[
+    {
+        "id": 430,
+        "title": "Jointed Rush",
+        "campusID": 0,
+        "latitude": -27.499076,
+        "longitude": 153.016944,
+        "metadata": {
+            "title": "Jointed Rush",
+            "moreinformation": "The Jointed Rush usually grows in dense clumps in wetlands, river banks and salt marshes. Its leaves are pencil shaped, ending in a sharp point with reddish flowers or inflorescence cluster on each leaf during the summer months. The leaves can grow up to 1.5 metres in length and the plant is frequently used for bank stabilisation and 'nutrient stripping' in the restoration of damaged or degraded waterways. Purple Swamphens feed on the young stems and as they forage, they create floating platforms that make ideal nesting sites.",
+            "web": "http://www.uq.edu.au/sustainability/jointed-rush",
+            "link": "https://uqmaps.app.uq.edu.au/location/657",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

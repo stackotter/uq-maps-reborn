@@ -1,0 +1,27 @@
+[
+    {
+        "id": 661,
+        "title": "I.M.D. Piggery",
+        "campusID": 2,
+        "latitude": -27.55624,
+        "longitude": 152.341189,
+        "metadata": {
+            "title": "I.M.D. Piggery",
+            "link": "https://uqmaps.app.uq.edu.au/location/454",
+            "buildingNum": "8335",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_454_855bede1fa33ed9a103ac0f8aa8da042__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_454_f640349467adb1f89f80fbfebc9d58fb_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

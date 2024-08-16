@@ -1,0 +1,19 @@
+[
+    {
+        "id": 407,
+        "title": "Lakes Ecosystems & Biodiversity",
+        "campusID": 0,
+        "latitude": -27.498599,
+        "longitude": 153.016304,
+        "metadata": {
+            "title": "Lakes Ecosystems & Biodiversity",
+            "moreinformation": "The Freshwater Lake is one of the iconic features of the St Lucia campus. You may have seen it countless times before but take a moment to learn the lessons it can teach us. There is much history from the species that were native to the area, some of which remain and there are new species which originate from beyond Australian shores. The St Lucia lakes are an example of an aquatic ecosystem in action. Modified with the intention of managing stormwater runoff and to provide aesthetic amenity, the lakes are now home to a number of aquatic animals. Take time to walk around the Lakes area and view the many native species of birds, aquatic and land animals as well as the abundant native flora. There are over 25 signposted points of interest in this area.",
+            "web": "http://www.uq.edu.au/sustainability/uq-lakes-ecosystems-and-biodiversity",
+            "link": "https://uqmaps.app.uq.edu.au/location/634",
+            "buildingNum": null,
+            "primaryType": "Sustainability",
+            "otherTypes": []
+        },
+        "typeCode": "sus"
+    }
+]

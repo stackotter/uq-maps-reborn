@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755266,
+        "title": "Biological Sciences Library Room 401 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 401 (94)",
+            "moreinformation": "Free access provided the building is open, power points, table/chairs, 33 x computers ; height adjustable desk for accessibility; Quiet individual study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1369",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1369_e7949204c5e6f3475a3bde764bf71f4e_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1369_03d4e3a4b23bba72728e8e45acaf0498_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

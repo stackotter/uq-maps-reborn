@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755127,
+        "title": "Duhig Tower Room D108A (2)",
+        "campusID": 0,
+        "latitude": -27.496566,
+        "longitude": 153.014424,
+        "metadata": {
+            "title": "Duhig Tower Room D108A (2)",
+            "moreinformation": "E-Zone 1;  Booked training classes have priority ; otherwise free access 24/7 ;Power points available; presenters PC with projector ; 17 PC's; whiteboard; tables/chairs; Height adjustable desk for accessibility; individual study;\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/2772",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2772_0b3c17cca5b9c47d11110cc9a7002df7_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__4303fbc0979322a8fd3f7b6df98e6b44_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

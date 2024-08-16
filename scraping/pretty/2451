@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1756277,
+        "title": "Oral Health Centre Room 2344 (883)",
+        "campusID": 3,
+        "latitude": -27.448739,
+        "longitude": 153.024659,
+        "metadata": {
+            "title": "Oral Health Centre Room 2344 (883)",
+            "moreinformation": "\n\nAccess Toilet/baby Change",
+            "web": "https://www.uq.edu.au/equity/content/parenting-rooms-and-baby-change-table-facilities-campus",
+            "link": "https://uqmaps.app.uq.edu.au/location/2451",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Parenting & Baby Change Facilities",
+                "Gender Neutral Toilets"
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

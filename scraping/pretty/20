@@ -1,0 +1,23 @@
+[
+    {
+        "id": 23,
+        "title": "Richards Building",
+        "campusID": 0,
+        "latitude": -27.497992,
+        "longitude": 153.013785,
+        "metadata": {
+            "title": "Richards Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/20",
+            "buildingNum": "5",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_20_40c13d0b33a22ff6c28184770bb47540_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 5670,
+        "title": "Library Warehouse",
+        "campusID": 2,
+        "latitude": -27.550533,
+        "longitude": 152.340032,
+        "metadata": {
+            "title": "Library Warehouse",
+            "link": "https://uqmaps.app.uq.edu.au/location/1967",
+            "buildingNum": "8248",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1967_30c00afc788c29a0dc5b6fd11a8f0258__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1967_a96628e885e70b7ee82ef5937c2f0223_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

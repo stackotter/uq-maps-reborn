@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756106,
+        "title": "Learning Innovation Building Room 238 (17)",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building Room 238 (17)",
+            "moreinformation": "\n\nPwd Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2296",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2296_4d1b7c6f00bd9d8cd8a4706be3735c1f_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 887,
+        "title": "Coles Building",
+        "campusID": 3,
+        "latitude": -27.449276,
+        "longitude": 153.025432,
+        "metadata": {
+            "title": "Coles Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/573",
+            "buildingNum": "C6",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

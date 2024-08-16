@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1755988,
+        "title": "N.W. Briton Administration Annexe Room 210 (8101A)",
+        "campusID": 2,
+        "latitude": -27.553122,
+        "longitude": 152.336068,
+        "metadata": {
+            "title": "N.W. Briton Administration Annexe Room 210 (8101A)",
+            "moreinformation": "\n\nUnisex Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2373",
+            "buildingNum": null,
+            "primaryType": "Gender Neutral Toilets",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2373_35de375120b70f0abc1a93b64c6cb742_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "gnt"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 576,
+        "title": "Morrison Hall",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Morrison Hall",
+            "link": "https://uqmaps.app.uq.edu.au/location/368",
+            "buildingNum": "8123",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_368_c8c7775b14266cd6b8374ae7394cff86__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_368_4e7f6a7e0b5048b8cff79e55e090d2fb_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

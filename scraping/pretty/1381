@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755276,
+        "title": "Biological Sciences Library Room 411 (94)",
+        "campusID": 0,
+        "latitude": -27.496929,
+        "longitude": 153.011387,
+        "metadata": {
+            "title": "Biological Sciences Library Room 411 (94)",
+            "moreinformation": "Free access provided the building is open, power points, table/chairs, group study\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1381",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1381_ecd83347ab1a3d04cb74450979f3ea97_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1381_d1b04957c8d6c1baf2476915a9fc1039_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 709,
+        "title": "Bates Ring Tank",
+        "campusID": 2,
+        "latitude": -27.548383,
+        "longitude": 152.343357,
+        "metadata": {
+            "title": "Bates Ring Tank",
+            "link": "https://uqmaps.app.uq.edu.au/location/499",
+            "buildingNum": null,
+            "primaryType": "Places",
+            "otherTypes": []
+        },
+        "typeCode": "poi"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 578,
+        "title": "Student Services",
+        "campusID": 2,
+        "latitude": -27.556982,
+        "longitude": 152.335267,
+        "metadata": {
+            "title": "Student Services",
+            "hours": "Monday to Friday 8:30am - 4:30pm",
+            "web": "http://www.uq.edu.au/student-services/tiki-index.php",
+            "email": "ssgatton@uq.edu.au",
+            "phone": "(07) 5460 1046",
+            "fax": "(07) 5460 1040",
+            "moreinformation": "Student Services is a part of the Student and Administrative Services Division (SASD), which also comprises the Directorates of Student and Academic Administration and Health Services. The Student Services Directorate is comprised of the following sub-units: Accommodation, Careers and Graduate Employment, Learning Hub (which includes Learning Advice, Disability Support & International Student Support), Student Counselling, Student Equity and UQ Multifaith Chaplaincy. Services are delivered across the St. Lucia, Gatton and Ipswich campuses. Accommodation Services are designed to assist new and continuing students with a range of free and confidential services to assist you with your accommodation needs. We can offer you information and advice on housing options, support and assistance with accommodation problems, and tenancy advice. Accommodation staff are happy to discuss your accommodation options with you, but are unable to book or arrange accommodation on your behalf. If you require any further information or would like to talk to an Accommodation Officer, please contact us.",
+            "link": "https://uqmaps.app.uq.edu.au/location/370",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 641,
+        "title": "Medical Centre Annexe",
+        "campusID": 2,
+        "latitude": -27.551807,
+        "longitude": 152.335718,
+        "metadata": {
+            "title": "Medical Centre Annexe",
+            "link": "https://uqmaps.app.uq.edu.au/location/434",
+            "buildingNum": "8146",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_434_c0093f4f3160dbbad63aa1766c38b04e_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

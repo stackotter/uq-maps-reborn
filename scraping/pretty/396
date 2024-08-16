@@ -1,0 +1,23 @@
+[
+    {
+        "id": 603,
+        "title": "Toilet Block No 1 Playing Field",
+        "campusID": 2,
+        "latitude": -27.557477,
+        "longitude": 152.339323,
+        "metadata": {
+            "title": "Toilet Block No 1 Playing Field",
+            "link": "https://uqmaps.app.uq.edu.au/location/396",
+            "buildingNum": "8337",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_396_c698617174179b8c47929790ad2d2aff_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

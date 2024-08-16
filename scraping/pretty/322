@@ -1,0 +1,31 @@
+[
+    {
+        "id": 529,
+        "title": "Veterinary Science Building",
+        "campusID": 2,
+        "latitude": -27.553044,
+        "longitude": 152.334495,
+        "metadata": {
+            "title": "Veterinary Science Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/322",
+            "buildingNum": "8114",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_322_960cbce5290bf428d27b36da1f5307bf__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_322_6075d8453f467fb130a85f15fc8b1c50__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_322_03da78ebba2c2ec19e36806341609acb_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

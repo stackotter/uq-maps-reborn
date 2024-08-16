@@ -1,0 +1,17 @@
+[
+    {
+        "id": 861400,
+        "title": "Warwick Solar Farm Visitor Centre",
+        "campusID": 3,
+        "latitude": -28.182947,
+        "longitude": 152.067092,
+        "metadata": {
+            "title": "Warwick Solar Farm Visitor Centre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2820",
+            "buildingNum": "846",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

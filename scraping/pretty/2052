@@ -1,0 +1,17 @@
+[
+    {
+        "id": 7325,
+        "title": "QIMR - Cancer Research Building",
+        "campusID": 3,
+        "latitude": -27.449419,
+        "longitude": 153.028046,
+        "metadata": {
+            "title": "QIMR - Cancer Research Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/2052",
+            "buildingNum": "905",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

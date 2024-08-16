@@ -1,0 +1,17 @@
+[
+    {
+        "id": 609,
+        "title": "Centre for Animal Welfare & Ethics",
+        "campusID": 2,
+        "latitude": -27.552759,
+        "longitude": 152.337284,
+        "metadata": {
+            "title": "Centre for Animal Welfare & Ethics",
+            "link": "https://uqmaps.app.uq.edu.au/location/402",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

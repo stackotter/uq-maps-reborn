@@ -1,0 +1,36 @@
+[
+    {
+        "id": 512093,
+        "title": "Boost Juice",
+        "campusID": 0,
+        "latitude": -27.499059906431,
+        "longitude": 153.01221612153,
+        "metadata": {
+            "title": "Boost Juice",
+            "link": "https://uqmaps.app.uq.edu.au/location/53",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    },
+    {
+        "id": 64,
+        "title": "Boost Juice",
+        "campusID": 0,
+        "latitude": -27.497251,
+        "longitude": 153.015518,
+        "metadata": {
+            "title": "Boost Juice",
+            "web": "http://www.uqu.com.au/outlet/23/boost-juice",
+            "moreinformation": "Healthy fruit and vegetable beverages including smoothies and shakes.",
+            "phone": "(07) 3217 8587",
+            "hours": "Monday - Friday 7am - 7pm\r\nSaturday 7:45am - 5:15pm\r\nSunday 8:45am - 5pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/53",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

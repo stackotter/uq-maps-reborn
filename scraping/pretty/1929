@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5319,
+        "title": "Glasshouse No 15",
+        "campusID": 0,
+        "latitude": -27.495534,
+        "longitude": 153.008723,
+        "metadata": {
+            "title": "Glasshouse No 15",
+            "link": "https://uqmaps.app.uq.edu.au/location/1929",
+            "buildingNum": "88O",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1929_4c85d9a8f986d06d8d4731a16c7d8cd7_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

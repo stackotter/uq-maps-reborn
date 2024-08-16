@@ -1,0 +1,27 @@
+[
+    {
+        "id": 170,
+        "title": "Queensland Bioscience Precinct",
+        "campusID": 0,
+        "latitude": -27.498165,
+        "longitude": 153.009853,
+        "metadata": {
+            "title": "Queensland Bioscience Precinct",
+            "link": "https://uqmaps.app.uq.edu.au/location/148",
+            "buildingNum": "80",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_148_532ca1505d1243e572e10f73ffb303e7__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_148_83a1b2b260b3d7565bcf04118fbff74e_building_exterior_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 38,
+        "title": "Centre for the Government of Queensland",
+        "campusID": 0,
+        "latitude": -27.497275,
+        "longitude": 153.011829,
+        "metadata": {
+            "title": "Centre for the Government of Queensland",
+            "link": "https://uqmaps.app.uq.edu.au/location/32",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

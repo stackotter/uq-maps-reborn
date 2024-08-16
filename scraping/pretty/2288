@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756096,
+        "title": "Don Nicklin Building Room 219 (74)",
+        "campusID": 0,
+        "latitude": -27.500487,
+        "longitude": 153.013716,
+        "metadata": {
+            "title": "Don Nicklin Building Room 219 (74)",
+            "moreinformation": "\n\nAccess Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2288",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2288_d19b4a72b76bcc1ee08a83512a8ea444_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

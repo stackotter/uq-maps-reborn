@@ -1,0 +1,20 @@
+[
+    {
+        "id": 283,
+        "title": "Playing Field 2",
+        "campusID": 0,
+        "latitude": -27.500186,
+        "longitude": 153.019001,
+        "metadata": {
+            "title": "Playing Field 2",
+            "web": "https://uqsport.com.au/facilities/playing-fields/",
+            "phone": "07 3365 6612",
+            "email": "bookings@uqsport.com.au",
+            "link": "https://uqmaps.app.uq.edu.au/location/237",
+            "buildingNum": null,
+            "primaryType": "Sports & Recreation",
+            "otherTypes": []
+        },
+        "typeCode": "spt"
+    }
+]

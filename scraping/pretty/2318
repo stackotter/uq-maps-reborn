@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1756140,
+        "title": "Learning Innovation Building Room 338 (17)",
+        "campusID": 0,
+        "latitude": -27.498337,
+        "longitude": 153.01402,
+        "metadata": {
+            "title": "Learning Innovation Building Room 338 (17)",
+            "moreinformation": "\n\nPwd Toilet",
+            "link": "https://uqmaps.app.uq.edu.au/location/2318",
+            "buildingNum": null,
+            "primaryType": "Accessible Facilities",
+            "otherTypes": [
+                "Gender Neutral Toilets"
+            ],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2318_93729ee9d46a396bffacf5940930f9c2_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "dis"
+    }
+]

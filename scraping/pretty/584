@@ -1,0 +1,20 @@
+[
+    {
+        "id": 531,
+        "title": "UQ Sport Fitness & Aquatic Centre (8145)",
+        "campusID": 2,
+        "latitude": -27.557552597021,
+        "longitude": 152.3355356971,
+        "metadata": {
+            "title": "UQ Sport Fitness & Aquatic Centre (8145)",
+            "web": "https://uqsport.com.au/venues/gatton/",
+            "email": "gatton@uqsport.com.au",
+            "phone": "(07) 5460 1425",
+            "link": "https://uqmaps.app.uq.edu.au/location/584",
+            "buildingNum": null,
+            "primaryType": "Sports & Recreation",
+            "otherTypes": []
+        },
+        "typeCode": "spt"
+    }
+]

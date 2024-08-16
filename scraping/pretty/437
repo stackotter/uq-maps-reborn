@@ -1,0 +1,23 @@
+[
+    {
+        "id": 644,
+        "title": "Plant Nursery Building",
+        "campusID": 2,
+        "latitude": -27.554128,
+        "longitude": 152.338357,
+        "metadata": {
+            "title": "Plant Nursery Building",
+            "link": "https://uqmaps.app.uq.edu.au/location/437",
+            "buildingNum": "8138",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_437_79fbafcb7bff069e4783b2d128b8d7c2_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

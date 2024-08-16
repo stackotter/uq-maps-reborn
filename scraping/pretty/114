@@ -1,0 +1,31 @@
+[
+    {
+        "id": 134,
+        "title": "Gehrmann Laboratories",
+        "campusID": 0,
+        "latitude": -27.500011,
+        "longitude": 153.012192,
+        "metadata": {
+            "title": "Gehrmann Laboratories",
+            "link": "https://uqmaps.app.uq.edu.au/location/114",
+            "buildingNum": "60",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_114_bafa0708c6ef5df1711bc2e848a4b863__small.jpg",
+                    "displayOrder": 0
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_114_daca7b3451dfa9a759358193853a6434__small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_114_e2f9d6e3e89cb733620ea622827f238a_building_exterior_small.jpg",
+                    "displayOrder": 3
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

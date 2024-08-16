@@ -1,0 +1,23 @@
+[
+    {
+        "id": 622,
+        "title": "Dairy Research Unit",
+        "campusID": 2,
+        "latitude": -27.552645,
+        "longitude": 152.332735,
+        "metadata": {
+            "title": "Dairy Research Unit",
+            "link": "https://uqmaps.app.uq.edu.au/location/415",
+            "buildingNum": "8154",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_415_fd6718c1b384fc42e96c1fa979e438bf_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1756337,
+        "title": "Queensland Bioscience Precinct Room 2171 (80)",
+        "campusID": 0,
+        "latitude": -27.497895,
+        "longitude": 153.010652,
+        "metadata": {
+            "title": "Queensland Bioscience Precinct Room 2171 (80)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2727",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2727_816ffebc31cf746c5109b801c0cd8e03_room_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

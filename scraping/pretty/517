@@ -1,0 +1,19 @@
+[
+    {
+        "id": 814,
+        "title": "Caf\u00e9 Lattes",
+        "campusID": 3,
+        "latitude": -27.447205,
+        "longitude": 153.028226,
+        "metadata": {
+            "title": "Caf\u00e9 Lattes",
+            "location": "Level 1 Food Court",
+            "hours": "Monday to Friday 7am - 7pm",
+            "link": "https://uqmaps.app.uq.edu.au/location/517",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

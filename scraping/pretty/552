@@ -1,0 +1,17 @@
+[
+    {
+        "id": 850,
+        "title": "Centre for Indigenous Health",
+        "campusID": 3,
+        "latitude": -27.448077,
+        "longitude": 153.025753,
+        "metadata": {
+            "title": "Centre for Indigenous Health",
+            "link": "https://uqmaps.app.uq.edu.au/location/552",
+            "buildingNum": null,
+            "primaryType": "Offices",
+            "otherTypes": []
+        },
+        "typeCode": "ofc"
+    }
+]

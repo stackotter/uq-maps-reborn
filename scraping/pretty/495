@@ -1,0 +1,17 @@
+[
+    {
+        "id": 705,
+        "title": "Building 8239",
+        "campusID": 2,
+        "latitude": -27.55156,
+        "longitude": 152.338679,
+        "metadata": {
+            "title": "Building 8239",
+            "link": "https://uqmaps.app.uq.edu.au/location/495",
+            "buildingNum": "8239",
+            "primaryType": "Buildings",
+            "otherTypes": []
+        },
+        "typeCode": "bld"
+    }
+]

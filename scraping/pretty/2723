@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1756316,
+        "title": "Molecular Biosciences Room 228 (76)",
+        "campusID": 0,
+        "latitude": -27.500271,
+        "longitude": 153.013002,
+        "metadata": {
+            "title": "Molecular Biosciences Room 228 (76)",
+            "moreinformation": "\n\nLearning Theatre",
+            "link": "https://uqmaps.app.uq.edu.au/location/2723",
+            "buildingNum": null,
+            "primaryType": "Lecture Theatres",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_2723_1e15ac638bf6b4ddfce6fbc564ee6358_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc__e22fdf8b5efffb34c92b709aa8000cb3_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "the"
+    }
+]

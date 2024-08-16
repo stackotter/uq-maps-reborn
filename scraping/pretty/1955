@@ -1,0 +1,23 @@
+[
+    {
+        "id": 5658,
+        "title": "Old Fuel Bowser Canopy",
+        "campusID": 2,
+        "latitude": -27.553406,
+        "longitude": 152.333061,
+        "metadata": {
+            "title": "Old Fuel Bowser Canopy",
+            "link": "https://uqmaps.app.uq.edu.au/location/1955",
+            "buildingNum": "8162F",
+            "primaryType": "Buildings",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1955_40b5a0ea2e3d6cabe6fe06eb8f4bec71_building_exterior_small.jpg",
+                    "displayOrder": 1
+                }
+            ]
+        },
+        "typeCode": "bld"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 273,
+        "title": "Cafe Nano",
+        "campusID": 0,
+        "latitude": -27.500563,
+        "longitude": 153.012686,
+        "metadata": {
+            "title": "Cafe Nano",
+            "hours": "Monday to Friday: 7am-4pm. Closed public holidays (hours may vary during Semester breaks)",
+            "moreinformation": "Specialises in coffee and toasted sandwiches.",
+            "link": "https://uqmaps.app.uq.edu.au/location/230",
+            "buildingNum": null,
+            "primaryType": "Food & Beverage",
+            "otherTypes": []
+        },
+        "typeCode": "eat"
+    }
+]

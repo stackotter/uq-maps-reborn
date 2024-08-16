@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1755152,
+        "title": "James and Mary Emelia Mayne Centre Room 201 (11)",
+        "campusID": 0,
+        "latitude": -27.49649,
+        "longitude": 153.012021,
+        "metadata": {
+            "title": "James and Mary Emelia Mayne Centre Room 201 (11)",
+            "moreinformation": "\n",
+            "link": "https://uqmaps.app.uq.edu.au/location/1105",
+            "buildingNum": null,
+            "primaryType": "Study Spots",
+            "otherTypes": [],
+            "images": [
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1105_90ada25af07c2639c83dcf7953bf13fa_room_small.jpg",
+                    "displayOrder": 1
+                },
+                {
+                    "imageURL": "https://images.maps.uq.edu.au/prod/loc_1105_06caa5b51b7e8bd0f213152e5571db58_room_small.jpg",
+                    "displayOrder": 2
+                }
+            ]
+        },
+        "typeCode": "sdy"
+    }
+]
