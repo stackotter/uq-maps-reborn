@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef } from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, TextInput, Keyboard } from "react-native";
 import Mapbox, {MapView} from "@rnmapbox/maps";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -25,13 +25,32 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
   },
+  sheetContents: {
+    width: "100%",
+    paddingLeft: 16,
+    paddingRight: 16
+  },
+  input: {
+    width: "100%",
+    backgroundColor: "lightgray",
+    borderRadius: 4,
+    padding: 8
+  }
 });
 
 export default function Index() {
   const bottomSheetRef = useRef<BottomSheet>(null);
 
   const handleSheetChanges = useCallback((index: number) => {
-    console.log('handleSheetChanges', index);
+    if (index == 0) {
+      Keyboard.dismiss();
+    }
+  }, []);
+
+  const [searchTerm, onChangeSearchTerm] = React.useState('');
+
+  const onFocusSearchInput = useCallback(() => {
+    bottomSheetRef.current?.snapToIndex(1);
   }, []);
 
   useEffect(() => {
@@ -50,7 +69,15 @@ export default function Index() {
           onChange={handleSheetChanges}
         >
           <BottomSheetView style={styles.contentContainer}>
-            <Text>Awesome 🎉</Text>
+            <View style={styles.sheetContents}>
+              <TextInput
+                style={styles.input}
+                onChangeText={onChangeSearchTerm}
+                onFocus={onFocusSearchInput}
+                value={searchTerm}
+                placeholder="Search UQ..."
+              />
+            </View>
           </BottomSheetView>
         </BottomSheet>
       </View>

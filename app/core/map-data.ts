@@ -32,12 +32,18 @@ interface Node {
   building?: number;
   latitude: number;
   longitude: number;
-  tags: string[];
+  tags: NodeTag[];
 }
 
 interface Edge {
   name?: string;
-  tags: string[];
+  tags: EdgeTag[];
   startnode: number;
   endnode: number;
 }
+
+export const uqCampus: Campus = {
+  nodes: [],
+  edges: [],
+  buildings: [],
+};
