@@ -72,11 +72,3 @@ target 'uqmapsreborn' do
     end
   end
 end
-
-pre_install do |installer|
-  $RNMapboxMaps.pre_install(installer)
-end
-
-post_install do |installer|
-  $RNMapboxMaps.post_install(installer)
-end
