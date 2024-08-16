@@ -1,8 +1,9 @@
-import React, { useCallback, useEffect, useRef } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { StyleSheet, View, TextInput, Keyboard } from "react-native";
 import Mapbox, {MapView} from "@rnmapbox/maps";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import * as Location from 'expo-location';
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
 
@@ -40,6 +41,24 @@ const styles = StyleSheet.create({
 
 export default function Index() {
   const bottomSheetRef = useRef<BottomSheet>(null);
+
+  const [location, setLocation] = useState<Location.LocationObject | null>(null);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
+
+  useEffect(() => {
+    (async () => {
+      
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setErrorMsg('Permission to access location was denied');
+        return;
+      }
+
+      let currentLocation = await Location.getCurrentPositionAsync({});
+      console.log(currentLocation);
+      setLocation(currentLocation);
+    })();
+  }, []);
 
   const handleSheetChanges = useCallback((index: number) => {
     if (index == 0) {
