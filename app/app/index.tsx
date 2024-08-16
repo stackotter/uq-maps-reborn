@@ -1,6 +1,8 @@
-import { StyleSheet, View } from "react-native";
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
+import { StyleSheet, View, Text } from "react-native";
 import Mapbox, {MapView} from "@rnmapbox/maps";
+import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
 
@@ -12,25 +14,46 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5FCFF"
   },
   container: {
-    height: 300,
-    width: 300,
+    height: "100%",
+    width: "100%",
     backgroundColor: "tomato"
   },
   map: {
     flex: 1
-  }
+  },
+  contentContainer: {
+    flex: 1,
+    alignItems: 'center',
+  },
 });
 
 export default function Index() {
+  const bottomSheetRef = useRef<BottomSheet>(null);
+
+  const handleSheetChanges = useCallback((index: number) => {
+    console.log('handleSheetChanges', index);
+  }, []);
+
   useEffect(() => {
     Mapbox.setTelemetryEnabled(false);
   }, []);
 
   return (
-    <View style={styles.page}>
-      <View style={styles.container}>
-        <MapView style={styles.map} />
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <View style={styles.page}>
+        <View style={styles.container}>
+          <MapView style={styles.map} />
+        </View>
+        <BottomSheet
+          ref={bottomSheetRef}
+          snapPoints={['20%', '80%']}
+          onChange={handleSheetChanges}
+        >
+          <BottomSheetView style={styles.contentContainer}>
+            <Text>Awesome 🎉</Text>
+          </BottomSheetView>
+        </BottomSheet>
       </View>
-    </View>
+    </GestureHandlerRootView>
   );
 }

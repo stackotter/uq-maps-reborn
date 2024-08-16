@@ -31,26 +31,11 @@
     "plugins": [
       "expo-router",
       [
-        "expo-location",
-        {
-          "locationWhenInUsePermission": "Show current location on map."
-        }
-      ],
-      [
         "@rnmapbox/maps",
         {
           "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3bGtvOHIwNWMzMnFwc3I0ajdsNnQyIn0.JSCztNvqQH8by86kzsIiNg"
         }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "deploymentTarget": "15.0"
-          }
-        }
-      ],
-      "expo-asset"
+      ]
     ],
     "experiments": {
       "typedRoutes": true

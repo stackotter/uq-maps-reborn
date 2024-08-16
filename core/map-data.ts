@@ -28,6 +28,7 @@ interface Building {
 
 interface Node {
   name?: string;
+  floor?: string;
   building?: number;
   latitude: number;
   longitude: number;
