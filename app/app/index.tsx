@@ -311,34 +311,37 @@ export default function Index() {
   // }
 
   // const colorMap = useLoader(TextureLoader, 'https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/19069789677/original/KcFGNjOaJQp8XOrMyOJpS1QxY2f7yRrd4Q.jpg?1609332801');
-  let size = 100;
+  // let size = 100;
 
   // <GLView style={{ width: "100%", aspectRatio: 1, marginTop: 16 }} onContextCreate={onContextCreate} />
+
+  // TODO: Update backend to display 360 images in simple js 360 image viewer
+  // TODO: Line up camera with north when taking photos
+              // <WebView source={{ uri: 'https://www.google.com' }} style={{ width: "100%", height: 500 }}/>
   return (
-    <WebView source={{ uri: 'https://reactnative.dev/' }} style={{ flex: 1 }} />
-    // <GestureHandlerRootView style={{ flex: 1 }}>
-    //   <View style={styles.page}>
-    //     <View style={styles.container}>
-    //       <MapView style={styles.map} />
-    //     </View>
-    //     <BottomSheet
-    //       ref={bottomSheetRef}
-    //       snapPoints={['20%', '80%']}
-    //       onChange={handleSheetChanges}
-    //     >
-    //       <BottomSheetView style={styles.contentContainer}>
-    //         <View style={styles.sheetContents}>
-    //           <TextInput
-    //             style={styles.input}
-    //             onChangeText={onChangeSearchTerm}
-    //             onFocus={onFocusSearchInput}
-    //             value={searchTerm}
-    //             placeholder="Search UQ..."
-    //           />
-    //         </View>
-    //       </BottomSheetView>
-    //     </BottomSheet>
-    //   </View>
-    // </GestureHandlerRootView>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <View style={styles.page}>
+        <View style={styles.container}>
+          <MapView style={styles.map} />
+        </View>
+        <BottomSheet
+          ref={bottomSheetRef}
+          snapPoints={['20%', '80%']}
+          onChange={handleSheetChanges}
+        >
+          <BottomSheetView style={styles.contentContainer}>
+            <View style={styles.sheetContents}>
+              <TextInput
+                style={styles.input}
+                onChangeText={onChangeSearchTerm}
+                onFocus={onFocusSearchInput}
+                value={searchTerm}
+                placeholder="Search UQ..."
+              />
+            </View>
+          </BottomSheetView>
+        </BottomSheet>
+      </View>
+    </GestureHandlerRootView>
   );
 }
