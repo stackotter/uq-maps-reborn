@@ -317,7 +317,6 @@ export default function Index() {
 
   // TODO: Update backend to display 360 images in simple js 360 image viewer
   // TODO: Line up camera with north when taking photos
-              // <WebView source={{ uri: 'https://www.google.com' }} style={{ width: "100%", height: 500 }}/>
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View style={styles.page}>
@@ -339,6 +338,14 @@ export default function Index() {
                 placeholder="Search UQ..."
               />
             </View>
+            <WebView source={{
+              html: `
+              <html>
+                <body>
+                </body>
+              </html>
+              `
+            }} style={{ width: "100%", height: 500 }}/>
           </BottomSheetView>
         </BottomSheet>
       </View>
