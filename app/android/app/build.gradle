@@ -117,7 +117,7 @@ packagingOptions {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.uqmapsreborn"
+    namespace 'dev.stackotter.uqmapsreborn'
     defaultConfig {
         applicationId 'dev.stackotter.uqmapsreborn'
         minSdkVersion rootProject.ext.minSdkVersion
