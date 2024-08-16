@@ -13,6 +13,9 @@ install! 'cocoapods',
 
 prepare_react_native_project!
 
+# @generated begin @rnmapbox/maps-rnmapboxmapsimpl - expo prebuild (DO NOT MODIFY) sync-315a404d8c9910f03e9acd33a3e58d52c3e78991
+$RNMapboxMapsDownloadToken = 'sk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3bGtvOHIwNWMzMnFwc3I0ajdsNnQyIn0.JSCztNvqQH8by86kzsIiNg'
+# @generated end @rnmapbox/maps-rnmapboxmapsimpl
 target 'uqmapsreborn' do
   use_expo_modules!
 
@@ -36,6 +39,13 @@ target 'uqmapsreborn' do
   use_frameworks! :linkage => podfile_properties['ios.useFrameworks'].to_sym if podfile_properties['ios.useFrameworks']
   use_frameworks! :linkage => ENV['USE_FRAMEWORKS'].to_sym if ENV['USE_FRAMEWORKS']
 
+# @generated begin pre_installer - expo prebuild (DO NOT MODIFY) sync-c8812095000d6054b846ce74840f0ffb540c2757
+  pre_install do |installer|
+# @generated begin @rnmapbox/maps-pre_installer - expo prebuild (DO NOT MODIFY) sync-ea4905840bf9fcea0acc62e92aa2e784f9d760f8
+    $RNMapboxMaps.pre_install(installer)
+# @generated end @rnmapbox/maps-pre_installer
+  end
+# @generated end pre_installer
   use_react_native!(
     :path => config[:reactNativePath],
     :hermes_enabled => podfile_properties['expo.jsEngine'] == nil || podfile_properties['expo.jsEngine'] == 'hermes',
@@ -45,6 +55,9 @@ target 'uqmapsreborn' do
   )
 
   post_install do |installer|
+# @generated begin @rnmapbox/maps-post_installer - expo prebuild (DO NOT MODIFY) sync-c4e8f90e96f6b6c6ea9241dd7b52ab5f57f7bf36
+    $RNMapboxMaps.post_install(installer)
+# @generated end @rnmapbox/maps-post_installer
     react_native_post_install(
       installer,
       config[:reactNativePath],

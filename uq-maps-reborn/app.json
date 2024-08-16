@@ -13,15 +13,13 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "dev.stackotter.uq-maps-reborn"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "dev.stackotter.uqmapsreborn"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -29,28 +27,13 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-location",
-        {
-          "locationWhenInUsePermission": "Show current location on map."
-        }
-      ],
+      "expo-router"
       [
         "@rnmapbox/maps",
         {
           "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3bGtvOHIwNWMzMnFwc3I0ajdsNnQyIn0.JSCztNvqQH8by86kzsIiNg"
         }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "deploymentTarget": "15.0"
-          }
-        }
-      ],
-      "expo-asset"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
