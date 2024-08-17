@@ -51,22 +51,24 @@ const styles = StyleSheet.create({
     padding: 8
   },
   startLocationInput: {
-    width: "100%",
+    width: 260,
     backgroundColor: "#ddd",
     borderTopLeftRadius: 8,
     borderTopRightRadius: 8,
     borderBottomColor: "gray",
     borderBottomWidth: 1,
     height: 34,
-    padding: 8
+    padding: 8,
+    overflow: "hidden",
   },
   endLocationInput: {
-    width: "100%",
+    width: 260,
     backgroundColor: "#ddd",
     borderBottomLeftRadius: 8,
     borderBottomRightRadius: 8,
     height: 34,
-    padding: 8
+    padding: 8,
+    overflow: "hidden"
   },
   locationInputText: {
     color: "#1557ff"
@@ -175,6 +177,35 @@ const fuse = new Fuse(
     ]
   }
 );
+
+function displayNameForNode(nodeId: number) {
+  let node = map.nodes[nodeId];
+  if (node.name !== undefined && node.name !== null) {
+    if (node.building !== null && node.building !== undefined) {
+      return `${node.name} - ${map.buildings[node.building].name}`;
+    } else {
+      return node.name;
+    }
+  } else if (node.room !== undefined && node.room !== null) {
+    let building = map.buildings[node.building as number];
+    return `Room ${building.number}-${node.room}`;
+  } else if (node.building !== undefined && node.building !== null) {
+    return map.buildings[node.building].name;
+  } else {
+    return "Selected location";
+  }
+}
+
+function displayNameForLocation(item: SearchableItem) {
+  if (item.type === "room") {
+    let building = item.building as Building;
+    let room = item.room as Room;
+    return `Room ${building.number}-${room.number} (${building.name})`;
+  } else if (item.type === "building") {
+    let building = item.building as Building;
+    return `${building.number} - ${building.name}`;
+  }
+}
 
 function findShortestPathFromNodeToLocation(startNode: number, endLocation: SearchableItem) {
   let destinations = searchableItemNodes(endLocation) || [];
@@ -300,6 +331,7 @@ export default function Index() {
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
   const [searchTerm, onChangeSearchTerm] = React.useState('');
   const [selectedStartNode, setSelectedStartNode] = useState<number | null>(null);
+  const [selectedPath, setSelectedPath] = useState<Path | null>(null);
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -350,6 +382,11 @@ export default function Index() {
       let longitude = location.coords.longitude;
       camera?.setCamera({centerCoordinate: [longitude, latitude], zoomLevel: 16.5});
     }
+  }
+
+  function closeSheet() {
+    setSelectedItem(null);
+    setSelectedStartNode(null);
   }
 
   let sheetContent;
@@ -430,7 +467,7 @@ export default function Index() {
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
         {searchableItemCard(selectedItem)}
-        <Pressable style={styles.closeButton} onPress={() => setSelectedItem(null)}>
+        <Pressable style={styles.closeButton} onPress={closeSheet}>
           <MaterialIcons name="close" color="#333" size={30} />
         </Pressable>
       </View>
@@ -440,7 +477,7 @@ export default function Index() {
         </Text>
       </Pressable>
     </View>;
-  } else {
+  } else if (selectedPath === null) {
     let timeEstimateMinutes: number | null = null;
     let shortestPath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem);
     if (shortestPath !== null) {
@@ -454,25 +491,35 @@ export default function Index() {
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
         <View>
           <Pressable style={styles.startLocationInput}>
-            <Text style={styles.locationInputText}>From: General Purpose South</Text>
+            <Text numberOfLines={1} style={styles.locationInputText}>From: {displayNameForNode(selectedStartNode)}</Text>
           </Pressable>
           <Pressable style={styles.endLocationInput}>
-            <Text style={styles.locationInputText}>To: Advanced Engineering Building</Text>
+            <Text numberOfLines={1} style={styles.locationInputText}>To: {displayNameForLocation(selectedItem)}</Text>
           </Pressable>
         </View>
-        <Pressable style={styles.closeButton} onPress={() => setSelectedItem(null)}>
+        <Pressable style={styles.closeButton} onPress={closeSheet}>
           <MaterialIcons name="close" color="#333" size={30} />
         </Pressable>
       </View>
-      <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 32, padding: 8, backgroundColor: "#ddd", borderRadius: 10}}>
-        <View>
-          <Text style={{fontSize: 20}}>Shortest route</Text>
-          <Text style={styles.subtitle}>5 min</Text>
-        </View>
-        <Pressable style={{...styles.squareButton, ...extraStyles}}>
-          <Text style={styles.squareButtonText}>Go</Text>
-        </Pressable>
+      <View style={{marginTop: 32, padding: 8, backgroundColor: "#ddd", borderRadius: 10}}>
+        { timeEstimateMinutes !== null && shortestPath !== null ?
+          <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
+            <View>
+              <Text style={{fontSize: 20}}>Shortest route</Text>
+              <Text style={styles.subtitle}>{timeEstimateMinutes} min • {Math.ceil(shortestPath?.length || 0)}m</Text>
+            </View>
+            <Pressable style={{...styles.squareButton, ...extraStyles}} onPress={() => setSelectedPath(shortestPath?.path as Path)}>
+              <Text style={styles.squareButtonText}>Go</Text>
+            </Pressable>
+          </View> :
+          <Text>Directions unavailable</Text>
+        }
       </View>
+    </View>
+  } else {
+    snapPoints = ["40%", "80%"];
+    sheetContent = <View>
+      <Text>Navigating...</Text>
     </View>
   }
 
