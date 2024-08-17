@@ -197,6 +197,7 @@ export default function Index() {
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
+  const [searchTerm, onChangeSearchTerm] = React.useState('');
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -219,10 +220,9 @@ export default function Index() {
   const handleSheetChanges = useCallback((index: number) => {
     if (index == 0) {
       Keyboard.dismiss();
+      onChangeSearchTerm("");
     }
   }, []);
-
-  const [searchTerm, onChangeSearchTerm] = React.useState('');
 
   const onFocusSearchInput = useCallback(() => {
     bottomSheetRef.current?.snapToIndex(1);
