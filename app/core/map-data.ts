@@ -63,7 +63,6 @@ export interface Edge {
   length: number;
 }
 
-
 export interface Path {
   nodes: number[];
   edges: number[];

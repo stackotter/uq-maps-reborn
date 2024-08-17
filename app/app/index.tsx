@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, ScrollView, Button, Pressable } from "react-native";
+import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, Pressable } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -12,7 +12,7 @@ import untypedMap from "../assets/data/map.json";
 import { Building, Campus, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
 
-// import {Dimensions} from 'react-native';
+import {Dimensions} from 'react-native';
 // import PanoViewer from "@/components/PanoViewer";
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
@@ -27,10 +27,11 @@ const styles = StyleSheet.create({
   container: {
     height: "100%",
     width: "100%",
-    backgroundColor: "tomato"
+    backgroundColor: "white",
+    position: "relative"
   },
   map: {
-    flex: 1
+    height: Dimensions.get("window").height * 0.85
   },
   contentContainer: {
     flex: 1,
@@ -80,6 +81,22 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     width: 40,
     height: 40
+  },
+  centerUserButton: {
+    backgroundColor: "white",
+    shadowColor: "black",
+    shadowOpacity: 0.2,
+    shadowRadius: 10,
+    shadowOffset: {width: 0, height: 2},
+    position: "absolute",
+    top: 32,
+    right: 8,
+    width: 40,
+    height: 40,
+    borderRadius: 8,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
   }
 });
 
@@ -242,6 +259,14 @@ export default function Index() {
     onChangeSearchTerm("");
   }
 
+  function centerUser() {
+    if (location !== null) {
+      let latitude = location.coords.latitude;
+      let longitude = location.coords.longitude;
+      camera?.setCamera({centerCoordinate: [longitude, latitude], zoomLevel: 16.5});
+    }
+  }
+
   let sheetContent;
   let snapPoints;
   if (selectedItem === null) {
@@ -316,9 +341,9 @@ export default function Index() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View style={styles.page}>
         <View style={styles.container}>
-          <MapView style={styles.map}>
+          <MapView style={styles.map} compassEnabled compassFadeWhenNorth compassPosition={{top: 64, right: 8}}>
             <Camera ref={setCamera}/>
-            <LocationPuck/>
+            <LocationPuck puckBearingEnabled puckBearing="heading"/>
             {
               markers.map(({key, item}) => {
                 return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>
@@ -327,6 +352,9 @@ export default function Index() {
               })
             }
           </MapView>
+          <Pressable style={styles.centerUserButton} onPress={centerUser}>
+            <MaterialIcons name="my-location" color="#333" size={30} />
+          </Pressable>
         </View>
         <BottomSheet
           ref={bottomSheetRef}
