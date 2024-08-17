@@ -143,8 +143,9 @@ export class navData {
   icon: string;
 
   constructor(title: string, dir: InstructionType) {
-    this.title = title;
-    this.message = dir as unknown as string;
+    
+    this.title = title == "" ? title : dir as unknown as string;
+    this.message = title == "" ? dir as unknown as string : "";
     this.icon = "straight";
     if (dir == InstructionType.LEFT) {
       this.icon = "turn-left";

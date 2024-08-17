@@ -17,6 +17,7 @@ import pathLib from "ngraph.path";
 import createGraph from "ngraph.graph";
 
 
+
 let graph = createGraph();
 let accessibleGraph = createGraph();
 let campus: Campus = map as unknown as Campus;
@@ -29,14 +30,28 @@ for (let node of campus.nodes) {
 }
 
 for (let edge of campus.edges) {
+  if (edge.tags.includes("elevator")) {
+    graph.addLink(edge.startnode, edge.endnode, { weight: 2000000});
+    continue;
+  }
   graph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
-  if (!edge.tags.includes("stairs")) {
+}
+
+for (let edge of campus.edges) {
+  if (edge.tags.includes("elevator")) {
+    accessibleGraph.addLink(edge.startnode, edge.endnode, { weight: 75 });
+  }
+  else if (!edge.tags.includes("stairs")) {
     accessibleGraph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
   }
+
 }
 
 let pathFinder = pathLib.aStar(graph);
 let accessiblePathFinder = pathLib.aStar(accessibleGraph);
+
+
+
 
 // Check set equality
 const EqualSets = (xs: Set<number>, ys: Set<number>) =>
@@ -242,10 +257,10 @@ export function ToDirections(path: Path): navData[] {
 
       let doorBearing: Bearing = getDoorBearing(nodeA, nodeB);
       if (doorBearing == Bearing.ENTER) {
-        nextEdgeMessage = Messages.RoomEnter(nodeB?.name ?? "the room");
+        nextEdgeMessage = Messages.RoomEnter(nodeB?.name ?? "");
       }
       else if (doorBearing == Bearing.EXIT) {
-        nextEdgeMessage = Messages.RoomExit(nodeA?.name ?? "the room");
+        nextEdgeMessage = Messages.RoomExit(nodeA?.name ?? "");
       }
     }
     edgeMessages.push(nextEdgeMessage);
@@ -257,14 +272,6 @@ export function ToDirections(path: Path): navData[] {
   let data: navData[] = [];
   while (j < edgeMessages.length) {
     let heading: string = edgeMessages[j]
-    //let message: string = rawDirs[j] as unknown as string;
-    //let svgpath: string = "turn_left";
-    //if (edgeMessages[j] as unknown as string === "" || edgeMessages[j] === null) {
-    //  messages.push(InstructionType.FORWARD as unknown as string);
-    //}
-    //else {
-    //  messages.push(edgeMessages[j]);
-    //}
     data.push(new navData(heading, rawDirs[j]));
     j++;
   }
@@ -274,7 +281,7 @@ export function ToDirections(path: Path): navData[] {
   return data;
 }
 
-let path: Path = FindPath(0, 17, map as unknown as Campus, true);
+let path: Path = FindPath(2, 0, map as unknown as Campus, false);
 let directions: navData[] = ToDirections(path);
 //console.log(path.nodes);
 //console.log(path.edges);
@@ -284,6 +291,7 @@ let directions: navData[] = ToDirections(path);
 //console.log(directions.nodeDirectionChanges.length);
 //console.log(directions.edgeMessages.length);
 
+console.log(path);
 console.log(path.nodes.length);
 console.log(directions.length);
 
