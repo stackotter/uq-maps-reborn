@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, ScrollView } from "react-native";
+import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, ScrollView, Button, Pressable } from "react-native";
 
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import Mapbox, {MapView, MarkerView} from "@rnmapbox/maps";
+import Mapbox, {Camera, MapView, MarkerView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
 
 import untypedMap from "../assets/data/map.json";
@@ -58,6 +58,19 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 14
+  },
+  button: {
+    width: "100%",
+    backgroundColor: "#4759fc",
+    borderRadius: 8,
+    padding: 14,
+    marginTop: 16
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 16,
+    textAlign: "center",
+    fontWeight: "bold"
   }
 });
 
@@ -101,7 +114,7 @@ const fuse = new Fuse(
 function searchableItemCard(item: SearchableItem) {
   if (item.type === "building") {
     let building = item.building as unknown as Building;
-    return <View style={styles.sheetContents}>
+    return <View style={{width: "100%"}}>
       <Text style={styles.heading}>{building.name}</Text>
       <Text style={styles.subtitle}>Building {building.number}</Text>
     </View>;
@@ -114,7 +127,7 @@ function searchableItemCard(item: SearchableItem) {
     } else {
       heading = `Room ${building.number}-${room.number}`;
     }
-    return <View style={styles.sheetContents}>
+    return <View style={{width: "100%"}}>
       <Text style={styles.heading}>{heading}</Text>
       <Text style={styles.subtitle}>{building.name}</Text>
     </View>;
@@ -132,7 +145,7 @@ function searchableItemSummary(item: SearchableItem) {
   }
 }
 
-// Returns the item's coordinates as `[lat, long]`.
+// Returns the item's coordinates as `[long, lat]`.
 function searchableItemCoordinates(item: SearchableItem) {
   if (item.type === "building") {
     let building = item.building as unknown as Building;
@@ -149,6 +162,13 @@ export default function Index() {
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
+
+  let [camera, setCamera] = useState<Camera | null>(null);
+  useEffect(() => {
+    console.log("Setting to initial rect");
+    console.log(camera);
+    camera?.setCamera({centerCoordinate: [153.0142397517875, -27.49864297144247], zoomLevel: 15.5, animationDuration: 0});
+  }, [camera]);
 
   useEffect(() => {
     (async () => {
@@ -185,10 +205,13 @@ export default function Index() {
   function selectItem(item:SearchableItem) {
     setSelectedItem(item);
     bottomSheetRef.current?.snapToIndex(0);
+    camera?.setCamera({centerCoordinate: searchableItemCoordinates(item), zoomLevel: 17});
   }
 
   let sheetContent;
+  let snapPoints;
   if (selectedItem === null) {
+    snapPoints = ["20%", "80%"];
     let searchResultsView;
     if (searchTerm.length !== 0) {
       searchResultsView = <FlatList
@@ -239,7 +262,13 @@ export default function Index() {
       {searchResultsView}
     </View>;
   } else {
-    sheetContent = searchableItemCard(selectedItem);
+    snapPoints = ["30%", "80%"];
+    sheetContent = <View style={styles.sheetContents}>
+      {searchableItemCard(selectedItem)}
+      <Pressable style={styles.button} onPress={() => {}}>
+        <Text style={styles.buttonText}>Directions</Text>
+      </Pressable>
+    </View>;
   }
 
   let markers = selectedItem === null ? [] : [{key: "selected", item: selectedItem}];
@@ -249,6 +278,7 @@ export default function Index() {
       <View style={styles.page}>
         <View style={styles.container}>
           <MapView style={styles.map}>
+            <Camera ref={setCamera}/>
             {
               markers.map(({key, item}) => {
                 return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>
@@ -260,7 +290,7 @@ export default function Index() {
         </View>
         <BottomSheet
           ref={bottomSheetRef}
-          snapPoints={['20%', '80%']}
+          snapPoints={snapPoints}
           onChange={handleSheetChanges}
         >
           <BottomSheetView style={styles.contentContainer}>
