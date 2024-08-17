@@ -8,7 +8,8 @@ import Mapbox, {MapView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
 
 import untypedMap from "../assets/data/map.json";
-import { Building, Campus } from "@/core/map-data";
+import { Building, Campus, Room } from "@/core/map-data";
+import Fuse from "fuse.js";
 
 // import {Dimensions} from 'react-native';
 // import PanoViewer from "@/components/PanoViewer";
@@ -61,12 +62,81 @@ const styles = StyleSheet.create({
 
 const map: Campus = untypedMap as unknown as Campus;
 
+interface SearchableItem {
+  type: "room" | "building";
+  building?: Building,
+  room?: Room
+}
+
+// Searchable rooms and buildings
+const searchableItems: SearchableItem[] = map.buildings
+  .map((building) => {
+    return {
+      type: "building" as "building" | "room",
+      building
+    }
+  }).concat(map.rooms.map((room) => {
+    return {
+      type: "room",
+      building: map.buildings[room.building],
+      room: room
+    }
+  }));
+
+
+const fuse = new Fuse(
+  searchableItems,
+  {
+    keys: [
+      "type",
+      "building.name",
+      "building.number",
+      "room.name",
+      "room.number"
+    ]
+  }
+);
+
+function searchableItemCard(item: SearchableItem) {
+  if (item.type === "building") {
+    let building = item.building as unknown as Building;
+    return <View style={styles.sheetContents}>
+      <Text style={styles.heading}>{building.name}</Text>
+      <Text style={styles.subtitle}>Building {building.number}</Text>
+    </View>;
+  } else if (item.type === "room") {
+    let building = item.building as unknown as Building;
+    let room = item.room as unknown as Room;
+    let heading;
+    if (room.name !== undefined) {
+      heading = `${room.name} - ${building.number}-${room.number}`;
+    } else {
+      heading = `Room ${building.number}-${room.number}`;
+    }
+    return <View style={styles.sheetContents}>
+      <Text style={styles.heading}>{heading}</Text>
+      <Text style={styles.subtitle}>{building.name}</Text>
+    </View>;
+  }
+}
+
+function searchableItemSummary(item:SearchableItem) {
+  if (item.type === "building") {
+    let building = item.building as unknown as Building;
+    return <Text>{building.name + " - " + building.number}</Text>;
+  } else if (item.type === "room") {
+    let building = item.building as unknown as Building;
+    let room = item.room as unknown as Room;
+    return <Text>{`Room ${building.number}-${room.number} (${building.name})`}</Text>;
+  }
+}
+
 export default function Index() {
   const bottomSheetRef = useRef<BottomSheet>(null);
 
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [selectedBuilding, setSelectedBuilding] = useState<Building | null>(null);
+  const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -100,47 +170,15 @@ export default function Index() {
   // let windowWidth = Dimensions.get("window").width;
   // <PanoViewer panoId={1} viewerWidth={windowWidth - 32} />
 
-  let searchWords = searchTerm.split(" ").map(x => x.toLowerCase()).filter(s => s.length !== 0);
-
   let sheetContent;
-  if (selectedBuilding === null) {
+  if (selectedItem === null) {
     let searchResultsView;
     if (searchTerm.length !== 0) {
       searchResultsView = <FlatList
-        data={
-          map.buildings
-            .map((building) => {
-              let searchableFields = [
-                building.name.toLowerCase(),
-                building.number.toLowerCase()
-              ];
-              let matchingWords = 0;
-              for (let searchWord of searchWords) {
-                for (let field of searchableFields) {
-                  if (field.includes(searchWord)) {
-                    matchingWords++;
-                    break;
-                  }
-                }
-              }
-              return {
-                building,
-                matchingWords
-              };
-            })
-            .filter(({matchingWords}) => {
-              return matchingWords != 0;
-            })
-            .sort((a, b) => {
-              return a.matchingWords - b.matchingWords ||
-                a.building.name.localeCompare(b.building.name) ||
-                a.building.number.localeCompare(b.building.number);
-            })
-            .slice(0, 40)
-        }
-        renderItem={({item}) => {
-          return <TouchableOpacity onPress={() => setSelectedBuilding(item.building)} style={styles.searchResult}>
-            <Text>{item.building.name + " - " + item.building.number}</Text>
+        data={fuse.search(searchTerm)}
+        renderItem={({item: { item }}) => {
+          return <TouchableOpacity onPress={() => setSelectedItem(item)} style={styles.searchResult}>
+            {searchableItemSummary(item)}
           </TouchableOpacity>;
         }}
       />;
@@ -183,10 +221,7 @@ export default function Index() {
       {searchResultsView}
     </View>;
   } else {
-    sheetContent = <View style={styles.sheetContents}>
-      <Text style={styles.heading}>{selectedBuilding.name[1]}</Text>
-      <Text style={styles.subtitle}>Building {selectedBuilding.name[0]}</Text>
-    </View>;
+    sheetContent = searchableItemCard(selectedItem);
   }
 
   return (

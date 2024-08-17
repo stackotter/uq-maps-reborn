@@ -3,6 +3,7 @@ export interface Campus {
   nodes: Node[];
   edges: Edge[];
   buildings: Building[];
+  rooms: Room[];
 }
 
 export enum NodeTag {
