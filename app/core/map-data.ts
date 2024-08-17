@@ -44,6 +44,9 @@ export interface Room {
   nodes: number[];
 }
 
+
+// change room to be a number (index into the array of rooms)
+// change floor to be a number (not an index, just the floor number)
 export interface Node {
   name?: string;
   room?: string;
@@ -53,6 +56,13 @@ export interface Node {
   longitude: number;
   tags: string[];
   edges: number[];
+}
+
+export enum EdgeTag {
+  STAIRS = "stairs", 
+  ELEVATOR = "elevator",
+  DOOR = "door",
+  NULL = "null",
 }
 
 export interface Edge {
@@ -70,17 +80,26 @@ export interface Path {
 
 export enum InstructionType {
   FORWARD,
-  TURN_AROUND,
+  TURN,
   LEFT,
   RIGHT,
   STAIRS,
-  ELEVATOR,
+  ELEVATOR_ENTER,
+  ELAVATOR_EXIT,
   SWIM,
   JUMP,
   FLY,
   PHASE_THROUGH_WALL,
   SCALE_BUILDING,
   FIGHT_NEAREST_STRANGER,
+}
+
+export enum Bearing {
+  UP = "UP",
+  DOWN = "DOWN",
+  ENTER = "ENTER",
+  EXIT = "EXIT",
+  NULL = "NULL",
 }
 
 export interface Instruction {
@@ -90,46 +109,34 @@ export interface Instruction {
 
 export interface Directions {
   edgeMap: Map<number, number>;
-  instructions: Instruction[];
+  nodeDirectionChanges: InstructionType[]; 
+  edgeMessages: string[];
+  //instructions: Instruction[];
 }
 
-/*
-export class Vec3D {
-    x: number;
-    y: number;
-    z: number;
 
-    constructor(x: number, y: number, z: number) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
-    }
+export class Messages {
+  static RoomEnter(name: string): string {
+    return `enter room ${name}`;
+  }
+  static RoomExit(name: string): string {
+    return `exit room ${name}`;
+  }
 
-    static FromNode(node: Node): Vec3D {
-        let x = Math.sin(node.latitude) * Math.cos(node.longitude);
-        let y = Math.sin(node.latitude) * Math.sin(node.longitude);
-        let z = Math.cos(node.latitude);
-        return new Vec3D(x, y, z);
-    }
+  static BuildingEnter(name: string): string {
+    return `enter ${name}`;
+  }
+  static BuildingExit(name: string): string {
+    return `exit ${name}`;
+  }
+  
+  static Stairs(bearing: Bearing, delta: number) {
+    let bearingStr: string = (bearing as string).toLowerCase();
+    return `take the stairs ${bearingStr} ${delta} levels`
+  }
 
-    RelativeTo(v: Vec3D): Vec3D {
-        return new Vec3D(this.x - v.x, 
-                         this.y - v.y, 
-                         this.z - v.z);
-    }
-
-    Norm(): number {
-        return Math.sqrt(this.x**2 + this.y**2 + this.z**2);
-    }
-
-    AngleWith(v: Vec3D): number {
-        // compute angle to another vector
-        let dot: number = this.x*v.x + this.y*v.y + this.z*v.z;
-        let angle: number = Math.acos(dot / this.Norm() / v.Norm());
-        // convert to degrees
-        angle = Math.round(angle * 180 / Math.PI);
-        //return Math.min(angle, 360-angle);
-        return angle - 180
-    }
+  static Elevator(bearing: Bearing, floor: number) {
+    let bearingStr: string = (bearing as string).toLowerCase();
+    return `take the elevator ${bearingStr} to level ${floor}`;
+  }
 }
-*/
