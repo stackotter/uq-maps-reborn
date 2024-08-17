@@ -38,7 +38,6 @@ while True:
 
         tags = [x.strip() for x in input("Tags: ").split(",") if x.strip() != ""]
 
-        connected_rooms = [x.strip() for x in input("Connected rooms: ").split(",") if x.strip() != ""]
         connected_nodes = input("Connected nodes: ")
         if connected_nodes == "":
             connected_nodes = []
@@ -52,6 +51,8 @@ while True:
                 else:
                     parsed.append({"index": int(parts[0])})
             connected_nodes = parsed
+
+        has_photo = input("Took photo? [default: y]: ") != "n"
 
         notes = input("Notes [optional]: ")
         if notes == "":
@@ -67,8 +68,8 @@ while True:
         data.append({
             "lat": lat,
             "lng": long,
+            "has_photo": has_photo,
             "tags": tags,
-            "connected_rooms": connected_rooms,
             "connected_nodes": connected_nodes,
             "notes": notes
         })
