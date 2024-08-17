@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, send_file
+from flask import Flask, send_file, request
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -12,6 +12,8 @@ def index():
 
 @app.route("/view/pano/<int:id>")
 def view_pano(id: int):
+    yaw = request.args.get("yaw") or 0
+    pitch = request.args.get("pitch") or 0
     return """
     <!DOCTYPE HTML>
     <html>
@@ -39,13 +41,15 @@ def view_pano(id: int):
     pannellum.viewer('panorama', {
         "type": "equirectangular",
         "panorama": "/pano/%d",
-        "autoLoad": true
+        "autoLoad": true,
+        "yaw": %s,
+        "pitch": %s
     });
     </script>
 
     </body>
     </html>
-    """ % id
+    """ % (id, yaw, pitch)
 
 @app.route("/pano/<int:id>")
 def pano(id: int):
