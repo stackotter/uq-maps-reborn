@@ -216,7 +216,7 @@ export default function Index() {
     if (searchTerm.length !== 0) {
       searchResultsView = <FlatList
         data={fuse.search(searchTerm)}
-        keyboardShouldPersistTaps="never"
+        keyboardShouldPersistTaps="always"
         renderItem={({item: { item }}) => {
           return <TouchableOpacity onPress={() => selectItem(item)} style={styles.searchResult}>
             {searchableItemSummary(item)}
