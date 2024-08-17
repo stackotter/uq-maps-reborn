@@ -71,6 +71,15 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: "center",
     fontWeight: "bold"
+  },
+  closeButton: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "lightgray",
+    borderRadius: 20,
+    width: 40,
+    height: 40
   }
 });
 
@@ -140,7 +149,7 @@ function searchableItemCard(item: SearchableItem, location: Location.LocationObj
 
   if (item.type === "building") {
     let building = item.building as unknown as Building;
-    return <View style={{width: "100%"}}>
+    return <View>
       <Text style={styles.heading}>{building.name}</Text>
       <Text style={styles.subtitle}>Building {building.number}</Text>
     </View>;
@@ -153,7 +162,7 @@ function searchableItemCard(item: SearchableItem, location: Location.LocationObj
     } else {
       heading = `Room ${building.number}-${room.number}`;
     }
-    return <View style={{width: "100%"}}>
+    return <View>
       <Text style={styles.heading}>{heading}</Text>
       <Text style={styles.subtitle}>{building.name}</Text>
     </View>;
@@ -230,6 +239,7 @@ export default function Index() {
     setSelectedItem(item);
     bottomSheetRef.current?.snapToIndex(0);
     camera?.setCamera({centerCoordinate: searchableItemCoordinates(item), zoomLevel: 17});
+    onChangeSearchTerm("");
   }
 
   let sheetContent;
@@ -288,7 +298,12 @@ export default function Index() {
   } else {
     snapPoints = ["30%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
-      {searchableItemCard(selectedItem, location)}
+      <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
+        {searchableItemCard(selectedItem, location)}
+        <Pressable style={styles.closeButton} onPress={() => setSelectedItem(null)}>
+          <MaterialIcons name="close" color="#333" size={30} />
+        </Pressable>
+      </View>
       <Pressable style={styles.button} onPress={() => {}}>
         <Text style={styles.buttonText}>Directions</Text>
       </Pressable>
