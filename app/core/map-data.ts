@@ -37,7 +37,6 @@ export interface Room {
   nodes: number[];
 }
 
-
 // change room to be a number (index into the array of rooms)
 // change floor to be a number (not an index, just the floor number)
 export interface Node {
@@ -52,7 +51,7 @@ export interface Node {
 }
 
 export enum EdgeTag {
-  STAIRS = "stairs", 
+  STAIRS = "stairs",
   ELEVATOR = "elevator",
   FOOTPATH = "footpath",
   DOOR = "door",
@@ -65,6 +64,7 @@ export interface Edge {
   startnode: number;
   endnode: number;
   length: number;
+  bearing_degrees: number;
 }
 
 export interface Path {
@@ -102,10 +102,9 @@ export interface Instruction {
 }
 
 export interface Directions {
-  nodeDirectionChanges: InstructionType[]; 
+  nodeDirectionChanges: InstructionType[];
   edgeMessages: string[];
 }
-
 
 export class Messages {
   static RoomEnter(name: string): string {
@@ -121,10 +120,10 @@ export class Messages {
   static BuildingExit(name: string): string {
     return `exit ${name}`;
   }
-  
+
   static Stairs(bearing: Bearing, delta: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
-    return `take the stairs ${bearingStr} ${delta} level`
+    return `take the stairs ${bearingStr} ${delta} level`;
   }
 
   static Elevator(bearing: Bearing, floor: number) {

@@ -168,6 +168,12 @@ const styles = StyleSheet.create({
   }
 });
 
+const nodeBearingAdjustments: {[key: number]: number} = {
+  8: 25,
+  10: 45,
+  12: 10
+};
+
 const map: Campus = untypedMap as unknown as Campus;
 
 interface SearchableItem {
@@ -423,6 +429,7 @@ export default function Index() {
   let sheetContent;
   let snapPoints;
   let panoId: number | null = null;
+  let panoBearing: number | null = null;
   if (selectedItem === null) {
     snapPoints = ["20%", "80%"];
     let searchResultsView;
@@ -557,8 +564,19 @@ export default function Index() {
   } else {
     snapPoints = ["32%", "80%"];
     let directions = ToDirections(selectedPath);
-    let currentDirection = directions.nodeDirectionChanges[0];
-    let currentEdgeMessage = directions.edgeMessages[0];
+    let currentDirection = directions.nodeDirectionChanges[currentNavigationPathIndex];
+    let currentEdgeMessage = currentNavigationPathIndex < directions.edgeMessages.length ? directions.edgeMessages[currentNavigationPathIndex] : null;
+    let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
+    let currentNode = selectedPath.nodes[currentNavigationPathIndex];
+    console.log(selectedPath.edges, directions.edgeMessages.length);
+    panoBearing = map.edges[currentEdge].bearing_degrees;
+    if (currentNavigationPathIndex < directions.edgeMessages.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].startnode === currentNode) {
+      panoBearing -= 180;
+    }
+    console.log("Current node", currentNode);
+    let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
+    panoBearing += bearingAdjustment;
+
     panoId = selectedPath.nodes[currentNavigationPathIndex];
 
     function onPressPrevious() {
@@ -577,7 +595,7 @@ export default function Index() {
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
         <View>
           <Text style={styles.heading}>{currentDirection}</Text>
-          <Text style={styles.subtitle}>{currentEdgeMessage}</Text>
+          {currentEdgeMessage !== null ? <Text style={styles.subtitle}>{currentEdgeMessage}</Text> : <></>}
         </View>
         <Pressable style={styles.closeButton} onPress={closeSheet}>
           <MaterialIcons name="close" color="#333" size={30} />
@@ -628,7 +646,7 @@ export default function Index() {
         >
           <BottomSheetView style={styles.contentContainer}>
             {sheetContent}
-            {panoId === null ? <></> : <PanoViewer panoId={panoId} viewerWidth={Dimensions.get("window").width - 32}/>}
+            {panoId === null ? <></> : <PanoViewer panoId={panoId} initialCompassBearing={panoBearing} viewerWidth={Dimensions.get("window").width - 32}/>}
           </BottomSheetView>
         </BottomSheet>
       </View>

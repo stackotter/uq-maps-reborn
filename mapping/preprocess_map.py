@@ -1,6 +1,9 @@
 import json
-from math import sqrt
+import math
+import numpy as np
 import geopy.distance
+
+from math import sqrt
 
 infile = "latlongs.json"
 buildingsfile = "../scraping/data/buildings.json"
@@ -10,6 +13,15 @@ with open(infile, "r") as f:
     in_nodes = json.loads(f.read())
 with open(buildingsfile, "r") as f:
     in_buildings = json.loads(f.read())
+
+def get_bearing(lat1, lon1, lat2, lon2):
+    dLon = lon2 - lon1
+    y = math.sin(dLon) * math.cos(lat2)
+    x = math.cos(lat1) * math.sin(lat2) - math.sin(lat1) * math.cos(lat2) * math.cos(dLon)
+    brng = np.rad2deg(math.atan2(y, x))
+    if brng < 0:
+        brng += 360
+    return brng
 
 buildings = []
 nodes = []
@@ -59,7 +71,8 @@ for i, node in enumerate(in_nodes):
             "tags": [connection["type"]] if "type" in connection else [],
             "startnode": i,
             "endnode": endnode,
-            "length": geopy.distance.geodesic(start_point, end_point).m
+            "length": geopy.distance.geodesic(start_point, end_point).m,
+            "bearing_degrees": get_bearing(start_point[0], start_point[1], end_point[0], end_point[1])
         })
         nodes[endnode]["edges"].append(edge_id)
         nodes[i]["edges"].append(edge_id)

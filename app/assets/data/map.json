@@ -39203,7 +39203,8 @@
       ],
       "startnode": 1,
       "endnode": 0,
-      "length": 9.09633159768341
+      "length": 9.096331597330954,
+      "bearing_degrees": 293.3899756003049
     },
     {
       "tags": [
@@ -39211,25 +39212,29 @@
       ],
       "startnode": 2,
       "endnode": 1,
-      "length": 10.354932597171569
+      "length": 10.35493259717111,
+      "bearing_degrees": 27.588634144656854
     },
     {
       "tags": [],
       "startnode": 3,
       "endnode": 1,
-      "length": 7.597739967987122
+      "length": 7.597739967634279,
+      "bearing_degrees": 283.3908260245929
     },
     {
       "tags": [],
       "startnode": 4,
       "endnode": 1,
-      "length": 8.014453325379263
+      "length": 8.014453325731004,
+      "bearing_degrees": 306.0777606550746
     },
     {
       "tags": [],
       "startnode": 4,
       "endnode": 3,
-      "length": 2.6728656638201698
+      "length": 2.6728656638201698,
+      "bearing_degrees": 9.422892135954795
     },
     {
       "tags": [
@@ -39237,19 +39242,22 @@
       ],
       "startnode": 5,
       "endnode": 4,
-      "length": 9.150947018706631
+      "length": 9.150947018706631,
+      "bearing_degrees": 291.6979695297507
     },
     {
       "tags": [],
       "startnode": 6,
       "endnode": 3,
-      "length": 11.576226478257786
+      "length": 11.576226478257786,
+      "bearing_degrees": 295.110317726057
     },
     {
       "tags": [],
       "startnode": 7,
       "endnode": 6,
-      "length": 20.124160785741743
+      "length": 20.124160785741743,
+      "bearing_degrees": 289.65555392981116
     },
     {
       "tags": [
@@ -39257,37 +39265,43 @@
       ],
       "startnode": 8,
       "endnode": 7,
-      "length": 10.139644092945716
+      "length": 10.139644092945716,
+      "bearing_degrees": 17.858450682275567
     },
     {
       "tags": [],
       "startnode": 9,
       "endnode": 7,
-      "length": 3.4017121780523327
+      "length": 3.4017121780523327,
+      "bearing_degrees": 344.3862944332597
     },
     {
       "tags": [],
       "startnode": 10,
       "endnode": 7,
-      "length": 2.140639999729831
+      "length": 2.140639999729831,
+      "bearing_degrees": 286.3873151621574
     },
     {
       "tags": [],
       "startnode": 10,
       "endnode": 9,
-      "length": 2.886493272942536
+      "length": 2.886493272942536,
+      "bearing_degrees": 195.83822156547973
     },
     {
       "tags": [],
       "startnode": 11,
       "endnode": 10,
-      "length": 9.271611519520068
+      "length": 9.271611519166957,
+      "bearing_degrees": 275.1600920717942
     },
     {
       "tags": [],
       "startnode": 12,
       "endnode": 11,
-      "length": 10.556776549807244
+      "length": 10.55677655121927,
+      "bearing_degrees": 294.08252884334314
     },
     {
       "tags": [
@@ -39295,7 +39309,8 @@
       ],
       "startnode": 13,
       "endnode": 12,
-      "length": 10.245516746304203
+      "length": 10.245516746304203,
+      "bearing_degrees": 266.2505376340653
     },
     {
       "tags": [
@@ -39303,7 +39318,8 @@
       ],
       "startnode": 14,
       "endnode": 12,
-      "length": 14.949412676294378
+      "length": 14.949412676294378,
+      "bearing_degrees": 213.5228524841921
     },
     {
       "tags": [
@@ -39311,19 +39327,22 @@
       ],
       "startnode": 15,
       "endnode": 14,
-      "length": 21.756299830445062
+      "length": 21.756299830445062,
+      "bearing_degrees": 212.43225531852764
     },
     {
       "tags": [],
       "startnode": 16,
       "endnode": 15,
-      "length": 9.684429907294437
+      "length": 9.684429907294437,
+      "bearing_degrees": 312.11599491062105
     },
     {
       "tags": [],
       "startnode": 17,
       "endnode": 16,
-      "length": 22.206786965835704
+      "length": 22.206786965835704,
+      "bearing_degrees": 34.43982169201164
     },
     {
       "tags": [
@@ -39331,13 +39350,15 @@
       ],
       "startnode": 18,
       "endnode": 17,
-      "length": 17.247884488261878
+      "length": 17.247884488261878,
+      "bearing_degrees": 61.05869824687436
     },
     {
       "tags": [],
       "startnode": 19,
       "endnode": 18,
-      "length": 8.809427871205141
+      "length": 8.809427871205141,
+      "bearing_degrees": 81.44050127039036
     },
     {
       "tags": [
@@ -39345,7 +39366,8 @@
       ],
       "startnode": 19,
       "endnode": 9,
-      "length": 12.583673877614638
+      "length": 12.583673877614638,
+      "bearing_degrees": 290.0472767348505
     },
     {
       "tags": [
@@ -39353,19 +39375,22 @@
       ],
       "startnode": 20,
       "endnode": 19,
-      "length": 11.56927657323923
+      "length": 11.56927657323923,
+      "bearing_degrees": 11.169342815352422
     },
     {
       "tags": [],
       "startnode": 21,
       "endnode": 18,
-      "length": 7.525669470882922
+      "length": 7.525669470882922,
+      "bearing_degrees": 175.22335496365707
     },
     {
       "tags": [],
       "startnode": 21,
       "endnode": 19,
-      "length": 11.677972605323948
+      "length": 11.677972605323948,
+      "bearing_degrees": 216.77669943797162
     },
     {
       "tags": [
@@ -39373,25 +39398,29 @@
       ],
       "startnode": 22,
       "endnode": 11,
-      "length": 0.4310732481905791
+      "length": 0.43107324925019946,
+      "bearing_degrees": 18.788614408218855
     },
     {
       "tags": [],
       "startnode": 22,
       "endnode": 18,
-      "length": 11.546427124253592
+      "length": 11.546427124253592,
+      "bearing_degrees": 115.55737013516784
     },
     {
       "tags": [],
       "startnode": 22,
       "endnode": 19,
-      "length": 5.571553320147936
+      "length": 5.571553320147936,
+      "bearing_degrees": 162.53992023272838
     },
     {
       "tags": [],
       "startnode": 23,
       "endnode": 12,
-      "length": 5.946341147131462
+      "length": 5.946341147131462,
+      "bearing_degrees": 176.6485320564244
     }
   ]
 }
