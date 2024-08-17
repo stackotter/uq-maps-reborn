@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, Button, TouchableOpacity } from "react-native";
+import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity } from "react-native";
 
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -7,7 +7,8 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Mapbox, {MapView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
 
-import buildings from "../assets/data/buildings.json";
+import untypedMap from "../assets/data/map.json";
+import { Building, Campus } from "@/core/map-data";
 
 // import {Dimensions} from 'react-native';
 // import PanoViewer from "@/components/PanoViewer";
@@ -58,12 +59,7 @@ const styles = StyleSheet.create({
   }
 });
 
-interface Building {
-  name: string[]
-  id: number
-  floors: any[]
-  border: {lat: number, lng: number}[]
-}
+const map: Campus = untypedMap as unknown as Campus;
 
 export default function Index() {
   const bottomSheetRef = useRef<BottomSheet>(null);
@@ -104,25 +100,47 @@ export default function Index() {
   // let windowWidth = Dimensions.get("window").width;
   // <PanoViewer panoId={1} viewerWidth={windowWidth - 32} />
 
+  let searchWords = searchTerm.split(" ").map(x => x.toLowerCase()).filter(s => s.length !== 0);
+
   let sheetContent;
   if (selectedBuilding === null) {
     let searchResultsView;
     if (searchTerm.length !== 0) {
       searchResultsView = <FlatList
         data={
-          buildings
-            .filter((building) => {
-              return building.name.join(" ").includes(searchTerm);
+          map.buildings
+            .map((building) => {
+              let searchableFields = [
+                building.name.toLowerCase(),
+                building.number.toLowerCase()
+              ];
+              let matchingWords = 0;
+              for (let searchWord of searchWords) {
+                for (let field of searchableFields) {
+                  if (field.includes(searchWord)) {
+                    matchingWords++;
+                    break;
+                  }
+                }
+              }
+              return {
+                building,
+                matchingWords
+              };
+            })
+            .filter(({matchingWords}) => {
+              return matchingWords != 0;
             })
             .sort((a, b) => {
-              return (parseInt(a.name[0]) - parseInt(b.name[0]) ||
-                  a.name[0].localeCompare(b.name[0]) ||
-                  a.name[1].localeCompare(b.name[1]));
+              return a.matchingWords - b.matchingWords ||
+                a.building.name.localeCompare(b.building.name) ||
+                a.building.number.localeCompare(b.building.number);
             })
+            .slice(0, 40)
         }
         renderItem={({item}) => {
-          return <TouchableOpacity onPress={() => setSelectedBuilding(item)} style={styles.searchResult}>
-            <Text>{item.name[0] + " - " + item.name[1]}</Text>
+          return <TouchableOpacity onPress={() => setSelectedBuilding(item.building)} style={styles.searchResult}>
+            <Text>{item.building.name + " - " + item.building.number}</Text>
           </TouchableOpacity>;
         }}
       />;
