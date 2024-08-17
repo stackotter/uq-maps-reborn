@@ -9,13 +9,15 @@ import * as Location from 'expo-location';
 import { getDistance } from "geolib";
 
 import untypedMap from "../assets/data/map.json";
-import { Building, Campus, Room } from "@/core/map-data";
+import { Building, Campus, Path, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
 import { FindPath } from "@/core/pathfinder";
 
 import {Dimensions} from 'react-native';
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
+
+const WALKING_METERS_PER_SECOND = 1.2;
 
 const styles = StyleSheet.create({
   page: {
@@ -66,6 +68,9 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 14,
     marginTop: 16
+  },
+  disabledButton: {
+    backgroundColor: "lightgray"
   },
   buttonText: {
     color: "white",
@@ -137,33 +142,55 @@ const fuse = new Fuse(
   }
 );
 
-function searchableItemCard(item: SearchableItem, location: Location.LocationObject | null) {
+function nearestNodeTo(location: Location.LocationObject | null) {
   if (location !== null) {
-    let nearestNode = null;
     let nearestNodeIndex = null;
     let minDistance = Number.MAX_VALUE;
     let i = 0;
     for (let node of map.nodes) {
-      let distance = getDistance(
-        {
-          latitude: node.latitude,
-          longitude: node.longitude
-        },
-        {
-          latitude: location.coords.latitude,
-          longitude: location.coords.longitude
-        }
-      );
+      let distance = getDistance(node, location.coords);
       if (distance < minDistance) {
-        nearestNode = node;
         minDistance = distance;
         nearestNodeIndex = i;
       }
       i++;
     }
-    console.log(nearestNode, nearestNodeIndex, minDistance);
+    return nearestNodeIndex;
+  } else {
+    return null;
   }
+}
 
+function pathLengthOf(path: Path) {
+  if (path.edges.length === 0) {
+    return 0;
+  }
+  return path.edges.map((edge) => {
+    return map.edges[edge].length;
+  }).reduce((x, y) => x + y);
+}
+
+function shortestOf(paths: Path[]) {
+  let shortestPath = null;
+  let shortestPathLength = null;
+  for (let path of paths) {
+    let pathLength = pathLengthOf(path);
+    if (shortestPathLength === null || pathLength < shortestPathLength) {
+      shortestPathLength = pathLength;
+      shortestPath = path;
+    }
+  }
+  if (shortestPath !== null && shortestPathLength !== null) {
+    return {
+      path: shortestPath,
+      length: shortestPathLength
+    };
+  } else {
+    return null;
+  }
+}
+
+function searchableItemCard(item: SearchableItem) {
   if (item.type === "building") {
     let building = item.building as unknown as Building;
     return <View>
@@ -197,6 +224,21 @@ function searchableItemSummary(item: SearchableItem) {
   }
 }
 
+function searchableItemNodes(item: SearchableItem) {
+  if (item.type === "building") {
+    let building = item.building as unknown as Building;
+    return map.nodes
+      .map((node, i) => {return {node, index: i}})
+      .filter(({node}) => {
+        return node.building !== undefined && map.buildings[node.building].number === building.number;
+      })
+      .map(({index}) => index);
+  } else if (item.type === "room") {
+    let room = item.room as unknown as Room;
+    return room.nodes;
+  }
+}
+
 // Returns the item's coordinates as `[long, lat]`.
 function searchableItemCoordinates(item: SearchableItem) {
   if (item.type === "building") {
@@ -215,8 +257,6 @@ export default function Index() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
   const [searchTerm, onChangeSearchTerm] = React.useState('');
-
-  console.log(FindPath(0, 7, map));
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -323,16 +363,42 @@ export default function Index() {
       {searchResultsView}
     </View>;
   } else {
+    let nearestNode = nearestNodeTo(location);
+    let timeEstimateMinutes: number | null = null;
+    if (nearestNode !== null) {
+      let destinations = searchableItemNodes(selectedItem) || [];
+      let paths = destinations.map((destination) => {
+        return FindPath(nearestNode as number, destination, map);
+      })
+      let shortestPath = shortestOf(paths);
+      let shortestPathLength = shortestPath?.length;
+      if (shortestPathLength !== null && shortestPathLength !== undefined) {
+        timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
+      }
+    }
+
+    function onPressDirectionsButton() {
+      if (timeEstimateMinutes === null) {
+        return;
+      }
+
+      console.log("TODO: Directions");
+    }
+
+    let extraStyles =timeEstimateMinutes === null ? styles.disabledButton : {};
+    
     snapPoints = ["30%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
-        {searchableItemCard(selectedItem, location)}
+        {searchableItemCard(selectedItem)}
         <Pressable style={styles.closeButton} onPress={() => setSelectedItem(null)}>
           <MaterialIcons name="close" color="#333" size={30} />
         </Pressable>
       </View>
-      <Pressable style={styles.button} onPress={() => {}}>
-        <Text style={styles.buttonText}>Directions</Text>
+      <Pressable style={{...styles.button, ...extraStyles}} onPress={onPressDirectionsButton}>
+        <Text style={styles.buttonText}>
+          {timeEstimateMinutes === null ? "Directions unavailable" : `Directions (${timeEstimateMinutes} min)`}
+        </Text>
       </Pressable>
     </View>;
   }

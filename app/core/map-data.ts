@@ -41,7 +41,7 @@ export interface Room {
   name?: string;
   latitude: number;
   longitude: number;
-  edges: number[];
+  nodes: number[];
 }
 
 export interface Node {
