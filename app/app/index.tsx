@@ -493,15 +493,9 @@ export default function Index() {
     }
 
     function onPressDirectionsButton() {
-      if (timeEstimateMinutes === null) {
-        return;
-      }
-
       setSelectedStartNode(nearestNode);
     }
 
-    let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
-    
     snapPoints = ["30%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
@@ -510,9 +504,9 @@ export default function Index() {
           <MaterialIcons name="close" color="#333" size={30} />
         </Pressable>
       </View>
-      <Pressable style={{...styles.button, ...extraStyles}} onPress={onPressDirectionsButton}>
+      <Pressable style={{...styles.button}} onPress={onPressDirectionsButton}>
         <Text style={styles.buttonText}>
-          {timeEstimateMinutes === null ? "Directions unavailable" : `Directions (${timeEstimateMinutes} min)`}
+          {timeEstimateMinutes === null ? "Directions" : `Directions (${timeEstimateMinutes} min)`}
         </Text>
       </Pressable>
     </View>;
@@ -568,12 +562,10 @@ export default function Index() {
     let currentEdgeMessage = currentNavigationPathIndex < directions.edgeMessages.length ? directions.edgeMessages[currentNavigationPathIndex] : null;
     let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
     let currentNode = selectedPath.nodes[currentNavigationPathIndex];
-    console.log(selectedPath.edges, directions.edgeMessages.length);
     panoBearing = map.edges[currentEdge].bearing_degrees;
-    if (currentNavigationPathIndex < directions.edgeMessages.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].startnode === currentNode) {
+    if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
       panoBearing -= 180;
     }
-    console.log("Current node", currentNode);
     let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
     panoBearing += bearingAdjustment;
 
