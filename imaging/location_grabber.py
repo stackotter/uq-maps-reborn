@@ -37,6 +37,9 @@ while True:
             floor = new_floor
 
         tags = [x.strip() for x in input("Tags: ").split(",") if x.strip() != ""]
+        name = input("Name: ")
+        if name == "":
+            name = None
 
         connected_nodes = input("Connected nodes: ")
         if connected_nodes == "":
@@ -68,6 +71,7 @@ while True:
         data.append({
             "lat": lat,
             "lng": long,
+            "name": name,
             "has_photo": has_photo,
             "tags": tags,
             "connected_nodes": connected_nodes,
