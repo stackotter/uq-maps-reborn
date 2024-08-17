@@ -129,6 +129,8 @@ class Vec3D() {
 //  met to progress in our instructions)
 
 function ToDirections(path: Path): Directions {
+	let angles: number[] = [0]; 
+
 	// instruction types
 	let insTypes: InstructionType[] = [];
 	// ignore the first and last nodes
@@ -141,7 +143,7 @@ function ToDirections(path: Path): Directions {
 		let edgeAB: Edge = campus.edges[path.edges[i-1]];
 		let edgeBC: Edge = campus.edges[path.edges[i]];
 
-		if 	
+		//if 
 
 		// calculate the turning angle that occurs  at every junction
 		// convert lat/lng to cartesian coordinates (radius=1)
@@ -169,6 +171,8 @@ function ToDirections(path: Path): Directions {
 
 		i++;
 	}
+
+	angles.push(0);
 
 	let map: Map<number, number> = new Map<number, number>();
 	let instructions: Instruction[] = [];
