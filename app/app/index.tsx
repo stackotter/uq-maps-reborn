@@ -359,6 +359,7 @@ export default function Index() {
   const [searchTerm, onChangeSearchTerm] = React.useState('');
   const [selectedStartNode, setSelectedStartNode] = useState<number | null>(null);
   const [selectedPath, setSelectedPath] = useState<Path | null>(null);
+  const [currentNavigationPathIndex, setCurrentNavigationPathIndex] = useState<number>(0);
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -415,6 +416,7 @@ export default function Index() {
     setSelectedItem(null);
     setSelectedStartNode(null);
     setSelectedPath(null);
+    setCurrentNavigationPathIndex(0);
     bottomSheetRef.current?.snapToIndex(0);
   }
 
@@ -557,14 +559,18 @@ export default function Index() {
     let directions = ToDirections(selectedPath);
     let currentDirection = directions.nodeDirectionChanges[0];
     let currentEdgeMessage = directions.edgeMessages[0];
-    panoId = 0;
+    panoId = selectedPath.nodes[currentNavigationPathIndex];
 
     function onPressPrevious() {
-      console.log("Previous");
+      if (currentNavigationPathIndex > 0) {
+        setCurrentNavigationPathIndex(currentNavigationPathIndex - 1);
+      }
     }
 
     function onPressNext() {
-      console.log("Next");
+      if (currentNavigationPathIndex < selectedPath!.nodes.length - 1) {
+        setCurrentNavigationPathIndex(currentNavigationPathIndex + 1);
+      }
     }
 
     sheetContent = <View style={styles.sheetContents}>
@@ -622,7 +628,7 @@ export default function Index() {
         >
           <BottomSheetView style={styles.contentContainer}>
             {sheetContent}
-            {panoId === null ? <></> : <PanoViewer panoId={0} viewerWidth={Dimensions.get("window").width - 32}/>}
+            {panoId === null ? <></> : <PanoViewer panoId={panoId} viewerWidth={Dimensions.get("window").width - 32}/>}
           </BottomSheetView>
         </BottomSheet>
       </View>
