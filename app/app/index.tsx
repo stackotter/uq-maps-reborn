@@ -559,11 +559,8 @@ export default function Index() {
     snapPoints = ["32%", "80%"];
     let directions = ToDirections(selectedPath);
     let currentDirection;
-    let currentEdgeMessage;
-    let instructionIcon = "location-pin";
-    if (currentNavigationPathIndex < selectedPath.nodes.length) {
-      currentDirection = directions.nodeDirectionChanges[currentNavigationPathIndex];
-      currentEdgeMessage = currentNavigationPathIndex < directions.edgeMessages.length ? directions.edgeMessages[currentNavigationPathIndex] : null;
+    // if (currentNavigationPathIndex < selectedPath.nodes.length) {
+      currentDirection = directions[currentNavigationPathIndex];
       let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
       let currentNode = selectedPath.nodes[currentNavigationPathIndex];
       panoBearing = map.edges[currentEdge].bearing_degrees;
@@ -574,20 +571,21 @@ export default function Index() {
       panoBearing += bearingAdjustment;
 
       panoId = selectedPath.nodes[currentNavigationPathIndex];
-    } else {
-      currentDirection = "You have arrived"
-      currentEdgeMessage = ""
+    // }
+    // else {
+    //   // currentDirection = "You have arrived"
+    //   currentEdgeMessage = ""
 
-      let currentEdge = selectedPath.edges[currentNavigationPathIndex - 1 === selectedPath.edges.length ? currentNavigationPathIndex - 2 : currentNavigationPathIndex - 1];
-      let currentNode = selectedPath.nodes[currentNavigationPathIndex - 1];
-      panoBearing = map.edges[currentEdge].bearing_degrees;
-      if (currentNavigationPathIndex - 1 < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
-        panoBearing -= 180;
-      }
-      let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
-      panoBearing += bearingAdjustment;
-      panoId = selectedPath.nodes[currentNavigationPathIndex - 1];
-    }
+    //   let currentEdge = selectedPath.edges[currentNavigationPathIndex - 1 === selectedPath.edges.length ? currentNavigationPathIndex - 2 : currentNavigationPathIndex - 1];
+    //   let currentNode = selectedPath.nodes[currentNavigationPathIndex - 1];
+    //   panoBearing = map.edges[currentEdge].bearing_degrees;
+    //   if (currentNavigationPathIndex - 1 < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
+    //     panoBearing -= 180;
+    //   }
+    //   let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
+    //   panoBearing += bearingAdjustment;
+    //   panoId = selectedPath.nodes[currentNavigationPathIndex - 1];
+    // }
 
     function onPressPrevious() {
       if (currentNavigationPathIndex > 0) {
@@ -596,19 +594,19 @@ export default function Index() {
     }
 
     function onPressNext() {
-      if (currentNavigationPathIndex < selectedPath!.nodes.length) {
+      if (currentNavigationPathIndex < selectedPath!.nodes.length - 1) {
         setCurrentNavigationPathIndex(currentNavigationPathIndex + 1);
       }
     }
 
     let previousButtonDisabled = currentNavigationPathIndex === 0;
-    let nextButtonDisabled = currentNavigationPathIndex === selectedPath.nodes.length;
+    let nextButtonDisabled = currentNavigationPathIndex === selectedPath.nodes.length - 1;
     let previousButtonExtraStyles = previousButtonDisabled ? {display: "none"} :
       (nextButtonDisabled ? {width: "100%"} : {});
     let nextButtonExtraStyles = nextButtonDisabled ? {display: "none"} :
       (previousButtonDisabled ? {width: "100%"} : {});
 
-    let hasArrived = currentNavigationPathIndex === selectedPath.nodes.length;
+    let hasArrived = currentNavigationPathIndex === selectedPath.nodes.length - 1;
     let iconBackgroundColor = hasArrived ? "#009900" : "#f2bf2d";
     let iconForegroundColor = hasArrived ? "white" : "black";
 
@@ -616,11 +614,11 @@ export default function Index() {
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4, height: 56}}>
         <View style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", marginTop: 8}}>
           <View style={{marginRight: 16, marginLeft: 8, transform: "rotate(45deg)", backgroundColor: iconBackgroundColor, padding: 4, borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center"}}>
-            <MaterialIcons name={instructionIcon as any} size={36} color={iconForegroundColor} style={{transform: "rotate(-45deg)"}} />
+            <MaterialIcons name={currentDirection?.icon as any} size={36} color={iconForegroundColor} style={{transform: "rotate(-45deg)"}} />
           </View>
           <View>
-            <Text style={styles.heading}>{currentDirection}</Text>
-            {currentEdgeMessage !== null && currentEdgeMessage !== "" ? <Text style={styles.subtitle}>{currentEdgeMessage}</Text> : <></>}
+            <Text style={styles.heading}>{currentDirection?.title}</Text>
+            {currentDirection?.message !== null && currentDirection?.message !== "" ? <Text style={styles.subtitle}>{currentDirection?.message}</Text> : <></>}
           </View>
         </View>
         <Pressable style={styles.closeButton} onPress={closeSheet}>
@@ -653,6 +651,7 @@ export default function Index() {
           <MapView style={styles.map} compassEnabled compassFadeWhenNorth compassPosition={{top: 64, right: 8}}>
             <Camera ref={setCamera}/>
             <LocationPuck puckBearingEnabled puckBearing="heading"/>
+            <Mapbox.LineLayer id="routeFill" style={{lineColor: "#ff8109", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 1.84}} />
             {
               markers.map(({key, item}) => {
                 return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>
