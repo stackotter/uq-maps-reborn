@@ -25,6 +25,8 @@ export enum EdgeTag {
 export interface Building {
   name: string;
   number: string;
+  latitude: number;
+  longitude: number;
 }
 
 export interface Room {

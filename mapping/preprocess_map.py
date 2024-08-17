@@ -73,8 +73,8 @@ for building in in_buildings:
     buildings.append({
         "name": building["name"][1],
         "number": building["name"][0],
-        "lat": lat,
-        "long": long,
+        "latitude": lat,
+        "longitude": long,
         "border": border
     })
 

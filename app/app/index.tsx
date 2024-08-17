@@ -1,15 +1,16 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity } from "react-native";
+import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, ScrollView } from "react-native";
 
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import Mapbox, {MapView} from "@rnmapbox/maps";
+import Mapbox, {MapView, MarkerView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
 
 import untypedMap from "../assets/data/map.json";
 import { Building, Campus, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
+import { MaterialIcons } from "@expo/vector-icons";
 
 // import {Dimensions} from 'react-native';
 // import PanoViewer from "@/components/PanoViewer";
@@ -120,7 +121,7 @@ function searchableItemCard(item: SearchableItem) {
   }
 }
 
-function searchableItemSummary(item:SearchableItem) {
+function searchableItemSummary(item: SearchableItem) {
   if (item.type === "building") {
     let building = item.building as unknown as Building;
     return <Text>{building.name + " - " + building.number}</Text>;
@@ -128,6 +129,17 @@ function searchableItemSummary(item:SearchableItem) {
     let building = item.building as unknown as Building;
     let room = item.room as unknown as Room;
     return <Text>{`Room ${building.number}-${room.number} (${building.name})`}</Text>;
+  }
+}
+
+// Returns the item's coordinates as `[lat, long]`.
+function searchableItemCoordinates(item: SearchableItem) {
+  if (item.type === "building") {
+    let building = item.building as unknown as Building;
+    return [building.longitude, building.latitude];
+  } else if (item.type === "room") {
+    let room = item.room as unknown as Room;
+    return [room.longitude, room.latitude];
   }
 }
 
@@ -170,14 +182,20 @@ export default function Index() {
   // let windowWidth = Dimensions.get("window").width;
   // <PanoViewer panoId={1} viewerWidth={windowWidth - 32} />
 
+  function selectItem(item:SearchableItem) {
+    setSelectedItem(item);
+    bottomSheetRef.current?.snapToIndex(0);
+  }
+
   let sheetContent;
   if (selectedItem === null) {
     let searchResultsView;
     if (searchTerm.length !== 0) {
       searchResultsView = <FlatList
         data={fuse.search(searchTerm)}
+        keyboardShouldPersistTaps="never"
         renderItem={({item: { item }}) => {
-          return <TouchableOpacity onPress={() => setSelectedItem(item)} style={styles.searchResult}>
+          return <TouchableOpacity onPress={() => selectItem(item)} style={styles.searchResult}>
             {searchableItemSummary(item)}
           </TouchableOpacity>;
         }}
@@ -224,11 +242,21 @@ export default function Index() {
     sheetContent = searchableItemCard(selectedItem);
   }
 
+  let markers = selectedItem === null ? [] : [{key: "selected", item: selectedItem}];
+
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View style={styles.page}>
         <View style={styles.container}>
-          <MapView style={styles.map} />
+          <MapView style={styles.map}>
+            {
+              markers.map(({key, item}) => {
+                return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>
+                  <MaterialIcons name="location-pin" color="#e56a6a" size={40} />
+                </MarkerView>;
+              })
+            }
+          </MapView>
         </View>
         <BottomSheet
           ref={bottomSheetRef}
