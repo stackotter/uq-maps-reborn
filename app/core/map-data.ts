@@ -26,6 +26,15 @@ export interface Building {
   number: string;
 }
 
+export interface Room {
+  building: number;
+  number: string;
+  name?: string;
+  latitude: number;
+  longitude: number;
+  edges: number[];
+}
+
 export interface Node {
   name?: string;
   room?: string;

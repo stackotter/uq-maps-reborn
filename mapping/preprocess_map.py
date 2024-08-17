@@ -14,14 +14,35 @@ with open(buildingsfile, "r") as f:
 buildings = []
 nodes = []
 edges = []
+rooms = []
+
+# Maps buildings to a map from room numbers to nodes
+building_room_nodes = {}
+
+# Advanced Engineering Building
+assumed_building = 24
 
 for i, node in enumerate(in_nodes):
     name = node["name"]
-    is_room = node["tags"]
+    room = None
+    if "room" in node["tags"]:
+        room = name
+        name = None
+        if assumed_building in building_room_nodes:
+            room_nodes = building_room_nodes[assumed_building]
+        else:
+            room_nodes = {}
+            building_room_nodes[assumed_building] = room_nodes
+        if room in room_nodes:
+            room_nodes[room].append((i, node))
+        else:
+            room_nodes[room] = [(i, node)]
+
     nodes.append({
         "name": node["name"],
+        "room": room,
         "floor": node["floor"],
-        "building": 24,
+        "building": assumed_building,
         "latitude": node["lat"],
         "longitude": node["lng"],
         "tags": node["tags"],
@@ -38,7 +59,7 @@ for i, node in enumerate(in_nodes):
             "tags": [connection["type"]] if "type" in connection else [],
             "startnode": i,
             "endnode": endnode,
-            "length": geopy.distance.geodesic(start_point, end_point).m 
+            "length": geopy.distance.geodesic(start_point, end_point).m
         })
         nodes[endnode]["edges"].append(edge_id)
         nodes[i]["edges"].append(edge_id)
@@ -57,9 +78,23 @@ for building in in_buildings:
         "border": border
     })
 
+for building_id, room_nodes in building_room_nodes.items():
+    for room_number, nodes in room_nodes.items():
+        lat = sum(node[1]["lat"] for node in nodes) / len(nodes)
+        long = sum(node[1]["lng"] for node in nodes) / len(nodes)
+        rooms.append({
+            "building": building_id,
+            "number": room_number,
+            "latitude": lat,
+            "longitude": long,
+            "nodes": [node[0] for node in nodes]
+        })
+
+
 with open(outfile, "w") as f:
     f.write(json.dumps({
         "buildings": buildings,
+        "rooms": rooms,
         "nodes": nodes,
         "edges": edges
     }, indent=2))
