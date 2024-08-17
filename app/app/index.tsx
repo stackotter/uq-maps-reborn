@@ -558,18 +558,36 @@ export default function Index() {
   } else {
     snapPoints = ["32%", "80%"];
     let directions = ToDirections(selectedPath);
-    let currentDirection = directions.nodeDirectionChanges[currentNavigationPathIndex];
-    let currentEdgeMessage = currentNavigationPathIndex < directions.edgeMessages.length ? directions.edgeMessages[currentNavigationPathIndex] : null;
-    let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
-    let currentNode = selectedPath.nodes[currentNavigationPathIndex];
-    panoBearing = map.edges[currentEdge].bearing_degrees;
-    if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
-      panoBearing -= 180;
-    }
-    let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
-    panoBearing += bearingAdjustment;
+    let currentDirection;
+    let currentEdgeMessage;
+    let instructionIcon = "location-pin";
+    if (currentNavigationPathIndex < selectedPath.nodes.length) {
+      currentDirection = directions.nodeDirectionChanges[currentNavigationPathIndex];
+      currentEdgeMessage = currentNavigationPathIndex < directions.edgeMessages.length ? directions.edgeMessages[currentNavigationPathIndex] : null;
+      let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
+      let currentNode = selectedPath.nodes[currentNavigationPathIndex];
+      panoBearing = map.edges[currentEdge].bearing_degrees;
+      if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
+        panoBearing -= 180;
+      }
+      let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
+      panoBearing += bearingAdjustment;
 
-    panoId = selectedPath.nodes[currentNavigationPathIndex];
+      panoId = selectedPath.nodes[currentNavigationPathIndex];
+    } else {
+      currentDirection = "You have arrived"
+      currentEdgeMessage = ""
+
+      let currentEdge = selectedPath.edges[currentNavigationPathIndex - 1 === selectedPath.edges.length ? currentNavigationPathIndex - 2 : currentNavigationPathIndex - 1];
+      let currentNode = selectedPath.nodes[currentNavigationPathIndex - 1];
+      panoBearing = map.edges[currentEdge].bearing_degrees;
+      if (currentNavigationPathIndex - 1 < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
+        panoBearing -= 180;
+      }
+      let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
+      panoBearing += bearingAdjustment;
+      panoId = selectedPath.nodes[currentNavigationPathIndex - 1];
+    }
 
     function onPressPrevious() {
       if (currentNavigationPathIndex > 0) {
@@ -578,29 +596,45 @@ export default function Index() {
     }
 
     function onPressNext() {
-      if (currentNavigationPathIndex < selectedPath!.nodes.length - 1) {
+      if (currentNavigationPathIndex < selectedPath!.nodes.length) {
         setCurrentNavigationPathIndex(currentNavigationPathIndex + 1);
       }
     }
 
+    let previousButtonDisabled = currentNavigationPathIndex === 0;
+    let nextButtonDisabled = currentNavigationPathIndex === selectedPath.nodes.length;
+    let previousButtonExtraStyles = previousButtonDisabled ? {display: "none"} :
+      (nextButtonDisabled ? {width: "100%"} : {});
+    let nextButtonExtraStyles = nextButtonDisabled ? {display: "none"} :
+      (previousButtonDisabled ? {width: "100%"} : {});
+
+    let hasArrived = currentNavigationPathIndex === selectedPath.nodes.length;
+    let iconBackgroundColor = hasArrived ? "#009900" : "#f2bf2d";
+    let iconForegroundColor = hasArrived ? "white" : "black";
+
     sheetContent = <View style={styles.sheetContents}>
-      <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
-        <View>
-          <Text style={styles.heading}>{currentDirection}</Text>
-          {currentEdgeMessage !== null ? <Text style={styles.subtitle}>{currentEdgeMessage}</Text> : <></>}
+      <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4, height: 56}}>
+        <View style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", marginTop: 8}}>
+          <View style={{marginRight: 16, marginLeft: 8, transform: "rotate(45deg)", backgroundColor: iconBackgroundColor, padding: 4, borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center"}}>
+            <MaterialIcons name={instructionIcon as any} size={36} color={iconForegroundColor} style={{transform: "rotate(-45deg)"}} />
+          </View>
+          <View>
+            <Text style={styles.heading}>{currentDirection}</Text>
+            {currentEdgeMessage !== null && currentEdgeMessage !== "" ? <Text style={styles.subtitle}>{currentEdgeMessage}</Text> : <></>}
+          </View>
         </View>
         <Pressable style={styles.closeButton} onPress={closeSheet}>
           <MaterialIcons name="close" color="#333" size={30} />
         </Pressable>
       </View>
       <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
-        <Pressable style={styles.previousButton} onPress={onPressPrevious}>
+        <Pressable style={{...styles.previousButton, ...previousButtonExtraStyles}} onPress={onPressPrevious}>
           <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingRight: 12, justifyContent: "center"}}>
             <MaterialIcons name="chevron-left" color="black" size={28} />
             <Text style={styles.previousButtonText}>Previous</Text>
           </View>
         </Pressable>
-        <Pressable style={styles.nextButton} onPress={onPressNext}>
+        <Pressable style={{...styles.nextButton, ...nextButtonExtraStyles}} onPress={onPressNext}>
           <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingLeft: 12, justifyContent: "center"}}>
             <Text style={styles.nextButtonText}>Next</Text>
             <MaterialIcons name="chevron-right" color="white" size={28} />
