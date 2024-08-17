@@ -108,27 +108,31 @@ export interface Directions {
 
 export class Messages {
   static RoomEnter(name: string): string {
-    return `enter room ${name}`;
+    return `Enter room ${name}`;
   }
   static RoomExit(name: string): string {
-    return `exit room ${name}`;
+    return `Exit room ${name}`;
   }
 
   static BuildingEnter(name: string): string {
-    return `enter ${name}`;
+    return `Enter ${name}`;
   }
   static BuildingExit(name: string): string {
-    return `exit ${name}`;
+    return `Exit ${name}`;
   }
 
   static Stairs(bearing: Bearing, delta: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
-    return `take the stairs ${bearingStr} ${delta} level`;
+    let msg: string = `Take the stairs ${bearingStr} ${delta} floor`;
+    if (delta > 1) {
+      msg += "s";
+    }
+    return msg;
   }
 
   static Elevator(bearing: Bearing, floor: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
-    return `take the elevator ${bearingStr} to level ${floor}`;
+    return `Take the elevator ${bearingStr} to level ${floor}`;
   }
 }
 
@@ -143,13 +147,17 @@ export class navData {
     this.message = dir as unknown as string;
     this.icon = "straight";
     if (dir == InstructionType.LEFT) {
-      this.icon = "turn_left";
+      this.icon = "turn-left";
     }
     else if (dir == InstructionType.RIGHT) {
-      this.icon = "turn_right";
+      this.icon = "turn-right";
     }
-    else if (dir == InstructionType.STAIRS) {
-      this.icon = "stairs_2";
+    
+    if (this.title.includes("stair")) {
+      this.icon = "stairs";
+    }
+    else if (this.title.includes("elevator")) {
+      this.icon = "elevator"; 
     }
   }
   
@@ -157,8 +165,8 @@ export class navData {
   static Arrived(): navData {
     let data: navData = new navData("", InstructionType.FORWARD); 
     data.title = "You have arrived";
-    data.message = "^_^";
-    data.icon = "flag_2"
+    data.message = "(^-^*)";
+    data.icon = "location-pin"
     return data
   }
 }
