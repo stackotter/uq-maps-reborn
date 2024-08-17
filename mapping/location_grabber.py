@@ -70,6 +70,7 @@ while True:
 
         data.append({
             "lat": lat,
+            "floor": floor,
             "lng": long,
             "name": name,
             "has_photo": has_photo,

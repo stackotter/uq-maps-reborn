@@ -1,0 +1,375 @@
+[
+  {
+    "lat": -27.499627393334535,
+    "lng": 153.01478281573333,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49960051054287,
+    "lng": 153.01486979587776,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 0,
+        "type": "sliding"
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499522236104447,
+    "lng": 153.01481255511771,
+    "name": "313A",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 1,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49958766301095,
+    "lng": 153.0149453244507,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 1
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49956404336693,
+    "lng": 153.01493983886058,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 1
+      },
+      {
+        "index": 3
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499538957966834,
+    "lng": 153.01502807192963,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 4,
+        "type": "stairs"
+      }
+    ],
+    "notes": null,
+    "floor": "4"
+  },
+  {
+    "lat": -27.499550937137002,
+    "lng": 153.01505499978606,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 3
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49950097502599,
+    "lng": 153.01525080101186,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 6
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499416078211453,
+    "lng": 153.0152125170486,
+    "name": "316A",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 7,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49947198916953,
+    "lng": 153.01526213800264,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 7
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.49949654436584,
+    "lng": 153.01527188715494,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 7
+      },
+      {
+        "index": 9
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499490507878107,
+    "lng": 153.01536547290448,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 10
+      }
+    ],
+    "notes": "",
+    "floor": "3"
+  },
+  {
+    "lat": -27.499458389326087,
+    "lng": 153.01546605448578,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 11
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499463240412553,
+    "lng": 153.01556959799086,
+    "name": "301",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 12,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499562369532484,
+    "lng": 153.01556244821336,
+    "name": "200",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 12,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  },
+  {
+    "lat": -27.499716223019796,
+    "lng": 153.0156992308235,
+    "name": "200",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 14,
+        "type": "stairs"
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.49966494617503,
+    "lng": 153.01577859680975,
+    "name": "200",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 15
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.499512688478028,
+    "lng": 153.0156324730204,
+    "name": "200",
+    "has_photo": true,
+    "tags": [
+      "room"
+    ],
+    "connected_nodes": [
+      {
+        "index": 16
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.499449640757106,
+    "lng": 153.01547288225106,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 17,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.4994401240971,
+    "lng": 153.0153843704814,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 18
+      },
+      {
+        "index": 9,
+        "type": "stairs"
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.49933875217048,
+    "lng": 153.01535635372,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 19,
+        "type": "door"
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.499517188676855,
+    "lng": 153.0154649829655,
+    "name": null,
+    "has_photo": true,
+    "tags": [
+      "toilets"
+    ],
+    "connected_nodes": [
+      {
+        "index": 18
+      },
+      {
+        "index": 19
+      }
+    ],
+    "notes": null,
+    "floor": "2"
+  },
+  {
+    "lat": -27.49948692709888,
+    "lng": 153.0153637679989,
+    "name": null,
+    "has_photo": true,
+    "tags": [],
+    "connected_nodes": [
+      {
+        "index": 11,
+        "type": "elevator"
+      }
+    ],
+    "notes": "",
+    "floor": "2"
+  },
+  {
+    "lat": -27.499511908401324,
+    "lng": 153.01546166830252,
+    "name": null,
+    "has_photo": true,
+    "tags": [
+      "toilets"
+    ],
+    "connected_nodes": [
+      {
+        "index": 12
+      }
+    ],
+    "notes": null,
+    "floor": "3"
+  }
+]

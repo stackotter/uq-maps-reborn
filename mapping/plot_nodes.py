@@ -5,7 +5,6 @@ from time import sleep
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.get("file:///Users/stackotter/Desktop/Projects/UQMapsReborn/uq-maps-reborn/imaging/map.html")
 
 firstTime = True
 while True:
