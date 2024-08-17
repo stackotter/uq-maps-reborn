@@ -1,4 +1,6 @@
 import json
+from math import sqrt
+import geopy.distance
 
 infile = "latlongs.json"
 buildingsfile = "../scraping/data/buildings.json"
@@ -28,10 +30,15 @@ for i, node in enumerate(in_nodes):
     for connection in node["connected_nodes"]:
         endnode = connection["index"]
         edge_id = len(edges)
+
+        start_point = (in_nodes[endnode]['lat'], in_nodes[endnode]['lng'])
+        end_point = (node['lat'], node['lng'])
+
         edges.append({
             "tags": [connection["type"]] if "type" in connection else [],
             "startnode": i,
-            "endnode": endnode
+            "endnode": endnode,
+            "length": geopy.distance.geodesic(start_point, end_point).m 
         })
         nodes[endnode]["edges"].append(edge_id)
         nodes[i]["edges"].append(edge_id)

@@ -2289,8 +2289,8 @@
       ]
     },
     {
-      "name": "ndustrial Centre",
-      "number": "85B",
+      "name": "85B",
+      "number": "",
       "lat": -27.49704171391817,
       "long": 153.0096617214683,
       "border": [
@@ -3089,8 +3089,8 @@
       ]
     },
     {
-      "name": "Queensland Brain Institute  QBI",
-      "number": "79",
+      "name": "QBI)",
+      "number": "79 (Queensland Brain Institute",
       "lat": -27.499447885700235,
       "long": 153.0116606140133,
       "border": [
@@ -4957,8 +4957,8 @@
       ]
     },
     {
-      "name": "Brian Wilson Chancellery  BWC",
-      "number": "61A",
+      "name": "BWC)",
+      "number": "61A (Brian Wilson Chancellery",
       "lat": -27.498567391484087,
       "long": 153.0113491492527,
       "border": [
@@ -7045,8 +7045,8 @@
       ]
     },
     {
-      "name": "thletics Field Shelter North",
-      "number": "40A",
+      "name": "40A",
+      "number": "",
       "lat": -27.492799668676,
       "long": 153.0135869344768,
       "border": [
@@ -9845,8 +9845,8 @@
       ]
     },
     {
-      "name": "Australian Institute for Bioengineering and Nanotechnology  AIBN",
-      "number": "75",
+      "name": "AIBN)",
+      "number": "75 (Australian Institute for Bioengineering and Nanotechnology",
       "lat": -27.50062517716201,
       "long": 153.01275188188694,
       "border": [
@@ -12345,8 +12345,8 @@
       ]
     },
     {
-      "name": "Q Drame Pavilion",
-      "number": "53D",
+      "name": "53D",
+      "number": "",
       "lat": -27.499311741038074,
       "long": 153.01956598414225,
       "border": [
@@ -12581,8 +12581,8 @@
       ]
     },
     {
-      "name": "hipping Container North of 56E",
-      "number": "56L",
+      "name": "56L",
+      "number": "",
       "lat": -27.49682734396357,
       "long": 153.01836423899024,
       "border": [
@@ -12609,8 +12609,8 @@
       ]
     },
     {
-      "name": "hed to North of 56F",
-      "number": "56M",
+      "name": "56M",
+      "number": "",
       "lat": -27.496726165754502,
       "long": 153.01824198411504,
       "border": [
@@ -12637,8 +12637,8 @@
       ]
     },
     {
-      "name": "8J",
-      "number": "Building",
+      "name": "Building 88J",
+      "number": "",
       "lat": -27.49516500272216,
       "long": 153.0088609326063,
       "border": [
@@ -12665,8 +12665,8 @@
       ]
     },
     {
-      "name": "airngorm Homestead",
-      "number": "91C",
+      "name": "91C",
+      "number": "",
       "lat": -27.496690368072084,
       "long": 153.00830113928896,
       "border": [
@@ -12765,8 +12765,8 @@
       ]
     },
     {
-      "name": "8E",
-      "number": "Building",
+      "name": "Building 88E",
+      "number": "",
       "lat": -27.495362451568763,
       "long": 153.0098502044506,
       "border": [
@@ -12869,8 +12869,8 @@
       ]
     },
     {
-      "name": "rcheology Teaching and Research Centre",
-      "number": "56J",
+      "name": "56J Archeology Teaching and Research Centre",
+      "number": "",
       "lat": -27.497054308817773,
       "long": 153.01838884303936,
       "border": [
@@ -13045,8 +13045,8 @@
       ]
     },
     {
-      "name": "ev Carmody House",
-      "number": "91a",
+      "name": "91a Kev Carmody House",
+      "number": "",
       "lat": -27.496911931279346,
       "long": 153.00846838387744,
       "border": [
@@ -14849,8 +14849,8 @@
       ]
     },
     {
-      "name": "akes Busway",
-      "number": "UQ",
+      "name": "UQ Lakes Busway",
+      "number": "",
       "lat": -27.498083959792922,
       "long": 153.01797516929983,
       "border": [
@@ -15629,8 +15629,8 @@
       ]
     },
     {
-      "name": "Queensland Bioscience Precinct  QBP",
-      "number": "80",
+      "name": "QBP)",
+      "number": "80 (Queensland Bioscience Precinct",
       "lat": -27.498058240553252,
       "long": 153.00999633605463,
       "border": [
@@ -19261,8 +19261,8 @@
       ]
     },
     {
-      "name": "Playing Fields 2 & 3  The Pavilion",
-      "number": "53C",
+      "name": "The Pavilion)",
+      "number": "53C (Playing Fields 2 & 3",
       "lat": -27.499457741247376,
       "long": 153.0191781411588,
       "border": [
@@ -22365,7 +22365,7 @@
       ]
     },
     {
-      "name": "CumbraeStewart Building",
+      "name": "Cumbrae-Stewart Building",
       "number": "72",
       "lat": -27.499838388847003,
       "long": 153.01175069248796,
@@ -23061,8 +23061,8 @@
       ]
     },
     {
-      "name": "akes Bus Station",
-      "number": "UQ",
+      "name": "UQ Lakes Bus Station",
+      "number": "",
       "lat": -27.497674868228955,
       "long": 153.01787475172904,
       "border": [
@@ -24981,8 +24981,8 @@
       ]
     },
     {
-      "name": "port Aquatic Centre (27",
-      "number": "UQ",
+      "name": "UQ Sport Aquatic Centre (27)",
+      "number": "",
       "lat": -27.49499627935237,
       "long": 153.01670055047637,
       "border": [
@@ -25833,8 +25833,8 @@
       ]
     },
     {
-      "name": "nd Diving Facility",
-      "number": "89F(Boating",
+      "name": "Boating and Diving Facility",
+      "number": "89F",
       "lat": -27.49502683190375,
       "long": 153.00936854942367,
       "border": [
@@ -27645,7 +27645,7 @@
       ]
     },
     {
-      "name": "UQ MultiFaith Chaplaincy Centre",
+      "name": "UQ Multi-Faith Chaplaincy Centre",
       "number": "38",
       "lat": -27.496115379342186,
       "long": 153.01518357007106,
@@ -27861,8 +27861,8 @@
       ]
     },
     {
-      "name": "tudent Support Services Building",
-      "number": "21D",
+      "name": "21D",
+      "number": "",
       "lat": -27.497012324414655,
       "long": 153.015507514722,
       "border": [
@@ -28265,8 +28265,8 @@
       ]
     },
     {
-      "name": "Q Cricket Club Pavilion",
-      "number": "70B",
+      "name": "70B",
+      "number": "",
       "lat": -27.501458396589577,
       "long": 153.01054955336286,
       "border": [
@@ -28293,8 +28293,8 @@
       ]
     },
     {
-      "name": "ield Storage Shed",
-      "number": "56E",
+      "name": "56E",
+      "number": "",
       "lat": -27.496877430538973,
       "long": 153.01836395840968,
       "border": [
@@ -28429,8 +28429,8 @@
       ]
     },
     {
-      "name": "uilding 87",
-      "number": "87A",
+      "name": "87A",
+      "number": "",
       "lat": -27.496625248432466,
       "long": 153.00974391606476,
       "border": [
@@ -28481,8 +28481,8 @@
       ]
     },
     {
-      "name": "8G",
-      "number": "Building",
+      "name": "Building 88G",
+      "number": "",
       "lat": -27.495201621043474,
       "long": 153.00911824657854,
       "border": [
@@ -28509,8 +28509,8 @@
       ]
     },
     {
-      "name": "8H",
-      "number": "Building",
+      "name": "Building 88H",
+      "number": "",
       "lat": -27.495181799092364,
       "long": 153.00898482287636,
       "border": [
@@ -28637,8 +28637,8 @@
       ]
     },
     {
-      "name": "8L",
-      "number": "Building",
+      "name": "Building 88L",
+      "number": "",
       "lat": -27.49512207835901,
       "long": 153.0085998420351,
       "border": [
@@ -37713,7 +37713,7 @@
       ]
     },
     {
-      "name": "National Centre for Youth Substance Use Research NCYSUR",
+      "name": "National Centre for Youth Substance Use Research- NCYSUR",
       "number": "0515A",
       "lat": -27.499622160629947,
       "long": 153.0107928728744,
@@ -38041,8 +38041,8 @@
       ]
     },
     {
-      "name": "Q Lakes Drivers Amenities Building",
-      "number": "58",
+      "name": "58",
+      "number": "",
       "lat": -27.49756131772832,
       "long": 153.01842002011753,
       "border": [
@@ -38069,8 +38069,8 @@
       ]
     },
     {
-      "name": "rounds Shed Playing Field 9",
-      "number": "92B",
+      "name": "92B",
+      "number": "",
       "lat": -27.49573766914936,
       "long": 153.00764807658842,
       "border": [
@@ -38769,8 +38769,8 @@
       ]
     },
     {
-      "name": "avilion Playing Field 9",
-      "number": "92A",
+      "name": "92A",
+      "number": "",
       "lat": -27.49570935266347,
       "long": 153.00684189790692,
       "border": [
@@ -39133,157 +39133,184 @@
         "sliding"
       ],
       "startnode": 1,
-      "endnode": 0
+      "endnode": 0,
+      "length": 9.09633159768341
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 2,
-      "endnode": 1
+      "endnode": 1,
+      "length": 10.354932597171569
     },
     {
       "tags": [],
       "startnode": 3,
-      "endnode": 1
+      "endnode": 1,
+      "length": 7.597739967987122
     },
     {
       "tags": [],
       "startnode": 4,
-      "endnode": 1
+      "endnode": 1,
+      "length": 8.014453325379263
     },
     {
       "tags": [],
       "startnode": 4,
-      "endnode": 3
+      "endnode": 3,
+      "length": 2.6728656638201698
     },
     {
       "tags": [
         "stairs"
       ],
       "startnode": 5,
-      "endnode": 4
+      "endnode": 4,
+      "length": 9.150947018706631
     },
     {
       "tags": [],
       "startnode": 6,
-      "endnode": 3
+      "endnode": 3,
+      "length": 11.576226478257786
     },
     {
       "tags": [],
       "startnode": 7,
-      "endnode": 6
+      "endnode": 6,
+      "length": 20.124160785741743
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 8,
-      "endnode": 7
+      "endnode": 7,
+      "length": 10.139644092945716
     },
     {
       "tags": [],
       "startnode": 9,
-      "endnode": 7
+      "endnode": 7,
+      "length": 3.4017121780523327
     },
     {
       "tags": [],
       "startnode": 10,
-      "endnode": 7
+      "endnode": 7,
+      "length": 2.140639999729831
     },
     {
       "tags": [],
       "startnode": 10,
-      "endnode": 9
+      "endnode": 9,
+      "length": 2.886493272942536
     },
     {
       "tags": [],
       "startnode": 11,
-      "endnode": 10
+      "endnode": 10,
+      "length": 9.271611519520068
     },
     {
       "tags": [],
       "startnode": 12,
-      "endnode": 11
+      "endnode": 11,
+      "length": 10.556776549807244
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 13,
-      "endnode": 12
+      "endnode": 12,
+      "length": 10.245516746304203
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 14,
-      "endnode": 12
+      "endnode": 12,
+      "length": 14.949412676294378
     },
     {
       "tags": [
         "stairs"
       ],
       "startnode": 15,
-      "endnode": 14
+      "endnode": 14,
+      "length": 21.756299830445062
     },
     {
       "tags": [],
       "startnode": 16,
-      "endnode": 15
+      "endnode": 15,
+      "length": 9.684429907294437
     },
     {
       "tags": [],
       "startnode": 17,
-      "endnode": 16
+      "endnode": 16,
+      "length": 22.206786965835704
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 18,
-      "endnode": 17
+      "endnode": 17,
+      "length": 17.247884488261878
     },
     {
       "tags": [],
       "startnode": 19,
-      "endnode": 18
+      "endnode": 18,
+      "length": 8.809427871205141
     },
     {
       "tags": [
         "stairs"
       ],
       "startnode": 19,
-      "endnode": 9
+      "endnode": 9,
+      "length": 12.583673877614638
     },
     {
       "tags": [
         "door"
       ],
       "startnode": 20,
-      "endnode": 19
+      "endnode": 19,
+      "length": 11.56927657323923
     },
     {
       "tags": [],
       "startnode": 21,
-      "endnode": 18
+      "endnode": 18,
+      "length": 7.525669470882922
     },
     {
       "tags": [],
       "startnode": 21,
-      "endnode": 19
+      "endnode": 19,
+      "length": 11.677972605323948
     },
     {
       "tags": [
         "elevator"
       ],
       "startnode": 22,
-      "endnode": 11
+      "endnode": 11,
+      "length": 0.4310732481905791
     },
     {
       "tags": [],
       "startnode": 23,
-      "endnode": 12
+      "endnode": 12,
+      "length": 5.946341147131462
     }
   ]
 }
