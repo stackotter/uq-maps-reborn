@@ -46,9 +46,30 @@ const styles = StyleSheet.create({
   },
   input: {
     width: "100%",
-    backgroundColor: "lightgray",
+    backgroundColor: "#ddd",
     borderRadius: 4,
     padding: 8
+  },
+  startLocationInput: {
+    width: "100%",
+    backgroundColor: "#ddd",
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    borderBottomColor: "gray",
+    borderBottomWidth: 1,
+    height: 34,
+    padding: 8
+  },
+  endLocationInput: {
+    width: "100%",
+    backgroundColor: "#ddd",
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 8,
+    height: 34,
+    padding: 8
+  },
+  locationInputText: {
+    color: "#1557ff"
   },
   searchResult: {
     paddingTop: 16,
@@ -66,13 +87,26 @@ const styles = StyleSheet.create({
     width: "100%",
     backgroundColor: "#4759fc",
     borderRadius: 8,
-    padding: 14,
+    paddingTop: 14,
+    paddingBottom: 14,
     marginTop: 16
   },
+  squareButton: {
+    aspectRatio: 1,
+    backgroundColor: "#4759fc",
+    borderRadius: 8,
+    padding: 14,
+  },
   disabledButton: {
-    backgroundColor: "lightgray"
+    backgroundColor: "#ddd"
   },
   buttonText: {
+    color: "white",
+    fontSize: 16,
+    textAlign: "center",
+    fontWeight: "bold"
+  },
+  squareButtonText: {
     color: "white",
     fontSize: 16,
     textAlign: "center",
@@ -82,7 +116,7 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "lightgray",
+    backgroundColor: "#ddd",
     borderRadius: 20,
     width: 40,
     height: 40
@@ -141,6 +175,14 @@ const fuse = new Fuse(
     ]
   }
 );
+
+function findShortestPathFromNodeToLocation(startNode: number, endLocation: SearchableItem) {
+  let destinations = searchableItemNodes(endLocation) || [];
+  let paths = destinations.map((destination) => {
+    return FindPath(startNode, destination, map);
+  })
+  return shortestOf(paths);  
+}
 
 function nearestNodeTo(location: Location.LocationObject | null) {
   if (location !== null) {
@@ -257,6 +299,7 @@ export default function Index() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
   const [searchTerm, onChangeSearchTerm] = React.useState('');
+  const [selectedStartNode, setSelectedStartNode] = useState<number | null>(null);
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -362,15 +405,11 @@ export default function Index() {
       />
       {searchResultsView}
     </View>;
-  } else {
+  } else if (selectedStartNode === null) {
     let nearestNode = nearestNodeTo(location);
     let timeEstimateMinutes: number | null = null;
     if (nearestNode !== null) {
-      let destinations = searchableItemNodes(selectedItem) || [];
-      let paths = destinations.map((destination) => {
-        return FindPath(nearestNode as number, destination, map);
-      })
-      let shortestPath = shortestOf(paths);
+      let shortestPath = findShortestPathFromNodeToLocation(nearestNode, selectedItem);
       let shortestPathLength = shortestPath?.length;
       if (shortestPathLength !== null && shortestPathLength !== undefined) {
         timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
@@ -382,10 +421,10 @@ export default function Index() {
         return;
       }
 
-      console.log("TODO: Directions");
+      setSelectedStartNode(nearestNode);
     }
 
-    let extraStyles =timeEstimateMinutes === null ? styles.disabledButton : {};
+    let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
     
     snapPoints = ["30%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
@@ -401,6 +440,40 @@ export default function Index() {
         </Text>
       </Pressable>
     </View>;
+  } else {
+    let timeEstimateMinutes: number | null = null;
+    let shortestPath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem);
+    if (shortestPath !== null) {
+      let shortestPathLength = shortestPath?.length;
+      timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
+    }
+
+    let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
+    snapPoints = ["40%", "80%"];
+    sheetContent = <View style={styles.sheetContents}>
+      <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
+        <View>
+          <Pressable style={styles.startLocationInput}>
+            <Text style={styles.locationInputText}>From: General Purpose South</Text>
+          </Pressable>
+          <Pressable style={styles.endLocationInput}>
+            <Text style={styles.locationInputText}>To: Advanced Engineering Building</Text>
+          </Pressable>
+        </View>
+        <Pressable style={styles.closeButton} onPress={() => setSelectedItem(null)}>
+          <MaterialIcons name="close" color="#333" size={30} />
+        </Pressable>
+      </View>
+      <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 32, padding: 8, backgroundColor: "#ddd", borderRadius: 10}}>
+        <View>
+          <Text style={{fontSize: 20}}>Shortest route</Text>
+          <Text style={styles.subtitle}>5 min</Text>
+        </View>
+        <Pressable style={{...styles.squareButton, ...extraStyles}}>
+          <Text style={styles.squareButtonText}>Go</Text>
+        </Pressable>
+      </View>
+    </View>
   }
 
   let markers = selectedItem === null ? [] : [{key: "selected", item: selectedItem}];
