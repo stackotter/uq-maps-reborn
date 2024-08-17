@@ -9,7 +9,6 @@ def ToBorder(coords) -> list[Point]:
     return [ToPoint(x) for x in coords]
 
 
-
 MANUAL_NAMES = {
     '85B': 'Industrial Centre',
     '40A': 'Athletics Field Shelter North',
@@ -21,7 +20,7 @@ MANUAL_NAMES = {
     '70B': 'UQ Cricket Club Pavilion',
     '56E': 'Field Storage Shed',
     '87A': 'Building 87',
-    '58':  'UQ Lakes Drivers Amenities Building',
+    '58': 'UQ Lakes Drivers Amenities Building',
     '92B': 'Grounds Shed Playing Field 9',
     '92A': 'Pavilion Playing Field 9'
 }
@@ -44,4 +43,6 @@ def FromBuildingName(title: str) -> tuple[int, str]:
     # ignore first character (always either
     # a hyphen or a '(' character)
     name = name[1:].replace('-', '').strip()
+    if name.endswith(")"):
+        name = name[:-1]
     return number, name

@@ -15,7 +15,6 @@ def TryFormat(name: str):
             return room_code, building_code, building_name
     return None
 
-            
 
 def main():
     TOTAL = 0
@@ -37,6 +36,21 @@ def main():
         sys.exit(1)
     buildings = buildings.value
 
+    with open('data/buildings.json', 'w') as f:
+        f.write(json.dumps(
+            [{
+                "name": building.name,
+                "id": building.id,
+                "floors": building.floors,
+                "border": [
+                    {
+                        "lat": point.x,
+                        "lng": point.y
+                    } for point in building.borderpoints
+                ]
+            } for building in buildings]
+        ))
+
     if not safe_paths.success:
         print(safe_paths)
         sys.exit(1)
@@ -46,7 +60,6 @@ def main():
         print(accessible_paths)
         sys.exit(1)
     accessible_paths = accessible_paths.value
-
 
     path_coords = []
     for path in safe_paths + accessible_paths:
@@ -59,7 +72,6 @@ def main():
         raw_coords = [[p.x, p.y] for p in path_coords]
         f.write(json.dumps(raw_coords, indent=4))
     print(len(path_coords))
-
 
     items = []
     files = os.listdir('locations')
@@ -78,22 +90,22 @@ def main():
 
             # otherwise use TryFormat for the name
             newitem['name'] = item['title']
-            
+
             # check which campuse and building this node
             # belongs to (if any)
             point = Point(item['latitude'], item['longitude'])
             if point in path_coords:
                 print(item['title'], 'is in a path omg!')
             newitem['campus'] = ''   # default
-            newitem['building'] = '' # default
+            newitem['building'] = ''  # default
             for campus in campuses:
                 if campus.Contains(point):
-                    newitem['campus'] = campus.id 
+                    newitem['campus'] = campus.id
                     IN_CAMPUS += 1
                     break
             for building in buildings:
                 if building.Contains(point):
-                    newitem['building'] = building.id 
+                    newitem['building'] = building.id
                     IN_BUILDING += 1
                     break
 
@@ -101,7 +113,6 @@ def main():
             newitem['tags'] = [item['typeCode']]
 
             items.append(newitem)
-        
 
     # larger file but very human readable
     with open('data/nodes', 'w') as f:
