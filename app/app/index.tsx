@@ -9,11 +9,12 @@ import * as Location from 'expo-location';
 import { getDistance } from "geolib";
 
 import untypedMap from "../assets/data/map.json";
-import { Building, Campus, Path, Room } from "@/core/map-data";
+import { Building, Campus, InstructionType, Path, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
-import { FindPath } from "@/core/pathfinder";
+import { FindPath, ToDirections } from "@/core/pathfinder";
 
 import {Dimensions} from 'react-native';
+import PanoViewer from "@/components/PanoViewer";
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
 
@@ -84,6 +85,32 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 14
+  },
+  previousButton: {
+    width: "48%",
+    backgroundColor: "#ddd",
+    borderRadius: 8,
+    paddingTop: 14,
+    paddingBottom: 14,
+    marginTop: 16
+  },
+  previousButtonText: {
+    color: "black",
+    fontSize: 16,
+    textAlign: "center"
+  },
+  nextButton: {
+    width: "48%",
+    backgroundColor: "#4759fc",
+    borderRadius: 8,
+    paddingTop: 14,
+    paddingBottom: 14,
+    marginTop: 16
+  },
+  nextButtonText: {
+    color: "white",
+    fontSize: 16,
+    textAlign: "center"
   },
   button: {
     width: "100%",
@@ -387,10 +414,13 @@ export default function Index() {
   function closeSheet() {
     setSelectedItem(null);
     setSelectedStartNode(null);
+    setSelectedPath(null);
+    bottomSheetRef.current?.snapToIndex(0);
   }
 
   let sheetContent;
   let snapPoints;
+  let panoId: number | null = null;
   if (selectedItem === null) {
     snapPoints = ["20%", "80%"];
     let searchResultsView;
@@ -508,7 +538,13 @@ export default function Index() {
               <Text style={{fontSize: 20}}>Shortest route</Text>
               <Text style={styles.subtitle}>{timeEstimateMinutes} min • {Math.ceil(shortestPath?.length || 0)}m</Text>
             </View>
-            <Pressable style={{...styles.squareButton, ...extraStyles}} onPress={() => setSelectedPath(shortestPath?.path as Path)}>
+            <Pressable
+              style={{...styles.squareButton, ...extraStyles}}
+              onPress={() => {
+                setSelectedPath(shortestPath?.path as Path);
+                bottomSheetRef.current?.snapToIndex(1);
+              }}
+            >
               <Text style={styles.squareButtonText}>Go</Text>
             </Pressable>
           </View> :
@@ -517,10 +553,45 @@ export default function Index() {
       </View>
     </View>
   } else {
-    snapPoints = ["40%", "80%"];
-    sheetContent = <View>
-      <Text>Navigating...</Text>
-    </View>
+    snapPoints = ["32%", "80%"];
+    let directions = ToDirections(selectedPath);
+    let currentDirection = directions.nodeDirectionChanges[0];
+    let currentEdgeMessage = directions.edgeMessages[0];
+    panoId = 0;
+
+    function onPressPrevious() {
+      console.log("Previous");
+    }
+
+    function onPressNext() {
+      console.log("Next");
+    }
+
+    sheetContent = <View style={styles.sheetContents}>
+      <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
+        <View>
+          <Text style={styles.heading}>{currentDirection}</Text>
+          <Text style={styles.subtitle}>{currentEdgeMessage}</Text>
+        </View>
+        <Pressable style={styles.closeButton} onPress={closeSheet}>
+          <MaterialIcons name="close" color="#333" size={30} />
+        </Pressable>
+      </View>
+      <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
+        <Pressable style={styles.previousButton} onPress={onPressPrevious}>
+          <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingRight: 12, justifyContent: "center"}}>
+            <MaterialIcons name="chevron-left" color="black" size={28} />
+            <Text style={styles.previousButtonText}>Previous</Text>
+          </View>
+        </Pressable>
+        <Pressable style={styles.nextButton} onPress={onPressNext}>
+          <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingLeft: 12, justifyContent: "center"}}>
+            <Text style={styles.nextButtonText}>Next</Text>
+            <MaterialIcons name="chevron-right" color="white" size={28} />
+          </View>
+        </Pressable>
+      </View>
+    </View>;
   }
 
   let markers = selectedItem === null ? [] : [{key: "selected", item: selectedItem}];
@@ -551,6 +622,7 @@ export default function Index() {
         >
           <BottomSheetView style={styles.contentContainer}>
             {sheetContent}
+            {panoId === null ? <></> : <PanoViewer panoId={0} viewerWidth={Dimensions.get("window").width - 32}/>}
           </BottomSheetView>
         </BottomSheet>
       </View>
