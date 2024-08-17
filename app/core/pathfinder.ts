@@ -110,8 +110,27 @@ class Vec3D() {
 // 1. calculate angles between pairs
 // 2. match tag to InstructionType for every thing
 //
+//
+// we can "continue straight" (additive)
+// every edge can have a to and a from message
+// or one that goes both ways
+//
+// two things:
+//     direction hint (ie "continue straight")
+//	   landmark hint (ie "go past the stairs") 
+//
+// door (to room): enter/exit {ROOM_NAME}
+// door (to building): enter/exit {BUILDING_NAME}
+// stairs: take the stairs for {NUM_FLOORS} floors
+// elevator: take the elevator to floor {FLOOR_NUM}
+//
+// delete old info as we move past it
+// (or constantly wait until a criteria is
+//  met to progress in our instructions)
 
 function ToDirections(path: Path): Directions {
+	// instruction types
+	let insTypes: InstructionType[] = [];
 	// ignore the first and last nodes
 	let i: number = 1;
 	while (i < path.nodes.length - 1) {
@@ -122,7 +141,7 @@ function ToDirections(path: Path): Directions {
 		let edgeAB: Edge = campus.edges[path.edges[i-1]];
 		let edgeBC: Edge = campus.edges[path.edges[i]];
 
-		
+		if 	
 
 		// calculate the turning angle that occurs  at every junction
 		// convert lat/lng to cartesian coordinates (radius=1)
@@ -136,16 +155,14 @@ function ToDirections(path: Path): Directions {
 		let angle: number = incident.AngleWith(reflected);
 		console.log(angle, "degrees");
 		
-
-		let message: string =  
 		// map the angle to a sentence
-		if (-30 <= angle <= 30) {
+		if (-30 <= angle && angle <= 30) {
 			InstructionType.FORWARD;
 		}
-		else if (-150 < angle < -30) {
+		else if (-150 <= angle && angle < -30) {
 			InstructionType.LEFT;
 		}
-		else if (30 < angle < 150) {
+		else if (30 < angle && angle <= 150) {
 			InstructionType.RIGHT;
 		}
 
