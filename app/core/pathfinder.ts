@@ -9,6 +9,7 @@ import {
   Directions,
   Messages,
   Bearing,
+  navData,
 } from "./map-data";
 import { Vec3D } from "./vec3d";
 import map from "../assets/data/map.json";
@@ -137,7 +138,7 @@ function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
 }
 
 
-export function ToDirections(path: Path): Directions {
+export function ToDirections(path: Path): navData[] {
   // raw directions (angles made a little nicer)
   let rawDirs: InstructionType[] = [InstructionType.FORWARD];
   // ignore the first and last nodes
@@ -187,7 +188,7 @@ export function ToDirections(path: Path): Directions {
   let countBearing: Bearing = Bearing.NULL;
   // our last loop got data on nodes
   // this loop gets data on our edges
-  let edgeMessages: string[] = ["the journey begins!"];
+  let edgeMessages: string[] = ["Your trip has begun"];
   i = 0; // recent our index
   while (i < path.edges.length) {
     let nodeA: Node = campus.nodes[path.nodes[i]];
@@ -251,11 +252,30 @@ export function ToDirections(path: Path): Directions {
     i++;
   }  
 
-  return { nodeDirectionChanges: rawDirs, edgeMessages: edgeMessages };
+  let j: number = 1;
+  //let messages: string[] = [edgeMessages[0]];
+  let data: navData[] = [];
+  while (j < edgeMessages.length) {
+    let heading: string = edgeMessages[j]
+    //let message: string = rawDirs[j] as unknown as string;
+    //let svgpath: string = "turn_left";
+    //if (edgeMessages[j] as unknown as string === "" || edgeMessages[j] === null) {
+    //  messages.push(InstructionType.FORWARD as unknown as string);
+    //}
+    //else {
+    //  messages.push(edgeMessages[j]);
+    //}
+    data.push(new navData(heading, rawDirs[j]));
+    j++;
+  }
+  data.push(navData.Arrived());
+  //guideMessage[j]
+  //return { nodeDirectionChanges: rawDirs, edgeMessages: edgeMessages };
+  return data;
 }
 
 let path: Path = FindPath(0, 17, map as unknown as Campus, true);
-let directions: Directions = ToDirections(path);
+let directions: navData[] = ToDirections(path);
 //console.log(path.nodes);
 //console.log(path.edges);
 //console.log(directions.nodeDirectionChanges);
@@ -264,8 +284,14 @@ let directions: Directions = ToDirections(path);
 //console.log(directions.nodeDirectionChanges.length);
 //console.log(directions.edgeMessages.length);
 
+console.log(path.nodes.length);
+console.log(directions.length);
+
+
 let j: number = 0;
 let guideMessage: string = "";
+console.log(directions);
+/*
 while (j < directions.edgeMessages.length) {
   console.log("go", directions.nodeDirectionChanges[j]);
   guideMessage = directions.edgeMessages[j];
@@ -274,5 +300,5 @@ while (j < directions.edgeMessages.length) {
   }
   j++;
 }
-
+*/
 

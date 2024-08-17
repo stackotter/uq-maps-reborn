@@ -73,19 +73,19 @@ export interface Path {
 }
 
 export enum InstructionType {
-  FORWARD = "foward",
-  TURN = "turn",
-  LEFT = "left",
-  RIGHT = "right",
-  STAIRS = "stairs",
-  ELEVATOR_ENTER = "enter elevator",
-  ELEVATOR_EXIT = "exit elevator",
-  SWIM = "swim",
-  VAULT = "vault",
-  FLY = "fly",
-  PHASE_THROUGH_WALL = "phase through wall",
-  SCALE_BUILDING = "scale the building",
-  FIGHT_NEAREST_STRANGER = "fight your nearest stranger",
+  FORWARD = "Continue straight",
+  TURN = "Turn around",
+  LEFT = "Turn left",
+  RIGHT = "Turn right",
+  STAIRS = "!!!!STAIRS!!!!",
+  ELEVATOR_ENTER = "Enter the elevator",
+  ELEVATOR_EXIT = "Exit the elevator",
+  SWIM = "Turn to swim",
+  VAULT = "Politely vault",
+  FLY = "Attempt to fly",
+  PHASE_THROUGH_WALL = "Phase through wall",
+  SCALE_BUILDING = "Scale the building",
+  FIGHT_NEAREST_STRANGER = "Fight your nearest stranger",
 }
 
 export enum Bearing {
@@ -129,5 +129,36 @@ export class Messages {
   static Elevator(bearing: Bearing, floor: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
     return `take the elevator ${bearingStr} to level ${floor}`;
+  }
+}
+
+
+export class navData {
+  title: string;
+  message: string;
+  icon: string;
+
+  constructor(title: string, dir: InstructionType) {
+    this.title = title;
+    this.message = dir as unknown as string;
+    this.icon = "straight";
+    if (dir == InstructionType.LEFT) {
+      this.icon = "turn_left";
+    }
+    else if (dir == InstructionType.RIGHT) {
+      this.icon = "turn_right";
+    }
+    else if (dir == InstructionType.STAIRS) {
+      this.icon = "stairs_2";
+    }
+  }
+  
+  // Congrats!
+  static Arrived(): navData {
+    let data: navData = new navData("", InstructionType.FORWARD); 
+    data.title = "You have arrived";
+    data.message = "^_^";
+    data.icon = "flag_2"
+    return data
   }
 }
