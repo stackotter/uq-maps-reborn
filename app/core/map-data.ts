@@ -79,7 +79,7 @@ export enum InstructionType {
   RIGHT = "right",
   STAIRS = "stairs",
   ELEVATOR_ENTER = "enter elevator",
-  ELAVATOR_EXIT = "exit elevator",
+  ELEVATOR_EXIT = "exit elevator",
   SWIM = "swim",
   VAULT = "vault",
   FLY = "fly",
