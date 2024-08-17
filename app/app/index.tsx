@@ -1,16 +1,16 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, ScrollView, Button, Pressable } from "react-native";
-
+import { MaterialIcons } from "@expo/vector-icons";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import Mapbox, {Camera, MapView, MarkerView} from "@rnmapbox/maps";
+import Mapbox, {Camera, LocationPuck, MapView, MarkerView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
+import { getDistance } from "geolib";
 
 import untypedMap from "../assets/data/map.json";
 import { Building, Campus, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
-import { MaterialIcons } from "@expo/vector-icons";
 
 // import {Dimensions} from 'react-native';
 // import PanoViewer from "@/components/PanoViewer";
@@ -111,7 +111,33 @@ const fuse = new Fuse(
   }
 );
 
-function searchableItemCard(item: SearchableItem) {
+function searchableItemCard(item: SearchableItem, location: Location.LocationObject | null) {
+  if (location !== null) {
+    let nearestNode = null;
+    let nearestNodeIndex = null;
+    let minDistance = Number.MAX_VALUE;
+    let i = 0;
+    for (let node of map.nodes) {
+      let distance = getDistance(
+        {
+          latitude: node.latitude,
+          longitude: node.longitude
+        },
+        {
+          latitude: location.coords.latitude,
+          longitude: location.coords.longitude
+        }
+      );
+      if (distance < minDistance) {
+        nearestNode = node;
+        minDistance = distance;
+        nearestNodeIndex = i;
+      }
+      i++;
+    }
+    console.log(nearestNode, nearestNodeIndex, minDistance);
+  }
+
   if (item.type === "building") {
     let building = item.building as unknown as Building;
     return <View style={{width: "100%"}}>
@@ -165,8 +191,6 @@ export default function Index() {
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
-    console.log("Setting to initial rect");
-    console.log(camera);
     camera?.setCamera({centerCoordinate: [153.0142397517875, -27.49864297144247], zoomLevel: 15.5, animationDuration: 0});
   }, [camera]);
 
@@ -202,7 +226,7 @@ export default function Index() {
   // let windowWidth = Dimensions.get("window").width;
   // <PanoViewer panoId={1} viewerWidth={windowWidth - 32} />
 
-  function selectItem(item:SearchableItem) {
+  function selectItem(item: SearchableItem) {
     setSelectedItem(item);
     bottomSheetRef.current?.snapToIndex(0);
     camera?.setCamera({centerCoordinate: searchableItemCoordinates(item), zoomLevel: 17});
@@ -257,14 +281,14 @@ export default function Index() {
         onFocus={onFocusSearchInput}
         value={searchTerm}
         placeholder="Search UQ..."
-        placeholderTextColor={"#fff"}
+        placeholderTextColor={"#333"}
       />
       {searchResultsView}
     </View>;
   } else {
     snapPoints = ["30%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
-      {searchableItemCard(selectedItem)}
+      {searchableItemCard(selectedItem, location)}
       <Pressable style={styles.button} onPress={() => {}}>
         <Text style={styles.buttonText}>Directions</Text>
       </Pressable>
@@ -279,6 +303,7 @@ export default function Index() {
         <View style={styles.container}>
           <MapView style={styles.map}>
             <Camera ref={setCamera}/>
+            <LocationPuck/>
             {
               markers.map(({key, item}) => {
                 return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>

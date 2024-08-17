@@ -79,15 +79,15 @@ for building in in_buildings:
     })
 
 for building_id, room_nodes in building_room_nodes.items():
-    for room_number, nodes in room_nodes.items():
-        lat = sum(node[1]["lat"] for node in nodes) / len(nodes)
-        long = sum(node[1]["lng"] for node in nodes) / len(nodes)
+    for room_number, nodes_of_room in room_nodes.items():
+        lat = sum(node[1]["lat"] for node in nodes_of_room) / len(nodes_of_room)
+        long = sum(node[1]["lng"] for node in nodes_of_room) / len(nodes_of_room)
         rooms.append({
             "building": building_id,
             "number": room_number,
             "latitude": lat,
             "longitude": long,
-            "nodes": [node[0] for node in nodes]
+            "nodes": [node[0] for node in nodes_of_room]
         })
 
 

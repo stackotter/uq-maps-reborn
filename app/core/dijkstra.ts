@@ -1,5 +1,5 @@
 import { Campus, Node } from "./map-data.ts"
-import "mapping_
+import "mapping"
 
 class Dijkstra {
 

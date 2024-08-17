@@ -6,6 +6,12 @@ export interface Campus {
   rooms: Room[];
 }
 
+// A route should always have one less edge than nodes.
+export interface Route {
+  nodes: Node[];
+  edges: Edge[];
+}
+
 export enum NodeTag {
   ACCESSIBLE_TOILETS,
   TOILETS,
