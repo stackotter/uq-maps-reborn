@@ -39,7 +39,19 @@ while True:
         tags = [x.strip() for x in input("Tags: ").split(",") if x.strip() != ""]
 
         connected_rooms = [x.strip() for x in input("Connected rooms: ").split(",") if x.strip() != ""]
-        connected_nodes = [int(x.strip()) for x in input("Connected nodes: ").split(",") if x.strip() != ""]
+        connected_nodes = input("Connected nodes: ")
+        if connected_nodes == "":
+            connected_nodes = []
+        else:
+            connected_nodes = [x.strip() for x in connected_nodes.split(",")]
+            parsed = []
+            for node in connected_nodes:
+                parts = node.split(" ", 1)
+                if len(parts) == 2:
+                    parsed.append({"index": int(parts[0]), "type": parts[1]})
+                else:
+                    parsed.append({"index": int(parts[0])})
+            connected_nodes = parsed
 
         notes = input("Notes [optional]: ")
         if notes == "":
@@ -64,5 +76,6 @@ while True:
             f.write(json.dumps(data))
     except KeyboardInterrupt:
         break
-    except Exception:
+    except Exception as e:
+        print(e)
         continue
