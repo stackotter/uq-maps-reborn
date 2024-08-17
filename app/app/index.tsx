@@ -11,9 +11,9 @@ import { getDistance } from "geolib";
 import untypedMap from "../assets/data/map.json";
 import { Building, Campus, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
+import { FindPath } from "@/core/pathfinder";
 
 import {Dimensions} from 'react-native';
-// import PanoViewer from "@/components/PanoViewer";
 
 Mapbox.setAccessToken("pk.eyJ1Ijoic3RhY2tvdHRlciIsImEiOiJjbHp3amxuY24waG02MmpvZDhmN2QyZHQyIn0.j7bBcGFDFDhwrbzj6cgWQw");
 
@@ -215,6 +215,8 @@ export default function Index() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [selectedItem, setSelectedItem] = useState<SearchableItem | null>(null);
   const [searchTerm, onChangeSearchTerm] = React.useState('');
+
+  console.log(FindPath(0, 7, map));
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
