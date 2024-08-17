@@ -351,6 +351,12 @@
       {
         "index": 11,
         "type": "elevator"
+      },
+      {
+        "index": 18
+      },
+      {
+        "index": 19
       }
     ],
     "notes": "",

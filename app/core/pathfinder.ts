@@ -17,26 +17,33 @@ import createGraph from "ngraph.graph";
 
 
 let graph = createGraph();
+let accessibleGraph = createGraph();
 let campus: Campus = map as unknown as Campus;
 
 let temp_i: number = 0;
 for (let node of campus.nodes) {
   graph.addNode(temp_i);
+  accessibleGraph.addNode(temp_i);
   temp_i++;
 }
 
 for (let edge of campus.edges) {
   graph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
+  if (!edge.tags.includes("stairs")) {
+    accessibleGraph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
+  }
 }
 
 let pathFinder = pathLib.aStar(graph);
+let accessiblePathFinder = pathLib.aStar(accessibleGraph);
 
 // Check set equality
 const EqualSets = (xs: Set<number>, ys: Set<number>) =>
   xs.size === ys.size && [...xs].every((x) => ys.has(x));
 
-export function FindPath(startId: number, endId: number, map: Campus): Path {
-  let path = pathFinder.find(startId, endId).reverse();
+export function FindPath(startId: number, endId: number, map: Campus, accessible: boolean = false): Path {
+  let path = accessible ? accessiblePathFinder.find(startId, endId).reverse() : 
+                          pathFinder.find(startId, endId).reverse()
 
   let nodes: number[] = path.map((node) => node.id as number);
 
@@ -45,8 +52,6 @@ export function FindPath(startId: number, endId: number, map: Campus): Path {
   // we intentionally ignore the last node
   // (because there is no edge after it)
   while (i < path.length - 1) {
-    //path[i].map(node => node.links)
-    //		 .filter(link => )
     let startIndex: number = nodes[i];
     let currentEdges: number[] = campus.nodes[startIndex].edges;
     let goalEdge: Set<number> = new Set<number>([nodes[i], nodes[i + 1]]);
@@ -111,7 +116,7 @@ function isDigit(c: string|null): boolean {
 function getBearing(nodeA: Node, nodeB: Node): Bearing {
   let floorA: string = nodeA?.floor ?? "0";
   let floorB: string = nodeB?.floor ?? "0";
-  let floorChange: number = parseInt(floorA) - parseInt(floorB);
+  let floorChange: number = parseInt(floorB) - parseInt(floorA);
   if (floorChange > 0) {
     return Bearing.UP;
   }
@@ -249,15 +254,15 @@ export function ToDirections(path: Path): Directions {
   return { nodeDirectionChanges: rawDirs, edgeMessages: edgeMessages };
 }
 
-let path: Path = FindPath(0, 17, map as unknown as Campus);
+let path: Path = FindPath(0, 17, map as unknown as Campus, true);
 let directions: Directions = ToDirections(path);
 //console.log(path.nodes);
 //console.log(path.edges);
-console.log(directions.nodeDirectionChanges);
-console.log(directions.edgeMessages);
+//console.log(directions.nodeDirectionChanges);
+//console.log(directions.edgeMessages);
 
-console.log(directions.nodeDirectionChanges.length);
-console.log(directions.edgeMessages.length);
+//console.log(directions.nodeDirectionChanges.length);
+//console.log(directions.edgeMessages.length);
 
 let j: number = 0;
 let guideMessage: string = "";
