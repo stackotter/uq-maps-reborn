@@ -21,13 +21,6 @@ export enum NodeTag {
   DOOR,
 }
 
-export enum EdgeTag {
-  ELEVATOR,
-  STAIRS,
-  STEEP,
-  FOOTPATH,
-}
-
 export interface Building {
   name: string;
   number: string;
@@ -61,6 +54,7 @@ export interface Node {
 export enum EdgeTag {
   STAIRS = "stairs", 
   ELEVATOR = "elevator",
+  FOOTPATH = "footpath",
   DOOR = "door",
   NULL = "null",
 }
@@ -79,19 +73,19 @@ export interface Path {
 }
 
 export enum InstructionType {
-  FORWARD,
-  TURN,
-  LEFT,
-  RIGHT,
-  STAIRS,
-  ELEVATOR_ENTER,
-  ELAVATOR_EXIT,
-  SWIM,
-  JUMP,
-  FLY,
-  PHASE_THROUGH_WALL,
-  SCALE_BUILDING,
-  FIGHT_NEAREST_STRANGER,
+  FORWARD = "foward",
+  TURN = "turn",
+  LEFT = "left",
+  RIGHT = "right",
+  STAIRS = "stairs",
+  ELEVATOR_ENTER = "enter elevator",
+  ELAVATOR_EXIT = "exit elevator",
+  SWIM = "swim",
+  VAULT = "vault",
+  FLY = "fly",
+  PHASE_THROUGH_WALL = "phase through wall",
+  SCALE_BUILDING = "scale the building",
+  FIGHT_NEAREST_STRANGER = "fight your nearest stranger",
 }
 
 export enum Bearing {
@@ -108,10 +102,8 @@ export interface Instruction {
 }
 
 export interface Directions {
-  edgeMap: Map<number, number>;
   nodeDirectionChanges: InstructionType[]; 
   edgeMessages: string[];
-  //instructions: Instruction[];
 }
 
 
@@ -132,7 +124,7 @@ export class Messages {
   
   static Stairs(bearing: Bearing, delta: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
-    return `take the stairs ${bearingStr} ${delta} levels`
+    return `take the stairs ${bearingStr} ${delta} level`
   }
 
   static Elevator(bearing: Bearing, floor: number) {

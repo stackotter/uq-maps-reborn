@@ -103,7 +103,7 @@ export function FindPath(startId: number, endId: number, map: Campus): Path {
 // if elavator before "exit the elevator"
 
 
-function isDigit(c: string?): boolean {
+function isDigit(c: string|null): boolean {
   if (c == null) return false;
   return c >= '0' && c <= '9';
 }
@@ -119,6 +119,7 @@ function getBearing(nodeA: Node, nodeB: Node): Bearing {
     return Bearing.DOWN;
   }
   return Bearing.NULL;
+}
 
 function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
   if (nodeA.room !== nodeB.room) {
@@ -199,7 +200,9 @@ export function ToDirections(path: Path): Directions {
           nextEdgeMessage = Messages.Stairs(countBearing, count);
         }
         else if (countType == EdgeTag.ELEVATOR) {
-          nextEdgeMessage = Messages.Elevator(countBearing, nodeB?.floor ?? Infinity);
+          //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1; 
+
+          nextEdgeMessage = Messages.Elevator(countBearing, nodeB.floor !== null ? parseInt(nodeB.floor!) : Infinity);
         }
 
         count = 0;
@@ -221,8 +224,9 @@ export function ToDirections(path: Path): Directions {
 
     else if (edge.tags.includes(EdgeTag.DOOR as string)) {
       // first check if the door is to a room)
-      let buildingA: string  = nodeA?.building.toString() ?? "";
-      let buildingB: string  = nodeB?.building.toString() ?? "";
+      //let buildingNumA: int = nodeA?.building ? -1
+      let buildingA: string  = nodeA.building !== null ? nodeA.building!.toString() : "";
+      let buildingB: string  = nodeB.building !== null ? nodeB.building!.toString() : "";
       if (buildingA == "" && buildingB !== "") {
         nextEdgeMessage = Messages.BuildingEnter(buildingB);
       }
@@ -239,14 +243,31 @@ export function ToDirections(path: Path): Directions {
       }
     }
     edgeMessages.push(nextEdgeMessage);
+    i++;
   }  
 
-  let map: Map<number, number> = new Map<number, number>();
-  let instructions: Instruction[] = [];
-  return { edgeMap: map, nodeDirectionChanges: rawDirs, edgeMessages: edgeMessages };
+  return { nodeDirectionChanges: rawDirs, edgeMessages: edgeMessages };
 }
 
 let path: Path = FindPath(0, 17, map as unknown as Campus);
 let directions: Directions = ToDirections(path);
-console.log(path.nodes);
-console.log(path.edges);
+//console.log(path.nodes);
+//console.log(path.edges);
+console.log(directions.nodeDirectionChanges);
+console.log(directions.edgeMessages);
+
+console.log(directions.nodeDirectionChanges.length);
+console.log(directions.edgeMessages.length);
+
+let j: number = 0;
+let guideMessage: string = "";
+while (j < directions.edgeMessages.length) {
+  console.log("go", directions.nodeDirectionChanges[j]);
+  guideMessage = directions.edgeMessages[j];
+  if (guideMessage !== "" && guideMessage !== null) {
+    console.log("guide:", guideMessage);
+  }
+  j++;
+}
+
+
