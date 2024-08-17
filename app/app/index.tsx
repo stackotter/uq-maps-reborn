@@ -3,6 +3,7 @@ import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity
 import { MaterialIcons } from "@expo/vector-icons";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { lineString } from "@turf/helpers";
 
 import Mapbox, {Camera, LocationPuck, MapView, MarkerView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
@@ -430,6 +431,8 @@ export default function Index() {
   let snapPoints;
   let panoId: number | null = null;
   let panoBearing: number | null = null;
+  let route;
+  let markers: { key: string, location: number[] }[] = [];
   if (selectedItem === null) {
     snapPoints = ["20%", "80%"];
     let searchResultsView;
@@ -492,6 +495,11 @@ export default function Index() {
       }
     }
 
+    let endLocation = searchableItemCoordinates(selectedItem);
+    if (endLocation !== undefined) {
+      markers = [{key: "selected", location: endLocation}];
+    }
+
     function onPressDirectionsButton() {
       setSelectedStartNode(nearestNode);
     }
@@ -516,7 +524,22 @@ export default function Index() {
     if (shortestPath !== null) {
       let shortestPathLength = shortestPath?.length;
       timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
+
+      let nodePositions = [];
+      for (let nodeIndex of shortestPath.path.nodes) {
+        let node = map.nodes[nodeIndex];
+        nodePositions.push([node.longitude, node.latitude]);
+      }
+      nodePositions.push();
+      route = lineString(nodePositions);
+      markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
+    } else {
+      let endLocation = searchableItemCoordinates(selectedItem);
+      if (endLocation !== undefined) {
+        markers = [{key: "selected", location: endLocation}];
+      }
     }
+
 
     let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
     snapPoints = ["40%", "80%"];
@@ -559,33 +582,17 @@ export default function Index() {
     snapPoints = ["32%", "80%"];
     let directions = ToDirections(selectedPath);
     let currentDirection;
-    // if (currentNavigationPathIndex < selectedPath.nodes.length) {
-      currentDirection = directions[currentNavigationPathIndex];
-      let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
-      let currentNode = selectedPath.nodes[currentNavigationPathIndex];
-      panoBearing = map.edges[currentEdge].bearing_degrees;
-      if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
-        panoBearing -= 180;
-      }
-      let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
-      panoBearing += bearingAdjustment;
+    currentDirection = directions[currentNavigationPathIndex];
+    let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
+    let currentNode = selectedPath.nodes[currentNavigationPathIndex];
+    panoBearing = map.edges[currentEdge].bearing_degrees;
+    if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
+      panoBearing -= 180;
+    }
+    let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
+    panoBearing += bearingAdjustment;
 
-      panoId = selectedPath.nodes[currentNavigationPathIndex];
-    // }
-    // else {
-    //   // currentDirection = "You have arrived"
-    //   currentEdgeMessage = ""
-
-    //   let currentEdge = selectedPath.edges[currentNavigationPathIndex - 1 === selectedPath.edges.length ? currentNavigationPathIndex - 2 : currentNavigationPathIndex - 1];
-    //   let currentNode = selectedPath.nodes[currentNavigationPathIndex - 1];
-    //   panoBearing = map.edges[currentEdge].bearing_degrees;
-    //   if (currentNavigationPathIndex - 1 < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
-    //     panoBearing -= 180;
-    //   }
-    //   let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
-    //   panoBearing += bearingAdjustment;
-    //   panoId = selectedPath.nodes[currentNavigationPathIndex - 1];
-    // }
+    panoId = selectedPath.nodes[currentNavigationPathIndex];
 
     function onPressPrevious() {
       if (currentNavigationPathIndex > 0) {
@@ -609,6 +616,15 @@ export default function Index() {
     let hasArrived = currentNavigationPathIndex === selectedPath.nodes.length - 1;
     let iconBackgroundColor = hasArrived ? "#009900" : "#f2bf2d";
     let iconForegroundColor = hasArrived ? "white" : "black";
+
+    let nodePositions = [];
+    for (let nodeIndex of selectedPath.nodes) {
+      let node = map.nodes[nodeIndex];
+      nodePositions.push([node.longitude, node.latitude]);
+    }
+    nodePositions.push();
+    route = lineString(nodePositions);
+    markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
 
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4, height: 56}}>
@@ -642,8 +658,6 @@ export default function Index() {
     </View>;
   }
 
-  let markers = selectedItem === null ? [] : [{key: "selected", item: selectedItem}];
-
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <View style={styles.page}>
@@ -651,10 +665,15 @@ export default function Index() {
           <MapView style={styles.map} compassEnabled compassFadeWhenNorth compassPosition={{top: 64, right: 8}}>
             <Camera ref={setCamera}/>
             <LocationPuck puckBearingEnabled puckBearing="heading"/>
-            <Mapbox.LineLayer id="routeFill" style={{lineColor: "#ff8109", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 1.84}} />
+            {route !== undefined ?
+              <Mapbox.ShapeSource id="routeSource" shape={route.geometry}>
+                <Mapbox.LineLayer id="routeFill" style={{lineColor: "#4759fc", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 100}} />
+              </Mapbox.ShapeSource> :
+              <></>
+            }
             {
-              markers.map(({key, item}) => {
-                return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={searchableItemCoordinates(item)} isSelected={true}>
+              markers.map(({key, location}) => {
+                return <MarkerView key={key} anchor={{x: 0.5, y: 1}} coordinate={location} isSelected={true}>
                   <MaterialIcons name="location-pin" color="#e56a6a" size={40} />
                 </MarkerView>;
               })

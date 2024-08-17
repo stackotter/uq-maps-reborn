@@ -1,6 +1,6 @@
 import WebView from "react-native-webview";
 
-export default function PanoViewer({panoId, viewerWidth, initialCompassBearing} : {panoId: number, viewerWidth: number, initialCompassBearing: number}) {
+export default function PanoViewer({panoId, viewerWidth, initialCompassBearing} : {panoId: number, viewerWidth: number, initialCompassBearing: number | null}) {
   console.log(panoId);
   console.log(initialCompassBearing);
   return (
