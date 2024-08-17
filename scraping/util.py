@@ -29,20 +29,36 @@ MANUAL_NAMES = {
 # MazeMap returns these in two formats
 #   1. '{ID} - {NAME}'
 #   2. '{ID} ({NAME})'
-def FromBuildingName(title: str) -> tuple[int, str]:
-    try:
-        number, name = title.split(' ', 1)
-    except ValueError:
-        # if this occurs its because the
-        # title doesn't contain a name
-        number = title
-        name = MANUAL_NAMES.get(number)
-        if name == None:
-            raise ValueError('Idk this one chief')
-
-    # ignore first character (always either
-    # a hyphen or a '(' character)
-    name = name[1:].replace('-', '').strip()
-    if name.endswith(")"):
-        name = name[:-1]
+def FromBuildingName(title: str) -> tuple[str, str]:
+    # set default cases
+    number = ''
+    name = title
+    if title[0].isdigit():
+        if ' - ' in title:
+            number, name = title.split(' - ')
+        elif '(' in title:
+            number, name = title.split('(')
+            number = number.strip()
+            name = name.replace(')', '').strip()
     return number, name
+            
+
+
+'''
+try:
+    number, name = title.split(' ', 1)
+except ValueError:
+    # if this occurs its because the
+    # title doesn't contain a name
+    number = title
+    name = MANUAL_NAMES.get(number)
+    if name == None:
+        raise ValueError('Idk this one chief')
+
+# ignore first character (always either
+# a hyphen or a '(' character)
+name = name[1:].replace('-', '').strip()
+if name.endswith(")"):
+    name = name[:-1]
+return number, name
+'''

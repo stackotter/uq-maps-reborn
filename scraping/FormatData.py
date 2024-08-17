@@ -61,6 +61,7 @@ def main():
         sys.exit(1)
     accessible_paths = accessible_paths.value
 
+    '''
     path_coords = []
     for path in safe_paths + accessible_paths:
         for coord in path:
@@ -72,6 +73,7 @@ def main():
         raw_coords = [[p.x, p.y] for p in path_coords]
         f.write(json.dumps(raw_coords, indent=4))
     print(len(path_coords))
+    '''
 
     items = []
     files = os.listdir('locations')
@@ -94,8 +96,8 @@ def main():
             # check which campuse and building this node
             # belongs to (if any)
             point = Point(item['latitude'], item['longitude'])
-            if point in path_coords:
-                print(item['title'], 'is in a path omg!')
+            #if point in path_coords:
+            #    print(item['title'], 'is in a path omg!')
             newitem['campus'] = ''   # default
             newitem['building'] = ''  # default
             for campus in campuses:
@@ -105,7 +107,7 @@ def main():
                     break
             for building in buildings:
                 if building.Contains(point):
-                    newitem['building'] = building.id
+                    newitem['building'] = building.name[0]
                     IN_BUILDING += 1
                     break
 

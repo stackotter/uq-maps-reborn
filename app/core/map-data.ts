@@ -1,11 +1,11 @@
 // Ids are indices
-interface Campus {
+export interface Campus {
   nodes: Node[];
   edges: Edge[];
   buildings: Building[];
 }
 
-enum NodeTag {
+export enum NodeTag {
   ACCESSIBLE_TOILETS,
   TOILETS,
   BIKE_BOX,
@@ -14,32 +14,35 @@ enum NodeTag {
   DOOR,
 }
 
-enum EdgeTag {
+export enum EdgeTag {
   ELEVATOR,
   STAIRS,
   STEEP,
   FOOTPATH,
 }
 
-interface Building {
+export interface Building {
   name: string;
   number: string;
 }
 
-interface Node {
+export interface Node {
   name?: string;
+  room?: string;
   floor?: string;
   building?: number;
   latitude: number;
   longitude: number;
   tags: NodeTag[];
+  edges: number[];
 }
 
-interface Edge {
+export interface Edge {
   name?: string;
   tags: EdgeTag[];
   startnode: number;
   endnode: number;
+  length: number;
 }
 
 export const uqCampus: Campus = {
