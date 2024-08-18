@@ -482,8 +482,10 @@ export default function Index() {
         return;
       }
 
-      let currentLocation = await Location.getCurrentPositionAsync({});
-      setLocation(currentLocation);
+      Location.watchPositionAsync({}, (location) => {
+        setLocation(location);
+        console.log("Received location")
+      })
     })();
   }, []);
 
