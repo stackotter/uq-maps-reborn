@@ -535,6 +535,7 @@ export default function Index() {
   let panoId: number | null = null;
   let panoBearing: number | null = null;
   let route;
+  let accessibleRoute;
   let markers: { key: string, location: number[] }[] = [];
   if (selectedItem === null) {
     snapPoints = ["20%", "80%"];
@@ -681,14 +682,31 @@ export default function Index() {
       }
     }
 
-    function routeOption(label: string, path: {path: Path, length: number, timeEstimateMinutes: number}) {
+    if (shortestAccessiblePath !== null) {
+      let pathsMatch = JSON.stringify(shortestPath!.path.edges) === JSON.stringify(shortestAccessiblePath.path.edges) && JSON.stringify(shortestPath!.path.nodes) === JSON.stringify(shortestAccessiblePath.path.nodes);
+      if (pathsMatch) {
+        shortestAccessiblePath = null;
+      } else {
+        let nodePositions = [];
+        for (let nodeIndex of shortestAccessiblePath.path.nodes) {
+          let node = map.nodes[nodeIndex];
+          nodePositions.push([node.longitude, node.latitude]);
+        }
+        if (nodePositions.length > 1) {
+          accessibleRoute = lineString(nodePositions);
+        }
+      }
+    }
+
+    function routeOption(label: string, buttonColor: string | null, path: {path: Path, length: number, timeEstimateMinutes: number}) {
+      let extraButtonStyles = buttonColor !== null ? {backgroundColor: buttonColor} : {};
       return <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
         <View style={{paddingLeft: 4}}>
           <Text style={{fontSize: 20}}>{label}</Text>
           <Text style={styles.subtitle}>{path.timeEstimateMinutes} min • {Math.ceil(path.length || 0)}m</Text>
         </View>
         <Pressable
-          style={{...styles.squareButton, ...extraStyles}}
+          style={{...styles.squareButton, ...extraStyles, ...extraButtonStyles}}
           onPress={() => {
             setSelectedPath(path.path as Path);
             if (netInfo.isConnected) {
@@ -720,10 +738,11 @@ export default function Index() {
       <View style={{marginTop: 32, padding: 8, backgroundColor: "#ddd", borderRadius: 10}}>
         { shortestPath !== null ?
           <View>
-            {routeOption("Shortest path", shortestPath!)}
-            <View style={{marginTop: 8}}>
-              {shortestAccessiblePath !== null ? routeOption("Accessible path", shortestAccessiblePath!) : <></>}
-            </View>
+            {routeOption("Shortest path", "#4759fc", shortestPath!)}
+              {shortestAccessiblePath !== null ?
+                <View style={{marginTop: 8}}>
+                  {routeOption("Accessible path", "#a745f4", shortestAccessiblePath!)}
+                </View> : <></>}
           </View> :
           <Text>Directions unavailable</Text>
         }
@@ -837,6 +856,12 @@ export default function Index() {
             {route !== undefined ?
               <Mapbox.ShapeSource id="routeSource" shape={route.geometry}>
                 <Mapbox.LineLayer id="routeFill" style={{lineColor: "#4759fc", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 100}} />
+              </Mapbox.ShapeSource> :
+              <></>
+            }
+            {accessibleRoute !== undefined ?
+              <Mapbox.ShapeSource id="accessibleRouteSource" shape={accessibleRoute.geometry}>
+                <Mapbox.LineLayer id="accessibileRouteFill" style={{lineColor: "#a745f4", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 100}} />
               </Mapbox.ShapeSource> :
               <></>
             }
