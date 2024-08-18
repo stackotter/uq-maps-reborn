@@ -87,6 +87,7 @@ export enum InstructionType {
   PHASE_THROUGH_WALL = "Phase through wall",
   SCALE_BUILDING = "Scale the building",
   FIGHT_NEAREST_STRANGER = "Fight your nearest stranger",
+  EEPY = "", // acts like null
 }
 
 export enum Bearing {
@@ -144,8 +145,8 @@ export class navData {
   icon: string;
 
   constructor(dir: InstructionType, message: string, isSuperDuperImportant: boolean = false) {
-    this.title = isSuperDuperImportant ? message : dir as unknown as string;
-    this.message = isSuperDuperImportant ? dir as unknown as string : message;
+    this.title = isSuperDuperImportant ? dir as unknown as string : message;
+    this.message = isSuperDuperImportant ? message : dir as unknown as string;
     if (this.message == null) {
       this.message = "";
     }

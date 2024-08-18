@@ -153,8 +153,9 @@ function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
 
 
 function clampDegrees(degrees: number) {
-  let q: number = Math.floor(Math.abs(degrees/360));
-  return degrees - q * 360 
+  let q: number = Math.floor(degrees/360);
+  let angle = degrees - q * 360;
+  return angle > 180 ? angle - 360 : angle;
 }
 
 
@@ -171,22 +172,8 @@ export function ToDirections(path: Path): navData[] {
     let edgeAB: Edge = campus.edges[path.edges[i - 1]];
     let edgeBC: Edge = campus.edges[path.edges[i]];
 
-    /*
-    // calculate the turning angle that occurs  at every junction
-    // convert lat/lng to cartesian coordinates (radius=1)
-    let vecA: Vec3D = Vec3D.FromNode(nodeA);
-    let vecB: Vec3D = Vec3D.FromNode(nodeB);
-    let vecC: Vec3D = Vec3D.FromNode(nodeC);
-
-    let incident: Vec3D = vecB.RelativeTo(vecA);
-    let reflected: Vec3D = vecB.RelativeTo(vecC);
-
-    let angle: number = incident.AngleWith(reflected);
-    */
     let angle: number = clampDegrees(edgeAB.bearing_degrees - edgeBC.bearing_degrees);
     
-
-    console.log(angle);
     // map the angle to a sentence
     if (-30 <= angle && angle <= 30) {
       rawDirs.push(InstructionType.FORWARD);
@@ -227,7 +214,6 @@ export function ToDirections(path: Path): navData[] {
           nextEdgeMessage = Messages.Stairs(countBearing, count);
         } else if (countType == EdgeTag.ELEVATOR) {
           //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
-
           nextEdgeMessage = Messages.Elevator(
             countBearing,
             nodeB.floor !== null ? parseInt(nodeB.floor!) : Infinity
@@ -265,15 +251,36 @@ export function ToDirections(path: Path): navData[] {
 
       let doorBearing: Bearing = getDoorBearing(nodeA, nodeB);
       if (doorBearing == Bearing.ENTER) {
-        nextEdgeMessage = Messages.RoomEnter(nodeB?.name ?? "");
+        nextEdgeMessage = Messages.RoomEnter(nodeB?.room ?? "");
       } else if (doorBearing == Bearing.EXIT) {
-        nextEdgeMessage = Messages.RoomExit(nodeA?.name ?? "");
+        nextEdgeMessage = Messages.RoomExit(nodeA?.room ?? "");
       }
     }
     edgeMessages.push(nextEdgeMessage);
     i++;
   }
 
+  
+  /// DIS IS WHERE EMILE IS WORKING RN
+  if (count != 0) {
+    if (countType == EdgeTag.STAIRS) {
+      edgeMessages.push(Messages.Stairs(countBearing, count));
+    } else if (countType == EdgeTag.ELEVATOR) {
+      //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
+      let goalFloor: string | null | undefined = campus.nodes[path.nodes[path.nodes.length - 1]].floor!;
+      edgeMessages.push(Messages.Elevator(countBearing,
+                        goalFloor !== null && goalFloor !== undefined ? parseInt(goalFloor) : 100)
+                        );
+    }
+
+    count = 0;
+    countType = EdgeTag.NULL;
+    countBearing = Bearing.NULL;
+  }
+
+  
+  rawDirs.push(InstructionType.EEPY);
+  rawDirs.push(InstructionType.EEPY);
   let j: number = 0;
   //let messages: string[] = [edgeMessages[0]];
   let data: navData[] = [];
@@ -288,7 +295,7 @@ export function ToDirections(path: Path): navData[] {
   return data;
 }
 
-let path: Path = FindPath(2, 14, map as unknown as Campus, false);
+let path: Path = FindPath(1, 2, map as unknown as Campus, false);
 let directions: navData[] = ToDirections(path);
 //console.log(path.nodes);
 //console.log(path.edges);
