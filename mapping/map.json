@@ -38883,7 +38883,7 @@
       ]
     },
     {
-      "name": "313A",
+      "name": null,
       "room": "313A",
       "floor": "3",
       "building": 24,
@@ -38965,7 +38965,7 @@
       ]
     },
     {
-      "name": "316A",
+      "name": null,
       "room": "316A",
       "floor": "3",
       "building": 24,
@@ -39007,7 +39007,7 @@
       ]
     },
     {
-      "name": null,
+      "name": "Floor 3 elevators",
       "room": null,
       "floor": "3",
       "building": 24,
@@ -39036,7 +39036,7 @@
       ]
     },
     {
-      "name": "301",
+      "name": null,
       "room": "301",
       "floor": "3",
       "building": 24,
@@ -39050,7 +39050,7 @@
       ]
     },
     {
-      "name": "200",
+      "name": null,
       "room": "200",
       "floor": "3",
       "building": 24,
@@ -39065,7 +39065,7 @@
       ]
     },
     {
-      "name": "200",
+      "name": "Stage",
       "room": "200",
       "floor": "2",
       "building": 24,
@@ -39080,7 +39080,7 @@
       ]
     },
     {
-      "name": "200",
+      "name": null,
       "room": "200",
       "floor": "2",
       "building": 24,
@@ -39095,7 +39095,7 @@
       ]
     },
     {
-      "name": "200",
+      "name": null,
       "room": "200",
       "floor": "2",
       "building": 24,
@@ -39153,7 +39153,7 @@
       ]
     },
     {
-      "name": null,
+      "name": "Toilets (accessible), floor 2",
       "room": null,
       "floor": "2",
       "building": 24,
@@ -39168,7 +39168,7 @@
       ]
     },
     {
-      "name": null,
+      "name": "Floor 2 elevators",
       "room": null,
       "floor": "2",
       "building": 24,
@@ -39182,7 +39182,7 @@
       ]
     },
     {
-      "name": null,
+      "name": "Toilets, floor 3",
       "room": null,
       "floor": "3",
       "building": 24,

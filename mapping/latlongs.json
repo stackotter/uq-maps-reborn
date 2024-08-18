@@ -166,7 +166,7 @@
   {
     "lat": -27.499490507878107,
     "lng": 153.01536547290448,
-    "name": null,
+    "name": "Floor 3 elevators",
     "has_photo": true,
     "tags": [],
     "connected_nodes": [
@@ -228,7 +228,7 @@
   {
     "lat": -27.499716223019796,
     "lng": 153.0156992308235,
-    "name": "200",
+    "name": "200 Stage",
     "has_photo": true,
     "tags": [
       "room"
@@ -325,7 +325,7 @@
   {
     "lat": -27.499517188676855,
     "lng": 153.0154649829655,
-    "name": null,
+    "name": "Toilets (accessible), floor 2",
     "has_photo": true,
     "tags": [
       "toilets"
@@ -344,7 +344,7 @@
   {
     "lat": -27.49948692709888,
     "lng": 153.0153637679989,
-    "name": null,
+    "name": "Floor 2 elevators",
     "has_photo": true,
     "tags": [],
     "connected_nodes": [
@@ -365,7 +365,7 @@
   {
     "lat": -27.499511908401324,
     "lng": 153.01546166830252,
-    "name": null,
+    "name": "Toilets, floor 3",
     "has_photo": true,
     "tags": [
       "toilets"

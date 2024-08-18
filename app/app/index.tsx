@@ -12,7 +12,7 @@ import * as Location from 'expo-location';
 import { getDistance } from "geolib";
 
 import untypedMap from "../assets/data/map.json";
-import { Building, Campus, InstructionType, Path, Room } from "@/core/map-data";
+import { Building, Campus, Node, Path, Room } from "@/core/map-data";
 import Fuse from "fuse.js";
 import { FindPath, ToDirections } from "@/core/pathfinder";
 
@@ -174,30 +174,53 @@ const styles = StyleSheet.create({
 const nodeBearingAdjustments: {[key: number]: number} = {
   8: 25,
   10: 45,
-  12: 10
+  12: 10,
+  7: -20,
+  9: 20,
+  19: 55
 };
 
 const map: Campus = untypedMap as unknown as Campus;
 
 interface SearchableItem {
-  type: "room" | "building";
+  type: "room" | "building" | "named_node";
   building?: Building,
-  room?: Room
+  room?: Room,
+  node?: Node,
+  nodeIndex?: number
 }
 
 // Searchable rooms and buildings
 const searchableItems: SearchableItem[] = map.buildings
   .map((building) => {
     return {
-      type: "building" as "building" | "room",
+      type: "building",
       building
-    }
+    } as SearchableItem
   }).concat(map.rooms.map((room) => {
     return {
       type: "room",
       building: map.buildings[room.building],
       room: room
     }
+  })).concat(map.nodes.map((node, i) => {
+    let building;
+    let room;
+    if (node.building !== null && node.building !== undefined) {
+      building = map.buildings[node.building];
+    }
+    if (node.room !== null && node.room !== undefined) {
+      room = map.rooms.find((room) => room.number === node.room);
+    }
+    return {
+      type: "named_node",
+      building,
+      room,
+      node,
+      nodeIndex: i
+    } as SearchableItem;
+  }).filter((item) => {
+    return item.node!.name !== undefined && item.node!.name !== null;
   }));
 
 
@@ -209,7 +232,8 @@ const fuse = new Fuse(
       "building.name",
       "building.number",
       "room.name",
-      "room.number"
+      "room.number",
+      "node.name"
     ]
   }
 );
@@ -240,12 +264,24 @@ function displayNameForLocation(item: SearchableItem) {
   } else if (item.type === "building") {
     let building = item.building as Building;
     return `${building.number} - ${building.name}`;
+  } else if (item.type === "named_node") {
+    let building = item.building;
+    let room = item.room;
+    if (building !== null && building !== undefined) {
+      if (room !== null && room !== undefined) {
+        return `${item.node!.name!} (in room ${building.number}-${room.number})`;
+      } else {
+        return `${item.node!.name!} - ${building.name}`;
+      }
+    } else {
+      return item.node!.name!;
+    }
   }
 }
 
 function findShortestPathFromNodeToLocation(startNode: number, endLocation: SearchableItem) {
   let destinations = searchableItemNodes(endLocation) || [];
-  let paths = destinations.map((destination) => {
+  let paths = destinations.map((destination: number) => {
     return FindPath(startNode, destination, map);
   })
   return shortestOf(paths);  
@@ -319,6 +355,21 @@ function searchableItemCard(item: SearchableItem) {
       <Text style={styles.heading}>{heading}</Text>
       <Text style={styles.subtitle}>{building.name}</Text>
     </View>;
+  } else if (item.type === "named_node") {
+    let subtitle = null;
+    let building = item.building;
+    let room = item.room;
+    if (building !== null && building !== undefined) {
+      if (room !== null && room !== undefined) {
+        subtitle = `Room ${building.number}-${room.number}`;
+      } else {
+        subtitle = `Building ${building.number}`;
+      }
+    }
+    return <View>
+      <Text style={styles.heading}>{item.node!.name!}</Text>
+      {subtitle !== null ? <Text style={styles.subtitle}>{subtitle}</Text> : <></>}
+    </View>;
   }
 }
 
@@ -330,6 +381,8 @@ function searchableItemSummary(item: SearchableItem) {
     let building = item.building as unknown as Building;
     let room = item.room as unknown as Room;
     return <Text>{`Room ${building.number}-${room.number} (${building.name})`}</Text>;
+  } else if (item.type === "named_node") {
+    return <Text>{displayNameForLocation(item)}</Text>;
   }
 }
 
@@ -345,6 +398,8 @@ function searchableItemNodes(item: SearchableItem) {
   } else if (item.type === "room") {
     let room = item.room as unknown as Room;
     return room.nodes;
+  } else if (item.type === "named_node") {
+    return [item.nodeIndex!];
   }
 }
 
@@ -356,6 +411,8 @@ function searchableItemCoordinates(item: SearchableItem) {
   } else if (item.type === "room") {
     let room = item.room as unknown as Room;
     return [room.longitude, room.latitude];
+  } else if (item.type === "named_node") {
+    return [item.node!.longitude, item.node!.latitude];
   }
 }
 
@@ -473,7 +530,12 @@ export default function Index() {
       />;
     } else {
       function searchTermSuggestion(color: string, label: string, suggestedSearchTerm: string) {
-        return <TouchableOpacity onPress={() => onChangeSearchTerm(suggestedSearchTerm)}>
+        return <TouchableOpacity
+          onPress={() => {
+            onChangeSearchTerm(suggestedSearchTerm);
+            bottomSheetRef.current?.snapToIndex(1);
+          }}
+        >
           <View
             style={{
               width: 80,
@@ -621,6 +683,12 @@ export default function Index() {
 
     panoId = selectedPath.nodes[currentNavigationPathIndex];
 
+    let previousButtonDisabled = currentNavigationPathIndex === 0;
+    let nextButtonIsDoneButton = currentNavigationPathIndex === selectedPath.nodes.length - 1;
+    let previousButtonExtraStyles = previousButtonDisabled ? {display: "none"} : {};
+    let nextButtonExtraStyles = previousButtonDisabled ? {width: "100%", paddingLeft: 12} :
+      (nextButtonIsDoneButton ? {} : {paddingLeft: 12});
+
     function onPressPrevious() {
       if (currentNavigationPathIndex > 0) {
         setCurrentNavigationPathIndex(currentNavigationPathIndex - 1);
@@ -628,17 +696,12 @@ export default function Index() {
     }
 
     function onPressNext() {
-      if (currentNavigationPathIndex < selectedPath!.nodes.length - 1) {
+      if (nextButtonIsDoneButton) {
+        closeSheet();
+      } else if (currentNavigationPathIndex < selectedPath!.nodes.length - 1) {
         setCurrentNavigationPathIndex(currentNavigationPathIndex + 1);
       }
     }
-
-    let previousButtonDisabled = currentNavigationPathIndex === 0;
-    let nextButtonDisabled = currentNavigationPathIndex === selectedPath.nodes.length - 1;
-    let previousButtonExtraStyles = previousButtonDisabled ? {display: "none"} :
-      (nextButtonDisabled ? {width: "100%"} : {});
-    let nextButtonExtraStyles = nextButtonDisabled ? {display: "none"} :
-      (previousButtonDisabled ? {width: "100%"} : {});
 
     let hasArrived = currentNavigationPathIndex === selectedPath.nodes.length - 1;
     let iconBackgroundColor = hasArrived ? "#009900" : "#f2bf2d";
@@ -671,14 +734,14 @@ export default function Index() {
       <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
         <Pressable style={{...styles.previousButton, ...previousButtonExtraStyles}} onPress={onPressPrevious}>
           <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingRight: 12, justifyContent: "center"}}>
-            <MaterialIcons name="chevron-left" color="black" size={28} />
+            <MaterialIcons name="chevron-left" color="black" size={28}/>
             <Text style={styles.previousButtonText}>Previous</Text>
           </View>
         </Pressable>
         <Pressable style={{...styles.nextButton, ...nextButtonExtraStyles}} onPress={onPressNext}>
-          <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", paddingLeft: 12, justifyContent: "center"}}>
-            <Text style={styles.nextButtonText}>Next</Text>
-            <MaterialIcons name="chevron-right" color="white" size={28} />
+          <View style={{display: "flex", flexDirection: "row", alignItems: "center", margin: "auto", justifyContent: "center"}}>
+            <Text style={styles.nextButtonText}>{nextButtonIsDoneButton ? "Done" : "Next"}</Text>
+            {nextButtonIsDoneButton ? <></> : <MaterialIcons name="chevron-right" color="white" size={28}/>}
           </View>
         </Pressable>
       </View>

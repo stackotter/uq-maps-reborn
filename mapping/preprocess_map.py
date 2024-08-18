@@ -38,8 +38,8 @@ for i, node in enumerate(in_nodes):
     name = node["name"]
     room = None
     if "room" in node["tags"]:
-        room = name
-        name = None
+        room = name.split(" ", 1)[0] if " " in name else name
+        name = name.split(" ", 1)[1] if " " in name else None
         if assumed_building in building_room_nodes:
             room_nodes = building_room_nodes[assumed_building]
         else:
@@ -51,7 +51,7 @@ for i, node in enumerate(in_nodes):
             room_nodes[room] = [(i, node)]
 
     nodes.append({
-        "name": node["name"],
+        "name": name,
         "room": room,
         "floor": node["floor"],
         "building": assumed_building,
