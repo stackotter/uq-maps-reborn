@@ -143,9 +143,9 @@ export class navData {
   message: string;
   icon: string;
 
-  constructor(title: string, dir: InstructionType) {
-    this.title = title !== "" ? title : dir as unknown as string;
-    this.message = title !== "" ? dir as unknown as string : "";
+  constructor(dir: InstructionType, message: string, isSuperDuperImportant: boolean = false) {
+    this.title = isSuperDuperImportant ? message : dir as unknown as string;
+    this.message = isSuperDuperImportant ? dir as unknown as string : message;
     if (this.message == null) {
       this.message = "";
     }
@@ -167,7 +167,7 @@ export class navData {
   
   // Congrats!
   static Arrived(): navData {
-    let data: navData = new navData("", InstructionType.FORWARD); 
+    let data: navData = new navData(InstructionType.FORWARD, ""); 
     data.title = "You have arrived";
     data.message = "(^-^*)";
     data.icon = "location-pin"

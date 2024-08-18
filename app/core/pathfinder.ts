@@ -160,7 +160,7 @@ function clampDegrees(degrees: number) {
 
 export function ToDirections(path: Path): navData[] {
   // raw directions (angles made a little nicer)
-  let rawDirs: InstructionType[] = [];
+  let rawDirs: InstructionType[] = [InstructionType.FORWARD];
   // ignore the first and last nodes
   let i: number = 1;
   while (i < path.nodes.length - 1) {
@@ -171,6 +171,7 @@ export function ToDirections(path: Path): navData[] {
     let edgeAB: Edge = campus.edges[path.edges[i - 1]];
     let edgeBC: Edge = campus.edges[path.edges[i]];
 
+    /*
     // calculate the turning angle that occurs  at every junction
     // convert lat/lng to cartesian coordinates (radius=1)
     let vecA: Vec3D = Vec3D.FromNode(nodeA);
@@ -277,8 +278,8 @@ export function ToDirections(path: Path): navData[] {
   //let messages: string[] = [edgeMessages[0]];
   let data: navData[] = [];
   while (j < edgeMessages.length) {
-    let heading: string = edgeMessages[j];
-    data.push(new navData(heading, rawDirs[j]));
+    let message: string = edgeMessages[j];
+    data.push(new navData(rawDirs[j], message));
     j++;
   }
   data.push(navData.Arrived());
