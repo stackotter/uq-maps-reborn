@@ -492,8 +492,9 @@ export default function Index() {
       Keyboard.dismiss();
       onChangeSearchTerm("");
 
-      if (isSelectingStartLocation) {
+      if (isSelectingStartLocation || isSelectingEndLocation) {
         setIsSelectingStartLocation(false);
+        setIsSelectingEndLocation(false);
       }
     }
   }, []);
@@ -594,7 +595,7 @@ export default function Index() {
     let nearestNode = nearestNodeTo(location);
     let timeEstimateMinutes: number | null = null;
     if (nearestNode !== null) {
-      let shortestPath = findShortestPathFromNodeToLocation(nearestNode, selectedItem);
+      let shortestPath = findShortestPathFromNodeToLocation(nearestNode, selectedItem, false);
       timeEstimateMinutes = shortestPath?.timeEstimateMinutes ?? null;
     }
 
@@ -682,7 +683,7 @@ export default function Index() {
 
     function routeOption(label: string, path: {path: Path, length: number, timeEstimateMinutes: number}) {
       return <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
-        <View>
+        <View style={{paddingLeft: 4}}>
           <Text style={{fontSize: 20}}>{label}</Text>
           <Text style={styles.subtitle}>{path.timeEstimateMinutes} min • {Math.ceil(path.length || 0)}m</Text>
         </View>
@@ -784,6 +785,16 @@ export default function Index() {
       markers = [{key: "Destination", location: nodePositions[0]}];
     }
 
+    let currentDirectionTitle;
+    let currentDirectionSubtitle;
+    if (currentDirection.title) {
+      currentDirectionTitle = currentDirection.title;
+      currentDirectionSubtitle = currentDirection.message;
+    } else {
+      currentDirectionTitle = currentDirection.message;
+      currentDirectionSubtitle = "";
+    }
+
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4, height: 56}}>
         <View style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", marginTop: 8}}>
@@ -791,8 +802,8 @@ export default function Index() {
             <MaterialIcons name={currentDirection?.icon as any} size={36} color={iconForegroundColor} style={{transform: "rotate(-45deg)"}} />
           </View>
           <View>
-            <Text style={styles.heading}>{currentDirection?.title}</Text>
-            {currentDirection?.message !== null && currentDirection?.message !== "" ? <Text style={styles.subtitle}>{currentDirection?.message}</Text> : <></>}
+            <Text style={styles.heading}>{currentDirectionTitle}</Text>
+            {currentDirectionSubtitle !== null && currentDirectionSubtitle !== "" ? <Text style={styles.subtitle}>{currentDirectionSubtitle}</Text> : <></>}
           </View>
         </View>
         <Pressable style={styles.closeButton} onPress={closeSheet}>

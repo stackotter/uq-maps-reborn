@@ -151,17 +151,15 @@ function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
   return Bearing.NULL;
 }
 
-
 function clampDegrees(degrees: number) {
-  let q: number = Math.floor(degrees/360);
+  let q: number = Math.floor(degrees / 360);
   let angle = degrees - q * 360;
   return angle > 180 ? angle - 360 : angle;
 }
 
-
 export function ToDirections(path: Path): navData[] {
   // raw directions (angles made a little nicer)
-  let rawDirs: InstructionType[] = [InstructionType.FORWARD];
+  let rawDirs: InstructionType[] = [InstructionType.BEGIN];
   // ignore the first and last nodes
   let i: number = 1;
   while (i < path.nodes.length - 1) {
@@ -171,30 +169,38 @@ export function ToDirections(path: Path): navData[] {
 
     let edgeAB: Edge = campus.edges[path.edges[i - 1]];
     let edgeBC: Edge = campus.edges[path.edges[i]];
+    let edgeABBearing =
+      edgeAB.startnode === path.nodes[i - 1]
+        ? edgeAB.bearing_degrees
+        : edgeAB.bearing_degrees + 180;
+    let edgeBCBearing =
+      edgeBC.startnode === path.nodes[i]
+        ? edgeBC.bearing_degrees
+        : edgeBC.bearing_degrees + 180;
 
-    let angle: number = clampDegrees(edgeAB.bearing_degrees - edgeBC.bearing_degrees);
-    
+    let angle: number = clampDegrees(edgeABBearing - edgeBCBearing);
+
     // map the angle to a sentence
-    if (-30 <= angle && angle <= 30) {
-      rawDirs.push(InstructionType.FORWARD);
-    } else if (angle > 30) {
+    if (path.nodes[i] == 11 && path.nodes[i - 1] == 22) {
       rawDirs.push(InstructionType.RIGHT);
-    } else if (angle <= -30) {
-      rawDirs.push(InstructionType.LEFT);
+    } else {
+      if (-30 <= angle && angle <= 30) {
+        rawDirs.push(InstructionType.FORWARD);
+      } else if (angle > 30) {
+        rawDirs.push(InstructionType.RIGHT);
+      } else if (angle <= -30) {
+        rawDirs.push(InstructionType.LEFT);
+      } else {
+        rawDirs.push(InstructionType.TURN);
+      }
     }
-    else {
-      rawDirs.push(InstructionType.TURN);
-    }
-    
-	// end with a "straight ahead"
-	//rawDirs.push(InstructionType.FORWARD);
+
+    // end with a "straight ahead"
+    //rawDirs.push(InstructionType.FORWARD);
     i++;
   }
   //rawDirs.push(InstructionType.FORWARD);
 
-  let count: number = 0;
-  let countType: EdgeTag = EdgeTag.NULL;
-  let countBearing: Bearing = Bearing.NULL;
   // our last loop got data on nodes
   // this loop gets data on our edges
   let edgeMessages: string[] = [];
@@ -206,36 +212,26 @@ export function ToDirections(path: Path): navData[] {
     let edge: Edge = campus.edges[path.edges[i]];
 
     let nextEdgeMessage: string = "";
-    if (count != 0) {
-      if (edge.tags.includes(countType as string)) {
-        count++;
-      } else {
-        if (countType == EdgeTag.STAIRS) {
-          nextEdgeMessage = Messages.Stairs(countBearing, count);
-        } else if (countType == EdgeTag.ELEVATOR) {
-          //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
-          nextEdgeMessage = Messages.Elevator(
-            countBearing,
-            nodeB.floor !== null ? parseInt(nodeB.floor!) : Infinity
-          );
-        }
-
-        count = 0;
-        countType = EdgeTag.NULL;
-        countBearing = Bearing.NULL;
-      }
-    }
-
     if (edge.tags.includes(EdgeTag.STAIRS as string)) {
-      count++;
-      countType = EdgeTag.STAIRS;
-      countBearing = getBearing(nodeA, nodeB);
+      let bearing = getBearing(nodeA, nodeB);
+      nextEdgeMessage = Messages.Stairs(bearing, 1);
+      rawDirs[i] =
+        bearing == Bearing.UP
+          ? InstructionType.UP_ONE_FLIGHT
+          : InstructionType.DOWN_ONE_FLIGHT;
     } else if (edge.tags.includes(EdgeTag.ELEVATOR as string)) {
-      count++;
-      countType = EdgeTag.ELEVATOR;
-      countBearing = getBearing(nodeA, nodeB);
-    } else if (edge.tags.includes(EdgeTag.DOOR as string) || 
-               edge.tags.includes(EdgeTag.SLIDING as string)) {
+      let bearing = getBearing(nodeA, nodeB);
+      nextEdgeMessage = Messages.Elevator(getBearing(nodeA, nodeB), 1);
+      let level = nodeB.floor ?? "unknown";
+      rawDirs[i] = (
+        bearing === Bearing.UP
+          ? `Up to level ${level}`
+          : `Down to level ${level}`
+      ) as any;
+    } else if (
+      edge.tags.includes(EdgeTag.DOOR as string) ||
+      edge.tags.includes(EdgeTag.SLIDING as string)
+    ) {
       // first check if the door is to a room)
       //let buildingNumA: int = nodeA?.building ? -1
       let buildingA: string =
@@ -260,25 +256,29 @@ export function ToDirections(path: Path): navData[] {
     i++;
   }
 
-  
-  /// DIS IS WHERE EMILE IS WORKING RN
-  if (count != 0) {
-    if (countType == EdgeTag.STAIRS) {
-      edgeMessages.push(Messages.Stairs(countBearing, count));
-    } else if (countType == EdgeTag.ELEVATOR) {
-      //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
-      let goalFloor: string | null | undefined = campus.nodes[path.nodes[path.nodes.length - 1]].floor!;
-      edgeMessages.push(Messages.Elevator(countBearing,
-                        goalFloor !== null && goalFloor !== undefined ? parseInt(goalFloor) : 100)
-                        );
-    }
+  // /// DIS IS WHERE EMILE IS WORKING RN
+  // if (count != 0) {
+  //   if (countType == EdgeTag.STAIRS) {
+  //     edgeMessages.push(Messages.Stairs(countBearing, count));
+  //   } else if (countType == EdgeTag.ELEVATOR) {
+  //     //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
+  //     let goalFloor: string | null | undefined =
+  //       campus.nodes[path.nodes[path.nodes.length - 1]].floor!;
+  //     edgeMessages.push(
+  //       Messages.Elevator(
+  //         countBearing,
+  //         goalFloor !== null && goalFloor !== undefined
+  //           ? parseInt(goalFloor)
+  //           : 100
+  //       )
+  //     );
+  //   }
 
-    count = 0;
-    countType = EdgeTag.NULL;
-    countBearing = Bearing.NULL;
-  }
+  //   count = 0;
+  //   countType = EdgeTag.NULL;
+  //   countBearing = Bearing.NULL;
+  // }
 
-  
   rawDirs.push(InstructionType.EEPY);
   rawDirs.push(InstructionType.EEPY);
   let j: number = 0;
@@ -316,7 +316,6 @@ console.log(path);
 console.log(path.nodes.length);
 console.log(directions.length);
 console.log(directions);
-
 
 //let j: number = 0;
 //let guideMessage: string = "";

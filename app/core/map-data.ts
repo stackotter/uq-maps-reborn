@@ -74,11 +74,13 @@ export interface Path {
 }
 
 export enum InstructionType {
+  BEGIN = "Begin",
   FORWARD = "Continue straight",
   TURN = "Turn around",
   LEFT = "Turn left",
   RIGHT = "Turn right",
-  STAIRS = "!!!!STAIRS!!!!",
+  UP_ONE_FLIGHT = "Up one floor",
+  DOWN_ONE_FLIGHT = "Down one floor",
   ELEVATOR_ENTER = "Enter the elevator",
   ELEVATOR_EXIT = "Exit the elevator",
   SWIM = "Turn to swim",
@@ -124,54 +126,51 @@ export class Messages {
   }
 
   static Stairs(bearing: Bearing, delta: number) {
-    let bearingStr: string = (bearing as string).toLowerCase();
-    let msg: string = `Take the stairs ${bearingStr} ${delta} floor`;
-    if (delta > 1) {
-      msg += "s";
-    }
+    let msg: string = `Take the stairs`;
     return msg;
   }
 
   static Elevator(bearing: Bearing, floor: number) {
     let bearingStr: string = (bearing as string).toLowerCase();
-    return `Take the elevator ${bearingStr} to level ${floor}`;
+    return `Take the elevator`;
   }
 }
-
 
 export class navData {
   title: string;
   message: string;
   icon: string;
 
-  constructor(dir: InstructionType, message: string, isSuperDuperImportant: boolean = false) {
-    this.title = isSuperDuperImportant ? dir as unknown as string : message;
-    this.message = isSuperDuperImportant ? message : dir as unknown as string;
+  constructor(
+    dir: InstructionType,
+    message: string,
+    isSuperDuperImportant: boolean = false
+  ) {
+    this.title = isSuperDuperImportant ? (dir as unknown as string) : message;
+    this.message = isSuperDuperImportant ? message : (dir as unknown as string);
     if (this.message == null) {
       this.message = "";
     }
     this.icon = "straight";
     if (dir == InstructionType.LEFT) {
       this.icon = "turn-left";
-    }
-    else if (dir == InstructionType.RIGHT) {
+    } else if (dir == InstructionType.RIGHT) {
       this.icon = "turn-right";
     }
-    
+
     if (this.title.includes("stair")) {
       this.icon = "stairs";
-    }
-    else if (this.title.includes("elevator")) {
-      this.icon = "elevator"; 
+    } else if (this.title.includes("elevator")) {
+      this.icon = "elevator";
     }
   }
-  
+
   // Congrats!
   static Arrived(): navData {
-    let data: navData = new navData(InstructionType.FORWARD, ""); 
+    let data: navData = new navData(InstructionType.FORWARD, "");
     data.title = "You have arrived";
     data.message = "(^-^*)";
-    data.icon = "location-pin"
-    return data
+    data.icon = "location-pin";
+    return data;
   }
 }
