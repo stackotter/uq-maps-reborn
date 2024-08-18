@@ -529,7 +529,7 @@ export default function Index() {
         }}
       />;
     } else {
-      function searchTermSuggestion(color: string, label: string, suggestedSearchTerm: string) {
+      function searchTermSuggestion(color: string, icon: string, suggestedSearchTerm: string) {
         return <TouchableOpacity
           onPress={() => {
             onChangeSearchTerm(suggestedSearchTerm);
@@ -548,15 +548,14 @@ export default function Index() {
               marginRight: 16
             }}
           >
-            <Text style={{color: "white"}}>{label}</Text>
+            <MaterialIcons name={icon as any} size={32} color="white"/>
           </View>
         </TouchableOpacity>
       }
 
       searchResultsView = <View style={{display: "flex", marginTop: 16, flexDirection: "row"}}>
-        {searchTermSuggestion("#5071e6", "Toilets", "Toilet")}
-        {searchTermSuggestion("#5a9149", "Bike Boxes", "Bike box")}
-        {searchTermSuggestion("#dbc44f", "Showers", "Shower")}
+        {searchTermSuggestion("#5071e6", "wc", "Toilet")}
+        {searchTermSuggestion("#EB7D2D", "elevator", "Elevator")}
       </View>;
     }
 
