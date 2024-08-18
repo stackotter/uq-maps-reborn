@@ -177,7 +177,8 @@ const nodeBearingAdjustments: {[key: number]: number} = {
   12: 10,
   7: -20,
   9: 20,
-  19: 55
+  19: 55,
+  13: 40
 };
 
 const map: Campus = untypedMap as unknown as Campus;
@@ -190,20 +191,13 @@ interface SearchableItem {
   nodeIndex?: number
 }
 
-// Searchable rooms and buildings
-const searchableItems: SearchableItem[] = map.buildings
-  .map((building) => {
-    return {
-      type: "building",
-      building
-    } as SearchableItem
-  }).concat(map.rooms.map((room) => {
+const nonBuildingSearchableItems: SearchableItem[] = map.rooms.map((room) => {
     return {
       type: "room",
       building: map.buildings[room.building],
       room: room
-    }
-  })).concat(map.nodes.map((node, i) => {
+    } as SearchableItem
+  }).concat(map.nodes.map((node, i) => {
     let building;
     let room;
     if (node.building !== null && node.building !== undefined) {
@@ -223,9 +217,31 @@ const searchableItems: SearchableItem[] = map.buildings
     return item.node!.name !== undefined && item.node!.name !== null;
   }));
 
+// Searchable rooms and buildings
+const searchableItems: SearchableItem[] = map.buildings
+  .map((building) => {
+    return {
+      type: "building",
+      building
+    } as SearchableItem
+  }).concat(nonBuildingSearchableItems);
 
 const fuse = new Fuse(
   searchableItems,
+  {
+    keys: [
+      "type",
+      "building.name",
+      "building.number",
+      "room.name",
+      "room.number",
+      "node.name"
+    ]
+  }
+);
+
+const fuseWithoutBuildings = new Fuse(
+  nonBuildingSearchableItems,
   {
     keys: [
       "type",
@@ -449,6 +465,8 @@ export default function Index() {
   const [selectedStartNode, setSelectedStartNode] = useState<number | null>(null);
   const [selectedPath, setSelectedPath] = useState<Path | null>(null);
   const [currentNavigationPathIndex, setCurrentNavigationPathIndex] = useState<number>(0);
+  const [isSelectingStartLocation, setIsSelectingStartLocation] = useState<boolean>(false);
+  const [isSelectingEndLocation, setIsSelectingEndLocation] = useState<boolean>(false);
 
   let [camera, setCamera] = useState<Camera | null>(null);
   useEffect(() => {
@@ -472,6 +490,10 @@ export default function Index() {
     if (index == 0) {
       Keyboard.dismiss();
       onChangeSearchTerm("");
+
+      if (isSelectingStartLocation) {
+        setIsSelectingStartLocation(false);
+      }
     }
   }, []);
 
@@ -482,9 +504,6 @@ export default function Index() {
   useEffect(() => {
     Mapbox.setTelemetryEnabled(false);
   }, []);
-
-  // let windowWidth = Dimensions.get("window").width;
-  // <PanoViewer panoId={1} viewerWidth={windowWidth - 32} />
 
   function selectItem(item: SearchableItem) {
     setSelectedItem(item);
@@ -604,6 +623,43 @@ export default function Index() {
         </Text>
       </Pressable>
     </View>;
+  } else if (isSelectingStartLocation || isSelectingEndLocation) {
+    snapPoints = ["30%", "80%"];
+    let searchableList = isSelectingStartLocation ? fuseWithoutBuildings : fuse;
+    let searchResultsView = <FlatList
+      data={searchableList.search(searchTerm)}
+      keyboardShouldPersistTaps="always"
+      renderItem={({item: { item }}) => {
+        return <TouchableOpacity
+          onPress={() => {
+            bottomSheetRef.current?.snapToIndex(0);
+            if (isSelectingStartLocation) {
+              setSelectedStartNode((item.nodeIndex ?? item.room?.nodes[0]) ?? -1);
+            } else {
+              setSelectedItem(item);
+            }
+            setIsSelectingStartLocation(false);
+            setIsSelectingEndLocation(false);
+          }}
+          style={styles.searchResult}
+        >
+          {searchableItemSummary(item)}
+        </TouchableOpacity>;
+      }}
+    />;
+
+    sheetContent = <View style={styles.sheetContents}>
+      <TextInput
+        style={styles.input}
+        onChangeText={onChangeSearchTerm}
+        onFocus={onFocusSearchInput}
+        autoFocus
+        value={searchTerm}
+        placeholder="Search UQ..."
+        placeholderTextColor={"#333"}
+      />
+      {searchResultsView}
+    </View>;
   } else if (selectedPath === null) {
     let timeEstimateMinutes: number | null = null;
     let shortestPath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem);
@@ -616,9 +672,12 @@ export default function Index() {
         let node = map.nodes[nodeIndex];
         nodePositions.push([node.longitude, node.latitude]);
       }
-      nodePositions.push();
-      route = lineString(nodePositions);
-      markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
+      if (nodePositions.length > 1) {
+        route = lineString(nodePositions);
+        markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
+      } else {
+        markers = [{key: "Destination", location: nodePositions[0]}];
+      }
     } else {
       let endLocation = searchableItemCoordinates(selectedItem);
       if (endLocation !== undefined) {
@@ -626,16 +685,15 @@ export default function Index() {
       }
     }
 
-
     let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
     snapPoints = ["40%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
         <View>
-          <Pressable style={styles.startLocationInput}>
+          <Pressable style={styles.startLocationInput} onPress={() => setIsSelectingStartLocation(true)}>
             <Text numberOfLines={1} style={styles.locationInputText}>From: {displayNameForNode(selectedStartNode)}</Text>
           </Pressable>
-          <Pressable style={styles.endLocationInput}>
+          <Pressable style={styles.endLocationInput} onPress={() => setIsSelectingEndLocation(true)}>
             <Text numberOfLines={1} style={styles.locationInputText}>To: {displayNameForLocation(selectedItem)}</Text>
           </Pressable>
         </View>
@@ -673,9 +731,13 @@ export default function Index() {
     currentDirection = directions[currentNavigationPathIndex];
     let currentEdge = selectedPath.edges[currentNavigationPathIndex === selectedPath.edges.length ? currentNavigationPathIndex - 1 : currentNavigationPathIndex];
     let currentNode = selectedPath.nodes[currentNavigationPathIndex];
-    panoBearing = map.edges[currentEdge].bearing_degrees;
-    if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
-      panoBearing -= 180;
+    if (selectedPath.edges.length === 0) {
+      panoBearing = 0;
+    } else {
+      panoBearing = map.edges[currentEdge].bearing_degrees;
+      if (currentNavigationPathIndex < selectedPath.edges.length ? map.edges[currentEdge].startnode === currentNode : map.edges[currentEdge].endnode === currentNode) {
+        panoBearing -= 180;
+      }
     }
     let bearingAdjustment = nodeBearingAdjustments[currentNode] || 0;
     panoBearing += bearingAdjustment;
@@ -711,9 +773,12 @@ export default function Index() {
       let node = map.nodes[nodeIndex];
       nodePositions.push([node.longitude, node.latitude]);
     }
-    nodePositions.push();
-    route = lineString(nodePositions);
-    markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
+    if (nodePositions.length > 1) {
+      route = lineString(nodePositions);
+      markers = [{key: "Destination", location: route.geometry.coordinates[route.geometry.coordinates.length - 1]}];
+    } else {
+      markers = [{key: "Destination", location: nodePositions[0]}];
+    }
 
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4, height: 56}}>
