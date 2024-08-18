@@ -55,6 +55,7 @@ export enum EdgeTag {
   ELEVATOR = "elevator",
   FOOTPATH = "footpath",
   DOOR = "door",
+  SLIDING = "sliding door",
   NULL = "null",
 }
 
@@ -143,9 +144,11 @@ export class navData {
   icon: string;
 
   constructor(title: string, dir: InstructionType) {
-    
-    this.title = title == "" ? title : dir as unknown as string;
-    this.message = title == "" ? dir as unknown as string : "";
+    this.title = title !== "" ? title : dir as unknown as string;
+    this.message = title !== "" ? dir as unknown as string : "";
+    if (this.message == null) {
+      this.message = "";
+    }
     this.icon = "straight";
     if (dir == InstructionType.LEFT) {
       this.icon = "turn-left";

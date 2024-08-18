@@ -143,7 +143,7 @@ function getBearing(nodeA: Node, nodeB: Node): Bearing {
 
 function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
   if (nodeA.room !== nodeB.room) {
-    if (nodeB.room !== null || nodeB.room !== "") {
+    if (nodeA.room == null || nodeA.room == "") {
       return Bearing.ENTER;
     }
     return Bearing.EXIT;
@@ -151,9 +151,16 @@ function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
   return Bearing.NULL;
 }
 
+
+function clampDegrees(degrees: number) {
+  let q: number = Math.floor(Math.abs(degrees/360));
+  return degrees - q * 360 
+}
+
+
 export function ToDirections(path: Path): navData[] {
   // raw directions (angles made a little nicer)
-  let rawDirs: InstructionType[] = [InstructionType.FORWARD];
+  let rawDirs: InstructionType[] = [];
   // ignore the first and last nodes
   let i: number = 1;
   while (i < path.nodes.length - 1) {
@@ -174,31 +181,35 @@ export function ToDirections(path: Path): navData[] {
     let reflected: Vec3D = vecB.RelativeTo(vecC);
 
     let angle: number = incident.AngleWith(reflected);
+    */
+    let angle: number = clampDegrees(edgeAB.bearing_degrees - edgeBC.bearing_degrees);
+    
 
+    console.log(angle);
     // map the angle to a sentence
     if (-30 <= angle && angle <= 30) {
       rawDirs.push(InstructionType.FORWARD);
-    } else if (-150 <= angle && angle < -30) {
-      rawDirs.push(InstructionType.LEFT);
-    } else if (30 < angle && angle <= 150) {
+    } else if (angle > 30) {
       rawDirs.push(InstructionType.RIGHT);
-    } else {
+    } else if (angle <= -30) {
+      rawDirs.push(InstructionType.LEFT);
+    }
+    else {
       rawDirs.push(InstructionType.TURN);
     }
-
-    // end with a "straight ahead"
-    rawDirs.push(InstructionType.FORWARD);
-
+    
+	// end with a "straight ahead"
+	//rawDirs.push(InstructionType.FORWARD);
     i++;
   }
-  rawDirs.push(InstructionType.FORWARD);
+  //rawDirs.push(InstructionType.FORWARD);
 
   let count: number = 0;
   let countType: EdgeTag = EdgeTag.NULL;
   let countBearing: Bearing = Bearing.NULL;
   // our last loop got data on nodes
   // this loop gets data on our edges
-  let edgeMessages: string[] = ["Your trip has begun"];
+  let edgeMessages: string[] = [];
   i = 0; // recent our index
   while (i < path.edges.length) {
     let nodeA: Node = campus.nodes[path.nodes[i]];
@@ -236,7 +247,8 @@ export function ToDirections(path: Path): navData[] {
       count++;
       countType = EdgeTag.ELEVATOR;
       countBearing = getBearing(nodeA, nodeB);
-    } else if (edge.tags.includes(EdgeTag.DOOR as string)) {
+    } else if (edge.tags.includes(EdgeTag.DOOR as string) || 
+               edge.tags.includes(EdgeTag.SLIDING as string)) {
       // first check if the door is to a room)
       //let buildingNumA: int = nodeA?.building ? -1
       let buildingA: string =
@@ -261,7 +273,7 @@ export function ToDirections(path: Path): navData[] {
     i++;
   }
 
-  let j: number = 1;
+  let j: number = 0;
   //let messages: string[] = [edgeMessages[0]];
   let data: navData[] = [];
   while (j < edgeMessages.length) {
@@ -275,7 +287,7 @@ export function ToDirections(path: Path): navData[] {
   return data;
 }
 
-let path: Path = FindPath(2, 0, map as unknown as Campus, false);
+let path: Path = FindPath(2, 14, map as unknown as Campus, false);
 let directions: navData[] = ToDirections(path);
 //console.log(path.nodes);
 //console.log(path.edges);
@@ -292,6 +304,14 @@ let directions: navData[] = ToDirections(path);
 let j: number = 0;
 let guideMessage: string = "";
 // console.log(directions);
+console.log(path);
+console.log(path.nodes.length);
+console.log(directions.length);
+console.log(directions);
+
+
+//let j: number = 0;
+//let guideMessage: string = "";
 /*
 while (j < directions.edgeMessages.length) {
   console.log("go", directions.nodeDirectionChanges[j]);
