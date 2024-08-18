@@ -295,10 +295,10 @@ function displayNameForLocation(item: SearchableItem) {
   }
 }
 
-function findShortestPathFromNodeToLocation(startNode: number, endLocation: SearchableItem) {
+function findShortestPathFromNodeToLocation(startNode: number, endLocation: SearchableItem, accessible: boolean) {
   let destinations = searchableItemNodes(endLocation) || [];
   let paths = destinations.map((destination: number) => {
-    return FindPath(startNode, destination, map);
+    return FindPath(startNode, destination, map, accessible);
   })
   return shortestOf(paths);  
 }
@@ -344,7 +344,8 @@ function shortestOf(paths: Path[]) {
   if (shortestPath !== null && shortestPathLength !== null) {
     return {
       path: shortestPath,
-      length: shortestPathLength
+      length: shortestPathLength,
+      timeEstimateMinutes: Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60)
     };
   } else {
     return null;
@@ -594,10 +595,7 @@ export default function Index() {
     let timeEstimateMinutes: number | null = null;
     if (nearestNode !== null) {
       let shortestPath = findShortestPathFromNodeToLocation(nearestNode, selectedItem);
-      let shortestPathLength = shortestPath?.length;
-      if (shortestPathLength !== null && shortestPathLength !== undefined) {
-        timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
-      }
+      timeEstimateMinutes = shortestPath?.timeEstimateMinutes ?? null;
     }
 
     let endLocation = searchableItemCoordinates(selectedItem);
@@ -661,12 +659,9 @@ export default function Index() {
       {searchResultsView}
     </View>;
   } else if (selectedPath === null) {
-    let timeEstimateMinutes: number | null = null;
-    let shortestPath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem);
+    let shortestPath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem, false);
+    let shortestAccessiblePath = findShortestPathFromNodeToLocation(selectedStartNode, selectedItem, true);
     if (shortestPath !== null) {
-      let shortestPathLength = shortestPath?.length;
-      timeEstimateMinutes = Math.ceil(shortestPathLength / WALKING_METERS_PER_SECOND / 60);
-
       let nodePositions = [];
       for (let nodeIndex of shortestPath.path.nodes) {
         let node = map.nodes[nodeIndex];
@@ -685,7 +680,27 @@ export default function Index() {
       }
     }
 
-    let extraStyles = timeEstimateMinutes === null ? styles.disabledButton : {};
+    function routeOption(label: string, path: {path: Path, length: number, timeEstimateMinutes: number}) {
+      return <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
+        <View>
+          <Text style={{fontSize: 20}}>{label}</Text>
+          <Text style={styles.subtitle}>{path.timeEstimateMinutes} min • {Math.ceil(path.length || 0)}m</Text>
+        </View>
+        <Pressable
+          style={{...styles.squareButton, ...extraStyles}}
+          onPress={() => {
+            setSelectedPath(path.path as Path);
+            if (netInfo.isConnected) {
+              bottomSheetRef.current?.snapToIndex(1);
+            }
+          }}
+        >
+          <Text style={styles.squareButtonText}>Go</Text>
+        </Pressable>
+      </View>
+    }
+
+    let extraStyles = shortestPath === null ? styles.disabledButton : {};
     snapPoints = ["40%", "80%"];
     sheetContent = <View style={styles.sheetContents}>
       <View style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 4}}>
@@ -702,23 +717,12 @@ export default function Index() {
         </Pressable>
       </View>
       <View style={{marginTop: 32, padding: 8, backgroundColor: "#ddd", borderRadius: 10}}>
-        { timeEstimateMinutes !== null && shortestPath !== null ?
-          <View style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center"}}>
-            <View>
-              <Text style={{fontSize: 20}}>Shortest route</Text>
-              <Text style={styles.subtitle}>{timeEstimateMinutes} min • {Math.ceil(shortestPath?.length || 0)}m</Text>
+        { shortestPath !== null ?
+          <View>
+            {routeOption("Shortest path", shortestPath!)}
+            <View style={{marginTop: 8}}>
+              {shortestAccessiblePath !== null ? routeOption("Accessible path", shortestAccessiblePath!) : <></>}
             </View>
-            <Pressable
-              style={{...styles.squareButton, ...extraStyles}}
-              onPress={() => {
-                setSelectedPath(shortestPath?.path as Path);
-                if (netInfo.isConnected) {
-                  bottomSheetRef.current?.snapToIndex(1);
-                }
-              }}
-            >
-              <Text style={styles.squareButtonText}>Go</Text>
-            </Pressable>
           </View> :
           <Text>Directions unavailable</Text>
         }
