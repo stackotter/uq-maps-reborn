@@ -16,8 +16,6 @@ import map from "../assets/data/map.json";
 import pathLib from "ngraph.path";
 import createGraph from "ngraph.graph";
 
-
-
 let graph = createGraph();
 let accessibleGraph = createGraph();
 let campus: Campus = map as unknown as Campus;
@@ -31,7 +29,7 @@ for (let node of campus.nodes) {
 
 for (let edge of campus.edges) {
   if (edge.tags.includes("elevator")) {
-    graph.addLink(edge.startnode, edge.endnode, { weight: 2000000});
+    graph.addLink(edge.startnode, edge.endnode, { weight: 2000000 });
     continue;
   }
   graph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
@@ -40,26 +38,29 @@ for (let edge of campus.edges) {
 for (let edge of campus.edges) {
   if (edge.tags.includes("elevator")) {
     accessibleGraph.addLink(edge.startnode, edge.endnode, { weight: 75 });
+  } else if (!edge.tags.includes("stairs")) {
+    accessibleGraph.addLink(edge.startnode, edge.endnode, {
+      weight: edge.length,
+    });
   }
-  else if (!edge.tags.includes("stairs")) {
-    accessibleGraph.addLink(edge.startnode, edge.endnode, { weight: edge.length });
-  }
-
 }
 
 let pathFinder = pathLib.aStar(graph);
 let accessiblePathFinder = pathLib.aStar(accessibleGraph);
 
-
-
-
 // Check set equality
 const EqualSets = (xs: Set<number>, ys: Set<number>) =>
   xs.size === ys.size && [...xs].every((x) => ys.has(x));
 
-export function FindPath(startId: number, endId: number, map: Campus, accessible: boolean = false): Path {
-  let path = accessible ? accessiblePathFinder.find(startId, endId).reverse() : 
-                          pathFinder.find(startId, endId).reverse()
+export function FindPath(
+  startId: number,
+  endId: number,
+  map: Campus,
+  accessible: boolean = false
+): Path {
+  let path = accessible
+    ? accessiblePathFinder.find(startId, endId).reverse()
+    : pathFinder.find(startId, endId).reverse();
 
   let nodes: number[] = path.map((node) => node.id as number);
 
@@ -123,10 +124,9 @@ export function FindPath(startId: number, endId: number, map: Campus, accessible
 // if elevator after "take the elevator"
 // if elavator before "exit the elevator"
 
-
-function isDigit(c: string|null): boolean {
+function isDigit(c: string | null): boolean {
   if (c == null) return false;
-  return c >= '0' && c <= '9';
+  return c >= "0" && c <= "9";
 }
 
 function getBearing(nodeA: Node, nodeB: Node): Bearing {
@@ -135,8 +135,7 @@ function getBearing(nodeA: Node, nodeB: Node): Bearing {
   let floorChange: number = parseInt(floorB) - parseInt(floorA);
   if (floorChange > 0) {
     return Bearing.UP;
-  }
-  else if (floorChange < 0) {
+  } else if (floorChange < 0) {
     return Bearing.DOWN;
   }
   return Bearing.NULL;
@@ -152,7 +151,6 @@ function getDoorBearing(nodeA: Node, nodeB: Node): Bearing {
   return Bearing.NULL;
 }
 
-
 export function ToDirections(path: Path): navData[] {
   // raw directions (angles made a little nicer)
   let rawDirs: InstructionType[] = [InstructionType.FORWARD];
@@ -165,14 +163,13 @@ export function ToDirections(path: Path): navData[] {
 
     let edgeAB: Edge = campus.edges[path.edges[i - 1]];
     let edgeBC: Edge = campus.edges[path.edges[i]];
-  
 
     // calculate the turning angle that occurs  at every junction
     // convert lat/lng to cartesian coordinates (radius=1)
     let vecA: Vec3D = Vec3D.FromNode(nodeA);
     let vecB: Vec3D = Vec3D.FromNode(nodeB);
     let vecC: Vec3D = Vec3D.FromNode(nodeC);
-		
+
     let incident: Vec3D = vecB.RelativeTo(vecA);
     let reflected: Vec3D = vecB.RelativeTo(vecC);
 
@@ -185,18 +182,16 @@ export function ToDirections(path: Path): navData[] {
       rawDirs.push(InstructionType.LEFT);
     } else if (30 < angle && angle <= 150) {
       rawDirs.push(InstructionType.RIGHT);
-    }
-    else {
+    } else {
       rawDirs.push(InstructionType.TURN);
     }
-    
-	// end with a "straight ahead"
-	rawDirs.push(InstructionType.FORWARD);
+
+    // end with a "straight ahead"
+    rawDirs.push(InstructionType.FORWARD);
 
     i++;
   }
   rawDirs.push(InstructionType.FORWARD);
-
 
   let count: number = 0;
   let countType: EdgeTag = EdgeTag.NULL;
@@ -210,20 +205,21 @@ export function ToDirections(path: Path): navData[] {
     let nodeB: Node = campus.nodes[path.nodes[i + 1]];
 
     let edge: Edge = campus.edges[path.edges[i]];
-    
+
     let nextEdgeMessage: string = "";
     if (count != 0) {
       if (edge.tags.includes(countType as string)) {
         count++;
-      }
-      else {
+      } else {
         if (countType == EdgeTag.STAIRS) {
           nextEdgeMessage = Messages.Stairs(countBearing, count);
-        }
-        else if (countType == EdgeTag.ELEVATOR) {
-          //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1; 
+        } else if (countType == EdgeTag.ELEVATOR) {
+          //let floorNum: number = nodeB.floor !== null ? parseInt(nodeB.floor!) : -1;
 
-          nextEdgeMessage = Messages.Elevator(countBearing, nodeB.floor !== null ? parseInt(nodeB.floor!) : Infinity);
+          nextEdgeMessage = Messages.Elevator(
+            countBearing,
+            nodeB.floor !== null ? parseInt(nodeB.floor!) : Infinity
+          );
         }
 
         count = 0;
@@ -234,20 +230,19 @@ export function ToDirections(path: Path): navData[] {
 
     if (edge.tags.includes(EdgeTag.STAIRS as string)) {
       count++;
-      countType = EdgeTag.STAIRS; 
+      countType = EdgeTag.STAIRS;
       countBearing = getBearing(nodeA, nodeB);
-    }
-    else if (edge.tags.includes(EdgeTag.ELEVATOR as string)) {
+    } else if (edge.tags.includes(EdgeTag.ELEVATOR as string)) {
       count++;
       countType = EdgeTag.ELEVATOR;
       countBearing = getBearing(nodeA, nodeB);
-    }
-
-    else if (edge.tags.includes(EdgeTag.DOOR as string)) {
+    } else if (edge.tags.includes(EdgeTag.DOOR as string)) {
       // first check if the door is to a room)
       //let buildingNumA: int = nodeA?.building ? -1
-      let buildingA: string  = nodeA.building !== null ? nodeA.building!.toString() : "";
-      let buildingB: string  = nodeB.building !== null ? nodeB.building!.toString() : "";
+      let buildingA: string =
+        nodeA.building !== null ? nodeA.building!.toString() : "";
+      let buildingB: string =
+        nodeB.building !== null ? nodeB.building!.toString() : "";
       if (buildingA == "" && buildingB !== "") {
         nextEdgeMessage = Messages.BuildingEnter(buildingB);
       }
@@ -258,20 +253,19 @@ export function ToDirections(path: Path): navData[] {
       let doorBearing: Bearing = getDoorBearing(nodeA, nodeB);
       if (doorBearing == Bearing.ENTER) {
         nextEdgeMessage = Messages.RoomEnter(nodeB?.name ?? "");
-      }
-      else if (doorBearing == Bearing.EXIT) {
+      } else if (doorBearing == Bearing.EXIT) {
         nextEdgeMessage = Messages.RoomExit(nodeA?.name ?? "");
       }
     }
     edgeMessages.push(nextEdgeMessage);
     i++;
-  }  
+  }
 
   let j: number = 1;
   //let messages: string[] = [edgeMessages[0]];
   let data: navData[] = [];
   while (j < edgeMessages.length) {
-    let heading: string = edgeMessages[j]
+    let heading: string = edgeMessages[j];
     data.push(new navData(heading, rawDirs[j]));
     j++;
   }
@@ -291,14 +285,13 @@ let directions: navData[] = ToDirections(path);
 //console.log(directions.nodeDirectionChanges.length);
 //console.log(directions.edgeMessages.length);
 
-console.log(path);
-console.log(path.nodes.length);
-console.log(directions.length);
-
+// console.log(path);
+// console.log(path.nodes.length);
+// console.log(directions.length);
 
 let j: number = 0;
 let guideMessage: string = "";
-console.log(directions);
+// console.log(directions);
 /*
 while (j < directions.edgeMessages.length) {
   console.log("go", directions.nodeDirectionChanges[j]);
@@ -309,4 +302,3 @@ while (j < directions.edgeMessages.length) {
   j++;
 }
 */
-

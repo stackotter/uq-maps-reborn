@@ -5,6 +5,8 @@ import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { lineString } from "@turf/helpers";
 
+import { useNetInfo } from "@react-native-community/netinfo";
+
 import Mapbox, {Camera, LocationPuck, MapView, MarkerView} from "@rnmapbox/maps";
 import * as Location from 'expo-location';
 import { getDistance } from "geolib";
@@ -358,6 +360,29 @@ function searchableItemCoordinates(item: SearchableItem) {
 }
 
 export default function Index() {
+  // Ensure that UQ is available offline
+  useEffect(() => {
+    (async () => {
+      console.log("Checking for offline UQ region");
+      let pack = await Mapbox.offlineManager.getPack("uq");
+      if (pack === undefined) {
+        const progressListener = (_: any, status: any) => console.log("Map download progress:", status);
+        const errorListener = (_: any, error: any) => console.log("Map download error:", error);
+        await Mapbox.offlineManager.createPack({
+          name: 'uq',
+          styleURL: Mapbox.StyleURL.Street,
+          minZoom: 14,
+          maxZoom: 22,
+          bounds: [[153.02678934205406, -27.488477129684053], [152.98988214725247, -27.509908655524164]]
+        }, progressListener, errorListener);
+      } else {
+        console.log("Found offline region");
+      }
+    })();
+  }, []);
+
+  const netInfo = useNetInfo();
+
   const bottomSheetRef = useRef<BottomSheet>(null);
 
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
@@ -568,7 +593,9 @@ export default function Index() {
               style={{...styles.squareButton, ...extraStyles}}
               onPress={() => {
                 setSelectedPath(shortestPath?.path as Path);
-                bottomSheetRef.current?.snapToIndex(1);
+                if (netInfo.isConnected) {
+                  bottomSheetRef.current?.snapToIndex(1);
+                }
               }}
             >
               <Text style={styles.squareButtonText}>Go</Text>
@@ -690,7 +717,16 @@ export default function Index() {
         >
           <BottomSheetView style={styles.contentContainer}>
             {sheetContent}
-            {panoId === null ? <></> : <PanoViewer panoId={panoId} initialCompassBearing={panoBearing} viewerWidth={Dimensions.get("window").width - 32}/>}
+            {
+              panoId === null ?
+                <></> :
+                (netInfo.isConnected ?
+                  <PanoViewer panoId={panoId} initialCompassBearing={panoBearing} viewerWidth={Dimensions.get("window").width - 32}/> :
+                  <View style={{display: "flex", flexDirection: "row", width: "100%", alignItems: "center", marginLeft: 16, marginRight: 16, marginTop: 16, justifyContent: "center" }}>
+                    <MaterialIcons name="info" size={20} style={{marginRight: 4}} />
+                    <Text>Connect to the internet for 360 imagery.</Text>
+                  </View>)
+            }
           </BottomSheetView>
         </BottomSheet>
       </View>
