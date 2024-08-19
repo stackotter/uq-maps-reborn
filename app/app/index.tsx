@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, Pressable } from "react-native";
+import { Platform, Text, StyleSheet, View, TextInput, Keyboard, FlatList, TouchableOpacity, Pressable } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
@@ -436,6 +436,10 @@ function searchableItemCoordinates(item: SearchableItem) {
 export default function Index() {
   // Ensure that UQ is available offline
   useEffect(() => {
+    if (Platform.OS === "web") {
+      return;
+    }
+
     (async () => {
       console.log("Checking for offline UQ region");
       let pack = await Mapbox.offlineManager.getPack("uq");
@@ -470,8 +474,15 @@ export default function Index() {
   const [isSelectingEndLocation, setIsSelectingEndLocation] = useState<boolean>(false);
 
   let [camera, setCamera] = useState<Camera | null>(null);
+
+  function setMapCamera(options: any) {
+    if (Platform.OS !== "web") {
+      camera?.setCamera(options)
+    }
+  }
+
   useEffect(() => {
-    camera?.setCamera({centerCoordinate: [153.0142397517875, -27.49864297144247], zoomLevel: 15.5, animationDuration: 0});
+    setMapCamera({centerCoordinate: [153.0142397517875, -27.49864297144247], zoomLevel: 15.5, animationDuration: 0});
   }, [camera]);
 
   useEffect(() => {
@@ -506,13 +517,15 @@ export default function Index() {
   }, []);
 
   useEffect(() => {
-    Mapbox.setTelemetryEnabled(false);
+    if (Platform.OS !== "web") {
+      Mapbox.setTelemetryEnabled(false);
+    }
   }, []);
 
   function selectItem(item: SearchableItem) {
     setSelectedItem(item);
     bottomSheetRef.current?.snapToIndex(0);
-    camera?.setCamera({centerCoordinate: searchableItemCoordinates(item), zoomLevel: 17});
+    setMapCamera({centerCoordinate: searchableItemCoordinates(item), zoomLevel: 17});
     onChangeSearchTerm("");
   }
 
@@ -520,7 +533,7 @@ export default function Index() {
     if (location !== null) {
       let latitude = location.coords.latitude;
       let longitude = location.coords.longitude;
-      camera?.setCamera({centerCoordinate: [longitude, latitude], zoomLevel: 16.5});
+      setMapCamera({centerCoordinate: [longitude, latitude], zoomLevel: 16.5});
     }
   }
 
@@ -608,7 +621,7 @@ export default function Index() {
     }
 
     function onPressDirectionsButton() {
-      setSelectedStartNode(nearestNode);
+      setSelectedStartNode(nearestNode ?? 0);
     }
 
     snapPoints = ["30%", "80%"];
@@ -854,14 +867,14 @@ export default function Index() {
         <View style={styles.container}>
           <MapView style={styles.map} compassEnabled compassFadeWhenNorth compassPosition={{top: 64, right: 8}}>
             <Camera ref={setCamera}/>
-            <LocationPuck puckBearingEnabled puckBearing="heading"/>
-            {route !== undefined ?
+            {Platform.OS === "web" ? <></> : <LocationPuck puckBearingEnabled puckBearing="heading"/> }
+            {route !== undefined && Platform.OS !== "web" ?
               <Mapbox.ShapeSource id="routeSource" shape={route.geometry}>
                 <Mapbox.LineLayer id="routeFill" style={{lineColor: "#4759fc", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 100}} />
               </Mapbox.ShapeSource> :
               <></>
             }
-            {accessibleRoute !== undefined ?
+            {accessibleRoute !== undefined && Platform.OS !== "web" ?
               <Mapbox.ShapeSource id="accessibleRouteSource" shape={accessibleRoute.geometry}>
                 <Mapbox.LineLayer id="accessibileRouteFill" style={{lineColor: "#a745f4", lineWidth: 3.2, lineCap: Mapbox.LineJoin.Round, lineOpacity: 100}} />
               </Mapbox.ShapeSource> :
