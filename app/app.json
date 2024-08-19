@@ -41,6 +41,14 @@
         {
           "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          android: {
+            minSdkVersion: 23,
+          }
+        }
       ]
     ],
     "experiments": {

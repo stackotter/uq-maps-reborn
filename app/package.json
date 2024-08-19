@@ -17,13 +17,13 @@
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
     "@gorhom/bottom-sheet": "^4",
+    "@react-native-community/netinfo": "11.3.1",
     "@react-native-vector-icons/material-icons": "^0.0.1-alpha.25",
     "@react-navigation/native": "^6.0.2",
-    "@react-three/fiber": "^8.17.5",
     "@rnmapbox/maps": "^10.1.28",
     "@turf/helpers": "^7.1.0",
-    "@types/three": "^0.167.1",
     "expo": "~51.0.28",
+    "expo-build-properties": "~0.12.5",
     "expo-constants": "~16.0.2",
     "expo-dev-client": "~4.0.23",
     "expo-font": "~12.0.9",
@@ -48,9 +48,7 @@
     "react-native-safe-area-context": "4.10.5",
     "react-native-screens": "3.31.1",
     "react-native-web": "~0.19.10",
-    "react-native-webview": "13.8.6",
-    "three": "^0.167.1",
-    "@react-native-community/netinfo": "11.3.1"
+    "react-native-webview": "13.8.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

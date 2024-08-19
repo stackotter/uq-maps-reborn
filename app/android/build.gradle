@@ -22,7 +22,6 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
-apply plugin: "maven-publish"
 
 allprojects {
     repositories {

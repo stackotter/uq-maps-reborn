@@ -120,11 +120,8 @@ packagingOptions {
     namespace 'dev.stackotter.uqmapsreborn'
     defaultConfig {
         applicationId 'dev.stackotter.uqmapsreborn'
-        minSdkVersion 21
-        targetSdkVersion 33
-        //minSdkVersion rootProject.ext.minSdkVersion
-        //targetSdkVersion rootProject.ext.targetSdkVersion
-        multiDexEnabled true
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0.0"
     }
