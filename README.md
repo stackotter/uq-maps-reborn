@@ -1,6 +1,6 @@
 ## UQ Maps Reborn
 
-A new and improved version of UQ Maps, made during the 43.5 hour 2024 UQCS Hackathon by a team of two;
+A new and improved (unofficial) version of UQ Maps, made during the 43.5 hour 2024 UQCS Hackathon by a team of two;
 myself and @emileclarkb. Supports both iOS and Android (and kind of macOS).
 
 <div align="center">
