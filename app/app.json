@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "dev.stackotter.uq-maps-reborn"
+      "bundleIdentifier": "dev.stackotter.uqmapsreborn"
     },
     "android": {
       "adaptiveIcon": {
